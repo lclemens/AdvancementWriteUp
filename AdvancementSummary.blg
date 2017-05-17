@@ -1,0 +1,23 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'AdvancementSummary.blg'
+[35] biber-darwin:290> INFO - === Tue May 16, 2017, 19:45:58
+[51] Biber.pm:351> INFO - Reading 'AdvancementSummary.bcf'
+[127] Biber.pm:776> INFO - Found 7 citekeys in bib section 0
+[137] Biber.pm:3493> INFO - Processing section 0
+[149] Biber.pm:3657> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[157] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[163] bibtex.pm:1048> INFO - Found BibTeX data source 'bibliography.bib'
+[182] Utils.pm:149> WARN - ISBN '0968-0004' in entry 'Tompa2012' is invalid - run biber with '--validate_datamodel' for details.
+[183] Utils.pm:149> WARN - ISBN '105-29-6763' in entry 'Zhou2001' is invalid - run biber with '--validate_datamodel' for details.
+[189] Utils.pm:149> WARN - ISBN '10.1074/jbc.M115.658583' in entry 'He2015' is invalid - run biber with '--validate_datamodel' for details.
+[192] Utils.pm:149> WARN - ISBN '1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)' in entry 'Bah2015' is invalid - run biber with '--validate_datamodel' for details.
+[194] Utils.pm:149> WARN - I didn't find a database entry for 'Dunker2008' (section 0)
+[206] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[206] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[206] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[206] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[212] bbl.pm:526> INFO - Writing 'AdvancementSummary.bbl' with encoding 'ascii'
+[215] Utils.pm:149> WARN - The entry 'Bah2015' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[218] Utils.pm:149> WARN - The entry 'Zhou2001' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[218] bbl.pm:619> INFO - Output to AdvancementSummary.bbl
+[219] Biber.pm:108> INFO - WARNINGS: 7

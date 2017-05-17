@@ -1,0 +1,144 @@
+\documentclass[../AdvancementSummary.tex]{subfiles}
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Model Development}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Freely Jointed Chain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We create a generic model of a disordered protein using a simplified $\theta$-solvent freely-jointed chain (FJC) from polymer physics. This model requires only specifying a number of rods (N) and a length per rod (Kuhn length, $\delta$ ).  The FJC consists of N rigid rods of length $\delta$ which are allowed to perform a random walk where the only constraints are the chain length and connections. In our simulation, the FJC is allowed to explore its configuration space through randomized movements.  The FJC model tracks where each joint is located, making steric interactions with the ligand easy to simulate compared to using the continuous WLC model.  The ligand is simulated as an idealized sphere which may interact with the FJC. We compute quasi-equilibrium statistics of the chain and its bound or unbound ligands using a Monte Carlo (Metropolis) Algorithm. 
+
+
+\hl{where does this stuff go?  Here?  Assumptions?}
+
+In this model, the FJC is allowed to pass through itself. However, this turns out to be unimportant. Although the disordered protein would have a nonzero bond width, this size would be small in comparison to the kinase volume and volume of exploration space.  \hl{If you consider two thin strings in 3-dimensional space, they will almost never intersect.}  Therefore, we model our polymer with infinitely thin width.  Since it is infinitely thin, the time when it would take on a conformation where it overlaps itself is negligible compared to the number of legal conformations it assumes.
+
+Additionally, we are only interested in the ensemble of configurations, not the dynamics. Therefore, the way the polymer achieves its conformations is unimportant to the results and any instances of self-intersection are negligible compared to the larger ensemble. Allowing the FJC to pass through itself, while unphysical, does not change the validity of our simulation.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Theoretical results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+From detailed balance, \hl{which is what and we can use it why?} the dissociation constants $K_D \equiv \koff/\kon$ of the floppy (native) state and the rigid (partially phosphorylated) state are
+%k_on/k_off vs k_off/k_on????? 
+\begin{align} 
+\frac{k_{on}}{k_{off}} &= \mbox{exp} \left( \frac{-\Delta G}{k_B T}\right) \\
+\frac{K_{D_F}}{K_{D_R}} = \frac{K_F}{K_R} &= \frac{\frac{1}{\mbox{exp} \left( \frac{-\Delta G_F}{k_B T}\right) }}{\frac{1}{\mbox{exp} \left( \frac{-\Delta G_R}{k_B T}\right)}} \\ 
+\frac{K_F}{K_R} &= \frac{\mbox{exp} \left( \frac{-\Delta G_R}{k_B T} \right)}{\mbox{exp} \left( \frac{-\Delta G_F}{k_B T} \right)} \\
+&= \mbox{exp} \left(\frac{\Delta G_F-\Delta G_R}{k_B T}\right) \\
+&= \mbox{exp} \left( \frac{(E_F-T S_F)-(E_R-T S_R)}{k_B T} \right) \\
+&= \mbox{exp} \left(\frac{S_R-S_F}{k_B}\right) \\
+&=\mbox{ex}\left(\frac{(S^R_{on}-S^R_{off}) - (S^F_{on}-S^F_{off})}{k_B} \right) \\
+&= \mbox{exp} \left( \frac{(k_B \mbox{ln} (\frac{\Omega_R}{\Omega_R}))-(k_B \mbox{ln}(\frac{\Omega_F P_F}{\Omega_F})}{k_B} \right) \\
+&= \frac{1}{P_F}
+\end{align}  
+where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_F * P_F$ being the microstates available when the ligand is bound and $\Omega_R$ is the number of microstates available when the polymer is rigid.  We also note $E_R = E_F$ since we are working at equilibrium. Since the perfectly rigid state always allows binding, $P_R=1$, it is sufficient to compute $P_F$. We define $P_{occ}$ as the probability that the region of space needed by the kinase domain is occupied by some of the polymer. Thus, $P_{occ}=1-P_F$. Then
+\begin{equation}
+\frac{K_F}{K_R} = \frac{1}{(1-P_{occ})}.
+\end{equation}
+Our problem of interest is now reduced to computing the occlusion probability. 
+
+\begin{align} 
+\frac{K_{D_F}}{K_{D_R}} &= \mbox{exp} \left(\frac{\Delta G_F-\Delta G_R}{k_B T}\right) \\
+&= \mbox{exp} \left(\frac{S_R-S_F}{k_B}\right) \\
+&= \frac{1}{P_F}
+\end{align}  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Code Validation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+There are theoretical solutions for many aspects of the freely-jointed chain.  This provides a basis with which to verify our code.  
+
+
+\subsubsection{Root-mean-square end-to-end distance}
+First, we look at the average end-to-end distance of the polymer (RMS). In our simulations, we normalize by the Kuhn length, so all simulations assume $\delta = 1$ and record all other parameters in units of Kuhn lengths.  Therefore, we know from polymer physics that the RMS should increase as $\sqrt{N}$.
+
+Average end-to-end distance (Root-mean-square end-to-end distance):
+\begin{equation*}
+\sqrt{\langle r_{ee}^2 \rangle} = \sqrt{N\delta^2} = \delta \sqrt{N}
+\end{equation*}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{ModelConfirmationFigures/RMSEndtoEnd.eps}
+\caption{Theoretical root mean square end-to-end distance (red line) against simulated values (blue circles).}
+\end{center}
+\end{figure}
+
+\subsubsection{$R_{ee}$ Distribution}
+
+End-to-end distribution: \cite{VanValen2009}
+\begin{equation*}
+P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}exp\left(\frac{-3r^2}{2N \delta^2}\right)
+\end{equation*}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.8\linewidth]{ModelConfirmationFigures/ReeDistribution.eps}
+\caption{Simulated end-to-end distance distribution (blue) against theoretical distribution (red) for multiple polymer lengths (N).}
+\end{center}
+\end{figure}
+
+\hl{ cite something better than wikipedia?? and show derivation (?) of distribution formula?}
+
+\subsubsection{Occlusion Probability of End Site VS Analytical Result}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Case Study: T Cell Receptor Zeta Chain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+For the following study, we will focus on the mouse TCR CD3 $\zeta$ chain. The TCR CD3 $\zeta$ chain is a subunit of CD3 consisting of 164 amino acids.  Of these, 21 are included in the signal peptide region of the protein.  The remaining 143 amino acids make up the extracellular, transmembrane and cytoplasmic regions of the CD3 $\zeta$ chain.  The cytoplasmic tail is an intrinsically disordered chain of 113 amino acids containing multiple phosphorylation sites, called ITAMs (immunoreceptor tyrosine-based activation motif). There are three ITAMs on the $\zeta$ chain, each containing two tyrosines. The tyrosine kinase Lck phosphorylates each tyrosine in the $\zeta$ chain and it is thought that phosphorylation of one site influences the binding of the kinase to other sites.  
+
+In mouse CD3 $\zeta$, the cytoplasmic tail spans residues 52-164 and the tyrosines are located at residues 72, 83, 111, 123, 142, 153.  Therefore, if we were to renumber to begin at the beginning of the cytoplasmic tail, the region would be $N=113$ amino acids long, with tyrosines located at $i= 21, 32, 60, 72, 91, 102$.  (UniProt, entry P24161). Given an assumption of 0.3nm per Kuhn length (i.e. one Kuhn length is equivalent to one amino acid), then the tyrosines are similarly located along the 113 rods of the FJC.
+
+Mouse Lck is composed of an SH3, SH2 and protein kinase domain, totaling 509 amino acids (61, 98, and 254 amino acids respectively, \hl{plus some small loops}). (UniProt entry P06240). There is evidence that Lck is constitutively associated with CD4 and CD8 (membrane bound proteins) \hl{cite???}.  (Therefore, we only need to focus on the ability of the kinase domain to bind, since the other two Lck domains will be associated with CD4 or CD8. \hl{(Maybe???)} Using a protein molecular mass calculator (http://www.bioinformatics.org/sms/prot\_mw.html), we calculate that the kinase domain is 29.08 kDa.  If we assume a protein density of 1.41 $\mbox{g / cm}^3$ \hl{cite????} then we can estimate the volume of the kinase domain:
+
+\begin{equation*}
+(29 \times 1000 \mbox{Da}) * (1.66\times10^{-27} \mbox{kg / Da}) * (1000 \mbox{g / kg}) / (1.41 \mbox{g / cm}^3) = 34 \nm^3.
+\end{equation*}
+
+If we then approximate the kinase domain as a sphere, then we can estimate a radius: 
+
+\begin{align*}
+V &= \frac{4}{3}\pi r^3 \\
+34 \nm^3 &= \frac{4}{3} \pi r^3 \\
+r &\approx 2 \nm \\
+\end{align*}
+
+Measurements from the crystal structure of Lck suggest a volume of 45 $\nm^3$ for the kinase domain.  This estimate is on the same order of magnitude as our previous estimate.  Note also, if we recalculate the kinase radius using a volume of $45 \nm^3$, we estimate a radius of $2.2 \nm$. Given an assumption of 0.3nm per Kuhn length, we represent Lck with a radius of seven Kuhn lengths.
+
+%
+%\subsection*{T Cell Receptor CD3 Zeta Chain Parameters}
+%
+%Our simulations currently assume all parameters are normalized by the Kuhn length.  Therefore, to establish a Kuhn length of 0.3 $\nm$ to represent the CD3$\zeta$ chain, we set $N=113$.  Now since our simulation measures ligand size in terms of Kuhn lengths, we estimate the ratio of the kinase radius to the Kuhn length size.  Since we have an estimate of 2-2.2 $\nm$ radius, we use a radius of 7 Kuhn lengths for our simulations. Note also, that in the code, polymer joint numbering goes from 0 to N-1, so we input the tyrosines as $i=20,31,59,71,90,101$.
+
+%Tyrosine kinases such as Lck bind to tyrosines on unstructured protein such as the ITAM domain on the T cell receptor zeta chain. There are multiple tyrosines on the zeta chain and it has been proposed that phosphorylation of one site influences the binding rate of kinase to other sites. 
+%
+%We assume that the unstructured domain transitions from a purely entropic freely jointed chain with Kuhn length $\delta = 0.3\nm$ and $N$ amino acids in total length, an approximation demonstrated to be valid for several unstructured domains \cite{Kutys:2010bk}, to a rigid rod. The kinase domain is assumed to be an impenetrable sphere of radius $r_{K}$. The kinase domain can only attach to the tyrosine, at site $i$, in one orientation relative to the tyrosine. (Rotational freedom of the kinase domain is irrelevant since it is unchanged between two ITAM states.)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

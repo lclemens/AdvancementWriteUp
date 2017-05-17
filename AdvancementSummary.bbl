@@ -1,0 +1,344 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Bah2015}{article}{}
+      \name{author}{9}{}{%
+        {{hash=609d87c51f5636a9deaeb2d79a507579}{%
+           family={Bah},
+           family_i={B\bibinitperiod},
+           given={Alaji},
+           given_i={A\bibinitperiod}}}%
+        {{hash=9a7f6d6d118801386a7318f186184cd3}{%
+           family={Vernon},
+           family_i={V\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           given_i={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=acb8184edf94620b52a8c3a39891a6b9}{%
+           family={Siddiqui},
+           family_i={S\bibinitperiod},
+           given={Zeba},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=4663579e1c5d69264aa2e0ddec494bda}{%
+           family={Krzeminski},
+           family_i={K\bibinitperiod},
+           given={Micka\"{e}l},
+           given_i={M\bibinitperiod}}}%
+        {{hash=49a3e7b35e34c7096230a5db3add7650}{%
+           family={Muhandiram},
+           family_i={M\bibinitperiod},
+           given={Ranjith},
+           given_i={R\bibinitperiod}}}%
+        {{hash=fef25c59968e849d2c2ef62974a7f29f}{%
+           family={Zhao},
+           family_i={Z\bibinitperiod},
+           given={Charlie},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a1cdbc1e72f39e3be6edcc41e723c78b}{%
+           family={Sonenberg},
+           family_i={S\bibinitperiod},
+           given={Nahum},
+           given_i={N\bibinitperiod}}}%
+        {{hash=b4ed7a6ace2b42b932ebe4cb50a05587}{%
+           family={Kay},
+           family_i={K\bibinitperiod},
+           given={Lewis\bibnamedelima E},
+           given_i={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=16172b8c53332f60b0a1daf2290da272}{%
+           family={Forman-Kay},
+           family_i={F\bibinithyphendelim K\bibinitperiod},
+           given={Julie\bibnamedelima D},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce4cb9904ce6057543ddf6139a6b9b1c}
+      \strng{fullhash}{7370a6ec0d846f05700e3f8d17e93b4c}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intrinsically disordered proteins play important roles in cell signalling, transcription, translation and cell cycle regulation. Although they lack stable tertiary structure, many intrinsically disordered proteins undergo disorder-to-order transitions upon binding to partners. Similarly, several folded proteins use regulated order-to-disorder transitions to mediate biological function. In principle, the function of intrinsically disordered proteins may be controlled by post-translational modifications that lead to structural changes such as folding, although this has not been observed. Here we show that multisite phosphorylation induces folding of the intrinsically disordered 4E-BP2, the major neural isoform of the family of three mammalian proteins that bind eIF4E and suppress cap-dependent translation initiation. In its non-phosphorylated state, 4E-BP2 interacts tightly with eIF4E using both a canonical YXXXXL$\Phi$ motif (starting at Y54) that undergoes a disorder-to-helix transition upon binding and a dynamic secondary binding site. We demonstrate that phosphorylation at T37 and T46 induces folding of residues P18-R62 of 4E-BP2 into a four-stranded $\beta$-domain that sequesters the helical YXXXXL$\Phi$ motif into a partly buried $\beta$-strand, blocking its accessibility to eIF4E. The folded state of pT37pT46 4E-BP2 is weakly stable, decreasing affinity by 100-fold and leading to an order-to-disorder transition upon binding to eIF4E, whereas fully phosphorylated 4E-BP2 is more stable, decreasing affinity by a factor of approximately 4,000. These results highlight stabilization of a phosphorylation-induced fold as the essential mechanism for phospho-regulation of the 4E-BP:eIF4E interaction and exemplify a new mode of biological regulation mediated by intrinsically disordered proteins.}
+      \field{isbn}{1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{7541}
+      \field{title}{{Folding of an intrinsically disordered protein by phosphorylation as a regulatory switch.}}
+      \field{volume}{519}
+      \field{year}{2015}
+      \field{pages}{106\bibrangedash 9}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature13999
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/IDPs/Bah2015nature.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature13999%7B%5C%%7D5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842604%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract%7B%5C%%7D5Cnhttp://www.nature.com/doifinder/10.1038/nature13999%7B%5C%%7D5Cnhttp://www.ncbi.nlm.nih.gov/pubmed/20298971%7B%5C%%7D5Cnhttp://w
+      \endverb
+      \keyw{Actin Cytoskeleton,Actin Cytoskeleton: metabolism,Actin Cytoskeleton: ultrastructure,Atomic Force,Brain,Brain: metabolism,Brain: pathology,Brain: physiopathology,Electron,Humans,Microscopy,Neurofibrillary Tangles,Neurofibrillary Tangles: metabolism,Neurofibrillary Tangles: pathology,Neurofibrillary Tangles: ultrastructure,Neurons,Neurons: metabolism,Neurons: pathology,Polymers,Polymers: metabolism,Proteomics,Proteomics: methods,Tauopathies,Tauopathies: metabolism,Tauopathies: pathology,Tauopathies: physiopathology,Transmission,tau Proteins,tau Proteins: metabolism,tau Proteins: ultrastructure}
+    \endentry
+    \entry{He2015}{article}{}
+      \name{author}{10}{}{%
+        {{hash=4dce9447c08c211dcf7885443878ed56}{%
+           family={He},
+           family_i={H\bibinitperiod},
+           given={Yanan},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=f5100dd6999f68617a694ab3050aad14}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Yihong},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=02fa44aa1c610ec7ca9647dc6b7829cc}{%
+           family={Mooney},
+           family_i={M\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4192df4bda09e003ab87e1d27acaa638}{%
+           family={Rajagopalan},
+           family_i={R\bibinitperiod},
+           given={Krithika},
+           given_i={K\bibinitperiod}}}%
+        {{hash=ebc33c07367ef847ce20e8851efae3b2}{%
+           family={Bhargava},
+           family_i={B\bibinitperiod},
+           given={Ajay},
+           given_i={A\bibinitperiod}}}%
+        {{hash=632bf0cb082c829c380ea5b5602286ae}{%
+           family={Sacho},
+           family_i={S\bibinitperiod},
+           given={Elizabeth},
+           given_i={E\bibinitperiod}}}%
+        {{hash=794e9e4f13eebd6ca7ba61f26ec926ac}{%
+           family={Weninger},
+           family_i={W\bibinitperiod},
+           given={Keith},
+           given_i={K\bibinitperiod}}}%
+        {{hash=ead35d70937dcecb93a610f23c41780f}{%
+           family={Bryan},
+           family_i={B\bibinitperiod},
+           given={Philip\bibnamedelima N.},
+           given_i={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=c21ecee4a897a179271f08561299edad}{%
+           family={Kulkarni},
+           family_i={K\bibinitperiod},
+           given={Prakash},
+           given_i={P\bibinitperiod}}}%
+        {{hash=acfdf705df0ee02a8c50ece21d0734ea}{%
+           family={Orban},
+           family_i={O\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7138dbb959ecc0ccdcc7968016f06df6}
+      \strng{fullhash}{cdd8de6a63412f7de10dfcc4f9a6001b}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Prostate-associated gene 4 (PAGE4) is an intrinsically disordered cancer/testis antigen that is up-regulated in the fetal and diseased human prostate. Knocking down PAGE4 expression results in cell death, whereas its overexpression leads to a growth advantage of prostate cancer cells (Zeng, Y., He, Y., Yang, F., Mooney, S. M., Getzenberg, R. H., Orban, J., and Kulkarni, P. (2011) The cancer/testis antigen prostate-associated gene 4 (PAGE4) is a highly intrinsically disordered protein. J. Biol. Chem. 286, 13985-13994). Phosphorylation of PAGE4 at Thr-51 is critical for potentiating c-Jun transactivation, an important factor in controlling cell growth, apoptosis, and stress response. Using NMR spectroscopy, we show that the PAGE4 polypeptide chain has local and long-range conformational preferences that are perturbed by site-specific phosphorylation at Thr-51. The population of transient turn-like structures increases upon phosphorylation in an ?20-residue acidic region centered on Thr-51. This central region therefore becomes more compact and more negatively charged, with increasing intramolecular contacts to basic sequence motifs near the N and C termini. Although flexibility is decreased in the central region of phospho-PAGE4, the polypeptide chain remains highly dynamic overall. PAGE4 utilizes a transient helical structure adjacent to the central acidic region to bind c-Jun with low affinity in vitro. The binding interaction is attenuated by phosphorylation at Thr-51, most likely because of masking the effects of the more compact phosphorylated state. Therefore, phosphorylation of PAGE4 leads to conformational shifts in the dynamic ensemble, with large functional consequences. The changes in the structural ensemble induced by posttranslational modifications are similar conceptually to the conformational switching events seen in some marginally stable ("metamorphic") folded proteins in response to mutation or environmental triggers.}
+      \field{isbn}{10.1074/jbc.M115.658583}
+      \field{issn}{1083351X}
+      \field{journaltitle}{Journal of Biological Chemistry}
+      \field{number}{41}
+      \field{title}{{Phosphorylation-induced conformational ensemble switching in an intrinsically disordered cancer/testis antigen}}
+      \field{volume}{290}
+      \field{year}{2015}
+      \field{pages}{25090\bibrangedash 25102}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1074/jbc.M115.658583
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/DisorderedJBC.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Lopez2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f7dcc6830cd41b3a4f64a0df1bd0ffdf}{%
+           family={Lopez},
+           family_i={L\bibinitperiod},
+           given={Cesar\bibnamedelima A},
+           given_i={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7b4c1948d8b858d45f851af238421b13}{%
+           family={Sethi},
+           family_i={S\bibinitperiod},
+           given={Anurag},
+           given_i={A\bibinitperiod}}}%
+        {{hash=55ae95dad25496a34d9306997030113e}{%
+           family={Goldstein},
+           family_i={G\bibinitperiod},
+           given={Byron},
+           given_i={B\bibinitperiod}}}%
+        {{hash=b8c75d74db083c6d8a435fd5158139a8}{%
+           family={Wilson},
+           family_i={W\bibinitperiod},
+           given={Bridget\bibnamedelima S},
+           given_i={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4a4fba92c9c58fd11bf4e8df8d81045d}{%
+           family={Gnanakaran},
+           family_i={G\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{hash=a5b1739ccb3eb926791b0680d26de01a}{%
+           family={Lo},
+           family_i={L\bibinitperiod},
+           given={Cesar\bibnamedelima A},
+           given_i={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3699edb967e25240342cfe1c1ed9e06}
+      \strng{fullhash}{80283faf822863223eef8d10b1603519}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The regulation of T-cell-mediated immune responses depends on the phosphorylation of immunoreceptor tyro- sine-based activation motifs (ITAMs) on T-cell receptors. Although many details of the signaling cascades are well understood, the initial mechanism and regulation of ITAM phosphorylation remains unknown. We used molecular dynamics simulations to study the influence of different compositions of lipid bilayers on the membrane association of the CD3e cytoplasmic tails of the T-cell receptors. Our results show that binding of CD3e to membranes is modulated by both the presence of negatively charged lipids and the lipid order of the membrane. Free-energy calculations reveal that the protein-membrane interaction is favored by the presence of nearby basic residues and the ITAM tyrosines. Phosphorylation minimizes membrane association, rendering the ITAM motif more accessible to binding partners. In systems mimicking biological membranes, the CD3e chain localization is modulated by different facilitator lipids (e.g., gangliosides or phosphoinositols), revealing a plausible regulatory effect on activation through the regulation of lipid composition in cell membranes.}
+      \field{issn}{00063495}
+      \field{journaltitle}{Biophysical Journal}
+      \field{number}{May}
+      \field{title}{{Membrane-Mediated Regulation of the Intrinsically Disordered CD3$\epsilon$ Cytoplasmic Tail of the TCR}}
+      \field{volume}{108}
+      \field{year}{2015}
+      \field{pages}{2481\bibrangedash 2491}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2015.03.059
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/LopezMembraneAssociationCD3LipidComp2015.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Tompa2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eb3bff0d33fe324fe63f012ef20080a9}{%
+           family={Tompa},
+           family_i={T\bibinitperiod},
+           given={P},
+           given_i={P\bibinitperiod}}}%
+        {{hash=d33aa97776776cb9c0de7587bc0b92be}{%
+           family={Han},
+           family_i={H\bibinitperiod},
+           given={K-H},
+           given_i={K\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{597e97d4497e4822f4f5064357cb0fb8}
+      \strng{fullhash}{597e97d4497e4822f4f5064357cb0fb8}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Researchers are discovering an ever- increasing number of proteins that perform key cellular tasks without having the fixed, three-dimensional structure once thought mandatory for a protein to do its job.}
+      \field{isbn}{0968-0004}
+      \field{issn}{0968-0004}
+      \field{journaltitle}{Physics Today}
+      \field{title}{{Intrinsically disordered proteins}}
+      \field{volume}{65}
+      \field{year}{2012}
+      \field{pages}{64\bibrangedash 65}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/j.tibs.2012.08.004
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/TompaHanPhysicsToday.pdf:pdf
+      \endverb
+    \endentry
+    \entry{VanValen2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ae89cc9fe1cb61de9bd5f61760e2abe1}{%
+           family={{Van Valen}},
+           family_i={V\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=796f1d7cce11921bf9162a65a2052bf3}{%
+           family={Haataja},
+           family_i={H\bibinitperiod},
+           given={Mikko},
+           given_i={M\bibinitperiod}}}%
+        {{hash=db7f39acd822484a5ceba469cc4e3b88}{%
+           family={Phillips},
+           family_i={P\bibinitperiod},
+           given={Rob},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Biophysical Society}%
+      }
+      \strng{namehash}{4e255d1e7eec40f18025c7033544693e}
+      \strng{fullhash}{4e255d1e7eec40f18025c7033544693e}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We use statistical mechanics and simple ideas from polymer physics to develop a quantitative model of proteins whose activity is controlled by flexibly tethered ligands and receptors. We predict how the properties of tethers influence the function of these proteins and demonstrate how their tether length dependence can be exploited to construct proteins whose integration of multiple signals can be tuned. One case study to which we apply these ideas is that of the Wiskott-Aldrich Syndrome Proteins as activators of actin polymerization. More generally, tethered ligands competing with those free in solution are common phenomena in biology, making this an important specific example of a widespread biological idea. ?? 2009 by the Biophysical Society.}
+      \field{issn}{00063495}
+      \field{journaltitle}{Biophysical Journal}
+      \field{number}{4}
+      \field{title}{{Biochemistry on a leash: The roles of tether length and geometry in signal integration proteins}}
+      \field{volume}{96}
+      \field{year}{2009}
+      \field{pages}{1275\bibrangedash 1292}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2008.10.052
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Library/Application Support/Mendeley Desktop/Downloaded/Van Valen, Haataja, Phillips - 2009 - Biochemistry on a leash The roles of tether length and geometry in signal integration proteins.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.bpj.2008.10.052
+      \endverb
+    \endentry
+    \entry{Zhou2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9484b95d2f15676c9ae00246289ad46c}{%
+           family={Zhou},
+           family_i={Z\bibinitperiod},
+           given={Huan\bibnamedelima Xiang},
+           given_i={H\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+      }
+      \strng{namehash}{9484b95d2f15676c9ae00246289ad46c}
+      \strng{fullhash}{9484b95d2f15676c9ae00246289ad46c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.$\backslash$nThe end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.}
+      \field{isbn}{105-29-6763}
+      \field{issn}{10895647}
+      \field{journaltitle}{Journal of Physical Chemistry B}
+      \field{number}{29}
+      \field{title}{{Loops in proteins can be modeled as worm-like chains}}
+      \field{volume}{105}
+      \field{year}{2001}
+      \field{pages}{6763\bibrangedash 6766}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1021/jp011355n
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/ZhouLoopsProteinsWLC.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{Dunker2008}
+\endrefsection
+\endinput
+

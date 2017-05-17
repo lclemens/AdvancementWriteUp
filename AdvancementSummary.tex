@@ -1,0 +1,97 @@
+%\documentclass[aps,pre,twocolumn]{revtex4}
+%\documentclass[aps,pre,onecolumn]{revtex4}
+\documentclass[onecolumn]{article}
+%\usepackage[numbers]{natbib}
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+%\bibliographystyle{plainnat}
+\usepackage[margin=1in]{geometry}
+\usepackage[framed]{mcode}
+\usepackage{booktabs}
+\usepackage{todonotes}
+\usepackage{multirow}
+
+%\bibliographystyle{prsty}
+
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{color,soul,subcaption,float}
+\usepackage{listings}
+\input preamble.tex
+
+\usepackage{multirow}
+
+\setlength{\parskip}{10pt plus 1pt minus 1pt}
+\setlength{\parindent}{0pt}
+
+\usepackage{subfiles}
+
+
+\newcommand{\citel}[1]{\citep{#1}}
+\newcommand{\citelt}[1]{\citet{#1}}
+
+\def\Tevac{T_{1/2}^{\mbox{\,\scriptsize evac}}}
+\def\Treturn{T_{1/2}^{\mbox{\,\scriptsize return}}}
+\def\toffbar{\bar{t}_{\mbox{\scriptsize off}}}
+\def\toff{{t}_{\mbox{\scriptsize off}}}
+\def\Peclet{P\'{e}clet}
+
+
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\title{Signaling Behaviors of Intrinsically Disordered Proteins}
+\author{Lara Clemens}
+\date{}
+
+\maketitle
+
+\hl{Make a title page and better title}
+
+
+\subfile{Abstract/Abstract}
+
+%\subfile{ExecutiveSummary/ExecutiveSummary}
+
+\subfile{Introduction/Introduction.tex}
+
+\subfile{Background/Background.tex}
+
+\graphicspath{{ModelDevelopment/}}
+
+\subfile{ModelDevelopment/ModelDevelopment.tex}
+
+\graphicspath{{Results/GeneralStiffElectro/}}
+
+\subfile{Results/GeneralStiffElectro/GeneralStiffElectro.tex}
+
+\graphicspath{{Results/SimultaneousBinding/}}
+
+\subfile{Results/SimultaneousBinding/SimultaneousBinding.tex}
+
+\graphicspath{{Results/SurfaceEffects/}}
+
+\subfile{Results/SurfaceEffects/SurfaceEffects.tex}
+
+\graphicspath{{Timeline/}}
+
+\subfile{Timeline/Timeline.tex}
+
+\graphicspath{{Appendix/}}
+
+\subfile{Appendix/Appendix.tex}
+
+\printbibliography
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

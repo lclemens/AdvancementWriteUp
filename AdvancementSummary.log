@@ -1,0 +1,2073 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 MAY 2017 19:54
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**AdvancementSummary.tex
+(./AdvancementSummary.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count87
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count88
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count89
+\decimalpart=\count90
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count91
+\c@listtotal=\count92
+\c@listcount=\count93
+\c@liststart=\count94
+\c@liststop=\count95
+\c@citecount=\count96
+\c@citetotal=\count97
+\c@multicitecount=\count98
+\c@multicitetotal=\count99
+\c@instcount=\count100
+\c@maxnames=\count101
+\c@minnames=\count102
+\c@maxitems=\count103
+\c@minitems=\count104
+\c@citecounter=\count105
+\c@savedcitecounter=\count106
+\c@uniquelist=\count107
+\c@uniquename=\count108
+\c@refsection=\count109
+\c@refsegment=\count110
+\c@maxextratitle=\count111
+\c@maxextratitleyear=\count112
+\c@maxextrayear=\count113
+\c@maxextraalpha=\count114
+\c@abbrvpenalty=\count115
+\c@highnamepenalty=\count116
+\c@lownamepenalty=\count117
+\c@maxparens=\count118
+\c@parenlevel=\count119
+\blx@tempcnta=\count120
+\blx@tempcntb=\count121
+\blx@tempcntc=\count122
+\blx@maxsection=\count123
+\blx@maxsegment@0=\count124
+\blx@notetype=\count125
+\blx@parenlevel@text=\count126
+\blx@parenlevel@foot=\count127
+\blx@sectionciteorder@0=\count128
+\labelnumberwidth=\skip43
+\labelalphawidth=\skip44
+\biblabelsep=\skip45
+\bibitemsep=\skip46
+\bibnamesep=\skip47
+\bibinitsep=\skip48
+\bibparsep=\skip49
+\bibhang=\skip50
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count129
+\c@maxcomprange=\count130
+\c@mincompwidth=\count131
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count132
+\c@savedafterword=\count133
+\c@annotator=\count134
+\c@savedannotator=\count135
+\c@author=\count136
+\c@savedauthor=\count137
+\c@bookauthor=\count138
+\c@savedbookauthor=\count139
+\c@commentator=\count140
+\c@savedcommentator=\count141
+\c@editor=\count142
+\c@savededitor=\count143
+\c@editora=\count144
+\c@savededitora=\count145
+\c@editorb=\count146
+\c@savededitorb=\count147
+\c@editorc=\count148
+\c@savededitorc=\count149
+\c@foreword=\count150
+\c@savedforeword=\count151
+\c@holder=\count152
+\c@savedholder=\count153
+\c@introduction=\count154
+\c@savedintroduction=\count155
+\c@namea=\count156
+\c@savednamea=\count157
+\c@nameb=\count158
+\c@savednameb=\count159
+\c@namec=\count160
+\c@savednamec=\count161
+\c@translator=\count162
+\c@savedtranslator=\count163
+\c@shortauthor=\count164
+\c@savedshortauthor=\count165
+\c@shorteditor=\count166
+\c@savedshorteditor=\count167
+\c@labelname=\count168
+\c@savedlabelname=\count169
+\c@institution=\count170
+\c@savedinstitution=\count171
+\c@lista=\count172
+\c@savedlista=\count173
+\c@listb=\count174
+\c@savedlistb=\count175
+\c@listc=\count176
+\c@savedlistc=\count177
+\c@listd=\count178
+\c@savedlistd=\count179
+\c@liste=\count180
+\c@savedliste=\count181
+\c@listf=\count182
+\c@savedlistf=\count183
+\c@location=\count184
+\c@savedlocation=\count185
+\c@organization=\count186
+\c@savedorganization=\count187
+\c@origlocation=\count188
+\c@savedoriglocation=\count189
+\c@origpublisher=\count190
+\c@savedorigpublisher=\count191
+\c@publisher=\count192
+\c@savedpublisher=\count193
+\c@language=\count194
+\c@savedlanguage=\count195
+\c@pageref=\count196
+\c@savedpageref=\count197
+\shorthandwidth=\skip51
+\shortjournalwidth=\skip52
+\shortserieswidth=\skip53
+\shorttitlewidth=\skip54
+\shortauthorwidth=\skip55
+\shorteditorwidth=\skip56
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count198
+\c@textcitetotal=\count199
+\c@textcitemaxnames=\count266
+\c@biburlnumpenalty=\count267
+\c@biburlucpenalty=\count268
+\c@biburllcpenalty=\count269
+\c@smartand=\count270
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count271
+\c@bbx:relatedtotal=\count272
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/05/14 v3.4 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(./mcode.sty
+-- Package: `mcode' 2.3 <2012/08/31> --
+Package: mcode 2012/08/31 2.3
+ - settings optimized for display (colour formating)
+ - framed listings
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count276
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count277
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count278
+\lst@currlwidth=\dimen111
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen112
+\lst@width=\dimen113
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen114
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count285
+\@cmidlb=\count286
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count287
+\@lastruleclass=\count288
+\@thisrulewidth=\dimen127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen132
+\pgf@y=\dimen133
+\pgf@xa=\dimen134
+\pgf@ya=\dimen135
+\pgf@xb=\dimen136
+\pgf@yb=\dimen137
+\pgf@xc=\dimen138
+\pgf@yc=\dimen139
+\w@pgf@writea=\write5
+\r@pgf@reada=\read2
+\c@pgf@counta=\count290
+\c@pgf@countb=\count291
+\c@pgf@countc=\count292
+\c@pgf@countd=\count293
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count294
+\pgfsyssoftpath@bigbuffer@items=\count295
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen140
+\pgfmath@count=\count296
+\pgfmath@box=\box29
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count297
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count298
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen159
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen163
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen164
+\pgf@sys@shading@range@num=\count299
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box33
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box34
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen165
+\pgf@nodesepend=\dimen166
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen167
+\pgffor@skip=\dimen168
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count300
+\pgfplotmarksize=\dimen169
+)
+\tikz@lastx=\dimen170
+\tikz@lasty=\dimen171
+\tikz@lastxsaved=\dimen172
+\tikz@lastysaved=\dimen173
+\tikzleveldistance=\dimen174
+\tikzsiblingdistance=\dimen175
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
+)
+\tikz@expandcount=\count308
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen176
+\calc@Bdimen=\dimen177
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count311
+\calc@Cskip=\skip59
+)
+\c@@todonotes@numberoftodonotes=\count312
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen178
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen179
+\epsfysize=\dimen180
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen181
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen182
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count313
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count314
+\leftroot@=\count315
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count316
+\DOTSCASE@=\count317
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box39
+\strutbox@=\box40
+\big@size=\dimen183
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count318
+\c@MaxMatrixCols=\count319
+\dotsspace@=\muskip11
+\c@parentequation=\count320
+\dspbrk@lvl=\count321
+\tag@help=\toks32
+\row@=\count322
+\column@=\count323
+\maxfields@=\count324
+\andhelp@=\toks33
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
+\@envbody=\toks34
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks36
+\SOUL@lasttoken=\toks37
+\SOUL@cmds=\toks38
+\SOUL@buffer=\toks39
+\SOUL@token=\toks40
+\SOUL@spaceskip=\skip63
+\SOUL@ttwidth=\dimen190
+\SOUL@uldp=\dimen191
+\SOUL@ulht=\dimen192
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen193
+\captionmargin@=\dimen194
+\captionwidth=\dimen195
+\caption@tempdima=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
+)
+\c@ContinuedFloat=\count325
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count326
+\c@subtable=\count327
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count328
+\float@exts=\toks41
+\float@box=\box41
+\@float@everytoks=\toks42
+\@floatcapt=\box42
+) (./preamble.tex) (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfi
+les.sty
+Package: subfiles 2012/05/23 Federico Garcia
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks43
+\verbatim@line=\toks44
+\verbatim@in@stream=\read3
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen256
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count331
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count332
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen257
+\Fld@menulength=\count333
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip64
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count339
+\@quotereset=\count340
+
+(./AdvancementSummary.aux)
+\openout1 = `AdvancementSummary.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout4 = `AdvancementSummary.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'AdvancementSummary.bbl' found.
+
+(./AdvancementSummary.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Dunker2008
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count341
+\scratchdimen=\dimen260
+\scratchbox=\box43
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen261
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks46
+)
+\c@lstlisting=\count347
+ ABD: EveryShipout initializing macros
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring OFF on input line 43.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count348
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(./AdvancementSummary.out) (./AdvancementSummary.out)
+\@outlinefile=\write6
+\openout6 = `AdvancementSummary.out'.
+
+ (./Abstract/Abstract.tex) (./Introduction/Introduction.tex) (./Background/Back
+ground.tex [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+ [2])
+(./ModelDevelopment/ModelDevelopment.tex [3] [4]
+Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
+RMSEndtoEnd.eps>
+(epstopdf)                    date: 2017-05-01 18:15:23
+(epstopdf)                    size: 47308 bytes
+(epstopdf)             Output file: <ModelDevelopment/ModelConfirmationFigures/
+RMSEndtoEnd-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-01 18:16:31
+(epstopdf)                    size: 19250 bytes
+(epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
+irmationFigures/RMSEndtoEnd-eps-converted-to.pdf ModelDevelopment/ModelConfirma
+tionFigures/RMSEndtoEnd.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf, id
+=278, 501.875pt x 412.54124pt>
+File: ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf
+>
+Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-
+eps-converted-to.pdf used on input line 75.
+(pdftex.def)             Requested size: 234.8775pt x 193.06978pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
+ReeDistribution.eps>
+(epstopdf)                    date: 2017-05-01 19:47:45
+(epstopdf)                    size: 398312 bytes
+(epstopdf)             Output file: <ModelDevelopment/ModelConfirmationFigures/
+ReeDistribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-01 19:49:26
+(epstopdf)                    size: 76513 bytes
+(epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
+irmationFigures/ReeDistribution-eps-converted-to.pdf ModelDevelopment/ModelConf
+irmationFigures/ReeDistribution.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+<ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf
+, id=280, 737.75626pt x 649.42625pt>
+File: ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-to
+.pdf>
+Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/ReeDistribut
+ion-eps-converted-to.pdf used on input line 90.
+(pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
+ [5 <./ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.p
+df>]
+Overfull \hbox (22.72563pt too wide) in paragraph at lines 110--111
+\OT1/cmr/m/n/10 CD8. [](Maybe???) Us-ing a pro-tein molec-u-lar mass cal-cu-la-
+tor (http://www.bioinformatics.org/sms/prot[]mw.html),
+ []
+
+[6 <./ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-t
+o.pdf>]) (./Results/GeneralStiffElectro/GeneralStiffElectro.tex
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/General/ReeDistributionHalfVSFreeSim.eps>
+(epstopdf)                    date: 2017-05-04 21:20:13
+(epstopdf)                    size: 394420 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-04 21:22:10
+(epstopdf)                    size: 73569 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf Resu
+lts/GeneralStiffElectro/ResultsFigures/General/ReeDistributionHalfVSFreeSim.eps
+>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/General/ReeDistributionHalfVSFreeSi
+m-eps-converted-to.pdf, id=311, 737.75626pt x 649.42625pt>
+File: Results/GeneralStiffElectro/ResultsFigures/General/ReeDistributionHalfVSF
+reeSim-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/General/ReeDistributionHalfVSFr
+eeSim-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/General/Ree
+DistributionHalfVSFreeSim-eps-converted-to.pdf used on input line 23.
+(pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRFree.eps>
+(epstopdf)                    date: 2017-05-04 19:33:55
+(epstopdf)                    size: 472987 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRFree-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-04 19:35:33
+(epstopdf)                    size: 55909 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/General/OcclusionVSNVSRFree-eps-converted-to.pdf Results/Gener
+alStiffElectro/ResultsFigures/General/OcclusionVSNVSRFree.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFree-eps-con
+verted-to.pdf, id=317, 514.92375pt x 410.53375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFree-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFree-eps
+-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/General/Occ
+lusionVSNVSRFree-eps-converted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 187.89914pt x 149.80286pt.
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRHalf.eps>
+(epstopdf)                    date: 2017-05-04 19:33:55
+(epstopdf)                    size: 453809 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRHalf-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-04 19:35:33
+(epstopdf)                    size: 53706 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/General/OcclusionVSNVSRHalf-eps-converted-to.pdf Results/Gener
+alStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalf.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalf-eps-con
+verted-to.pdf, id=318, 523.9575pt x 410.53375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalf-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalf-eps
+-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/General/Occ
+lusionVSNVSRHalf-eps-converted-to.pdf used on input line 45.
+(pdftex.def)             Requested size: 187.89914pt x 147.22198pt.
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRFreeMid.eps>
+(epstopdf)                    date: 2017-05-04 19:34:01
+(epstopdf)                    size: 438842 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRFreeMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-04 19:35:33
+(epstopdf)                    size: 48533 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-converted-to.pdf Results/Ge
+neralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFreeMid.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-
+converted-to.pdf, id=319, 514.92375pt x 410.53375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFreeMid
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFreeMid-
+eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/General/Occ
+lusionVSNVSRFreeMid-eps-converted-to.pdf used on input line 49.
+(pdftex.def)             Requested size: 187.89914pt x 149.80286pt.
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRHalfMid.eps>
+(epstopdf)                    date: 2017-05-04 19:34:02
+(epstopdf)                    size: 425322 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-04 19:35:34
+(epstopdf)                    size: 47638 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf Results/Ge
+neralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalfMid.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-
+converted-to.pdf, id=320, 523.9575pt x 410.53375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalfMid
+-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRHalfMid-
+eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/General/Occ
+lusionVSNVSRHalfMid-eps-converted-to.pdf used on input line 53.
+(pdftex.def)             Requested size: 187.89914pt x 147.22198pt.
+ [8 <./Results/GeneralStiffElectro/ResultsFigures/General/ReeDistributionHalfVS
+FreeSim-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningDiagram/StiffeningDiagram.eps>
+(epstopdf)                    date: 2017-05-15 17:13:15
+(epstopdf)                    size: 28476 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningDiagram/StiffeningDiagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 17:14:28
+(epstopdf)                    size: 12339 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/StiffeningDiagram/StiffeningDiagram-eps-converted-to.pdf Resul
+ts/GeneralStiffElectro/ResultsFigures/StiffeningDiagram/StiffeningDiagram.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/StiffeningDiagram/StiffeningDiagram
+-eps-converted-to.pdf, id=336, 1055.945pt x 320.19624pt>
+File: Results/GeneralStiffElectro/ResultsFigures/StiffeningDiagram/StiffeningDi
+agram-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/StiffeningDiagram/StiffeningDia
+gram-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/StiffeningD
+iagram/StiffeningDiagram-eps-converted-to.pdf used on input line 72.
+(pdftex.def)             Requested size: 375.80544pt x 113.95627pt.
+ [9 <./Results/GeneralStiffElectro/ResultsFigures/General/OcclusionVSNVSRFree-e
+ps-converted-to.pdf> <./Results/GeneralStiffElectro/ResultsFigures/General/Occl
+usionVSNVSRHalf-eps-converted-to.pdf> <./Results/GeneralStiffElectro/ResultsFig
+ures/General/OcclusionVSNVSRFreeMid-eps-converted-to.pdf> <./Results/GeneralSti
+ffElectro/ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
+(epstopdf)                    date: 2017-05-03 19:12:08
+(epstopdf)                    size: 94515 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-03 19:19:04
+(epstopdf)                    size: 31346 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-
+eps-converted-to.pdf Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeni
+ngMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBind
+VSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=382, 673.51625pt x 522.9537
+5pt>
+File: Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/Av
+gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/Avg
+BindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStif
+feningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on
+ input line 92.
+(pdftex.def)             Requested size: 375.80544pt x 291.79878pt.
+ [10 <./Results/GeneralStiffElectro/ResultsFigures/StiffeningDiagram/Stiffening
+Diagram-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
+(epstopdf)                    date: 2017-05-15 18:00:35
+(epstopdf)                    size: 81415 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-05-15 18:01:00
+(epstopdf)                    size: 28809 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalMo
+dified5-eps-converted-to.pdf Results/GeneralStiffElectro/ResultsFigures/CD3Zeta
+StiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosp
+horylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=394, 682.55pt x 516
+.93124pt>
+File: Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/De
+phosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf Graphic file (type
+ pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dep
+hosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStif
+feningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf
+ used on input line 105.
+(pdftex.def)             Requested size: 375.80544pt x 284.62068pt.
+ [11 <./Results/GeneralStiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/
+AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>] [12 <./Results/General
+StiffElectro/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBi
+ndVSTotalModified5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/MemOn/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-05 11:49:08
+(epstopdf)                    size: 57914 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-05 14:36:55
+(epstopdf)                    size: 22296 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/StiffeningSequentialBinding/MemOn/ProbVSSequence-eps-converted
+-to.pdf Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/
+MemOn/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/MemOn/P
+robVSSequence-eps-converted-to.pdf, id=419, 1061.9675pt x 900.36375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Me
+mOn/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Mem
+On/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/StiffeningS
+equentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf used on input line 1
+44.
+(pdftex.def)             Requested size: 140.92793pt x 119.4831pt.
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/MemOff/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-05 14:41:00
+(epstopdf)                    size: 53647 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-05 14:43:43
+(epstopdf)                    size: 21044 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converte
+d-to.pdf Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding
+/MemOff/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/MemOff/
+ProbVSSequence-eps-converted-to.pdf, id=420, 1077.02374pt x 900.36375pt>
+File: Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Me
+mOff/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Mem
+Off/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/StiffeningS
+equentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf used on input line 
+148.
+(pdftex.def)             Requested size: 140.92793pt x 117.807pt.
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/EvenSites/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-05 14:42:02
+(epstopdf)                    size: 56245 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/StiffeningSequentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-05 14:43:43
+(epstopdf)                    size: 21932 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/StiffeningSequentialBinding/EvenSites/ProbVSSequence-eps-conve
+rted-to.pdf Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBind
+ing/EvenSites/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/EvenSit
+es/ProbVSSequence-eps-converted-to.pdf, id=421, 1075.01625pt x 901.3675pt>
+File: Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Ev
+enSites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBinding/Eve
+nSites/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/StiffeningS
+equentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf used on input li
+ne 152.
+(pdftex.def)             Requested size: 140.92793pt x 118.1584pt.
+ [13] [14 <./Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBin
+ding/MemOn/ProbVSSequence-eps-converted-to.pdf> <./Results/GeneralStiffElectro/
+ResultsFigures/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-
+to.pdf> <./Results/GeneralStiffElectro/ResultsFigures/StiffeningSequentialBindi
+ng/EvenSites/ProbVSSequence-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]\OT1/cmr/m/n/10 Basic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
+[][]\OT1/cmr/m/n/10 RA[]KFS[]RSAETAANLQDPNQLYNELNLG[]RR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 EEYDVLE[]KKRA[]RDPEMGG[]KQQ[]RRRNPQE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 GVYNALQ[]KD[]KMAEAYSEIGT[]KGE[]RRR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+[]\OT1/cmr/m/n/10 1,3,5,28,29,37,38,
+ []
+
+
+Overfull \hbox (2.6379pt too wide) in paragraph at lines 268--271
+\OT1/cmr/m/n/10 39,41,48,51,52,53,60,65,
+ []
+
+
+Overfull \hbox (2.6379pt too wide) in paragraph at lines 268--271
+\OT1/cmr/m/n/10 67,72,78,81,82,83,85,91,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+[]\OT1/cmr/m/n/10 RAKFSRSAETAANLQDPNQL[]YNELNLGRR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+\OT1/cmr/m/n/10 EE[]YDVLEKKRARDPEMGGKQQRRRNPQE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+\OT1/cmr/m/n/10 GV[]YNALQKDKMAEA[]YSEIGTKGERRR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]\OT1/cmr/m/n/10 Basics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+[]\OT1/cmr/m/n/10 WS[]KN[]RKA[]KA[]KPVT[]RGAGAGG[]RQ[]RGQN[]KE[]R
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+[]\OT1/cmr/m/n/10 3,5,6,8,10,14,21,23,27,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+[]\OT1/cmr/m/n/10 WSKNRKAKAKPVTRGAGAGGRQRGQNKER
+ []
+
+
+Overfull \hbox (45.99292pt too wide) in paragraph at lines 255--313
+ [] 
+ []
+
+[15]
+<Results/GeneralStiffElectro/ElectrostaticsDiagram.pdf, id=462, 560.0925pt x 20
+9.78375pt>
+File: Results/GeneralStiffElectro/ElectrostaticsDiagram.pdf Graphic file (type 
+pdf)
+ <use Results/GeneralStiffElectro/ElectrostaticsDiagram.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ElectrostaticsDiagram.pdf 
+used on input line 318.
+(pdftex.def)             Requested size: 328.82707pt x 123.16632pt.
+ [16 <./Results/GeneralStiffElectro/ElectrostaticsDiagram.pdf>]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/Electro/DistributioniSite2.eps>
+(epstopdf)                    date: 2017-05-12 14:02:04
+(epstopdf)                    size: 139186 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/Electro/DistributioniSite2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-12 14:08:41
+(epstopdf)                    size: 24155 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/Electro/DistributioniSite2-eps-converted-to.pdf Results/Genera
+lStiffElectro/ResultsFigures/Electro/DistributioniSite2.eps>
+(epstopdf)             \includegraphics on input line 385.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite2-eps-conv
+erted-to.pdf, id=500, 1372.12625pt x 1083.04625pt>
+File: Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite2-eps
+-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite2-eps-
+converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/Electro/Dis
+tributioniSite2-eps-converted-to.pdf used on input line 385.
+(pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
+ [17]
+Package epstopdf Info: Source file: <Results/GeneralStiffElectro/ResultsFigures
+/Electro/DistributioniSite7.eps>
+(epstopdf)                    date: 2017-05-12 14:02:14
+(epstopdf)                    size: 135895 bytes
+(epstopdf)             Output file: <Results/GeneralStiffElectro/ResultsFigures
+/Electro/DistributioniSite7-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-12 14:08:42
+(epstopdf)                    size: 20911 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/GeneralStiffElectr
+o/ResultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf Results/Genera
+lStiffElectro/ResultsFigures/Electro/DistributioniSite7.eps>
+(epstopdf)             \includegraphics on input line 392.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite7-eps-conv
+erted-to.pdf, id=508, 1372.12625pt x 1083.04625pt>
+File: Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite7-eps
+-converted-to.pdf Graphic file (type pdf)
+
+<use Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite7-eps-
+converted-to.pdf>
+Package pdftex.def Info: Results/GeneralStiffElectro/ResultsFigures/Electro/Dis
+tributioniSite7-eps-converted-to.pdf used on input line 392.
+(pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
+ [18 <./Results/GeneralStiffElectro/ResultsFigures/Electro/DistributioniSite2-e
+ps-converted-to.pdf>])
+(./Results/SimultaneousBinding/SimultaneousBinding.tex [19 <./Results/GeneralSt
+iffElectro/ResultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/SimultaneousBindingDiagram/SimultaneousBindingDiagram.eps>
+(epstopdf)                    date: 2017-05-15 16:45:51
+(epstopdf)                    size: 26636 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:50:13
+(epstopdf)                    size: 11489 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-conv
+erted-to.pdf Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiag
+ram/SimultaneousBindingDiagram.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Simultan
+eousBindingDiagram-eps-converted-to.pdf, id=536, 1053.9375pt x 299.1175pt>
+File: Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Sim
+ultaneousBindingDiagram-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Simu
+ltaneousBindingDiagram-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/Simultaneou
+sBindingDiagram/SimultaneousBindingDiagram-eps-converted-to.pdf used on input l
+ine 21.
+(pdftex.def)             Requested size: 375.80544pt x 106.65984pt.
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
+(epstopdf)                    date: 2017-05-03 19:17:59
+(epstopdf)                    size: 96510 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-05-03 19:20:09
+(epstopdf)                    size: 30962 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLab
+eled-eps-converted-to.pdf Results/SimultaneousBinding/ResultsFigures/CD3ZetaMul
+tipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/Av
+gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=537, 664.4825pt x 514.
+92375pt>
+File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
+On/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pd
+f)
+
+<use Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneO
+n/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMult
+ipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf us
+ed on input line 36.
+(pdftex.def)             Requested size: 469.75502pt x 364.027pt.
+ [20 <./Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/S
+imultaneousBindingDiagram-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
+(epstopdf)                    date: 2017-05-15 19:07:43
+(epstopdf)                    size: 90332 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-05-15 19:08:04
+(epstopdf)                    size: 28992 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModifie
+d-eps-converted-to.pdf Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultip
+leBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ib
+Equal/AvgBindVSTotalModified-eps-converted-to.pdf, id=549, 648.4225pt x 514.923
+75pt>
+File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
+On/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneO
+n/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMult
+ipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf used 
+on input line 50.
+(pdftex.def)             Requested size: 469.75502pt x 373.04694pt.
+ [21 <./Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembra
+neOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>] [22 <./Results/Si
+multaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBi
+ndVSTotalModified-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/MemOn/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-15 18:27:18
+(epstopdf)                    size: 59089 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 18:42:57
+(epstopdf)                    size: 22808 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-converted-t
+o.pdf Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
+n/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOn/Pro
+bVSSequence-eps-converted-to.pdf, id=574, 1011.78pt x 900.36375pt>
+File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
+n/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOn
+/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/MultipleSeq
+uentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf used on input line 80.
+
+(pdftex.def)             Requested size: 140.92793pt x 125.40436pt.
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/MemOff/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-15 18:34:05
+(epstopdf)                    size: 58747 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 18:42:57
+(epstopdf)                    size: 22757 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-
+to.pdf Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Mem
+Off/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOff/Pr
+obVSSequence-eps-converted-to.pdf, id=575, 1011.78pt x 901.3675pt>
+File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
+ff/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOf
+f/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/MultipleSeq
+uentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf used on input line 84
+.
+(pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
+Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/EvenSites/ProbVSSequence.eps>
+(epstopdf)                    date: 2017-05-15 18:41:57
+(epstopdf)                    size: 61171 bytes
+(epstopdf)             Output file: <Results/SimultaneousBinding/ResultsFigures
+/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 18:42:58
+(epstopdf)                    size: 23576 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SimultaneousBindin
+g/ResultsFigures/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-convert
+ed-to.pdf Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/
+EvenSites/ProbVSSequence.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenSites
+/ProbVSSequence-eps-converted-to.pdf, id=576, 1011.78pt x 901.3675pt>
+File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Even
+Sites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenS
+ites/ProbVSSequence-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/MultipleSeq
+uentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf used on input line
+ 88.
+(pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
+ [23 <./Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Me
+mOn/ProbVSSequence-eps-converted-to.pdf> <./Results/SimultaneousBinding/Results
+Figures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <
+./Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenSite
+s/ProbVSSequence-eps-converted-to.pdf>]) (./Results/SurfaceEffects/SurfaceEffec
+ts.tex
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Bind
+ingSurfaceFactor/OcclusionVSN.eps>
+(epstopdf)                    date: 2017-05-02 20:13:00
+(epstopdf)                    size: 187773 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Bind
+ingSurfaceFactor/OcclusionVSN-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-05 16:44:21
+(epstopdf)                    size: 59715 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/BindingSurfaceFactor/OcclusionVSN-eps-converted-to.pdf Results/Surf
+aceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-eps-co
+nverted-to.pdf, id=600, 1558.82375pt x 528.97626pt>
+File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-ep
+s-converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFa
+ctor/OcclusionVSN-eps-converted-to.pdf used on input line 26.
+(pdftex.def)             Requested size: 469.75502pt x 159.40439pt.
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Bind
+ingSurfaceFactor/BindingVSN.eps>
+(epstopdf)                    date: 2017-05-02 20:13:01
+(epstopdf)                    size: 191451 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Bind
+ingSurfaceFactor/BindingVSN-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-05 16:44:21
+(epstopdf)                    size: 64848 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/BindingSurfaceFactor/BindingVSN-eps-converted-to.pdf Results/Surfac
+eEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps-conv
+erted-to.pdf, id=601, 1558.82375pt x 528.97626pt>
+File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps
+-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps-
+converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFa
+ctor/BindingVSN-eps-converted-to.pdf used on input line 30.
+(pdftex.def)             Requested size: 469.75502pt x 159.40439pt.
+ [24]
+Underfull \hbox (badness 6808) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/10 (37392 B2) Bio-SRAARGTIGARRTGQPLKEDPSAVPVFSV
+ []
+
+[25 <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-
+eps-converted-to.pdf> <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceFa
+ctor/BindingVSN-eps-converted-to.pdf>]
+<Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1.png, id=631, 1066.98
+625pt x 854.19125pt>
+File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1.png Graphic fil
+e (type png)
+
+<use Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1.png>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagon
+al1.png used on input line 85.
+(pdftex.def)             Requested size: 469.75502pt x 376.0669pt.
+ [26]
+<Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth.png, id=637, 
+1453.43pt x 1049.9225pt>
+File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth.png Grap
+hic file (type png)
+
+<use Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth.png>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Length
+WidthDepth.png used on input line 92.
+(pdftex.def)             Requested size: 469.75502pt x 339.33035pt.
+
+[27 <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1.png>]
+<Results/SurfaceEffects/Diagram.png, id=644, 433.62pt x 219.219pt>
+File: Results/SurfaceEffects/Diagram.png Graphic file (type png)
+
+<use Results/SurfaceEffects/Diagram.png>
+Package pdftex.def Info: Results/SurfaceEffects/Diagram.png used on input line 
+108.
+(pdftex.def)             Requested size: 469.75502pt x 237.4989pt.
+ [28 <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth.png>]
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Effe
+ctiveConcentrationKernel/ConcentrationVSSeparation.eps>
+(epstopdf)                    date: 2017-05-10 15:38:09
+(epstopdf)                    size: 214705 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Effe
+ctiveConcentrationKernel/ConcentrationVSSeparation-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-10 15:42:40
+(epstopdf)                    size: 41888 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/EffectiveConcentrationKernel/ConcentrationVSSeparation-eps-converte
+d-to.pdf Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Con
+centrationVSSeparation.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concentrati
+onVSSeparation-eps-converted-to.pdf, id=651, 944.52875pt x 768.8725pt>
+File: Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concen
+trationVSSeparation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concent
+rationVSSeparation-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/EffectiveConcent
+rationKernel/ConcentrationVSSeparation-eps-converted-to.pdf used on input line 
+121.
+(pdftex.def)             Requested size: 375.80544pt x 305.92453pt.
+ [29 <./Results/SurfaceEffects/Diagram.png>]
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Effe
+ctiveConcentrationKernel/ConcentrationNondimVSSeparation.eps>
+(epstopdf)                    date: 2017-05-10 15:38:07
+(epstopdf)                    size: 209709 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Effe
+ctiveConcentrationKernel/ConcentrationNondimVSSeparation-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-10 15:42:40
+(epstopdf)                    size: 40367 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/EffectiveConcentrationKernel/ConcentrationNondimVSSeparation-eps-co
+nverted-to.pdf Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKern
+el/ConcentrationNondimVSSeparation.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concentrati
+onNondimVSSeparation-eps-converted-to.pdf, id=658, 960.58875pt x 767.86874pt>
+File: Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concen
+trationNondimVSSeparation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concent
+rationNondimVSSeparation-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/EffectiveConcent
+rationKernel/ConcentrationNondimVSSeparation-eps-converted-to.pdf used on input
+ line 128.
+(pdftex.def)             Requested size: 375.80544pt x 300.40494pt.
+ [30 <./Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Conc
+entrationVSSeparation-eps-converted-to.pdf>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 146.
+ [31 <./Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Conc
+entrationNondimVSSeparation-eps-converted-to.pdf>] [32]
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Reac
+hSurfaceFactor/ReachParameterFreeHalfAxisEqual.eps>
+(epstopdf)                    date: 2017-05-10 16:57:32
+(epstopdf)                    size: 68141 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Reac
+hSurfaceFactor/ReachParameterFreeHalfAxisEqual-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-11 12:42:16
+(epstopdf)                    size: 15203 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/ReachSurfaceFactor/ReachParameterFreeHalfAxisEqual-eps-converted-to
+.pdf Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFre
+eHalfAxisEqual.eps>
+(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFreeHal
+fAxisEqual-eps-converted-to.pdf, id=695, 1606.0pt x 1017.8025pt>
+File: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFr
+eeHalfAxisEqual-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFre
+eHalfAxisEqual-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFact
+or/ReachParameterFreeHalfAxisEqual-eps-converted-to.pdf used on input line 196.
+
+(pdftex.def)             Requested size: 469.75502pt x 297.70215pt.
+Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Reac
+hSurfaceFactor/ReachSurfaceFactor.eps>
+(epstopdf)                    date: 2017-05-10 17:38:46
+(epstopdf)                    size: 26005 bytes
+(epstopdf)             Output file: <Results/SurfaceEffects/ResultsFigures/Reac
+hSurfaceFactor/ReachSurfaceFactor-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-11 12:42:53
+(epstopdf)                    size: 11542 bytes
+(epstopdf)             Command: <repstopdf --outfile=Results/SurfaceEffects/Res
+ultsFigures/ReachSurfaceFactor/ReachSurfaceFactor-eps-converted-to.pdf Results/
+SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFactor.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+<Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFactor-ep
+s-converted-to.pdf, id=696, 728.7225pt x 649.42625pt>
+File: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFact
+or-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFacto
+r-eps-converted-to.pdf>
+Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFact
+or/ReachSurfaceFactor-eps-converted-to.pdf used on input line 203.
+(pdftex.def)             Requested size: 328.82707pt x 293.04178pt.
+ [33 <./Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameter
+FreeHalfAxisEqual-eps-converted-to.pdf>])
+(./Timeline/Timeline.tex [34 <./Results/SurfaceEffects/ResultsFigures/ReachSurf
+aceFactor/ReachSurfaceFactor-eps-converted-to.pdf>]) (./Appendix/Appendix.tex
+[35] [36]) [37] [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+ (./AdvancementSummary.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package rerunfilecheck Info: File `AdvancementSummary.out' has not changed.
+(rerunfilecheck)             Checksum: C3E8E8306C40A2DFCD459EED365350B8;4307.
+Package logreq Info: Writing requests to 'AdvancementSummary.run.xml'.
+\openout1 = `AdvancementSummary.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 26050 strings out of 493014
+ 489819 string characters out of 6133351
+ 891592 words of memory out of 5000000
+ 28910 multiletter control sequences out of 15000+600000
+ 10450 words of font info for 38 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,13n,94p,2063b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on AdvancementSummary.pdf (38 pages, 1893722 bytes).
+PDF statistics:
+ 878 PDF objects out of 1000 (max. 8388607)
+ 703 compressed objects within 8 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 616 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,107 @@
+\documentclass[../AdvancementSummary.tex]{subfiles}
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Model Modifications}
+
+\subsubsection{Stiffening}
+
+To include this model assumption, we modify the simulation in the following way:
+
+\begin{enumerate}
+\item Include binary sequence to indicate which sites are ``stiff'', sequence specified by user.
+\item Create distance metric to indicate how far on either side of the site the effect extends, specified by user.
+\item Include function to read binary sequence and create list of ``stiff'' joints, based on distance metric.
+\item Prohibit joints on list from being chosen when simulation chooses joint to move.
+\end{enumerate}
+
+
+\subsubsection{Electrostatics}
+
+To include this model assumption, we modify the simulation in the following way:
+
+\begin{enumerate}
+\item Create binary sequence to indicate which sites are ``phosphorylated''.
+\item Create distance metric to indicate how far on either side of the site the effect extends, specified by user.
+\item Create function to read binary sequence and create list of which sites to ignore energy, based on distance metric.
+\item Calculate energy of system based on Lennard-Jones or Piecewise potential curve plus hard or soft wall constraints.
+\subitem Polymer energy is the sum of the energy for each joint in polymer.
+\subitem Energy of sites on phosphorylated list are not included in the sum.
+\subitem Depth, width and wall/center location are specified by user.
+\item Accept conformations that produce a lower energy than the previous conformation.
+\item Reject with normal probability any conformations with higher energy than previous conformation.
+\item Rejection keeps polymer in previous conformation, but goes on to next time step. (Metropolis step.)
+\end{enumerate}
+
+\subsubsection{LJ Parameter Optimization}
+
+First potential:
+
+Lennard-Jones potential, ($V_{LJ}$):
+\begin{equation*}
+V_{LJ} = 4\epsilon\left(\left(\frac{l_{D}}{r-r_W}\right)^{12} - \left(\frac{l_{D}}{r-r_W}\right)^6\right)
+\end{equation*}
+
+where $\epsilon$ is the well depth, $l_D$ is the Debye length, $r_W$ is the potential wall location (vertical asymptote), and $r$ is the location of the joint in question.  For our purposes, $r$ is the z-coordinate of the joint in question.
+
+We want to look at what Debye length causes the electrostatic potential minima to shift from before $r=0$ to after $r=0$ (before, after membrane).  We therefore solve the derivative of $V_{LJ}$ (given below) for $l_D$ when $r=0$ and $dV_{LJ}/dr = 0$.
+
+The derivative of $V_{LJ}$:
+\begin{align*}
+\frac{dV_{LJ}}{dr} &= 4\epsilon\left( l_D^{12}\frac{-12}{(r-r_W)^{13}}+l_D^6\frac{6}{(r-r_W)^7}\right) \\
+\end{align*}
+
+Input $dV_{LJ}/dr = 0$, $r=0$:
+
+\begin{align*}
+0 &= 4\epsilon\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
+0 &=\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
+ l_D^{12}\frac{12}{(-r_W)^{13}} &= l_D^6\frac{6}{(-r_W)^7}  \\
+l_D^{6}\frac{12}{(-r_W)^{13}} &= \frac{6}{(-r_W)^7}   \\
+12*l_D^6 &= 6 * (-r_W)^6  \\
+l_D^6 &= \frac{(-r_W)^6}{2} \\
+l_D &= \sqrt[6]{\frac{1}{2}}*|r_W| \\
+\end{align*}
+
+Note that if the potential wall location is negative, then the Debye length may be either positive or negative. If the wall location is positive, then for our simulation, there is no Debye length that would cause the potential minimum to fall at $r=0$.  
+
+Therefore, we can say that when $l_D < \sqrt[6]{\frac{1}{2}}*|r_W|$ then the polymer will be preferentially located `under the membrane', or with $r<0$ for \hl{most} of its rod locations. Similarly, for $l_D > \sqrt[6]{\frac{1}{2}}*|r_W|$, the polymer will primarily be `above' the membrane.
+
+
+
+\subsubsection{Simultaneous Binding}
+
+To include this model assumption, we modify the simulation in the following way:
+
+\begin{enumerate}
+\item Create ``bound ligands", with location and radius specified by user. (Location specified by file or binary sequence.)
+\item Bound ligands occlude polymer, rejecting conformations that intersect the ligand sphere.
+\item Bound ligands occlude each other, rejecting conformations where two ligands intersect each other.
+\item If there is a membrane, bound ligands may not fall below membrane, rejecting conformations where this occurs.
+\item Rejecting conformations does not step time forward.  Continue looking for conformations until one meets constraints.
+\item Binding sites are considered `occluded' if a bound ligand intersects the binding site sphere.
+\item Binding sites located where bound ligand is located read as always occluded.
+\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Assumptions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%We make the assumption that the kinase is not occluded by parts of the protein that only tangentially within the designated kinase binding site.  This is partly done for ease of coding and calculations since were this not true, then the code would read occlusion for all runs, as the tyrosine location is tangentially within the kinase binding site by definition.  This assumption is what dictates whether we use strictly less (greater) than or if we use less (greater) than or equal to for our calculations.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gillespie Algorithm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+

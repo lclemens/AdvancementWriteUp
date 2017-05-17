@@ -1,0 +1,56 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Background/Motivation}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Intrinsically Disordered Proteins}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{T Cell Receptor Zeta Chain}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Multisite Phosphorylation}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Previous Modeling Attempts - FJC as Model for IDPs}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{The Big Question}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Model Development}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Freely Jointed Chain}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Theoretical results}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Code Validation}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Root-mean-square end-to-end distance}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Ree Distribution}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Occlusion Probability of End Site VS Analytical Result}{subsection.4.3}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Case Study: T Cell Receptor Zeta Chain}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Results: Steric Effects, Stiffening, and Electrostatics}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Ligand Occlusion}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Disorder-to-Order Transitions}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Introduction}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Model Modifications}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Cooperativity may arise from local structuring in intrinsically disordered proteins}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Future Work}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Sequential Binding}{subsection.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Electrostatics}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Introduction}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Electrostatic Potentials}{subsection.5.3}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Initial Parameter Exploration}{subsection.5.3}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work}{subsection.5.3}% 29
+\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 30
+\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.2}{Model Modifications}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.4}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{section.6}% 34
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Sequential Binding}{subsection.6.4}% 35
+\BOOKMARK [2][-]{subsection.6.5}{Future Work: Multiple Chains}{section.6}% 36
+\BOOKMARK [1][-]{section.7}{Results: Surface Effects}{}% 37
+\BOOKMARK [2][-]{subsection.7.1}{Presence of a surface restricts access to binding sites}{section.7}% 38
+\BOOKMARK [2][-]{subsection.7.2}{SHP1}{section.7}% 39
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Model Tethers as Freely Jointed Chain}{subsection.7.2}% 40
+\BOOKMARK [3][-]{subsubsection.7.2.2}{SHP1 Parameters}{subsection.7.2}% 41
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Model Extension}{subsection.7.2}% 42
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Ligand radius and presence of a surface impact local concentration of tethered polymers}{subsection.7.2}% 43
+\BOOKMARK [3][-]{subsubsection.7.2.5}{Correction Factor}{subsection.7.2}% 44
+\BOOKMARK [3][-]{subsubsection.7.2.6}{Curve Fitting}{subsection.7.2}% 45
+\BOOKMARK [3][-]{subsubsection.7.2.7}{Reach parameter is unaffected by presence of surface}{subsection.7.2}% 46
+\BOOKMARK [3][-]{subsubsection.7.2.8}{Future Work}{subsection.7.2}% 47
+\BOOKMARK [1][-]{section.8}{Timeline}{}% 48
+\BOOKMARK [1][-]{section.9}{Appendix}{}% 49
+\BOOKMARK [2][-]{subsection.9.1}{Model Modifications}{section.9}% 50
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Stiffening}{subsection.9.1}% 51
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Electrostatics}{subsection.9.1}% 52
+\BOOKMARK [3][-]{subsubsection.9.1.3}{LJ Parameter Optimization}{subsection.9.1}% 53
+\BOOKMARK [3][-]{subsubsection.9.1.4}{Simultaneous Binding}{subsection.9.1}% 54
+\BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 55
+\BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 56
