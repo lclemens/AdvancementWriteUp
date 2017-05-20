@@ -10,6 +10,10 @@
 \usepackage{booktabs}
 \usepackage{todonotes}
 \usepackage{multirow}
+%\usepackage{titlesec}
+%
+%\titleformat{\chapter}[block]{\normalfont\big\bfseries}{\thechapter.}{1em}{\Big}
+%\titlespacing*{\chapter}{0pt}{-19pt}{0pt}
 
 %\bibliographystyle{prsty}
 
@@ -59,17 +63,19 @@
 
 %\subfile{ExecutiveSummary/ExecutiveSummary}
 
-\subfile{Introduction/Introduction.tex}
-
 \subfile{Background/Background.tex}
 
 \graphicspath{{ModelDevelopment/}}
 
 \subfile{ModelDevelopment/ModelDevelopment.tex}
 
-\graphicspath{{Results/GeneralStiffElectro/}}
+\graphicspath{{Results/LocalStructuring/}}
 
-\subfile{Results/GeneralStiffElectro/GeneralStiffElectro.tex}
+\subfile{Results/LocalStructuring/LocalStructuring.tex}
+
+\graphicspath{{Results/Electrostatics/}}
+
+\subfile{Results/Electrostatics/Electrostatics.tex}
 
 \graphicspath{{Results/SimultaneousBinding/}}
 

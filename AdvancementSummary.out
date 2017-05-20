@@ -1,56 +1,68 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
-\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{Background/Motivation}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Intrinsically Disordered Proteins}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{T Cell Receptor Zeta Chain}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Multisite Phosphorylation}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{Previous Modeling Attempts - FJC as Model for IDPs}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.5}{The Big Question}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Model Development}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Freely Jointed Chain}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.2}{Theoretical results}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.3}{Code Validation}{section.4}% 12
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Root-mean-square end-to-end distance}{subsection.4.3}% 13
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Ree Distribution}{subsection.4.3}% 14
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Occlusion Probability of End Site VS Analytical Result}{subsection.4.3}% 15
-\BOOKMARK [2][-]{subsection.4.4}{Case Study: T Cell Receptor Zeta Chain}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Results: Steric Effects, Stiffening, and Electrostatics}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Ligand Occlusion}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{Disorder-to-Order Transitions}{section.5}% 19
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Introduction}{subsection.5.2}% 20
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Model Modifications}{subsection.5.2}% 21
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Cooperativity may arise from local structuring in intrinsically disordered proteins}{subsection.5.2}% 22
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Future Work}{subsection.5.2}% 23
-\BOOKMARK [3][-]{subsubsection.5.2.5}{Sequential Binding}{subsection.5.2}% 24
-\BOOKMARK [2][-]{subsection.5.3}{Electrostatics}{section.5}% 25
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Introduction}{subsection.5.3}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Electrostatic Potentials}{subsection.5.3}% 27
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Initial Parameter Exploration}{subsection.5.3}% 28
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work}{subsection.5.3}% 29
-\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 30
-\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.2}{Model Modifications}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 33
-\BOOKMARK [2][-]{subsection.6.4}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{section.6}% 34
-\BOOKMARK [3][-]{subsubsection.6.4.1}{Sequential Binding}{subsection.6.4}% 35
-\BOOKMARK [2][-]{subsection.6.5}{Future Work: Multiple Chains}{section.6}% 36
-\BOOKMARK [1][-]{section.7}{Results: Surface Effects}{}% 37
-\BOOKMARK [2][-]{subsection.7.1}{Presence of a surface restricts access to binding sites}{section.7}% 38
-\BOOKMARK [2][-]{subsection.7.2}{SHP1}{section.7}% 39
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Model Tethers as Freely Jointed Chain}{subsection.7.2}% 40
-\BOOKMARK [3][-]{subsubsection.7.2.2}{SHP1 Parameters}{subsection.7.2}% 41
-\BOOKMARK [3][-]{subsubsection.7.2.3}{Model Extension}{subsection.7.2}% 42
-\BOOKMARK [3][-]{subsubsection.7.2.4}{Ligand radius and presence of a surface impact local concentration of tethered polymers}{subsection.7.2}% 43
-\BOOKMARK [3][-]{subsubsection.7.2.5}{Correction Factor}{subsection.7.2}% 44
-\BOOKMARK [3][-]{subsubsection.7.2.6}{Curve Fitting}{subsection.7.2}% 45
-\BOOKMARK [3][-]{subsubsection.7.2.7}{Reach parameter is unaffected by presence of surface}{subsection.7.2}% 46
-\BOOKMARK [3][-]{subsubsection.7.2.8}{Future Work}{subsection.7.2}% 47
-\BOOKMARK [1][-]{section.8}{Timeline}{}% 48
-\BOOKMARK [1][-]{section.9}{Appendix}{}% 49
-\BOOKMARK [2][-]{subsection.9.1}{Model Modifications}{section.9}% 50
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Stiffening}{subsection.9.1}% 51
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Electrostatics}{subsection.9.1}% 52
-\BOOKMARK [3][-]{subsubsection.9.1.3}{LJ Parameter Optimization}{subsection.9.1}% 53
-\BOOKMARK [3][-]{subsubsection.9.1.4}{Simultaneous Binding}{subsection.9.1}% 54
-\BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 55
-\BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 56
+\BOOKMARK [1][-]{section.2}{Introduction/Background/Motivation}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Intrinsically Disordered Proteins}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{T Cell Receptor Zeta Chain}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Multisite Phosphorylation}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Previous Modeling Attempts - FJC as Model for IDPs}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{The Big Question}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Model Development}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Freely Jointed Chain}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Theoretical results}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Code Validation}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Root-mean-square end-to-end distance}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Ree Distribution}{subsection.3.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Occlusion Probability of End Site VS Analytical Result}{subsection.3.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Case Study: T Cell Receptor Zeta Chain}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Local structuring of disordered signaling proteins gives rise to cooperativity and sequential binding}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Introduction}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Model and Methods}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Results}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Surface presence influences polymer configuration}{subsection.4.3}% 20
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Disorder inhibits ligand binding}{subsection.4.3}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Cooperativity may arise from local structuring in intrinsically disordered proteins}{subsection.4.3}% 22
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Sequential binding naturally arises from polymer characteristics}{subsection.4.3}% 23
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Negative cooperativity may arise from local disordering of proteins}{subsection.4.3}% 24
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Future Work: Quantifying cooperativity from reversible phoshphorylation with Hill coefficients}{subsection.4.3}% 25
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Future Work: Exploring sequence of binding from dephosphorylation and reversible phosphorylation}{subsection.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.4}{Discussion}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Electrostatics}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Introduction}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Model and Methods}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Electrostatic Potentials}{subsection.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.3}{Results}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{subsection.5.3}% 33
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Initial parameter exploration of more general energetic model yields fit to polymer distribution}{subsection.5.3}% 34
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Future Work}{subsection.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.4}{Discussion?}{section.5}% 36
+\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 37
+\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.2}{Model and Methods}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 40
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{subsection.6.3}% 41
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Future Work: Sequence of binding multiple ligands}{subsection.6.3}% 42
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{subsection.6.3}% 43
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 44
+\BOOKMARK [1][-]{section.7}{Role of the surface on tether-tether reactions within a signaling cluster}{}% 45
+\BOOKMARK [2][-]{subsection.7.1}{Introduction}{section.7}% 46
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Tethering}{subsection.7.1}% 47
+\BOOKMARK [3][-]{subsubsection.7.1.2}{SHP-1}{subsection.7.1}% 48
+\BOOKMARK [2][-]{subsection.7.2}{Model and Methods}{section.7}% 49
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Model Tethers as Freely Jointed Chain}{subsection.7.2}% 50
+\BOOKMARK [3][-]{subsubsection.7.2.2}{SHP1 Parameters}{subsection.7.2}% 51
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Curve Fitting}{subsection.7.2}% 52
+\BOOKMARK [2][-]{subsection.7.3}{Results}{section.7}% 53
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Accessibility of a reaction site is reduced by the presence of a surface}{subsection.7.3}% 54
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Reactions between tethered reactants are net enhanced by a surface}{subsection.7.3}% 55
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Reach parameter is unaffected by presence of surface}{subsection.7.3}% 56
+\BOOKMARK [3][-]{subsubsection.7.3.4}{Matrix-bound versus surface-bound experiments confirm model predictions}{subsection.7.3}% 57
+\BOOKMARK [3][-]{subsubsection.7.3.5}{Future Work: Catalysis surface factor \(teth2teth\)cat versus lC and/or versus rligand}{subsection.7.3}% 58
+\BOOKMARK [2][-]{subsection.7.4}{Discussion?}{section.7}% 59
+\BOOKMARK [1][-]{section.8}{Timeline}{}% 60
+\BOOKMARK [1][-]{section.9}{Appendix}{}% 61
+\BOOKMARK [2][-]{subsection.9.1}{Model Modifications}{section.9}% 62
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Stiffening}{subsection.9.1}% 63
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Electrostatics}{subsection.9.1}% 64
+\BOOKMARK [3][-]{subsubsection.9.1.3}{LJ Parameter Optimization}{subsection.9.1}% 65
+\BOOKMARK [3][-]{subsubsection.9.1.4}{Simultaneous Binding}{subsection.9.1}% 66
+\BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 67
+\BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 68

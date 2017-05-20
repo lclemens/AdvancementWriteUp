@@ -6,62 +6,75 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results: Simultaneous Binding}
+\label{sec: SimultaneousBinding}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Introduction}
 
+\hl{Find more examples of multiple binding}
+
 Here we consider the case where ligands are able to bind to a polymer and remain bound.  For instance, the SH2 domains of ZAP-70 bind to two tyrosines in an ITAM on CD3$\zeta$ and remain bound to phosphorylate downstream. \hl{cite!!} This leads to the possibility that the polymer conformations are limited by the presence of a bound ligand, or even multiple bound ligands.  We expect that as more ligands are added to the polymer, binding site occlusion will increase.  The ligand may help to straighten out the polymer by limiting the number of conformations it can take on, but it will also occlude the binding site in many conformations.  Depending on the size, number, and relative location of the ligand to the binding site, this effect may be stronger than the decreased occlusion via straightening.  
 
+Once TCR CD3$\zeta$ is phosphorylated, the kinase ZAP-70 binds and phosphorylates the transmembrane protein LAT. \hl{CITE EVERYTHING!} ZAP-70 is composed of two SH2 domains and a kinase domain.\hl{cite -  - i.e. Wang et al 2010 or alternate} These tandem SH2 domains each bind a phosphotyrosine on CD3$\zeta$. Since minimally two SH2 domains must be able to bind to CD3$\zeta$, it is natural to wonder how many domains could fit on a disordered chain and how each successive domain impacts the binding of another. 
 
-\subsection{Model Modifications}
+\hl{Describe different scenarios - pose slightly different questions. Two parameters to sweep over. We do diagonal and one T-shape.}
 
-To simulate, each bound ligand is included as an idealized sphere tangentially bound to the polymer.  The bound ligands rotate with the polymer and the polymer may not occupy the same space as the ligands. The bound and incoming ligands do not need to have the same radius. When a membrane is present, the bound ligand cannot penetrate the membrane.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Model and Methods}
+
+\hl{literally copy pasted from ref(sec: LocalStruct), is that a problem?}
+
+We model the TCR CD3$\zeta$ chain as a freely jointed chain, where each amino acid is represented as a segment as described in Sec. \ref{sec:ModelDev}. The unbound, incoming ligand is simulated as an idealized ghost sphere tangentially located at a single segment. \hl{Is it clear what this means?} We calculate quasi-equilibrium statistics for the FJC and unbound ligand in both free-space and half-space. For the CD3$\zeta$ chain, we simulate only the cytoplasmic region by an FJC with 113 segments. In our simulation, all lengths are normalized by the Kuhn length, so each rod has length 1 and the radius of the ligand is also measured in Kuhn lengths. We consider a spherical estimate for the kinase Lck, with a radius of 2.1\nm (7 Kuhn lengths) as calculated in \ref{sec:ModelDevsubsec:TCR}.
+
+To simulate simultaneous binding, each bound ligand is included as an idealized sphere tangentially bound to the polymer.  The bound ligands rotate with the polymer, but maintain their tangent orientation to their binding site. The polymer may not occupy the same space as the bound ligands, nor may bound ligands occupy the same space as other bound ligands. When a membrane is present, the bound ligand cannot penetrate the membrane. There are separate parameters for the radius of the bound and unbound ligands. 
+
+We calculate the probability a ligand is able to bind to the unbound ligand site, where `able to bind' refers to the specified sphere being empty of both other polymer segments, half-space barriers, and bound ligands. \hl{weird wording?}. 
+
+\hl{would it be helpful to have a dotted sphere in cartoons to show unbound ligand?}
 
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=0.8\linewidth]{ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram.eps}
-    \caption{Cartoon of simultaneous binding model. FJC prior to ligand binding (a) transitions to FJC with single bound ligand and a second ligand attempting to bind (b).}
+    \caption{Cartoon of simultaneous binding model. Surface bound FJC prior to ligand binding (a) transitions to FJC with single bound ligand and a second ligand attempting to bind (b). \label{fig: SimBindCartoon}}
     \end{center}
 \end{figure}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Results}
 
-\subsection{Negative cooperativity arises from simultaneous binding of ligands to an IDP}
+\subsubsection{Negative cooperativity arises from simultaneous binding of ligands to an IDP}
 
-\hl{Find more examples of multiple binding}
+\hl{Do we want to explore free space here? Did that have much different results? Probably not?}
 
-Once TCR CD3$\zeta$ is phosphorylated, the kinase ZAP-70 binds and phosphorylates the transmembrane protein LAT. \hl{CITE EVERYTHING!} ZAP-70 is composed of two SH2 domains and a kinase domain.\hl{cite -  - i.e. Wang et al 2010 or alternate} These tandem SH2 domains each bind a phosphotyrosine on CD3$\zeta$. Since minimally two SH2 domains must be able to bind to CD3$\zeta$, it is natural to wonder how many domains could fit on a disordered chain and how each successive domain impacts the binding of another. 
+We first explore how two ligand species binding to the same domain may influence each other's binding. We explore a simplification of ZAP-70 and Lck molecules binding to CD3$\zeta$. We assume that each of the bound ligands is approximately the size of an SH2 domain (i.e. ZAP-70 is bound to the polymer) and we calculate the probability of a separate species binding to one of the remaining binding sites.  We investigate this for many sizes of incoming ligand, including our estimates for Lck and ZAP-70. We find simultaneous binding of multiple SH2 sized domains will cause mild to severe negative cooperativity with the binding of another ligand. Larger ligands have a harder time binding when there are multiple SH2 domains already bound. For a 4.2nm radius incoming ligand, there would be a 30 fold decrease in the probability of binding from no other bound ligands to five SH2 domains bound to the same disordered chain. Only very small ligands would be unhampered by the presence of other bound ligands. An Lck molecule, only slightly larger than an SH2 domain, would experience an approximately eight fold decrease in its ability to bind once five SH2 domains are already bound to the disordered chain. (Fig. \ref{fig: SimBindMemOnSH2})
+
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps}
-		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for specified number of SH2 domain sized (1.5nm radius) ligands previously bound and varying unbound ligand sizes (0.3 nm $\rightarrow$ pink, 4.2 nm $		\rightarrow$ blue). (Below) Cartoon representing a possible bound configuration series of CD3$\zeta$. }
+		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for specified number of SH2 domain sized (1.5nm radius) ligands previously bound and varying unbound ligand sizes (0.3 nm $\rightarrow$ pink, 4.2 nm $	\rightarrow$ blue). (Below) Cartoon representing a possible bound configuration series of CD3$\zeta$. \label{fig: SimBindMemOnSH2} }
 	\end{center}
 \end{figure}
 
 
+\hl{Should this case go first?}
 
-There are two cases we may explore. The first assumes that each of the bound ligands is approximately the size of an SH2 domain and calculates the probability of a different ligand binding to one of the remaining binding sites.  We investigate this for different sizes of ligand. Simultaneous binding of multiple SH2 sized domains will cause mild to severe negative cooperativity with the binding of another ligand. Larger ligands have a harder time binding when there are multiple SH2 domains already bound. For a 4.2nm radius ligand, there would be a 30 fold decrease in the probability of binding from having no other bound ligands to having five SH2 domains bound to the same disordered chain. Only very small ligands would be unhampered by the presence of other bound ligands. 
-
-An Lck molecule, only slightly larger than an SH2 domain, would experience an approximately eight fold decrease in its ability to bind once five SH2 domains are already bound to the disordered chain. This suggests the CD3$\zeta$ chain is mostly phosphorylated before ZAP-70 begins to attach or that phosphorylation by Lck slows down when ZAP-70 attaches.  In the second case, this could lead to phosphorylation needing to occur via another mechanism, for instance via the kinase domain of ZAP-70 itself.  
-
+The second case of simultaneous binding we explore is when only one ligand species attaches to the disordered chain. We investigate how multiple bound ligands of a given size impacts another ligand of the same size binding. We see the same trend of behavior as above, but more dramatic.  Here, if we consider a ligand with radius 2.1nm, we already see a 30 fold decrease between no ligands bound and five bound. This matches intuition, since although a large bound ligand will straighten the polymer more, it will also create a much larger occluded volume making binding site accessibility much less likely.  Note that similarly, if the bound ligand size is less than that of an SH2 domain, then we actually see less negative cooperativity than when all bound ligands were SH2 domains. (Fig. \ref{fig: SimBindMemOnibEqual})
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps}
-		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for specified number of ligands previously bound and varying ligand sizes (0.3 nm $\rightarrow$ pink, 4.2 nm $		\rightarrow$ blue). (Below) Cartoon representing a possible bound configuration series of CD3$\zeta$. }
+		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for specified number of ligands previously bound and varying ligand sizes (0.3 nm $\rightarrow$ pink, 4.2 nm $		\rightarrow$ blue). (Below) Cartoon representing a possible bound configuration series of CD3$\zeta$. \label{fig: SimBindMemOnibEqual} }
 	\end{center}
 \end{figure}
 
 
-The second case of simultaneous binding we explore is when only one ligand attaches to the disordered chain. We explore how having many bound ligands of a given size impacts another ligand of the same size binding. We see the same trend of behavior as above, but more dramatic.  Here, if we investigate a ligand with radius 2.1nm, we already see a 30 fold decrease between no ligands bound and five bound. This is unsurprising since although a large bound ligand will straighten the polymer more, it will also create a much larger occluded volume making binding site accessibility much less likely.  Note that similary, if the bound ligand size is less than that of an SH2 domain, then we actually see less negative cooperativity than above.
-
-
-Simultaneous binding of ligands leads to negative cooperativity. This endows signaling systems with two features: high turnover of ligands even in high ligand concentration (which might be advantageous if ligands are involved in other reactions), and constant signaling activity in low ligand concentration. Similarly, this might reduce the impact of inhibitors, requiring much higher concentrations of inhibitor to completely turn off signaling.
-
-\hl{Paragraph about benefits?  or is that for discussion?}
-
-
-\subsubsection{Sequential Binding}
+\subsubsection{Future Work: Sequence of binding multiple ligands}
 
 
 \hl{rewrite this for simultaneous binding}
@@ -92,11 +105,22 @@ We are soon going to introduce a ranking system for the paths in order to do a f
 	\caption{Probability of ligand binding membrane proximal to distal (123456) compared with distal to proximal (654321). Equally likely probability of all paths indicated with black, dotted line. (a) CD3$\zeta$ parameters, with membrane. (b) CD3$\zeta$ parameters, without membrane. (c) CD3$\zeta$ length, evenly spaced tyrosine locations, without membrane.}
 \end{figure}
 
-\subsection{Future Work: Multiple Chains}
+\subsubsection{Future Work: Multiple chains towards a full model of a T cell receptor signalosome}
 
 There is work showing that six ZAP-70 molecules bind to the disordered proteins of the T Cell Receptor on average.  \hl{cite....} We want to eventually report an equilibrium value for the number of molecules able to bind to a CD3$\zeta$ chain. We will also expand our model to include all of the domains of the receptor. This will allow us to test if steric effects are sufficient to explain why only six ZAP-70 molecules would bind to the receptor simultaneously.  When all of the chains are included in the simulation, each chain will be able to explicitly occlude a binding site on the opposite chain. With this, we will be able to answer questions of if or how disordered dimers impede binding.
 
+Eventually, we would like to include co-receptors of TCR in our model. This will help expand our understanding of the TCR network, in particular elucidating why co-receptors are necessary for full T cell signaling.\hl{CITE} For example, there is evidence that some portion of Lck is attached to the membrane-bound CD4. There is also evidence that the main CD3$\zeta$ phosphatase is CD28, which is also membrane bound. \hl{Cite} These changes to the model could impact the dynamics of reversible phosphorylation of the CD3$\zeta$ chain.\hl{This needs to be better.}
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Discussion}
+
+An Lck molecule, only slightly larger than an SH2 domain, would experience an approximately eight fold decrease in its ability to bind once five SH2 domains are already bound to the disordered chain. This suggests the CD3$\zeta$ chain is mostly phosphorylated before ZAP-70 begins to attach or that phosphorylation by Lck slows down when ZAP-70 attaches.  In the second case, this could lead to phosphorylation needing to occur via another mechanism, for instance via the kinase domain of ZAP-70 itself.  
+
+Simultaneous binding of ligands leads to negative cooperativity. This endows signaling systems with two features: high turnover of ligands even in high ligand concentration (which might be advantageous if ligands are involved in other reactions), and constant signaling activity in low ligand concentration. Similarly, this might reduce the impact of inhibitors, requiring much higher concentrations of inhibitor to completely turn off signaling.
 
 
 

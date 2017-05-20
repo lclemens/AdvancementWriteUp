@@ -1,0 +1,304 @@
+\documentclass[../../AdvancementSummary.tex]{subfiles}
+
+\begin{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Electrostatics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Introduction}
+
+Subunits of many receptors have been shown to associate with the membrane prior to signaling. \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre}
+
+In particular, evidence shows (\hl{CITE CITE CITE - Chenqi etc}) that CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \hl{Is this true without stimulus?} \hl{what about stimulus without phosphorylation}
+
+Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\hl{cite} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
+
+When the \hl{segment about mystery of where first signalling comes from}
+
+\hl{discuss clusters of TCR? future modeling question?}
+
+\hl{evidence that fall off as feedback effect?} Although the tyrosines will spend much of their time sequestered in the membrane, there is some probability of entropic forces \hl{ehhh} transiently pulling them to the cytoplasm. \hl{hence distribution above....} When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine would therefore repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane.  
+
+We hypothesize that since there is some probability for this first event to occur, then after the first event there would be a cooperative enhancement of the probability of neighboring tyrosines becoming accessible.  \hl{wording is terrible}
+
+
+\hl{hypothesis about sequential binding?}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Model and Methods}
+
+
+A molecular dynamics simulation of CD3$\epsilon$ indicates an approximately Gaussian distribution of the tyrosines, centered at the phospholipid heads of the membrane. \cite{Lopez2015}
+
+We model the polymer-membrane association as a potential acting on each rod in a freely-jointed chain in half space. The potential only acts in the direction of the half space plane (in this case, z-direction). To develop the model, we need to explore parameter space to create potentials which display the same behaviors seen experimentally and through molecular dynamics. In particular, we want to match three conditions:
+
+\begin{enumerate}
+	\item The polymer should display locational distributions consistent with Lopez et al. 2015. \cite{Lopez2015}
+	\item When basic residues are mutated, the polymer should dissociate from the membrane.
+	\item When all tyrosines are phosphorylated, the polymer should dissociate from the membrane.
+\end{enumerate}
+
+Based on these goals, we group residues into four distinct categories: tyrosines, phosphotyrosines, basic residues, and remaining residues. Based on these groups, we develop a set of possible relationships to explore (Table).  
+
+\begin{table}[H]
+\caption{Notation for electrostatic potentials applied to different groups of residues. \label{table: ElecPotentialNotation}}
+\begin{center}
+\begin{tabular}{ c | c}
+\hline
+Residue Group & Electrostatic Potential Abbreviation \\
+\hline
+Tyrosines & $E_Y$ \\
+Phosphotyrosines & $E_P$ \\
+Basic Residues & $E_B$ \\
+Remaining Residies & $E_R$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Electrostatic potential relationships to explore for behavior matching experimental results. \label{table: ElecPotentialRelationships}}
+\begin{center}
+\begin{tabular}{| c | c |}
+\hline
+Group Number & Electrostatic Potential Relationship \\
+\hline
+\multicolumn{1}{|c|}{\multirow{2}[0]{*}{1}}  &  $E_Y = E_B < 0$\\
+							&	   $E_P = E_R = 0 $\\
+\hline
+\multicolumn{1}{|c|}{\multirow{4}[0]{*}{2}}  &  $E_Y \neq E_B $\\
+							&	   $E_Y < 0$ \\
+							&	   $E_B < 0$ \\
+							&	  $E_P = E_R = 0 $\\
+\hline
+\multicolumn{1}{|c|}{\multirow{5}[0]{*}{3}} 	& $E_Y \neq E_B$\\
+							        & $E_Y < 0$ \\
+								& $E_B < 0$ \\
+								& $E_P > 0 $\\
+								& $E_R = 0 $\\
+\hline
+\multicolumn{1}{|c|}{\multirow{3}[0]{*}{4}} 	& $E_Y = E_B <0 $\\
+								& $E_P > 0 $\\
+								& $E_R = 0 $\\
+\hline
+\multicolumn{1}{|c|}{\multirow{3}[0]{*}{5}} 	& $E_B <0 $\\
+								& $E_Y = E_R=0 $\\
+								& $E_P > 0 $\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}					
+
+
+
+%%%% Table of sequences and basic residues %%%%
+
+\begin{table}[H]
+    \caption{Cytoplasmic amino acid sequence of CD3$\zeta$ and $\epsilon$ chains.  Basic residues (arginine, lysine, histidine) and tyrosines are highlighted separately in sequence.  Relative numeric location in cytoplasmic sequence and fraction of residues from that group are noted. \label{table: BasicsYLocation}}
+    \begin{center}
+    \begin{tabular}{|c|p{2cm}|p{8cm}|p{3.5cm}|p{1.6cm}|}
+    	\hline
+	Chain 		& 		Group			&		Location in Cytoplasmic Sequence	&	Numeric Location		&		\# / Total	\\
+	\hline
+	
+	
+    	\multicolumn{1}{|c|}{\multirow{2}[0]{*}{CD3$\zeta$}} 	&  	Basic Residues				& 	
+	
+	\hl{R}A\hl{K}FS\hl{R}SAETAANLQDPNQLYNELNLG\hl{RR}
+	EEYDVLE\hl{KKR}A\hl{R}DPEMGG\hl{K}QQ\hl{RRR}NPQE
+	GVYNALQ\hl{K}D\hl{K}MAEAYSEIGT\hl{K}GE\hl{RRR}
+	G\hl{K}GHDGLYQGLSTAT\hl{K}DTYDAL\hl{H}MQTLAP\hl{R}			& 	
+	
+	1,3,5,28,29,37,38,
+	39,41,48,51,52,53,60,65,
+	67,72,78,81,82,83,85,91,
+	99,102,106,113 		& 	
+	
+	29/113	\\
+	\cline{2-5}
+	
+	
+	
+		&	 Tyrosines									&	
+	
+	RAKFSRSAETAANLQDPNQL\hl{Y}NELNLGRR
+	EE\hl{Y}DVLEKKRARDPEMGGKQQRRRNPQE
+	GV\hl{Y}NALQKDKMAEA\hl{Y}SEIGTKGERRR
+	GKGHDGL\hl{Y}QGLSTATKDT\hl{Y}DALHMQTLAPR 				& 	
+	
+	21,32,60,72,91,102											&	
+	
+	6/113			\\
+	\hline
+	
+	
+	\multicolumn{1}{|c|}{\multirow{2}{*}{CD3$\epsilon$}}	&	 Basics Residues		&
+	
+	WS\hl{K}N\hl{RK}A\hl{K}A\hl{K}PVT\hl{R}GAGAGG\hl{R}Q\hl{R}GQN\hl{K}E\hl{R}
+	PPPVPNPDYEPI\hl{RK}GQ\hl{R}DLYSGLNQ\hl{RR}I					& 	
+	
+	3,5,6,8,10,14,21,23,27,
+	29,42,43,46,55,56	&		
+	
+	15/57	\\
+	\cline{2-5}
+	
+	
+		&		 Tyrosines				& 	
+	
+	WSKNRKAKAKPVTRGAGAGGRQRGQNKER
+	PPPVPNPD\hl{Y}EPIRKGQRDL\hl{Y}SGLNQRRI			&
+	
+	 38,49		& 		
+	 
+	 2/57			\\
+	\hline
+    \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[width=0.7\linewidth]{ElectrostaticsDiagram.pdf}
+    \caption{Cartoon of electrostatics model.  \hl{COULD HAVE POTENTIAL IN CARTOON?}. FJC associates with membrane, burying modification sites within membrane rendering them inaccessible to ligands.\label{fig: ElectrostaticsCartoon}}
+    \end{center}
+\end{figure}
+
+
+\subsubsection{Electrostatic Potentials}
+
+There are many more basic residues compared to tyrosines in both the CD3$\zeta$ and $\epsilon$ chains.  Therefore, in order to account for tyrosine phosphorylation being sufficient to dissociate the polymer from the membrane, we would expect a repulsive force from the phosphorylated tyrosines. This directs our focus to Groups 3,4, and 5. Of these, we wish to look at the simplest cases first.  Therefore we consider the case where tyrosines do not experience their own potential but experience the potential of either the basic residues or experience the same potential as the rest of the amino acids.  Since tyrosines are not positively charged, it seems less likely that they would experience the same force as the basic residues.  Although their aromatic ring structure may help to anchor the polymer to the membrane once associated with the membrane, it would not drive the polymer to the membrane to begin with. \cite{Lopez2015} Therefore we focus initial efforts on Group 5.
+
+\hl{It's possible I didn't need any of the above about different groups......`results not process' idea.}
+
+There are many types of electric potential we could explore for the correct behavior.  Given that one of the phenomenons we wish to match is an approximately Gaussian distribution of both the tyrosines and polymer along the membrane edge, we use a parabolic-constant piecewise potential for our basic residues, instead of a Lennard-Jones potential.
+
+Parabolic-constant piecewise potential:
+
+Piecewise potential (aka, parabola-constant), ($PC$):
+\begin{equation}\label{eq: parabolaconstant}
+\begin{cases}
+width*z^2-depth 	& z<\sqrt{\frac{depth}{width}}\\
+0 & z \geq \sqrt{\frac{depth}{width}} \\
+\end{cases}
+\end{equation}
+
+We have two possible potentials for the remaining amino acids.  In general, the peptide should not be able to penetrate deep into the membrane. Therefore, we can implement a hardwall or softwall constraint. The hardwall will prevent the remaining amino acids from passing the beginning of the membrane. A softwall constraint will allow amino acids to enter the membrane, but will incur an energetic penalty. 
+
+Hardwall:
+
+\begin{equation}\label{eq: hardwall}
+\begin{cases}
+\infty 	& z < 0\\
+0 & z \geq 0 \\
+\end{cases}
+\end{equation}
+
+
+Softwall:
+
+\begin{equation}\label{eq: softwall}
+\begin{cases}
+k*z^2 	& z < 0\\
+0 & z \geq 0 \\
+\end{cases}
+\end{equation}
+
+
+
+For the phosphorylated tyrosines, we will include an exponential distribution where the repulsive effect of the membrane drops off quickly as the phosphotyrosines move further away from the membrane.
+
+
+Exponential decay:
+
+\hl{go find actual equation to put here}
+
+\begin{equation}
+\begin{cases}
+\infty	& z \leq 0\\
+e^{-z} & z > 0 \\
+\end{cases}
+\end{equation}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Results}
+\subsubsection{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}
+
+\subsubsection{Initial parameter exploration of more general energetic model yields fit to polymer distribution}
+
+We initially want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions.  The hardwall condition \hl{(not shown)} prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue. We note that the potentials affect the distribution of the basic residues more strongly than they affect the distributions of the tyrosines. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite2.eps}
+	\end{center}
+	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite7.eps}
+	\end{center}
+	\caption{Basic residue distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.}
+\end{figure}
+
+
+
+
+\subsubsection{Future Work}
+
+First, we want to establish parameters (if they exist) which make our model exhibit the same behaviors as experimental and MD results. In particular, we now need parameters allowing the polymer to be free from the membrane when all tyrosines are phosphorylated. Either there will be only one reasonable parameter set which we can explore or there will be many parameter sets which display the desired properties.  If there are multiple parameter sets then we may try to find other experimental results to narrow our parameter regime. Alternatively, we may explore two or three major parameter regimes: weakest, strongest, and median potentials. The results from a wide spread of parameters will give us an indication of how much the parameters matter to the qualitative results.  
+
+Second, with our parameter sets, we will now explore the effect of phosphorylation on the accessibility of successive tyrosines to a kinase.  We wish to see if there is a cooperative enhancement of the binding rates based on phosphorylation of previous residues.  Additionally, we will use this data to explore if there is a natural sequential binding sequence that arises.  One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target.  However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region.
+
+\hl{paragraph about relating back to something useful or experimental?}
+
+% potentially add image of mathematica plot to illustrate point
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Discussion?}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
