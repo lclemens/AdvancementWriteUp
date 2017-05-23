@@ -12,7 +12,7 @@
 
 \subsection{Introduction}
 
-Subunits of many receptors have been shown to associate with the membrane prior to signaling. \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre}
+Subunits of many receptors have been shown to associate with the membrane prior to signaling. \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
 
 In particular, evidence shows (\hl{CITE CITE CITE - Chenqi etc}) that CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \hl{Is this true without stimulus?} \hl{what about stimulus without phosphorylation}
 
@@ -20,7 +20,7 @@ Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play
 
 When the \hl{segment about mystery of where first signalling comes from}
 
-\hl{discuss clusters of TCR? future modeling question?}
+\hl{discuss clusters of TCR? future modeling question? multiple chain steric effects cause dissociation from membrane vs stochastic tyrosines falling out}
 
 \hl{evidence that fall off as feedback effect?} Although the tyrosines will spend much of their time sequestered in the membrane, there is some probability of entropic forces \hl{ehhh} transiently pulling them to the cytoplasm. \hl{hence distribution above....} When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine would therefore repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane.  
 
@@ -221,7 +221,7 @@ Exponential decay:
 
 \hl{go find actual equation to put here}
 
-\begin{equation}
+\begin{equation}\label{eq: exponential}
 \begin{cases}
 \infty	& z \leq 0\\
 e^{-z} & z > 0 \\
@@ -236,20 +236,20 @@ e^{-z} & z > 0 \\
 
 \subsubsection{Initial parameter exploration of more general energetic model yields fit to polymer distribution}
 
-We initially want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions.  The hardwall condition \hl{(not shown)} prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue. We note that the potentials affect the distribution of the basic residues more strongly than they affect the distributions of the tyrosines. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
+We first want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions.  The hardwall condition (not shown) prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue. \hl{rephrase this next sentence, because duh} We note that the potentials affect the distribution of the basic residues more strongly than they affect the distributions of the tyrosines. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite2.eps}
 	\end{center}
-	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.}
+	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.\label{fig: iSiteDist}}
 \end{figure}
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite7.eps}
 	\end{center}
-	\caption{Basic residue distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.}
+	\caption{Basic residue distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.\label{fig: tailDist}}
 \end{figure}
 
 
@@ -259,7 +259,9 @@ We initially want to match the distribution of the polymer to the molecular dyna
 
 First, we want to establish parameters (if they exist) which make our model exhibit the same behaviors as experimental and MD results. In particular, we now need parameters allowing the polymer to be free from the membrane when all tyrosines are phosphorylated. Either there will be only one reasonable parameter set which we can explore or there will be many parameter sets which display the desired properties.  If there are multiple parameter sets then we may try to find other experimental results to narrow our parameter regime. Alternatively, we may explore two or three major parameter regimes: weakest, strongest, and median potentials. The results from a wide spread of parameters will give us an indication of how much the parameters matter to the qualitative results.  
 
-Second, with our parameter sets, we will now explore the effect of phosphorylation on the accessibility of successive tyrosines to a kinase.  We wish to see if there is a cooperative enhancement of the binding rates based on phosphorylation of previous residues.  Additionally, we will use this data to explore if there is a natural sequential binding sequence that arises.  One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target.  However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region.
+Second, with our parameter sets, we will now explore the effect of phosphorylation on the accessibility of successive tyrosines to a kinase.  We wish to see if there is a cooperative enhancement of the binding rates based on phosphorylation of previous residues.  Cooperative phosphorylation could contribute to the first signaling event, explaining how an initial calcium release feeds back on the system, causing more CD3$\zeta$ chains to dissociate from the membrane and create a stronger signal. \hl{cite}
+
+Additionally, we will use this data to explore if there is a natural sequential binding sequence that arises.  One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target.  However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region. 
 
 \hl{paragraph about relating back to something useful or experimental?}
 
@@ -270,7 +272,9 @@ Second, with our parameter sets, we will now explore the effect of phosphorylati
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Discussion?}
 
+\hl{Maybe hybrid future work and discussion? or give if/then results sections?  (I.e. if we see coop, then this?)}
 
+Our initial model attempts show it is nontrivial to create a simple model where phosphotyrosines act to pull the rest of the polymer away from the membrane.
 
 
 

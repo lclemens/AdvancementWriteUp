@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 MAY 2017 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 MAY 2017 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,11 +1140,11 @@ line 29.
 
 Package epstopdf Info: Source file: <ResultsFigures/SimultaneousBindingDiagram/
 SimultaneousBindingDiagram.eps>
-(epstopdf)                    date: 2017-05-15 16:45:51
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 26636 bytes
 (epstopdf)             Output file: <ResultsFigures/SimultaneousBindingDiagram/
 SimultaneousBindingDiagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 16:50:13
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 11489 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/Simultaneou
 sBindingDiagram/SimultaneousBindingDiagram-eps-converted-to.pdf ResultsFigures/
@@ -1167,11 +1167,11 @@ BindingDiagram-eps-converted-to.pdf used on input line 39.
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
-(epstopdf)                    date: 2017-05-03 19:17:59
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 96510 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-03 19:20:09
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 30962 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Re
@@ -1194,11 +1194,11 @@ dVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on input line 59.
 -converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified.eps>
-(epstopdf)                    date: 2017-05-15 19:07:43
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 90332 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 19:08:04
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 28992 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Resul
@@ -1221,11 +1221,11 @@ apLabeled-eps-converted-to.pdf>] [4 <./ResultsFigures/CD3ZetaMultipleBindingMem
 braneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/M
 emOn/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-15 18:27:18
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 59089 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/M
 emOn/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 18:42:57
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 22808 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Multipl
@@ -1245,11 +1245,11 @@ equence-eps-converted-to.pdf used on input line 93.
 (pdftex.def)             Requested size: 140.92793pt x 125.40436pt.
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/M
 emOff/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-15 18:34:05
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 58747 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/M
 emOff/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 18:42:57
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 22757 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Multip
@@ -1269,11 +1269,11 @@ Sequence-eps-converted-to.pdf used on input line 97.
 (pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/E
 venSites/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-15 18:41:57
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 61171 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/E
 venSites/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 18:42:58
+(epstopdf)                    date: 2017-05-23 11:41:26
 (epstopdf)                    size: 23576 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Mul
@@ -1324,7 +1324,7 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SimultaneousBinding.pdf (6 pages, 217683 bytes).
+Output written on SimultaneousBinding.pdf (6 pages, 217774 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
