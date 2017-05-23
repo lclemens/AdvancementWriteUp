@@ -19,19 +19,25 @@ This type of interaction arises frequently with clustered reactions.  For instan
 
 \subsubsection{SHP-1}
 
-\hl{Paragraph about SHP1}
+\hl{Paragraph about SHP1/PD-1/ITIM?}
 
 \hl{reread SPR paper} 
 
+\hl{read SHP-1/PD-1 review paper}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Model and Methods}
-\subsubsection{Model Tethers as Freely Jointed Chain}
 
-We explore the effects of a surface on three different tethers, each modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths.  For each tether, we assume a Kuhn length,$\delta$, of 0.3nm, as supported by \hl{CITATION HERE}. Given that these tethers are made up of PEG linkers and amino acids, each of which is approximately the size of a Kuhn length, the lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids. Note that we consider the size of biotin to be negligible for our simulation.
+\hl{local vs effective concentration?}
 
+We first investigate the effects of a surface on a single tether without a bound ligand in free-space and half-space. We model the tether as a freely-jointed chain and the unbound ligand as an idealized ghost sphere tangentially located at a single segment. \hl{Is it clear what this means?} To explore the effects of a surface on a single tether, we vary the number of segments and the size of the incoming ligand. We calculate quasi-equilibrium statistics for the FJC and unbound ligand in both free-space and half-space. We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. 
+
+We next explore the effects of a surface on three specific tethers: PD-1, PEG-3, and PEG-28.  PEG-3 and PEG-28 are tethers created by attaching a single immunoreceptor tyrosine inhibitory motif (ITIM) to a series of PEG linkers. Each tether is modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths.  For each tether, we assume a Kuhn length, $\delta$, of 0.3nm, as supported by \hl{CITATION HERE}. Given that these tethers are made up of PEG linkers and amino acids, each of which is approximately the size of a Kuhn length, the lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids. Note that we consider the size of biotin to be negligible for our simulation. (Table \ref{table: Tethers})
 
 %% Table of Tethers
-
+\begin{table}
+\caption{Structure and number of simulated segments in each explored tether. \label{table: Tethers}}
 \begin{center}
 \begin{tabular}{| c | p{10cm} | c |}
     \hline
@@ -44,10 +50,9 @@ We explore the effects of a surface on three different tethers, each modeled as 
     \hline
 \end{tabular}
 \end{center}
+\end{table}
 
-\subsubsection{SHP1 Parameters}
-
-We estimate the volume of SHP-1 based on its molecular weight, 67561$Da$,  as listed in UniProt entry P29350. We use an average protein density of 1.41$g/cm^3$ (Fischer et al. 2004 Protein Sci).
+We investigate SHP-1 as a ligand bound to a tether. In order to simulate SHP-1 as a simple sphere, we estimate its size using three different methods. \hl{better word than methods?} We first estimate the volume of SHP-1 based on its molecular weight, 67561$Da$,  as listed in UniProt entry P29350, assuming an average protein density of 1.41$g/cm^3$. \cite{Fischer2004}
 
 %\cite{UniProtSHP1} 
 %\cite{FischerProteinSci2004}
@@ -56,7 +61,7 @@ We estimate the volume of SHP-1 based on its molecular weight, 67561$Da$,  as li
 (67.5 \times 1000 \mbox{Da}) * (1.66\times10^{-27} \mbox{kg / Da}) * (1000 \mbox{g / kg}) / (1.41 \mbox{g / cm}^3) = 79.468 \nm^3.
 \end{equation*}
 
-If we then approximate the phosphatase domain as a sphere, then we can estimate a radius: 
+Approximating the phosphatase domain as a sphere, we can estimate a radius: 
 
 \begin{align*}
 V &= \frac{4}{3}\pi r^3 \\
@@ -64,94 +69,100 @@ V &= \frac{4}{3}\pi r^3 \\
 r &\approx 2.7 \nm \\
 \end{align*}
 
-For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMol measurements of the SHP-1 structure (PDB 3PS5). Rounding up for measurement error, the longest part of the structure is 86 \AA. From this we calculate a maximum radius of 4.3$nm$.
+For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMol measurements of the SHP-1 structure (PDB 3PS5). Rounding up for measurement error, the longest part of the structure is 86 \AA. (Fig. \ref{fig: SHP1Diag}) From this we calculate a maximum radius of 4.3$nm$.
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{ResultsFigures/SHP1PyMol/Diagonal1.png}
-\caption{Measurement of maximum length (in Angstroms) of SHP-1 (PDB 3PS5). }
+\begin{center}
+\includegraphics[width=0.5\linewidth]{ResultsFigures/SHP1PyMol/Diagonal1.eps}
+\end{center}
+\caption{Measurement of maximum length of SHP-1 (PDB 3PS5). \label{fig: SHP1Diag}}
 \end{figure}
 
-Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and then create a spherical approximation of equal volume. We estimate the length, width and depth of SHP-1 to be 76\AA, 36\AA, and 58\AA respectively, giving a volume of 158688\AA$^3$.  From this, we calculate the radius for a spherical approximation to be 3.4nm.
+Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and then create a spherical approximation of equal volume. We estimate the length, width and depth of SHP-1 to be 76\AA, 36\AA, and 58\text{\AA} respectively, giving a volume of 158688\AA$^3$.  (Fig. \ref{fig: SHP1Rectangle}) From this, we calculate the radius for a spherical approximation to be 3.4nm.
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{ResultsFigures/SHP1PyMol/LengthWidthDepth.png}
-\caption{Measurement of rectangular dimensions (in Angstroms) of SHP-1 (PDB 3PS5).  }
+\begin{center}
+\includegraphics[width=0.4\linewidth]{ResultsFigures/SHP1PyMol/LengthWidthDepth.eps}
+\end{center}
+\caption{Measurement of rectangular dimensions of SHP-1 (PDB 3PS5).  \label{fig: SHP1Rectangle} }
 \end{figure}
 
 % description of simulation - polymer-c code
-Using the parameters estimated above, we simulate two equivalent tethers in free-space and half-space.  The idealized SHP1 sphere, or ligand, is bound to the end of one of the tethers.  The second tether has a ghost ligand attached in the same location.  (Fig 3) We allow each tether to explore conformation space, at each conformation determining if the ghost ligand is occluded by the rest of the tether, or in half-space, by the half-space barrier. For the tether with the ghost ligand, we record both the location of the center of the ligand and whether or not it was occluded at each conformation.  For the tether with the bound ligand, we only record the location. 
+\hl{Should I specify at any point C vs matlab?}
 
-% description of simulation - matlab code
-The local concentration is alternately considered as the probability that the bound ligand is able to bind at the site of the ghost ligand within a small radius. \hl{I don't like this description}  To calculate this, we separate the the tethers from each other by a distance, $\rho$, measured in Kuhn lengths by adding $\rho$ to the $x$-coordinate of the ghost ligand. We then measure the distance between the two ligand centers, bound and ghost. If the centers are within a cutoff distance from each other AND the ghost sphere is not occluded, then the bound ligand is able to bind.  This is calculated as a probability, which is then converted to a local concentration by dividing by the volume of the sphere defined by the cutoff radius.
+Using the parameters estimated above, we simulate two equivalent tethers.  The idealized SHP1 sphere, or ligand, is bound to the end of one of the tethers. The bound ligand is simulated as an idealized sphere which rotates with the tether.  The bound ligand may not occupy the same space as the tether nor may it penetrate the surface if present. The second tether has a ghost ligand attached in the same location.  (Fig. \ref{fig: LocalConcCartoon}) We allow each tether to explore conformation space, at each conformation determining if the ghost ligand is occluded by the rest of the tether, or in half-space, by the surface. For the tether with the ghost ligand, we record both the location of the center of the ligand and whether or not it was occluded at each conformation.  For the tether with the bound ligand, we only record the location. For these simulations, we assume the two tethers are independent and do not sterically influence each other.
 
 %% Diagram of simulation
 \begin{figure}
 \includegraphics[width=\linewidth]{Diagram.png}
-\caption{Cartoon of local concentration simulation in half space.}
+\caption{Cartoon of local concentration simulation in half space. \label{fig: LocalConcCartoon}}
 \end{figure}
 
-\hl{Rewrite this section}
-
-The theoretical local concentration for two tethers a distance $\rho$ apart can be given by the following equation if both tethers are perfect worm-like chains:
-
-\begin{equation}
-    \sigma_{WLC}(\rho) = \left(\frac{3}{2\pi}\right)^{3/2} \frac{1}{L^3}e^{-\frac{3\rho^2}{2L^2}}
-\end{equation}
-
-Experimentally, we measure the reaction rate $R(\rho)$.  This equation is the product of a $k_{cat}$ and $\sigma(\rho)$.  If the two tethers were perfect worm-like chains and the attached ligand did not impact the local concentration then when we fit the experimental $R(\rho)$ to $\sigma_{WLC}(\rho)$, we would have $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$. However, since this is unlikely to be the case, if we fit to the WLC theory curve anyway, then we actually have $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$. Instead, if we consider our simulated data to be the true local concentration and we fit a half-gaussian curve, $\sigma_{fit}(\rho)$, to the data, then we would have $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$, where $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$.
-
-We can use the simulated data to give an estimate of how incorrect $k^{false}_{cat}$ is compared to $k^{true}_{cat}$. We'll call this ratio $\kappa_{cat}$. Since we measured $R(\rho)$ experimentally, we must have:
-
-\todo{This doesn't look super pretty}
-
-\begin{align*}
-R(\rho) &= R(\rho) \\
-k^{false}_{cat}*\sigma_{WLC}(\rho, L) &= k^{true}_{cat}*\sigma_{fit}(\rho, a, c) \\
-\kappa_{cat} = \frac{k^{false}_{cat}}{k^{true}_{cat}} &= \frac{\sigma_{fit}(\rho, a, c)}{\sigma_{WLC}(\rho, L)} \\
-\kappa_{cat} &= \frac{a*e^{-\rho^2/c^2}}{\left(\frac{3}{2\pi}\right)^{3/2} \frac{1}{L^3}e^{-\frac{3\rho^2}{2L^2}}} \\
-\kappa_{cat} &= \frac{aL^3}{\left(\frac{3}{2\pi}\right)^{3/2}} \\
-\kappa_{cat} &= \frac{a\left(\sqrt{\frac{3}{2}}c\right)^3}{\left(\frac{3}{2\pi}\right)^{3/2} } \\
-\kappa_{cat} &= ac^3\pi^{3/2}\\
-\end{align*}
-
-if we \hl{assume? note?} $c^2 = \sqrt{\frac{2}{3}}L^2 \implies L = \sqrt{\frac{3}{2}}c$.
-
-%summary table of possible fits to experimental data
-\begin{center}
-\begin{tabular}{| c | c | c |}
-    \hline
-        Model & Truth & Result \\ 
-        \hline 
-        Worm-like chain     &   T   &   $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$    \\
-        & & \\
-        Worm-like chain     &   F   &   $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$   \\ 
-        & & \\
-        Half-gaussian fit   &   T   &   $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$    \\
-    \hline
-\end{tabular}
-\end{center}
+% description of simulation - matlab code
+We compute the local concentration as the probability that the bound ligand is near the binding site (where near is defined by within some small radius) and the binding site is not occluded by the rest of the polymer. To calculate this, we separate the the tethers from each other by a distance, $\rho$, measured in Kuhn lengths by adding $\rho$ to the $x$-coordinate of the ghost ligand. We then measure the distance between the centers of the bound and ghost ligands. If the centers are within a cutoff distance from each other AND the ghost sphere is not occluded, then the bound ligand is able to bind.  The local concentration is calculated by dividing the probability the ligand can bind by the volume of the sphere defined by the cutoff radius.
 
 
-We must therefore find appropriate $a$ and $c$ values for our half-gaussian fit in order to calculate the error.
-
-\subsubsection{Curve Fitting}
-
-\todo{Be consistent about $\sigma(r)$, $\rho$ etc.}
-
-To fit a half-gaussian curve to the simulation data, we use both Matlab's lsqcurvefit and fminsearch functions to fit the function $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$ to the data. The lsqcurvefit function uses the Trust-Region-Reflective Least Squares Algorithm by default whereas fminsearch uses the Nelder-Mead simplex algorithm. \todo{Reference Lagarias et al. ?}  The Nelder-Mead algorithm provides parameters, aFit and cFit, that better fit the data compared to the Trust-Region-Reflective Least Squares Algorithm. When we run a parameter sweep to heuristically determine if these are the optimal parameters, we find that the sum of least squares obtain using $aFit$ and $cFit$ is consistently lower than that of the lowest found with any of our sweep parameters.  Additionally, when we use the parameters which minimize the sum of least squares from our sweep to initialize the fminsearch function, our fit parameters change minimally and the sum of least squares differs by less than $10^{-10}$. For simplicity, we therefore use the fit parameters obtained from the Nelder-Mead algorithm.
-
-\todo{clean up the language - too many fit parameters.  Is it ok to reference them by function name vs algorithm name?}
+% description of curve fitting
+We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. \todo{Reference Lagarias et al. ?} The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
 
 
+%
+%The theoretical local concentration for two tethers a distance $\rho$ apart can be given by the following equation if both tethers are perfect worm-like chains:
+%
+%\begin{equation}
+%    \sigma_{WLC}(\rho) = \left(\frac{3}{2\pi}\right)^{3/2} \frac{1}{L^3}e^{-\frac{3\rho^2}{2L^2}}
+%\end{equation}
+%
+%Experimentally, we measure the reaction rate $R(\rho)$.  This equation is the product of a $k_{cat}$ and $\sigma(\rho)$.  If the two tethers were perfect worm-like chains and the attached ligand did not impact the local concentration then when we fit the experimental $R(\rho)$ to $\sigma_{WLC}(\rho)$, we would have $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$. However, since this is unlikely to be the case, if we fit to the WLC theory curve anyway, then we actually have $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$. Instead, if we consider our simulated data to be the true local concentration and we fit a half-gaussian curve, $\sigma_{fit}(\rho)$, to the data, then we would have $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$, where $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$.
+%
+%We can use the simulated data to give an estimate of how incorrect $k^{false}_{cat}$ is compared to $k^{true}_{cat}$. We'll call this ratio $\kappa_{cat}$. Since we measured $R(\rho)$ experimentally, we must have:
+%
+%\todo{This doesn't look super pretty}
+%
+%\begin{align*}
+%R(\rho) &= R(\rho) \\
+%k^{false}_{cat}*\sigma_{WLC}(\rho, L) &= k^{true}_{cat}*\sigma_{fit}(\rho, a, c) \\
+%\kappa_{cat} = \frac{k^{false}_{cat}}{k^{true}_{cat}} &= \frac{\sigma_{fit}(\rho, a, c)}{\sigma_{WLC}(\rho, L)} \\
+%\kappa_{cat} &= \frac{a*e^{-\rho^2/c^2}}{\left(\frac{3}{2\pi}\right)^{3/2} \frac{1}{L^3}e^{-\frac{3\rho^2}{2L^2}}} \\
+%\kappa_{cat} &= \frac{aL^3}{\left(\frac{3}{2\pi}\right)^{3/2}} \\
+%\kappa_{cat} &= \frac{a\left(\sqrt{\frac{3}{2}}c\right)^3}{\left(\frac{3}{2\pi}\right)^{3/2} } \\
+%\kappa_{cat} &= ac^3\pi^{3/2}\\
+%\end{align*}
+%
+%if we \hl{assume? note?} $c^2 = \sqrt{\frac{2}{3}}L^2 \implies L = \sqrt{\frac{3}{2}}c$.
+%
+%%summary table of possible fits to experimental data
+%\begin{center}
+%\begin{tabular}{| c | c | c |}
+%    \hline
+%        Model & Truth & Result \\ 
+%        \hline 
+%        Worm-like chain     &   T   &   $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$    \\
+%        & & \\
+%        Worm-like chain     &   F   &   $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$   \\ 
+%        & & \\
+%        Half-gaussian fit   &   T   &   $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$    \\
+%    \hline
+%\end{tabular}
+%\end{center}
+%
+%
+%We must therefore find appropriate $a$ and $c$ values for our half-gaussian fit in order to calculate the error.
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Results}
 
 \subsubsection{Accessibility of a reaction site is reduced by the presence of a surface}
 
+We first investigate how the presence of a surface impacts binding of a ligand to a single tether compared to in free-space. We find that a surface consistently net decreases the probability a ligand can bind to a tether, irrespective of tether length or ligand size. For long tethers, the surface reduction is minimal, in some parameters almost eliminating the difference. A larger ligand creates a larger fold decrease in the ability of the kinase to bind in half-space. (Fig. \ref{fig: OcclusionVSN})
+
 
 \hl{Pick one of these?}
 \hl{make one figure in inkscape to control spacing}
-
+\hl{make figure labels match description or vice versa}
 \begin{figure}[H]
     \begin{center}
         \begin{subfigure}{\linewidth}
@@ -162,50 +173,47 @@ To fit a half-gaussian curve to the simulation data, we use both Matlab's lsqcur
         		\includegraphics[width=\linewidth]{ResultsFigures/BindingSurfaceFactor/BindingVSN.eps}
         		\caption{}
         \end{subfigure}
-        \caption{}
-    \end{center}
+        \caption{Probability of ligand being occluded, $p_{occ}$, (top row) and probability of ligand binding, $1-p_{occ}$, (bottom row) as a function of tether length for various ligand radii. Free-space (left column) half-space (middle), and the ratio of probabilities half-space to free-space (right). \label{fig: OcclusionVSN} }
+       \end{center}
 \end{figure}
 
 \subsubsection{Reactions between tethered reactants are net enhanced by a surface}
 
-We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is a description of how often a ligand bound to the end of one polymer encounters a binding site on the end of a second polymer, with the two polymers separated by some distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the cutoff considered local. \hl{weird wording} However, when we introduce a surface or ligand of nonzero size, the worm-like chain model no longer describes the effective concentration.  We see that the surface enhances the effective concentration over the free space values but that a larger ligand size reduces the effective concentration.
+We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is a description of how often a ligand bound to the end of one polymer encounters a binding site on the end of a second polymer, with the two polymers separated by some distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the cutoff distance for the binding encounter. \hl{weird wording} Naturally, when we introduce a surface or ligand of nonzero size, the worm-like chain model no longer describes the effective concentration.  We see that the surface enhances the effective concentration over the free space values but that a larger ligand size reduces the effective concentration. (Fig. \ref{fig: ConcVSSeparation})
 
 \hl{Should really use SHP1 parameters for this figure.}
 \begin{figure}[H]
     \begin{center}
         		\includegraphics[width=0.8\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationVSSeparation.eps}
-        \caption{}
+        \caption{Local concentration as a function of tether separation distance. \label{fig: ConcVSSeparation}}
     \end{center}
 \end{figure}
 
-\begin{figure}[H]
-    \begin{center}
-        		\includegraphics[width=0.8\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationNondimVSSeparation.eps}
-        \caption{}
-    \end{center}
-\end{figure}
-
-
+%\begin{figure}[H]
+%    \begin{center}
+%        		\includegraphics[width=0.8\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationNondimVSSeparation.eps}
+%        \caption{}
+%    \end{center}
+%\end{figure}
 
 
 \subsubsection{Reach parameter is unaffected by presence of surface}
 
-Our data shown earlier indicates that the presence of a surface will stretch a polymer compared to in free space. We would expect this straightening to also increase the reach parameter for the effective concentration. When we fit a half-gaussian curve to the simulated effective concentration curves, we find that the reach parameter, c, is unaffected by the presence of a surface. This parameter changes based on polymer length and ligand size, but is not impacted by a surface. 
-
+We fit a half-gaussian curve to the simulated local concentration data and compare the `reach parameter', $c$, in free-space to half-space. Our data shown earlier indicates that the presence of a surface will extend a single polymer compared to in free space. We would expect this straightening to also increase the reach parameter for the effective concentration. However, we find that the reach parameter, $c$, is unaffected by the presence of a surface. This parameter changes based on polymer length and ligand size, but not presence of a surface. 
 
 \hl{include curve fitting figure?}
 
 \begin{figure}[H]
     \begin{center}
         		\includegraphics[width=\linewidth]{ResultsFigures/ReachSurfaceFactor/ReachParameterFreeHalfAxisEqual.eps}
-        \caption{}
+        \caption{Reach parameter of half-gaussian fit to local concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue) with 95\% confidence intervals for the fit. \label{fig: ReachParameter}}
     \end{center}
 \end{figure}
 
 \begin{figure}[H]
     \begin{center}
         		\includegraphics[width=0.7\linewidth]{ResultsFigures/ReachSurfaceFactor/ReachSurfaceFactor.eps}
-        \caption{}
+        \caption{Ratio of half-space fitted reach parameter to free-space fitted reach parameter as a function of tether length, $N$ (Kuhn lengths), for various ligand radii. \label{fig: ReachSurfaceFactor}}
     \end{center}
 \end{figure}
 
