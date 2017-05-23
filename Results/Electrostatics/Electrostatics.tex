@@ -104,7 +104,7 @@ Group Number & Electrostatic Potential Relationship \\
 \begin{table}[H]
     \caption{Cytoplasmic amino acid sequence of CD3$\zeta$ and $\epsilon$ chains.  Basic residues (arginine, lysine, histidine) and tyrosines are highlighted separately in sequence.  Relative numeric location in cytoplasmic sequence and fraction of residues from that group are noted. \label{table: BasicsYLocation}}
     \begin{center}
-    \begin{tabular}{|c|p{2cm}|p{8cm}|p{3.5cm}|p{1.6cm}|}
+    \begin{tabular}{|c|p{2cm}|p{6cm}|p{3.5cm}|p{1.6cm}|}
     	\hline
 	Chain 		& 		Group			&		Location in Cytoplasmic Sequence	&	Numeric Location		&		\# / Total	\\
 	\hline
@@ -112,10 +112,11 @@ Group Number & Electrostatic Potential Relationship \\
 	
     	\multicolumn{1}{|c|}{\multirow{2}[0]{*}{CD3$\zeta$}} 	&  	Basic Residues				& 	
 	
-	\hl{R}A\hl{K}FS\hl{R}SAETAANLQDPNQLYNELNLG\hl{RR}
-	EEYDVLE\hl{KKR}A\hl{R}DPEMGG\hl{K}QQ\hl{RRR}NPQE
-	GVYNALQ\hl{K}D\hl{K}MAEAYSEIGT\hl{K}GE\hl{RRR}
-	G\hl{K}GHDGLYQGLSTAT\hl{K}DTYDAL\hl{H}MQTLAP\hl{R}			& 	
+	\hl{R}A\hl{K}FS\hl{R}SAETAANLQDPNQLYNE
+	LNLG\hl{RR}EEYDVLE\hl{KKR}A\hl{R}DPEMG
+	G\hl{K}QQ\hl{RRR}NPQEGVYNALQ\hl{K}D\hl{K}M
+	AEAYSEIGT\hl{K}GE\hl{RRR}G\hl{K}GHDGLY
+	QGLSTAT\hl{K}DTYDAL\hl{H}MQTLAP\hl{R}			& 	
 	
 	1,3,5,28,29,37,38,
 	39,41,48,51,52,53,60,65,
@@ -129,10 +130,11 @@ Group Number & Electrostatic Potential Relationship \\
 	
 		&	 Tyrosines									&	
 	
-	RAKFSRSAETAANLQDPNQL\hl{Y}NELNLGRR
-	EE\hl{Y}DVLEKKRARDPEMGGKQQRRRNPQE
-	GV\hl{Y}NALQKDKMAEA\hl{Y}SEIGTKGERRR
-	GKGHDGL\hl{Y}QGLSTATKDT\hl{Y}DALHMQTLAPR 				& 	
+	RAKFSRSAETAANLQDPNQL\hl{Y}NE
+	LNLGRREE\hl{Y}DVLEKKRARDPEMG
+	GKQQRRRNPQEGV\hl{Y}NALQKDKM
+	AEA\hl{Y}SEIGTKGERRRGKGHDGL\hl{Y}
+	QGLSTATKDT\hl{Y}DALHMQTLAPR 				& 	
 	
 	21,32,60,72,91,102											&	
 	
@@ -142,8 +144,9 @@ Group Number & Electrostatic Potential Relationship \\
 	
 	\multicolumn{1}{|c|}{\multirow{2}{*}{CD3$\epsilon$}}	&	 Basics Residues		&
 	
-	WS\hl{K}N\hl{RK}A\hl{K}A\hl{K}PVT\hl{R}GAGAGG\hl{R}Q\hl{R}GQN\hl{K}E\hl{R}
-	PPPVPNPDYEPI\hl{RK}GQ\hl{R}DLYSGLNQ\hl{RR}I					& 	
+	WS\hl{K}N\hl{RK}A\hl{K}A\hl{K}PVT\hl{R}GAGAGG\hl{R}Q
+	\hl{R}GQN\hl{K}E\hl{R}PPPVPNPDYEPI\hl{RK}GQ
+	\hl{R}DLYSGLNQ\hl{RR}I					& 	
 	
 	3,5,6,8,10,14,21,23,27,
 	29,42,43,46,55,56	&		
@@ -154,8 +157,9 @@ Group Number & Electrostatic Potential Relationship \\
 	
 		&		 Tyrosines				& 	
 	
-	WSKNRKAKAKPVTRGAGAGGRQRGQNKER
-	PPPVPNPD\hl{Y}EPIRKGQRDL\hl{Y}SGLNQRRI			&
+	WSKNRKAKAKPVTRGAGAGGRQ
+	RGQNKERPPPVPNPD\hl{Y}EPIRKGQ
+	RDL\hl{Y}SGLNQRRI			&
 	
 	 38,49		& 		
 	 
@@ -175,11 +179,7 @@ Group Number & Electrostatic Potential Relationship \\
 
 \subsubsection{Electrostatic Potentials}
 
-There are many more basic residues compared to tyrosines in both the CD3$\zeta$ and $\epsilon$ chains.  Therefore, in order to account for tyrosine phosphorylation being sufficient to dissociate the polymer from the membrane, we would expect a repulsive force from the phosphorylated tyrosines. This directs our focus to Groups 3,4, and 5. Of these, we wish to look at the simplest cases first.  Therefore we consider the case where tyrosines do not experience their own potential but experience the potential of either the basic residues or experience the same potential as the rest of the amino acids.  Since tyrosines are not positively charged, it seems less likely that they would experience the same force as the basic residues.  Although their aromatic ring structure may help to anchor the polymer to the membrane once associated with the membrane, it would not drive the polymer to the membrane to begin with. \cite{Lopez2015} Therefore we focus initial efforts on Group 5.
-
-\hl{It's possible I didn't need any of the above about different groups......`results not process' idea.}
-
-There are many types of electric potential we could explore for the correct behavior.  Given that one of the phenomenons we wish to match is an approximately Gaussian distribution of both the tyrosines and polymer along the membrane edge, we use a parabolic-constant piecewise potential for our basic residues, instead of a Lennard-Jones potential.
+The model where basic residues and tyrosines have similar energetics (Table \ref{table: BasicsYLocation}, Group 1) is the simplest case to explore. There are many types of electric potential we could explore for the correct behavior.  Given that one of the phenomenons we wish to match is an approximately Gaussian distribution of both the tyrosines and polymer along the membrane edge, we use a parabolic-constant piecewise potential for our basic residues and tyrosines, instead of a Lennard-Jones potential. 
 
 Parabolic-constant piecewise potential:
 
@@ -191,7 +191,7 @@ width*z^2-depth 	& z<\sqrt{\frac{depth}{width}}\\
 \end{cases}
 \end{equation}
 
-We have two possible potentials for the remaining amino acids.  In general, the peptide should not be able to penetrate deep into the membrane. Therefore, we can implement a hardwall or softwall constraint. The hardwall will prevent the remaining amino acids from passing the beginning of the membrane. A softwall constraint will allow amino acids to enter the membrane, but will incur an energetic penalty. 
+We have two possible potentials for the remaining amino acids.  In general, the peptide should not be able to penetrate deep into the membrane. Therefore, we can implement a hardwall or softwall constraint. The hardwall will prevent the remaining amino acids from passing the beginning of the membrane. A softwall constraint will allow amino acids to enter the membrane, but will incur an energetic penalty. For this initial model, phosphotyrosines will follow this potential also.
 
 Hardwall:
 
@@ -212,9 +212,9 @@ k*z^2 	& z < 0\\
 \end{cases}
 \end{equation}
 
+We later develop a more complicated but possibly more motivated model with a repulsive force on the phosphotyrosines. There are many more basic residues compared to tyrosines in both the CD3$\zeta$ and $\epsilon$ chains.  Therefore, in order to account for tyrosine phosphorylation being sufficient to dissociate the polymer from the membrane, we would expect a repulsive force from the phosphorylated tyrosines. We therefore shift future focus to models of Groups 3,4, and 5. We first consider the simple case where tyrosines do not experience their own potential but experience the potential of either the basic residues or experience the same potential as the rest of the amino acids.  Since tyrosines are not positively charged, it seems less likely that they would experience the same force as the basic residues.  Although their aromatic ring structure may help to anchor the polymer to the membrane once associated with the membrane, it would not drive the polymer to the membrane to begin with. \cite{Lopez2015} Therefore we focus future efforts on Group 5.
 
-
-For the phosphorylated tyrosines, we will include an exponential distribution where the repulsive effect of the membrane drops off quickly as the phosphotyrosines move further away from the membrane.
+In this new model, we maintain the same potentials as above for the basic residues and the general amino acids, but now the tyrosines behave as generic amino acids and the phosphotyrosines feel a repulsive force. \hl{This feels overly wordy} For the phosphorylated tyrosines, we will include an exponential distribution where the repulsive effect of the membrane drops off quickly as the phosphotyrosines move further away from the membrane.
 
 
 Exponential decay:
