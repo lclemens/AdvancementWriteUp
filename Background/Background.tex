@@ -56,7 +56,7 @@ As our understanding of disordered proteins develops, so too will our understand
 \subsection{Intrinsically Disordered Proteins}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Studies have shown that disordered proteins or disordered domains are present in at least 40\% of human proteins, including those involved with signal propagation.\cite{Tompa2012} General functions of IDPs include as tethers between two globular domains \hl{cite}, receptor subunits in signaling pathways \hl{cite}, tethers to the membrane \hl{cite}, and facilitators to actin polymerization \hl{cite - formin}. Given the ubiquitous nature of IDPs, many questions arise: How does their existence influence cellular functions such as biochemical reactions, signaling networks, or cytoskeletal structure?  Are there any benefits to being disordered over structured? and Can IDPs exhibit the same complicated behavior as structured proteins?
+Studies have shown that disordered proteins or disordered domains are present in at least 40\% of human proteins, including those involved with signal propagation.\cite{Tompa2012} General functions of IDPs include as tethers between two globular domains \hl{cite}, receptor subunits in signaling pathways \hl{cite}, tethers to the membrane \hl{cite}, and facilitators to actin polymerization \hl{cite Bryant2017 or someone else older?}. Given the ubiquitous nature of IDPs, many questions arise: How does their existence influence cellular functions such as biochemical reactions, signaling networks, or cytoskeletal structure?  Are there any benefits to being disordered over structured? and Can IDPs exhibit the same complicated behavior as structured proteins?
 
 \hl{Paragraph focusing on disordered proteins in signaling pathways. E.g. CD28, CD3zeta, etc}
 
@@ -69,7 +69,7 @@ Studies have shown that disordered proteins or disordered domains are present in
 One example of an intrinsically disordered protein is the CD3 $\zeta$ chain, one of six disordered chains composing the T Cell Receptor (TCR) intracellular region. This molecule facilitates signal propagation in the TCR network in the immune system.  An antigen binding to the extracellular regions of the TCR creates a signal transmitted via a chain of events into the cell to the intracellular components of the TCR including the CD3$\zeta$ chain.  CD3$\zeta$ undergoes multiple phosphorylation by kinase Lck before another molecule, ZAP-70 can attach and propagate the signal downstream. This pathway ultimately regulates T-cell cell fate decisions through cytokines production, (i.e. interleukin-2). \hl{Cite - Cell Signal.com??} \hl{Presumably I need to cite all of this somewhere?}
 
 
-Experiments with a reconstituted mouse CD3$\zeta$ dimer have shown that the number of tyrosines impacts the potency and maximum phosphorylation but not the switch-like response \hl{reword} \cite{Mukhopadhyay2016}. Initial differential equation models indicate to achieve these characteristics, there would need to be a phosphorylation-dependent enhancement of more than 100-fold. That is, the sixth phosphorylation event would be at least 100-fold faster than the first phosphorylation event. \cite{Mukhopadhyay2016} 
+Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extracellular receptor, kinase, and phosphatase have shown that the number of tyrosines impacts the potency and maximum phosphorylation but not the switch-like response \hl{reword} \cite{Mukhopadhyay2016}. Initial differential equation models indicate to achieve these characteristics, there would need to be a phosphorylation-dependent enhancement of more than 100-fold. That is, the sixth phosphorylation event would be at least 100-fold faster than the first phosphorylation event. \cite{Mukhopadhyay2016} 
 
 \hl{Questions:}
 
@@ -93,7 +93,7 @@ Experiments with a reconstituted mouse CD3$\zeta$ dimer have shown that the numb
 
 \hl{Stuff about switch-like responses}
 
-Multisite phosphorylation specifically is a well-studied post-translational modification.  This phenomenon occurs on both structured and unstructured proteins in many cell systems. \hl{CITE CITE CITE} In signaling pathways, multisite phosphorylation often creates ultrasensitivity. \hl{cite, anything else?} Ultrasensitivity creating a strong response from intermediate signals while reducing the influence of noise. \hl{CD3$\zeta$ - does give ultrasensitivity and we know it or it doesn't and we know it or we don't know?} We want to explore if and how multisite phosporylation of disordered proteins conveys similar signaling functions.
+Multisite phosphorylation specifically is a well-studied post-translational modification.  This phenomenon occurs on both structured and unstructured proteins in many cell systems. \hl{CITE CITE CITE} In signaling pathways, multisite phosphorylation can create ultrasensitivity. \hl{cite, anything else?} Ultrasensitivity creates a strong response from intermediate signals and minimal \hl{none?} response from low signals which reduces the impact of noise. \hl{CD3$\zeta$ - does give ultrasensitivity and we know it or it doesn't and we know it or we don't know?} We want to explore if and how multisite phosphorylation of disordered proteins conveys similar signaling functions.
 
 
 
@@ -101,17 +101,13 @@ Multisite phosphorylation specifically is a well-studied post-translational modi
 \subsection{Previous Modeling Attempts - FJC as Model for IDPs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Disordered proteins are commonly represented with models from polymer physics.\hl{examples of where this is actually true cite\{VanValen2009\} } The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one.}\hl{Seriously - even in  cite\{Zhou2001\} }Models of disordered proteins freely-jointed chain (FJC) and WLC converge \hl{in the thermodynamic limit}, with the persistence length for the WLC as half the Kuhn length used for the FJC. \hl{cite Something} 
+Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one.}\hl{Seriously - even in Mukhopadhyay2016 cite\{Zhou2001\}}Models of disordered proteins freely-jointed chain (FJC) and WLC converge \hl{in the thermodynamic limit}, with the persistence length for the WLC as half the Kuhn length used for the FJC. \hl{cite Something} 
 
-\hl{Could explain why those models were developed - what are they good at describing}
+\todo{Could explain why those models were developed - what are they good at describing}
 
 Alternative models for multisite phosphorylation of IDPs include molecular dynamic, ordinary differential equations, or particle based models.  \hl{Cite times when each of these has been used} However, FJC or other `mesoscale' approaches reach timescales on the order of microseconds to seconds, which are computationally out of reach for traditional atomic scale MD. \hl{Cite time scales?} This approach also allows us to capture the steric effects of a disordered chain, which are missed by coarser models. \hl{Do I need to cite stuff here?}
 
 Representations of disordered proteins as freely-jointed chains have already been used to elucidate properties of IDPs. The disordered molecule, formin, captures profilin-actin monomers and delivers them to the growing end of actin, increasing the actin polymerization rate. In experimental studies of formin, exerting force on the distal end of formin counterintuitively enhances the polymerization rate two-fold over relaxed formins. \cite{Jegou2013} Models of formin as a freely-jointed chain offer an explanation for this phenomenon. A force exerted on a freely-jointed chain extends the polymer, increasing capture of profilin-actin by increasing the availabiltiy of binding sites. This increase of capture rate balances the reduction in delivery rate to have a net positive impact on the actin polymerization rate. \cite{Bryant2017}
-
-\hl{talk about initial models of TCR - aka your part in Mukhopadhyay 2016?}
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -94,6 +94,222 @@
       \endverb
       \keyw{Actin Cytoskeleton,Actin Cytoskeleton: metabolism,Actin Cytoskeleton: ultrastructure,Atomic Force,Brain,Brain: metabolism,Brain: pathology,Brain: physiopathology,Electron,Humans,Microscopy,Neurofibrillary Tangles,Neurofibrillary Tangles: metabolism,Neurofibrillary Tangles: pathology,Neurofibrillary Tangles: ultrastructure,Neurons,Neurons: metabolism,Neurons: pathology,Polymers,Polymers: metabolism,Proteomics,Proteomics: methods,Tauopathies,Tauopathies: metabolism,Tauopathies: pathology,Tauopathies: physiopathology,Transmission,tau Proteins,tau Proteins: metabolism,tau Proteins: ultrastructure}
     \endentry
+    \entry{Barber1989}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d03ffc04cfa183e73f37f93392ed551b}{%
+           family={Barber},
+           family_i={B\bibinitperiod},
+           given={E\bibnamedelima K},
+           given_i={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1a1b817b345307c2833275a26f9fea8e}{%
+           family={Dasgupta},
+           family_i={D\bibinitperiod},
+           given={J\bibnamedelima D},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c97962ab448ce6ec1890921fda618e7d}{%
+           family={Schlossman},
+           family_i={S\bibinitperiod},
+           given={S\bibnamedelima F},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9b81ded77bb33f9492e8984511c503bc}{%
+           family={Trevillyan},
+           family_i={T\bibinitperiod},
+           given={J\bibnamedelima M},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c5f3e26e6a12b84250b7bf0a2b82b4b5}{%
+           family={Rudd},
+           family_i={R\bibinitperiod},
+           given={C\bibnamedelima E},
+           given_i={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e68179bc7805dad5bca78a5a1c9f8db}
+      \strng{fullhash}{8d56e364362bc5a68eda5699b6eb748d}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many mammalian receptors have been found to regulate cell growth by virtue of a protein-tyrosine kinase domain in their cytoplasmic tail. We recently described an association of the CD4 antigen with a T-cell-specific protein-tyrosine kinase (p56lck; formerly termed pp58lck; EC 2.7.1.112). This interaction represents a potential mechanism by which T-cell growth may be regulated and offers a model by which other members of the src family (products of c-src, c-yes, c-fgr, etc.) may interact with mammalian growth factor receptors. As in the case of the CD4 antigen, the CD8 antigen appears to serve as a receptor for nonpolymorphic regions of products of the major histocompatibility complex and has been implicated in the regulation of T-cell growth. In this study, we reveal that the human CD8 antigen is also associated with the T-cell-specific protein-tyrosine kinase (p56lck). The associated p56lck kinase was detected by use of both in vitro and in vivo labeling regimes using an antiserum to the C terminus of p56lck. Two-dimensional nonequilibrium pH-gradient gel electrophoresis and sodium dodecyl sulfate/polyacrylamide gel electrophoresis demonstrated the similarity of p56lck to the protein-tyrosine kinase associated with the CD4 antigen. The catalytic activity of p56lck was revealed by the autophosphorylation of the 55- to 60-kDa kinase and the occasional labeling of a 35-kDa protein. Last, we demonstrate directly that members of the CD3 complex, including the gamma, delta, and epsilon chains, as well as a putative zeta subunit, can be phosphorylated at tyrosine residues by the CD4/CD8.p56lck complex.}
+      \field{isbn}{0027-8424 (Print) 0027-8424 (Linking)}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{9}
+      \field{title}{{The CD4 and CD8 antigens are coupled to a protein-tyrosine kinase (p56lck) that phosphorylates the CD3 complex.}}
+      \field{volume}{86}
+      \field{year}{1989}
+      \field{pages}{3277\bibrangedash 3281}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.86.9.3277
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/LckCD4CD8Associated.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/cgi/doi/10.1073/pnas.86.9.3277
+      \endverb
+    \endentry
+    \entry{Bryant2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=44c48b7bb4693b2567c01957af577fc7}{%
+           family={Bryant},
+           family_i={B\bibinitperiod},
+           given={Derek},
+           given_i={D\bibinitperiod}}}%
+        {{hash=97177fe9bcbc72bffc43e7503d2fe83d}{%
+           family={Clemens},
+           family_i={C\bibinitperiod},
+           given={Lara},
+           given_i={L\bibinitperiod}}}%
+        {{hash=720014bf68a02ca611406efcb02aff30}{%
+           family={Allard},
+           family_i={A\bibinitperiod},
+           given={Jun},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1db887af1ccaa9f202ed598672947bd}
+      \strng{fullhash}{f1db887af1ccaa9f202ed598672947bd}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many actin structures are nucleated and assembled by the barbed-end tracking polymerase formin family, including filopodia, focal adhesions, the cytokinetic ring and cell cortex. These structures respond to forces in distinct ways. Formins typically have profilin-actin binding sites embedded in highly flexible disordered FH1 domains, hypothesized to diffusively explore space to rapidly capture actin monomers for delivery to the barbed end. Recent experiments demonstrate that formin-mediated polymerization accelerates when under tension. The acceleration has been attributed to modifying the state of the FH2 domain of formin. Intriguingly, the same acceleration is reported when tension is applied to the FH1 domains, ostensibly pulling monomers away from the barbed end. Here we develop a mesoscale coarse-grain model of formin-mediated actin polymerization, including monomer capture and delivery by FH1, which sterically interacts with actin along its entire length. The binding of actin monomers to their specific sites on FH1 is entropically disfavored by the high disorder. We find that this penalty is attenuated when force is applied to the FH1 domain by revealing the binding site, increasing monomer capture efficiency. Overall polymerization rates can decrease or increase with increasing force, depending on the length of FH1 domain and location of binding site. Our results suggest that the widely varying FH1 lengths and binding site locations found in known formins could be used to differentially respond to force, depending on the actin structure being assembled. (c) 2016 Wiley Periodicals, Inc.}
+      \field{isbn}{1949-3592 (Electronic) 1949-3592 (Linking)}
+      \field{issn}{19493592}
+      \field{journaltitle}{Cytoskeleton}
+      \field{number}{1}
+      \field{title}{{Computational simulation of formin-mediated actin polymerization predicts homologue-dependent mechanosensitivity}}
+      \field{volume}{74}
+      \field{year}{2017}
+      \field{pages}{29\bibrangedash 39}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/cm.21344
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Bryant2016Cytoskeleton.pdf:pdf
+      \endverb
+      \keyw{actin,formin,freely-jointed chain,mechanosensitivity,simulation}
+    \endentry
+    \entry{Dunker2008}{article}{}
+      \name{author}{9}{}{%
+        {{hash=841944c47c227e7000e10395906c0eb7}{%
+           family={Dunker},
+           family_i={D\bibinitperiod},
+           given={A\bibnamedelima Keith},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6c0660d1b5f7ebfc3e92b7825ce36cec}{%
+           family={Oldfield},
+           family_i={O\bibinitperiod},
+           given={Christopher\bibnamedelima J},
+           given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a33cb20c0b5b37c2026ff08043228e8f}{%
+           family={Meng},
+           family_i={M\bibinitperiod},
+           given={Jingwei},
+           given_i={J\bibinitperiod}}}%
+        {{hash=1757f2ebb9d7824a097b4e5dafd9abd1}{%
+           family={Romero},
+           family_i={R\bibinitperiod},
+           given={Pedro},
+           given_i={P\bibinitperiod}}}%
+        {{hash=71af7e678661c98b57436647681c2283}{%
+           family={Yang},
+           family_i={Y\bibinitperiod},
+           given={Jack\bibnamedelima Y},
+           given_i={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=333e17224c0beda7e59eb369c0309024}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Jessica\bibnamedelima Walton},
+           given_i={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8fb81b736430e2ef26aee02a97f72f14}{%
+           family={Vacic},
+           family_i={V\bibinitperiod},
+           given={Vladimir},
+           given_i={V\bibinitperiod}}}%
+        {{hash=1713857796d5c635b18201f56d9bdf8c}{%
+           family={Obradovic},
+           family_i={O\bibinitperiod},
+           given={Zoran},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=f8964dbb5f74d3a2febf21cfeb809d44}{%
+           family={Uversky},
+           family_i={U\bibinitperiod},
+           given={Vladimir\bibnamedelima N},
+           given_i={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f397ffec6e8180e22ac899c2cfb8904e}
+      \strng{fullhash}{69d95eb27f5c6fceac2a4291ee23a2a8}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BACKGROUND: Our first predictor of protein disorder was published just over a decade ago in the Proceedings of the IEEE International Conference on Neural Networks (Romero P, Obradovic Z, Kissinger C, Villafranca JE, Dunker AK (1997) Identifying disordered regions in proteins from amino acid sequence. Proceedings of the IEEE International Conference on Neural Networks, 1: 90-95). By now more than twenty other laboratory groups have joined the efforts to improve the prediction of protein disorder. While the various prediction methodologies used for protein intrinsic disorder resemble those methodologies used for secondary structure prediction, the two types of structures are entirely different. For example, the two structural classes have very different dynamic properties, with the irregular secondary structure class being much less mobile than the disorder class. The prediction of secondary structure has been useful. On the other hand, the prediction of intrinsic disorder has been revolutionary, leading to major modifications of the more than 100 year-old views relating protein structure and function. Experimentalists have been providing evidence over many decades that some proteins lack fixed structure or are disordered (or unfolded) under physiological conditions. In addition, experimentalists are also showing that, for many proteins, their functions depend on the unstructured rather than structured state; such results are in marked contrast to the greater than hundred year old views such as the lock and key hypothesis. Despite extensive data on many important examples, including disease-associated proteins, the importance of disorder for protein function has been largely ignored. Indeed, to our knowledge, current biochemistry books don't present even one acknowledged example of a disorder-dependent function, even though some reports of disorder-dependent functions are more than 50 years old. The results from genome-wide predictions of intrinsic disorder and the results from other bioinformatics studies of intrinsic disorder are demanding attention for these proteins.$\backslash$n$\backslash$nRESULTS: Disorder prediction has been important for showing that the relatively few experimentally characterized examples are members of a very large collection of related disordered proteins that are wide-spread over all three domains of life. Many significant biological functions are now known to depend directly on, or are importantly associated with, the unfolded or partially folded state. Here our goal is to review the key discoveries and to weave these discoveries together to support novel approaches for understanding sequence-function relationships.$\backslash$n$\backslash$nCONCLUSION: Intrinsically disordered protein is common across the three domains of life, but especially common among the eukaryotic proteomes. Signaling sequences and sites of posttranslational modifications are frequently, or very likely most often, located within regions of intrinsic disorder. Disorder-to-order transitions are coupled with the adoption of different structures with different partners. Also, the flexibility of intrinsic disorder helps different disordered regions to bind to a common binding site on a common partner. Such capacity for binding diversity plays important roles in both protein-protein interaction networks and likely also in gene regulation networks. Such disorder-based signaling is further modulated in multicellular eukaryotes by alternative splicing, for which such splicing events map to regions of disorder much more often than to regions of structure. Associating alternative splicing with disorder rather than structure alleviates theoretical and experimentally observed problems associated with the folding of different length, isomeric amino acid sequences. The combination of disorder and alternative splicing is proposed to provide a mechanism for easily "trying out" different signaling pathways, thereby providing the mechanism for generating signaling diversity and enabling the evolution of cell differentiation and multicellularity. Finally, several recent small molecules of interest as potential drugs have been shown to act by blocking protein-protein interactions based on intrinsic disorder of one of the partners. Study of these examples has led to a new approach for drug discovery, and bioinformatics analysis of the human proteome suggests that various disease-associated proteins are very rich in such disorder-based drug discovery targets.}
+      \field{isbn}{10.1186/1471-2164-9-S2-S1}
+      \field{issn}{1471-2164}
+      \field{journaltitle}{BMC genomics}
+      \field{number}{Suppl 2}
+      \field{title}{{The unfoldomics decade: an update on intrinsically disordered proteins.}}
+      \field{volume}{9 Suppl 2}
+      \field{year}{2008}
+      \field{pages}{S1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1186/1471-2164-9-S2-S1
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/IDPHistory.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.biomedcentral.com/1471-2164/9/S2/S1
+      \endverb
+      \keyw{Algorithms,Alternative Splicing,Amino Acid Sequence,Binding Sites,Computational Biology,Drug Design,Humans,Protein Conformation,Protein Folding,Proteins,Proteins: chemistry,Proteins: metabolism,Sequence Analysis,Protein,Structure-Activity Relationship}
+    \endentry
+    \entry{Fischer2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dbb107bc078cb1a96251059768834446}{%
+           family={Fischer},
+           family_i={F\bibinitperiod},
+           given={Hannes},
+           given_i={H\bibinitperiod}}}%
+        {{hash=9c40ef71dd039bcfb3a21cb1b059e741}{%
+           family={Polikarpov},
+           family_i={P\bibinitperiod},
+           given={Igor},
+           given_i={I\bibinitperiod}}}%
+        {{hash=5f72253e94f2f28d4f8e8e754f8da5cf}{%
+           family={Craievich},
+           family_i={C\bibinitperiod},
+           given={Aldo\bibnamedelima F.},
+           given_i={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{967dbca57384a898285a13a4c7827ca6}
+      \strng{fullhash}{967dbca57384a898285a13a4c7827ca6}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The mass density of proteins is a relevant basic biophysical quantity. It is also a useful input parameter, for example, for three-dimensional structure determination by protein crystallography and studies of protein oligomers in solution by analytic ultracentrifugation. We have performed a critical analysis of published, theoretical, and experimental investigations about this issue and concluded that the average density of proteins is not a constant as often assumed. For proteins with a molecular weight below 20 kDa, the average density exhibits a positive deviation that increases for decreasing molecular weight. A simple molecular-weight-depending function is proposed that provides a more accurate estimate of the average protein density.}
+      \field{isbn}{0961-8368 (Print)$\backslash$r0961-8368 (Linking)}
+      \field{issn}{09618368}
+      \field{journaltitle}{Protein Science}
+      \field{number}{10}
+      \field{title}{{Average protein density is a molecular-weight-dependent function}}
+      \field{volume}{13}
+      \field{year}{2004}
+      \field{pages}{2825\bibrangedash 2828}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1110/ps.04688204
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Fischer2004ProteinDensity.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1110/ps.04688204
+      \endverb
+      \keyw{a,analytical ultracentrifugation,average density,basic biophysi-,cal quantity,molecular weight dependence,phy,protein crystallogra-,protein density,proteins,proteins is an important,the mass density of,to the volume of,which is directly related}
+    \endentry
     \entry{He2015}{article}{}
       \name{author}{10}{}{%
         {{hash=4dce9447c08c211dcf7885443878ed56}{%
@@ -153,7 +369,7 @@
       \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Prostate-associated gene 4 (PAGE4) is an intrinsically disordered cancer/testis antigen that is up-regulated in the fetal and diseased human prostate. Knocking down PAGE4 expression results in cell death, whereas its overexpression leads to a growth advantage of prostate cancer cells (Zeng, Y., He, Y., Yang, F., Mooney, S. M., Getzenberg, R. H., Orban, J., and Kulkarni, P. (2011) The cancer/testis antigen prostate-associated gene 4 (PAGE4) is a highly intrinsically disordered protein. J. Biol. Chem. 286, 13985-13994). Phosphorylation of PAGE4 at Thr-51 is critical for potentiating c-Jun transactivation, an important factor in controlling cell growth, apoptosis, and stress response. Using NMR spectroscopy, we show that the PAGE4 polypeptide chain has local and long-range conformational preferences that are perturbed by site-specific phosphorylation at Thr-51. The population of transient turn-like structures increases upon phosphorylation in an ?20-residue acidic region centered on Thr-51. This central region therefore becomes more compact and more negatively charged, with increasing intramolecular contacts to basic sequence motifs near the N and C termini. Although flexibility is decreased in the central region of phospho-PAGE4, the polypeptide chain remains highly dynamic overall. PAGE4 utilizes a transient helical structure adjacent to the central acidic region to bind c-Jun with low affinity in vitro. The binding interaction is attenuated by phosphorylation at Thr-51, most likely because of masking the effects of the more compact phosphorylated state. Therefore, phosphorylation of PAGE4 leads to conformational shifts in the dynamic ensemble, with large functional consequences. The changes in the structural ensemble induced by posttranslational modifications are similar conceptually to the conformational switching events seen in some marginally stable ("metamorphic") folded proteins in response to mutation or environmental triggers.}
+      \field{abstract}{Prostate-associated gene 4 (PAGE4) is an intrinsically disordered cancer/testis antigen that is up-regulated in the fetal and diseased human prostate. Knocking down PAGE4 expression results in cell death, whereas its overexpression leads to a growth advantage of prostate cancer cells (Zeng, Y., He, Y., Yang, F., Mooney, S. M., Getzenberg, R. H., Orban, J., and Kulkarni, P. (2011) The cancer/testis antigen prostate-associated gene 4 (PAGE4) is a highly intrinsically disordered protein. J. Biol. Chem. 286, 13985-13994). Phosphorylation of PAGE4 at Thr-51 is critical for potentiating c-Jun transactivation, an important factor in controlling cell growth, apoptosis, and stress response. Using NMR spectroscopy, we show that the PAGE4 polypeptide chain has local and long-range conformational preferences that are perturbed by site-specific phosphorylation at Thr-51. The population of transient turn-like structures increases upon phosphorylation in an \x{fffd}\x{fffd}\x{fffd}20-residue acidic region centered on Thr-51. This central region therefore becomes more compact and more negatively charged, with increasing intramolecular contacts to basic sequence motifs near the N and C termini. Although flexibility is decreased in the central region of phospho-PAGE4, the polypeptide chain remains highly dynamic overall. PAGE4 utilizes a transient helical structure adjacent to the central acidic region to bind c-Jun with low affinity in vitro. The binding interaction is attenuated by phosphorylation at Thr-51, most likely because of masking the effects of the more compact phosphorylated state. Therefore, phosphorylation of PAGE4 leads to conformational shifts in the dynamic ensemble, with large functional consequences. The changes in the structural ensemble induced by posttranslational modifications are similar conceptually to the conformational switching events seen in some marginally stable ("metamorphic") folded proteins in response to mutation or environmental triggers.}
       \field{isbn}{10.1074/jbc.M115.658583}
       \field{issn}{1083351X}
       \field{journaltitle}{Journal of Biological Chemistry}
@@ -223,6 +439,113 @@
       \endverb
       \verb{file}
       \verb :Users/laraclemens/Google Drive/Articles/LopezMembraneAssociationCD3LipidComp2015.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Mukhopadhyay2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=1e2492f4d86e8f8f0ad96de738f348e9}{%
+           family={Mukhopadhyay},
+           family_i={M\bibinitperiod},
+           given={Himadri},
+           given_i={H\bibinitperiod}}}%
+        {{hash=6bfb2d964c1a58d4af11be84c4eef97a}{%
+           family={{De Wet}},
+           family_i={D\bibinitperiod},
+           given={Ben},
+           given_i={B\bibinitperiod}}}%
+        {{hash=97177fe9bcbc72bffc43e7503d2fe83d}{%
+           family={Clemens},
+           family_i={C\bibinitperiod},
+           given={Lara},
+           given_i={L\bibinitperiod}}}%
+        {{hash=64e929fa0fb3269a547dc624f53c479e}{%
+           family={Maini},
+           family_i={M\bibinitperiod},
+           given={Philip\bibnamedelima K.},
+           given_i={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=720014bf68a02ca611406efcb02aff30}{%
+           family={Allard},
+           family_i={A\bibinitperiod},
+           given={Jun},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f99cfbe04b54ef0411b5916859ffcfe1}{%
+           family={{Van Der Merwe}},
+           family_i={V\bibinitperiod},
+           given={P.\bibnamedelimi Anton},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=042bc7d3a2659ccc5351a4c78dd7471d}{%
+           family={Dushek},
+           family_i={D\bibinitperiod},
+           given={Omer},
+           given_i={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Authors}%
+      }
+      \strng{namehash}{df18e8da670768925add8e950e59a906}
+      \strng{fullhash}{eb7ffe8ed0e9fd9e207db2c45e887ad4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multisite phosphorylation is ubiquitous in cellular signaling and is thought to provide signaling proteins with additional regulatory mechanisms. Indeed, mathematical models have revealed a large number of mechanisms by which multisite phosphorylation can produce switchlike responses. The T cell antigen receptor (TCR) is a multisubunit receptor on the surface of T cells that is a prototypical multisite substrate as it contains 20 sites that are distributed on 10 conserved immunoreceptor tyrosine-based activation motifs (ITAMs). The TCR ??-chain is a homodimer subunit that contains six ITAMs (12 sites) and exhibits a number of properties that are predicted to be sufficient for a switchlike response. We have used cellular reconstitution to systematically study multisite phosphorylation of the TCR ??-chain. We find that multisite phosphorylation proceeds by a nonsequential random mechanism, and find no evidence that multiple ITAMs modulate a switchlike response but do find that they alter receptor potency and maximum phosphorylation. Modulation of receptor potency can be explained by a reduction in molecular entropy of the disordered ??-chain upon phosphorylation. We further find that the tyrosine kinase ZAP-70 increases receptor potency but does not modulate the switchlike response. In contrast to other multisite proteins, where phosphorylations act in strong concert to modulate protein function, we suggest that the multiple ITAMs on the TCR function mainly to amplify subsequent signaling.}
+      \field{isbn}{1542-0086 (Electronic)$\backslash$r0006-3495 (Linking)}
+      \field{issn}{15420086}
+      \field{journaltitle}{Biophysical Journal}
+      \field{number}{8}
+      \field{title}{{Multisite Phosphorylation Modulates the T Cell Receptor ??-Chain Potency but not the Switchlike Response}}
+      \field{volume}{110}
+      \field{year}{2016}
+      \field{pages}{1896\bibrangedash 1906}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2016.03.024
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/BiophysJ2016.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.bpj.2016.03.024
+      \endverb
+    \endentry
+    \entry{Reeves2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=49755a39acf7576af5d70165a3fe939c}{%
+           family={Reeves},
+           family_i={R\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=dc543e1879f2970cf0f20090a0f55ea4}{%
+           family={Cheveralls},
+           family_i={C\bibinitperiod},
+           given={Keith},
+           given_i={K\bibinitperiod}}}%
+        {{hash=714abb902c5eb54bb42fb1497ef6b137}{%
+           family={Kondev},
+           family_i={K\bibinitperiod},
+           given={Jane},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{57190082b596faea1f3d07d163d0302d}
+      \strng{fullhash}{57190082b596faea1f3d07d163d0302d}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We explore how ligand-receptor binding kinetics can be controlled by tethering the receptor to the end of a flexible polymer. The tether confines the diffusive motion of the receptor thus influencing the rate at which it captures ligands that are free in solution. We compute steady-state collision rates between ligand and receptor for this "tethered-capture" mechanism using a combination of analytic and numerical techniques. In doing so, we uncover a dimensionless control parameter, the "opacity," that determines under what conditions and to what extent a tether regulates the ligand-receptor collision rate. We compute the opacity for a number of different tethering scenarios that appear in biology and use these results to predict the affect of changing the length and flexibility of the tether on the rate at which ligands are captured from solution.}
+      \field{issn}{15393755}
+      \field{journaltitle}{Physical Review E - Statistical, Nonlinear, and Soft Matter Physics}
+      \field{number}{2}
+      \field{title}{{Regulation of biochemical reaction rates by flexible tethers}}
+      \field{volume}{84}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.84.021914
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Library/Application Support/Mendeley Desktop/Downloaded/Reeves, Cheveralls, Kondev - 2011 - Regulation of biochemical reaction rates by flexible tethers.pdf:pdf
       \endverb
     \endentry
     \entry{Tompa2012}{article}{}
@@ -306,39 +629,69 @@
       \verb http://dx.doi.org/10.1016/j.bpj.2008.10.052
       \endverb
     \endentry
-    \entry{Zhou2001}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9484b95d2f15676c9ae00246289ad46c}{%
-           family={Zhou},
-           family_i={Z\bibinitperiod},
-           given={Huan\bibnamedelima Xiang},
-           given_i={H\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+    \entry{Wu2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7bb2d83991df51fab82e334ba89d1132}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={Wei},
+           given_i={W\bibinitperiod}}}%
+        {{hash=6859fd6001458de99e6e5c22f8fc9ce3}{%
+           family={Yan},
+           family_i={Y\bibinitperiod},
+           given={Chengsong},
+           given_i={C\bibinitperiod}}}%
+        {{hash=84491077ea967e00d437f6f79236470b}{%
+           family={Shi},
+           family_i={S\bibinitperiod},
+           given={Xiaoshan},
+           given_i={X\bibinitperiod}}}%
+        {{hash=b92574d717879a1c4eb461081776acaf}{%
+           family={Li},
+           family_i={L\bibinitperiod},
+           given={Lunyi},
+           given_i={L\bibinitperiod}}}%
+        {{hash=9f4a90ac6ca6eea8ad9db4b006483337}{%
+           family={Liu},
+           family_i={L\bibinitperiod},
+           given={Wanli},
+           given_i={W\bibinitperiod}}}%
+        {{hash=4cfe6d004f6237f4f30b33cf14af2430}{%
+           family={Xu},
+           family_i={X\bibinitperiod},
+           given={Chenqi},
+           given_i={C\bibinitperiod}}}%
       }
-      \strng{namehash}{9484b95d2f15676c9ae00246289ad46c}
-      \strng{fullhash}{9484b95d2f15676c9ae00246289ad46c}
-      \field{sortinit}{Z}
-      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{95a5b9d20e620247996b4690be15bbe3}
+      \strng{fullhash}{0ae1c7fc4f98bb3dafedb514fb5fa3ec}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.$\backslash$nThe end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.}
-      \field{isbn}{105-29-6763}
-      \field{issn}{10895647}
-      \field{journaltitle}{Journal of Physical Chemistry B}
-      \field{number}{29}
-      \field{title}{{Loops in proteins can be modeled as worm-like chains}}
-      \field{volume}{105}
-      \field{year}{2001}
-      \field{pages}{6763\bibrangedash 6766}
-      \range{pages}{4}
+      \field{annotation}{Calcium, electrostatics, CD3Zeta to membrane}
+      \field{issn}{0079-6107}
+      \field{journaltitle}{Progress in Biophysics and Molecular Biology}
+      \field{number}{3}
+      \field{title}{{Lipid in T-cell receptor transmembrane signaling}}
+      \field{volume}{118}
+      \field{year}{2015}
+      \field{pages}{130\bibrangedash 138}
+      \range{pages}{9}
       \verb{doi}
-      \verb 10.1021/jp011355n
+      \verb 10.1016/j.pbiomolbio.2015.04.004
       \endverb
       \verb{file}
-      \verb :Users/laraclemens/Google Drive/Articles/ZhouLoopsProteinsWLC.pdf:pdf
+      \verb :Users/laraclemens/Google Drive/Articles/ChenqiReview.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.pbiomolbio.2015.04.004
       \endverb
     \endentry
   \endsortlist
-  \missing{Dunker2008}
+  \missing{Jegou2013}
 \endrefsection
 \endinput
 

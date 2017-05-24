@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Multisite Phosphorylation}{6}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Previous Modeling Attempts - FJC as Model for IDPs}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Previous Modeling Attempts - FJC as Model for IDPs}{7}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5}The Big Question}{7}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
@@ -30,6 +30,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Case Study: T Cell Receptor Zeta Chain}{10}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Possibly unnecessary stuff}{11}{subsection.3.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Local structuring of disordered signaling proteins gives rise to cooperativity and sequential binding}{11}{section.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Introduction}{11}{subsection.4.1}
@@ -40,92 +42,92 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.1}Surface presence influences polymer configuration}{13}{subsubsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Disorder inhibits ligand binding}{13}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2}Disorder inhibits ligand binding}{14}{subsubsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.3}Cooperativity may arise from local structuring in intrinsically disordered proteins}{15}{subsubsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.4}Sequential binding naturally arises from polymer characteristics}{15}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.4}Sequential binding naturally arises from polymer characteristics}{16}{subsubsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.5}Negative cooperativity may arise from local disordering of proteins}{17}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5}Negative cooperativity may arise from local disordering of proteins}{18}{subsubsection.4.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.6}Future Work: Quantifying cooperativity from reversible phoshphorylation with Hill coefficients}{18}{subsubsection.4.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.7}Future Work: Exploring sequence of binding from dephosphorylation and reversible phosphorylation}{18}{subsubsection.4.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Discussion}{18}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Discussion}{19}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Electrostatics}{19}{section.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Introduction}{19}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Model and Methods}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Model and Methods}{20}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Electrostatic Potentials}{21}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1}Electrostatic Potentials}{22}{subsubsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Results}{22}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}Results}{24}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{22}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1}Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{24}{subsubsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}Initial parameter exploration of more general energetic model yields fit to polymer distribution}{22}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2}Initial parameter exploration of more general energetic model yields fit to polymer distribution}{24}{subsubsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3}Future Work}{24}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3}Future Work}{25}{subsubsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Discussion?}{25}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.4}Discussion?}{26}{subsection.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Results: Simultaneous Binding}{25}{section.6}
+\contentsline {section}{\numberline {6}Results: Simultaneous Binding}{26}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Introduction}{25}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Introduction}{26}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Model and Methods}{25}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}Model and Methods}{26}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Results}{26}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}Results}{27}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.1}Negative cooperativity arises from simultaneous binding of ligands to an IDP}{26}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.1}Negative cooperativity arises from simultaneous binding of ligands to an IDP}{27}{subsubsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.2}Future Work: Sequence of binding multiple ligands}{28}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2}Future Work: Sequence of binding multiple ligands}{29}{subsubsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.3}Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{29}{subsubsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3}Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{30}{subsubsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Discussion}{30}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Discussion}{31}{subsection.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Role of the surface on tether-tether reactions within a signaling cluster}{30}{section.7}
+\contentsline {section}{\numberline {7}Role of the surface on tether-tether reactions within a signaling cluster}{31}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Introduction}{30}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.1}Introduction}{31}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.1}Tethering}{30}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Tethering}{31}{subsubsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.2}SHP-1}{30}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2}SHP-1}{31}{subsubsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Model and Methods}{31}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.2}Model and Methods}{32}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Results}{34}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Results}{35}{subsection.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.1}Accessibility of a reaction site is reduced by the presence of a surface}{34}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1}Accessibility of a reaction site is reduced by the presence of a surface}{35}{subsubsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.2}Reactions between tethered reactants are net enhanced by a surface}{34}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2}Reactions between tethered reactants are net enhanced by a surface}{35}{subsubsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.3}Reach parameter is unaffected by presence of surface}{35}{subsubsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3}Reach parameter is unaffected by presence of surface}{36}{subsubsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.4}Matrix-bound versus surface-bound experiments confirm model predictions}{37}{subsubsection.7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4}Matrix-bound versus surface-bound experiments confirm model predictions}{38}{subsubsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.5}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{37}{subsubsection.7.3.5}
+\contentsline {subsubsection}{\numberline {7.3.5}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{38}{subsubsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Discussion?}{38}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.4}Discussion?}{39}{subsection.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Timeline}{38}{section.8}
+\contentsline {section}{\numberline {8}Timeline}{39}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Appendix}{38}{section.9}
+\contentsline {section}{\numberline {9}Appendix}{39}{section.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Model Modifications}{38}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.1}Model Modifications}{39}{subsection.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.1}Stiffening}{38}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1}Stiffening}{39}{subsubsection.9.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.2}Electrostatics}{38}{subsubsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.2}Electrostatics}{39}{subsubsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.3}LJ Parameter Optimization}{39}{subsubsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.3}LJ Parameter Optimization}{40}{subsubsection.9.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.4}Simultaneous Binding}{40}{subsubsection.9.1.4}
+\contentsline {subsubsection}{\numberline {9.1.4}Simultaneous Binding}{41}{subsubsection.9.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Assumptions}{41}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.2}Assumptions}{42}{subsection.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Gillespie Algorithm}{41}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.3}Gillespie Algorithm}{42}{subsection.9.3}
