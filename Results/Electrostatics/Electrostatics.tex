@@ -14,21 +14,22 @@
 
 Subunits of many receptors have been shown to associate with the membrane prior to signaling. \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
 
-In particular, evidence shows (\hl{CITE CITE CITE - Chenqi etc}) that CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \hl{Is this true without stimulus?} \hl{what about stimulus without phosphorylation}
+In particular, (\hl{CITE CITE CITE})CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. \cite{Shi2013} \hl{Do I cite them here? Do they actually show it's associated?  I guess?} Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \hl{with or without stimulus?}
 
-Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\hl{cite} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
+Stimulating the TCR with an antigen will cause the CD3$\zeta$ chain to dissociate from the membrane. However, mutation of the tyrosines to phenylalanine to prevent phosphorylation abrogates this effect. Thus, phosphorylation is required to for $\zeta$ chain dissociation from the membrane even with TCR triggering. \cite{Zhang2011}
 
-When the \hl{segment about mystery of where first signaling comes from}
+Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\cite{Zhang2011} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
 
-\hl{discuss clusters of TCR? future modeling question? multiple chain steric effects cause dissociation from membrane vs stochastic tyrosines falling out}
+\hl{whoa whoa. Zhang et al claims mutating BRSs actually inhibits phos???}
+\hl{And only associated in 25\%?}
 
-\hl{evidence that fall off as feedback effect?} Although the tyrosines will spend much of their time sequestered in the membrane, there is some probability of entropic forces \hl{ehhh} transiently pulling them to the cytoplasm. \hl{hence distribution above....} When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine would therefore repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane.  
+Calcium influx causes the CD3$\zeta$ chain to dissociate from the membrane prior to phosphorylation. An initial signal causes a calcium dump, creating a positive feedback onto the signaling pathway as more $\zeta$-chains dissociate from the membrane and become phosphorylated, enhancing the signal.  \cite{Shi2013} Prior to the calcium influx, the $\zeta$-chain tyrosines remain sequestered in the membrane, preventing signaling. Where the initial signal comes from to instigate the feedback loop remains mysterious.
 
-We hypothesize that since there is some probability for this first event to occur, then after the first event there would be a cooperative enhancement of the probability of neighboring tyrosines becoming accessible.  \hl{wording is terrible}
+There are two hypotheses which could explain the initial signaling event. One hypothesis is that a first chain will fall out of the membrane due to steric occlusion created by TCR clustering. When TCR triggering occurs, TCRs cluster. \hl{CITE} With all six disordered subunits associated with the membrane, when the TCRs cluster, the subunits may become too crowded on the membrane and induce one or more to dissociate and become accessible to phosphorylation. 
 
+Independently or in conjunction with the above hypothesis, we formulate a second hypothesis. Although the tyrosines will spend much of their time sequestered in the membrane, there is some probability of entropic forces \hl{ehhh} transiently pulling them to the cytoplasm. \hl{hence distribution below...} When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine could repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane.  
 
-\hl{hypothesis about sequential binding?}
-
+We first explore this second hypothesis. We hypothesize that entropic fluctuations of the tyrosines in and out of the membrane are sufficient to lead to an initial phosphorylation event. We also hypothesis that following this initial event, there would be a cooperative enhancement of the accessibility of neighboring tyrosines.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -301,6 +302,9 @@ First, we want to establish parameters (if they exist) which make our model exhi
 Second, with our parameter sets, we will now explore the effect of phosphorylation on the accessibility of successive tyrosines to a kinase.  We wish to see if there is a cooperative enhancement of the binding rates based on phosphorylation of previous residues.  Cooperative phosphorylation could contribute to the first signaling event, explaining how an initial calcium release feeds back on the system, causing more CD3$\zeta$ chains to dissociate from the membrane and create a stronger signal. \hl{cite}
 
 Additionally, we will use this data to explore if there is a natural sequential binding sequence that arises.  One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target.  However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region. 
+
+\hl{Should I include this?  I don't know if we're actually going to do it.}
+We will also explore how clustering of TCRs influences the association of the disordered subunits to the membrane. By modeling multiple disordered chains, we will attempt to estimate how many TCRs must be in a cluster and how tightly clustered they must be for this model to explain the initial triggering event.
 
 \hl{paragraph about relating back to something useful or experimental?}
 
