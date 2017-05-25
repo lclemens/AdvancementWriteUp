@@ -18,7 +18,7 @@ In particular, evidence shows (\hl{CITE CITE CITE - Chenqi etc}) that CD3$\zeta$
 
 Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\hl{cite} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
 
-When the \hl{segment about mystery of where first signalling comes from}
+When the \hl{segment about mystery of where first signaling comes from}
 
 \hl{discuss clusters of TCR? future modeling question? multiple chain steric effects cause dissociation from membrane vs stochastic tyrosines falling out}
 
@@ -233,6 +233,45 @@ e^{-z} & z > 0 \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Results}
 \subsubsection{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}
+
+We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues. (Table \ref{table: ElecPotentialRelationships}, Group 1) We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction, as seen in Lopez et al. 2015. (Condition 1) From this sweep (not shown), we choose minimal parameters which achieve the desired distribution. We establish the following potentials:
+
+
+Parabolic-constant piecewise potential:
+
+Piecewise potential (aka, parabola-constant), ($PC$):
+\begin{equation}\label{eq: parabolaconstant}
+\begin{cases}
+1*z^2-10 	& z<\sqrt{\frac{10}{1}}\\
+0 & z \geq \sqrt{\frac{10}{1}} \\
+\end{cases}
+\end{equation}
+
+
+Softwall:
+
+\begin{equation}\label{eq: softwall}
+\begin{cases}
+0.01*z^2 	& z < 0\\
+0 & z \geq 0 \\
+\end{cases}
+\end{equation}
+
+We explore how phosphorylation, or removing tyrosines from the parabolic-constant potential and adding them to the softwall potential, impacts the distribution of the tyrosines and full chain. We find that under this regime, phosphorylating individual tyrosines does not impact the distribution of neighboring tyrosines. We also find that even when all tyrosines are phosphorylated, the polymer does not fully dissociate from the membrane. This is represented by the distribution of the (basic) polymer tip residue distribution, which remains closely associated with the membrane. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps}
+\end{center}
+\caption{}
+\end{figure}
+
+
+
+
+
+
+
 
 \subsubsection{Initial parameter exploration of more general energetic model yields fit to polymer distribution}
 
