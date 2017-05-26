@@ -12,13 +12,13 @@
 
 \subsection{Introduction}
 
-Subunits of many receptors have been shown to associate with the membrane prior to signaling. \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
+Subunits of many receptors have been shown to associate with the membrane prior to signaling. \cite{Xu2008},\cite{Shi2013},\cite{Zhang2011},\cite{Dobbins \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
 
-In particular, (\hl{CITE CITE CITE})CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. \cite{Shi2013} \hl{Do I cite them here? Do they actually show it's associated?  I guess?} Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \hl{with or without stimulus?}
+In particular, (\hl{CITE CITE CITE})CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. \cite{Aivazian2000},\cite{Zhang2011},\cite{Shi2013} \hl{Do I cite them here? Do they actually show it's associated?  I guess?} Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \cite{Aivazian2000}
 
 Stimulating the TCR with an antigen will cause the CD3$\zeta$ chain to dissociate from the membrane. However, mutation of the tyrosines to phenylalanine to prevent phosphorylation abrogates this effect. Thus, phosphorylation is required to for $\zeta$ chain dissociation from the membrane even with TCR triggering. \cite{Zhang2011}
 
-Additionally, basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\cite{Zhang2011} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
+Basic residue regions in the CD3$\zeta$ and $\epsilon$ chains play a major role in maintaining the association between the polymer and the membrane. Studies show that mutation of the basic residue regions is sufficient to cause the protein to dissociate from the membrane.\cite{Zhang2011} Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present. \hl{cite} 
 
 \hl{whoa whoa. Zhang et al claims mutating BRSs actually inhibits phos???}
 \hl{And only associated in 25\%?}
@@ -43,8 +43,8 @@ We model the polymer-membrane association as a potential acting on each rod in a
 
 \begin{enumerate}
 	\item The polymer should display locational distributions consistent with Lopez et al. 2015. \cite{Lopez2015}
-	\item When basic residues are mutated, the polymer should dissociate from the membrane.
-	\item When all tyrosines are phosphorylated, the polymer should dissociate from the membrane.
+	\item When basic residues are mutated, the polymer dissociates from the membrane. \cite{Zhang2011}
+	\item When all tyrosines are phosphorylated, the polymer should dissociate from the membrane. 
 \end{enumerate}
 
 Based on these goals, we group residues into four distinct categories: tyrosines, phosphotyrosines, basic residues, and remaining residues. Based on these groups, we develop a set of possible relationships to explore (Table).  
@@ -220,7 +220,7 @@ In this new model, we maintain the same potentials as above for the basic residu
 
 Exponential decay:
 
-\hl{go find actual equation to put here}
+\todo{go find actual equation to put here}
 
 \begin{equation}\label{eq: exponential}
 \begin{cases}
@@ -235,8 +235,15 @@ e^{-z} & z > 0 \\
 \subsection{Results}
 \subsubsection{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}
 
-We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues. (Table \ref{table: ElecPotentialRelationships}, Group 1) We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction, as seen in Lopez et al. 2015. (Condition 1) From this sweep (not shown), we choose minimal parameters which achieve the desired distribution. We establish the following potentials:
+We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues. (Table \ref{table: ElecPotentialRelationships}, Group 1) We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction, as seen in Lopez et al. 2015. (Condition 1) From this sweep, we see there are multiple parameter sets which achieve this distribution.  Fig. \ref{fig: iSiteDistInitial} For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. We establish the following potentials:
 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps}
+\end{center}
+\caption{\ref{fig: iSiteDistInitial}}
+\end{figure}
 
 Parabolic-constant piecewise potential:
 
@@ -258,25 +265,25 @@ Softwall:
 \end{cases}
 \end{equation}
 
-We explore how phosphorylation, or removing tyrosines from the parabolic-constant potential and adding them to the softwall potential, impacts the distribution of the tyrosines and full chain. We find that under this regime, phosphorylating individual tyrosines does not impact the distribution of neighboring tyrosines. We also find that even when all tyrosines are phosphorylated, the polymer does not fully dissociate from the membrane. This is represented by the distribution of the (basic) polymer tip residue distribution, which remains closely associated with the membrane. 
+We explore how phosphorylation, or removing tyrosines from the parabolic-constant potential and adding them to the softwall potential, impacts the distribution of the tyrosines and full chain. We find that under this regime, phosphorylating individual tyrosines does not impact the distribution of neighboring tyrosines. Fig. \ref{fig: Dist123456} Additionally, phosphorylating two tyrosines does not influence the distribution of a tyrosines located between the two. Fig. \ref{fig: Dist135624} We also find that even when all tyrosines are phosphorylated, the polymer does not fully dissociate from the membrane. This is represented by the distribution of the (basic) polymer tip residue distribution, which remains closely associated with the membrane. A non-basic, non-tyrosine residue located centrally is only minorly affected by the change in phosphorylation state. This result indicates these electric potentials may be insufficient to exhibit the characteristics displayed experimentally.
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps}
+\includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps}
 \end{center}
-\caption{}
+\caption{\label{fig: Dist123456}}
 \end{figure}
 
-
-
-
-
-
-
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps}
+\end{center}
+\caption{\label{fig: Dist135624}}
+\end{figure}
 
 \subsubsection{Initial parameter exploration of more general energetic model yields fit to polymer distribution}
 
-We first want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions.  The hardwall condition (not shown) prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue. \hl{rephrase this next sentence, because duh} We note that the potentials affect the distribution of the basic residues more strongly than they affect the distributions of the tyrosines. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
+We first want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions.  The hardwall condition (not shown) prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue. Fig. \ref{fig: iSiteDist}, Fig. \ref{fig: tailDist}\hl{rephrase this next sentence, because duh} We note that the potentials affect the distribution of the basic residues more strongly than they affect the distributions of the tyrosines. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
 
 \begin{figure}[H]
 	\begin{center}
