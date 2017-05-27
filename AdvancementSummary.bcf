@@ -2112,11 +2112,23 @@
     <bcf:citekey order="14">Fischer2004</bcf:citekey>
     <bcf:citekey order="15">He2015</bcf:citekey>
     <bcf:citekey order="16">Bah2015</bcf:citekey>
-    <bcf:citekey order="17">Lopez2015</bcf:citekey>
-    <bcf:citekey order="18">Lopez2015</bcf:citekey>
-    <bcf:citekey order="19">Lopez2015</bcf:citekey>
-    <bcf:citekey order="20">Barber1989</bcf:citekey>
-    <bcf:citekey order="21">Fischer2004</bcf:citekey>
+    <bcf:citekey order="17">Xu2008</bcf:citekey>
+    <bcf:citekey order="18">Shi2013</bcf:citekey>
+    <bcf:citekey order="19">Zhang2011</bcf:citekey>
+    <bcf:citekey order="20">Dobbins2016</bcf:citekey>
+    <bcf:citekey order="21">Aivazian2000</bcf:citekey>
+    <bcf:citekey order="22">Zhang2011</bcf:citekey>
+    <bcf:citekey order="23">Shi2013</bcf:citekey>
+    <bcf:citekey order="24">Aivazian2000</bcf:citekey>
+    <bcf:citekey order="25">Zhang2011</bcf:citekey>
+    <bcf:citekey order="26">Zhang2011</bcf:citekey>
+    <bcf:citekey order="27">Shi2013</bcf:citekey>
+    <bcf:citekey order="28">Lopez2015</bcf:citekey>
+    <bcf:citekey order="29">Lopez2015</bcf:citekey>
+    <bcf:citekey order="30">Zhang2011</bcf:citekey>
+    <bcf:citekey order="31">Lopez2015</bcf:citekey>
+    <bcf:citekey order="32">Barber1989</bcf:citekey>
+    <bcf:citekey order="33">Fischer2004</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

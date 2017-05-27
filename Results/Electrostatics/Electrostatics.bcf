@@ -2096,12 +2096,20 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Shi2013</bcf:citekey>
-    <bcf:citekey order="2">Zhang2011</bcf:citekey>
+    <bcf:citekey order="1">Xu2008</bcf:citekey>
+    <bcf:citekey order="2">Shi2013</bcf:citekey>
     <bcf:citekey order="3">Zhang2011</bcf:citekey>
-    <bcf:citekey order="4">Shi2013</bcf:citekey>
-    <bcf:citekey order="5">Lopez2015</bcf:citekey>
-    <bcf:citekey order="6">Lopez2015</bcf:citekey>
-    <bcf:citekey order="7">Lopez2015</bcf:citekey>
+    <bcf:citekey order="4">Dobbins2016</bcf:citekey>
+    <bcf:citekey order="5">Aivazian2000</bcf:citekey>
+    <bcf:citekey order="6">Zhang2011</bcf:citekey>
+    <bcf:citekey order="7">Shi2013</bcf:citekey>
+    <bcf:citekey order="8">Aivazian2000</bcf:citekey>
+    <bcf:citekey order="9">Zhang2011</bcf:citekey>
+    <bcf:citekey order="10">Zhang2011</bcf:citekey>
+    <bcf:citekey order="11">Shi2013</bcf:citekey>
+    <bcf:citekey order="12">Lopez2015</bcf:citekey>
+    <bcf:citekey order="13">Lopez2015</bcf:citekey>
+    <bcf:citekey order="14">Zhang2011</bcf:citekey>
+    <bcf:citekey order="15">Lopez2015</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

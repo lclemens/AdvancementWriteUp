@@ -15,13 +15,7 @@
 
 We create a generic model of a disordered protein using a simplified $\theta$-solvent freely-jointed chain (FJC) from polymer physics. This model requires only specifying a number of rods (N) and a length per rod (Kuhn length, $\delta$ ).  The FJC consists of N rigid rods of length $\delta$ which are allowed to perform a random walk where the only constraints are the chain length and connections. In our simulation, the FJC is allowed to explore its configuration space through randomized movements.  The FJC model tracks where each joint is located, making steric interactions with the ligand easy to simulate compared to using the continuous WLC model.  The ligand is simulated as an idealized sphere which may interact with the FJC. We compute quasi-equilibrium statistics of the chain and its bound or unbound ligands using a Monte Carlo (Metropolis) Algorithm. 
 
-We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. To determine if a site is occluded in a given conformation, we check if any of the segment end points are located within the sphere of interest. We also check if the sphere crosses below the half-space surface designated at $z=0$. Given that the binding sphere is large compared to the Kuhn length, we assume the probability of tangential occlusion (where a segment has end points outside the sphere but part of the segment lies within) is negligible compared to end point occlusion. \hl{Should we produce a plot for this someday? Or create a diagram to make it more obvious what all the types of occlusion are?}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Theoretical results}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-From detailed balance, \hl{which is what and we can use it why?} the dissociation constants $K_D \equiv \koff/\kon$ of the floppy (native) state and the rigid (partially phosphorylated) state are
+We can relate the change in dissociation constants between a floppy, unstructured protein ($K_{D_F} = K_F$) and a rigid, structured protein ($K_{D_R} = K_R$) to the probability a ligand may bind to the protein in an unstructured state. From detailed balance, \hl{which is what and we can use it why?} the dissociation constants $K_D \equiv \koff/\kon$ of the floppy (native) state and the rigid (partially phosphorylated) state are
 %k_on/k_off vs k_off/k_on????? 
 \begin{align} 
 \frac{k_{on}}{k_{off}} &= \mbox{exp} \left( \frac{-\Delta G}{k_B T}\right) \\
@@ -31,14 +25,17 @@ From detailed balance, \hl{which is what and we can use it why?} the dissociatio
 &= \mbox{exp} \left( \frac{(E_F-T S_F)-(E_R-T S_R)}{k_B T} \right) \\
 &= \mbox{exp} \left(\frac{S_R-S_F}{k_B}\right) \\
 &=\mbox{ex}\left(\frac{(S^R_{on}-S^R_{off}) - (S^F_{on}-S^F_{off})}{k_B} \right) \\
-&= \mbox{exp} \left( \frac{(k_B \mbox{ln} (\frac{\Omega_R}{\Omega_R}))-(k_B \mbox{ln}(\frac{\Omega_F P_F}{\Omega_F})}{k_B} \right) \\
-&= \frac{1}{P_F}
+&= \mbox{exp} \left( \frac{(k_B \mbox{ln} (\frac{\Omega_R P_R}{\Omega_R}))-(k_B \mbox{ln}(\frac{\Omega_F P_F}{\Omega_F})}{k_B} \right) \\
+&= \frac{P_R}{P_F}\\
+&=\frac{1}{P_F} \hspace{2cm} \text{assuming $P_R$ = 1}
 \end{align}  
-where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_F * P_F$ being the microstates available when the ligand is bound and $\Omega_R$ is the number of microstates available when the polymer is rigid.  We also note $E_R = E_F$ since we are working at equilibrium. Since the perfectly rigid state always allows binding, $P_R=1$, it is sufficient to compute $P_F$. We define $P_{occ}$ as the probability that the region of space needed by the kinase domain is occupied by some of the polymer. Thus, $P_{occ}=1-P_F$. Then
+where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_F * P_F$ being the microstates available when the ligand is bound and $\Omega_R*P_R$ is the number of microstates available when the polymer is rigid.  We also note $E_R = E_F$ since we are working at equilibrium. Since the perfectly rigid state always allows binding, $P_R=1$, it is sufficient to compute $P_F$. We define $P_{occ}$ as the probability that the region of space needed by the kinase domain is occupied by some of the polymer. Thus, $P_{occ}=1-P_F$. Then
 \begin{equation}
 \frac{K_F}{K_R} = \frac{1}{(1-P_{occ})}.
 \end{equation}
 Our problem of interest is now reduced to computing the occlusion probability. 
+
+We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. To determine if a site is occluded in a given conformation, we check if any of the segment end points are located within the sphere of interest. We also check if the sphere crosses below the half-space surface designated at $z=0$. Given that the binding sphere is large compared to the Kuhn length, we assume the probability of tangential occlusion (where a segment has end points outside the sphere but part of the segment lies within) is negligible compared to end point occlusion. \hl{Should we produce a plot for this someday to show it doesn't matter? Or create a diagram to make it more obvious what all the types of occlusion are?}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,7 +148,27 @@ V &= \frac{4}{3}\pi r^3 \\
 r &\approx 2 \nm \\
 \end{align*}
 
-Measurements from the crystal structure of Lck suggest a volume of 45 $\nm^3$ for the kinase domain. \todo{Cite or show PyMol for Lck} This estimate is on the same order of magnitude as our previous estimate.  Note also, if we recalculate the kinase radius using a volume of $45 \nm^3$, we estimate a radius of $2.2 \nm$. Given an assumption of 0.3nm per Kuhn length, we represent Lck with a radius of seven Kuhn lengths.
+Measurements from the crystal structure of Lck suggest a volume of 45 $\nm^3$ for the kinase domain.\hl{Where did this come from?} \todo{Cite or show PyMol for Lck} This estimate is on the same order of magnitude as our previous estimate.  Note also, if we recalculate the kinase radius using a volume of $45 \nm^3$, we estimate a radius of 2.2 \nm. 
+
+We measure the maximal length of the kinase domain in PyMol from PDB 3LCK. Rounding up for error, we have a maximal distance of 58\AA. This gives a maximal spherical estimate with a radius of 2.9\nm, or about ten Kuhn lengths. (Fig. \ref{fig: LckPyMol}a) If we instead measure rough length, width, and height for the kinase domain, we have measurements of 36.6\AA, 29.4\AA, and 45.1\AA respectively. (Fig. \ref{fig: LckPyMol}b) From these we can estimate a sphere with volume corresponding to the volume of the rectangular prism with those dimensions.  This estimates a sphere with radius 2.3\nm, or about eight Kuhn lengths. Based on all of these estimates, we choose to represent Lck with a radius of seven Kuhn lengths.
+
+
+\begin{figure}[H]
+\begin{center}
+\begin{subfigure}{0.4\linewidth}
+\includegraphics[width=\linewidth]{LckPyMol/Diagonal.eps}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.4\linewidth}
+\includegraphics[width=\linewidth]{LckPyMol/LWD.eps}
+\caption{}
+\end{subfigure}
+\end{center}
+\caption{PDB 3LCK - kinase domain of Lck \label{fig: LckPyMol}}
+\end{figure}
+
+\hl{Introduce estimates of ZAP-70 SH2 domain}
+
 
 \subsection{Possibly unnecessary stuff}
 

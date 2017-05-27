@@ -12,7 +12,7 @@
 
 \subsection{Introduction}
 
-Subunits of many receptors have been shown to associate with the membrane prior to signaling. \cite{Xu2008},\cite{Shi2013},\cite{Zhang2011},\cite{Dobbins \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
+Subunits of many receptors have been shown to associate with the membrane prior to signaling. \cite{Xu2008},\cite{Shi2013},\cite{Zhang2011},\cite{Dobbins2016} \hl{Others?  Dobbins et al, Chenqi paper} Close association with the membrane inhibits ligands from binding to their target site. Several of these chains have been shown to dissociate from the membrane after the extracellular receptor receives a stimulus. \hl{cite cite} This mechanism may help prevent unwanted signaling. \hl{wording here is mediocre and possibly incorrect?}
 
 In particular, (\hl{CITE CITE CITE})CD3$\zeta$ associates with the membrane prior to phosphorylation, sequestering the tyrosines in the bilayer. \cite{Aivazian2000},\cite{Zhang2011},\cite{Shi2013} \hl{Do I cite them here? Do they actually show it's associated?  I guess?} Post-phosphorylation, CD3$\zeta$ is no longer associated with the membrane, but remains anchored by its transmembrane region. \cite{Aivazian2000}
 
@@ -173,7 +173,7 @@ Group Number & Electrostatic Potential Relationship \\
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=0.7\linewidth]{ElectrostaticsDiagram.pdf}
-    \caption{Cartoon of electrostatics model.  \hl{COULD HAVE POTENTIAL IN CARTOON?}. FJC associates with membrane, burying modification sites within membrane rendering them inaccessible to ligands.\label{fig: ElectrostaticsCartoon}}
+    \caption{Cartoon of electrostatics model. FJC associates with membrane, burying modification sites within membrane rendering them inaccessible to ligands.\label{fig: ElectrostaticsCartoon}}
     \end{center}
 \end{figure}
 
@@ -242,12 +242,11 @@ We first explore the simplest model, where basic residues and tyrosines feel the
 \begin{center}
 \includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps}
 \end{center}
-\caption{\ref{fig: iSiteDistInitial}}
+\caption{Polymer tip distribution resulting from parameter exploration of electric potentials. For this set, softwall potential width is set at 0.01. Both parabolic-constant potential depth and potential width range from $10^0$ to $10^{2}$.\ref{fig: iSiteDistInitial}}
 \end{figure}
 
 Parabolic-constant piecewise potential:
 
-Piecewise potential (aka, parabola-constant), ($PC$):
 \begin{equation}\label{eq: parabolaconstant}
 \begin{cases}
 1*z^2-10 	& z<\sqrt{\frac{10}{1}}\\
@@ -271,14 +270,14 @@ We explore how phosphorylation, or removing tyrosines from the parabolic-constan
 \begin{center}
 \includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps}
 \end{center}
-\caption{\label{fig: Dist123456}}
+\caption{Distribution of tyrosines, tail residue, and single non-basic residue for different phosphorylation states. Each curve has the phosphorylation state denoted as a series of 0's and 1's, with the tyrosines in order membrane-proximal to distal. Tyrosines are phosphorylated sequentially from proximal to distal. Tyrosines are indicated by 0, phosphotyrosines indicated by 1. Each distribution is plotted against the distribution of only the softwall potential. (No BRs, no Y) \label{fig: Dist123456}}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps}
 \end{center}
-\caption{\label{fig: Dist135624}}
+\caption{Distribution of tyrosines, tail residue, and single non-basic residue for different phosphorylation states. Each curve has the phosphorylation state denoted as a series of 0's and 1's, with the tyrosines in order membrane-proximal to distal. Tyrosines are indicated by 0, phosphotyrosines indicated by 1. Phosphorylation sequence disordered to examine effect of two phosphorylation events on the distribution of an intermediate residue. Each distribution is plotted against the distribution of only the softwall potential. (No BRs, no Y) \label{fig: Dist135624}}
 \end{figure}
 
 \subsubsection{Initial parameter exploration of more general energetic model yields fit to polymer distribution}
@@ -289,14 +288,14 @@ We first want to match the distribution of the polymer to the molecular dynamics
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite2.eps}
 	\end{center}
-	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.\label{fig: iSiteDist}}
+	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at 0.1. Parabolic-constant potential depth ranges from $10^0$ to $10^{1.5}$, width ranges from $10^0$ to $10^3$.\label{fig: iSiteDist}}
 \end{figure}
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite7.eps}
 	\end{center}
-	\caption{Basic residue distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at k=0.1. Basic residue potential depth ranges from $10^0$ to $10^{1.5}$.\label{fig: tailDist}}
+	\caption{Polymer tip (basic residue) distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at 0.1. Parabolic-constant potential depth ranges from $10^0$ to $10^{1.5}$, width ranges from $10^0$ to $10^3$.\label{fig: tailDist}}
 \end{figure}
 
 
@@ -313,7 +312,7 @@ Additionally, we will use this data to explore if there is a natural sequential 
 \hl{Should I include this?  I don't know if we're actually going to do it.}
 We will also explore how clustering of TCRs influences the association of the disordered subunits to the membrane. By modeling multiple disordered chains, we will attempt to estimate how many TCRs must be in a cluster and how tightly clustered they must be for this model to explain the initial triggering event.
 
-\hl{paragraph about relating back to something useful or experimental?}
+\hl{paragraph about relating back to something useful or experimental? - tie back to many examples where association occurs?}
 
 % potentially add image of mathematica plot to illustrate point
 
