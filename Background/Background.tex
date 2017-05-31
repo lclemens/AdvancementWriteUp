@@ -87,13 +87,13 @@ Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extrace
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Multisite Phosphorylation}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\hl{Stuff about switch-like responses}
-
-Multisite phosphorylation specifically is a well-studied post-translational modification.  This phenomenon occurs on both structured and unstructured proteins in many cell systems. \hl{CITE CITE CITE} In signaling pathways, multisite phosphorylation can create ultrasensitivity. \hl{cite, anything else?} Ultrasensitivity creates a strong response from intermediate signals and minimal \hl{none?} response from low signals which reduces the impact of noise. \hl{CD3$\zeta$ - does give ultrasensitivity and we know it or it doesn't and we know it or we don't know?} We want to explore if and how multisite phosphorylation of disordered proteins conveys similar signaling functions.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Multisite Phosphorylation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\hl{Stuff about switch-like responses}
+%
+%Multisite phosphorylation specifically is a well-studied post-translational modification.  This phenomenon occurs on both structured and unstructured proteins in many cell systems. \hl{CITE CITE CITE} In signaling pathways, multisite phosphorylation can create ultrasensitivity. \hl{Dushek et al Biophys J 2011 - read} \hl{cite, anything else?} Ultrasensitivity creates a strong response from small changes in intermediate signals and minimal \hl{none?} response from low signals which reduces the impact of noise. \hl{CD3$\zeta$ - does give ultrasensitivity and we know it or it doesn't and we know it or we don't know?} We want to explore if and how multisite phosphorylation of disordered proteins conveys similar signaling functions.
 
 
 
@@ -101,20 +101,24 @@ Multisite phosphorylation specifically is a well-studied post-translational modi
 \subsection{Previous Modeling Attempts - FJC as Model for IDPs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one.}\hl{Seriously - even in Mukhopadhyay2016 cite\{Zhou2001\}}Models of disordered proteins freely-jointed chain (FJC) and WLC converge \hl{in the thermodynamic limit}, with the persistence length for the WLC as half the Kuhn length used for the FJC. \hl{cite Something} 
+Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \cite{Zhou2001} \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one. Basically we use the lower limit of what is reasonable and could see what difference it makes either by comparing to N=1/2Nmax or by resimulating.}\hl{Find $l_k$ ~ 0.5 in Mukhopadhyay2016 too} Models of disordered proteins using freely-jointed chain (FJC) and WLC converge \hl{in the thermodynamic limit}, with the persistence length for the WLC as half the Kuhn length used for the FJC. \cite{VanValen2009}
 
-\todo{Could explain why those models were developed - what are they good at describing}
+\hl{Could explain why those models were developed - what are they good at describing}
 
 Alternative models for multisite phosphorylation of IDPs include molecular dynamic, ordinary differential equations, or particle based models.  \hl{Cite times when each of these has been used} However, FJC or other `mesoscale' approaches reach timescales on the order of microseconds to seconds, which are computationally out of reach for traditional atomic scale MD. \hl{Cite time scales?} This approach also allows us to capture the steric effects of a disordered chain, which are missed by coarser models. \hl{Do I need to cite stuff here?}
 
-Representations of disordered proteins as freely-jointed chains have already been used to elucidate properties of IDPs. The disordered molecule, formin, captures profilin-actin monomers and delivers them to the growing end of actin, increasing the actin polymerization rate. In experimental studies of formin, exerting force on the distal end of formin counterintuitively enhances the polymerization rate two-fold over relaxed formins. \cite{Jegou2013} Models of formin as a freely-jointed chain offer an explanation for this phenomenon. A force exerted on a freely-jointed chain extends the polymer, increasing capture of profilin-actin by increasing the availabiltiy of binding sites. This increase of capture rate balances the reduction in delivery rate to have a net positive impact on the actin polymerization rate. \cite{Bryant2017}
+Representations of disordered proteins as freely-jointed chains have already been used to elucidate properties of IDPs. For instance, the length of tethers between domains controls the effective concentration of one domain seen by the other, such as auto-inhibition of WASP. \cite{VanValen2009} In a second example, the disordered molecule, formin, captures profilin-actin monomers and delivers them to the growing end of actin, increasing the actin polymerization rate. In experimental studies of formin, exerting force on the distal end of formin counterintuitively enhances the polymerization rate two-fold over relaxed formins. \cite{Jegou2013} Models of formin as a freely-jointed chain offer an explanation for this phenomenon. A force exerted on a freely-jointed chain extends the polymer, increasing capture of profilin-actin by increasing the availabiltiy of binding sites. This increase of capture rate balances the reduction in delivery rate to have a net positive impact on the actin polymerization rate. \cite{Bryant2017}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Big Question}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Since IDPs lack a consistent, rigid structure, they must fluctuate between multiple conformations.  If we assume IDPs have no structure at all, then the protein may be in any conformation at any time and in fact would sample all of these conformations.  This high degree of structure variability makes ligand binding to a specific binding site more challenging since it is now possible for the protein to transiently block its own binding site. That is, there will be conformations where the region around the binding site is occupied by other segments of the protein, preventing a ligand from occupying that space. In order to explore if and how disordered proteins can provide complex signaling behavior to a network, we create a model of a simple disordered protein using principles from polymer physics.
+%
+%Since IDPs lack a consistent, rigid structure, they must fluctuate between multiple conformations.  If we assume IDPs have no structure at all, then the protein may be in any conformation at any time and in fact would sample all of these conformations.  This high degree of structure variability makes ligand binding to a specific binding site more challenging since it is now possible for the protein to transiently block its own binding site. That is, there will be conformations where the region around the binding site is occupied by other segments of the protein, preventing a ligand from occupying that space. In order to explore if and how disordered proteins can provide complex signaling behavior to a network, we create a model of a simple disordered protein using principles from polymer physics.
+\hl{I feel like I need more here.}
+Using a `mesoscale' modeling approach, we study the role disordered proteins play in signaling networks. We investigate how disordered proteins can convey nonlinear signals to a network and how their characteristics influence this signal. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

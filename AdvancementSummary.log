@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2017 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 MAY 2017 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1001,7 +1001,14 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 \@quotelevel=\count339
 \@quotereset=\count340
 
-No file AdvancementSummary.aux.
+(./AdvancementSummary.aux
+
+LaTeX Warning: Label `eq: parabolaconstant' multiply defined.
+
+
+LaTeX Warning: Label `eq: softwall' multiply defined.
+
+)
 \openout1 = `AdvancementSummary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1018,7 +1025,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -1128,18 +1135,20 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
+
+(./AdvancementSummary.out) (./AdvancementSummary.out)
 \@outlinefile=\write6
 \openout6 = `AdvancementSummary.out'.
 
+ [1
 
-[1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Adva
+ncementSummary.toc
+[2] [3])
 \tf@toc=\write7
 \openout7 = `AdvancementSummary.toc'.
 
-
-[2] (./Abstract/Abstract.tex) (./Background/Background.tex [3]
+ [4] (./Abstract/Abstract.tex) (./Background/Background.tex [5]
 Package epstopdf Info: Source file: <Background/Figures/TCRDiagram.eps>
 (epstopdf)                    date: 2017-05-23 12:51:27
 (epstopdf)                    size: 1219120 bytes
@@ -1152,15 +1161,15 @@ ram-eps-converted-to.pdf Background/Figures/TCRDiagram.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<Background/Figures/TCRDiagram-eps-converted-to.pdf, id=36, 598.235pt x 343.282
-5pt>
+<Background/Figures/TCRDiagram-eps-converted-to.pdf, id=380, 598.235pt x 343.28
+25pt>
 File: Background/Figures/TCRDiagram-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Background/Figures/TCRDiagram-eps-converted-to.pdf>
 Package pdftex.def Info: Background/Figures/TCRDiagram-eps-converted-to.pdf use
 d on input line 84.
 (pdftex.def)             Requested size: 375.80544pt x 215.65102pt.
- [4 <./Background/Figures/TCRDiagram-eps-converted-to.pdf>]
+ [6 <./Background/Figures/TCRDiagram-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
 
 
@@ -1172,7 +1181,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 106.
 )
-(./ModelDevelopment/ModelDevelopment.tex [5] [6]
+(./ModelDevelopment/ModelDevelopment.tex [7] [8]
 Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
 RMSEndtoEnd.eps>
 (epstopdf)                    date: 2017-05-01 18:15:23
@@ -1184,31 +1193,31 @@ RMSEndtoEnd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
 irmationFigures/RMSEndtoEnd-eps-converted-to.pdf ModelDevelopment/ModelConfirma
 tionFigures/RMSEndtoEnd.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
 <ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf, id
-=91, 501.875pt x 412.54124pt>
+=428, 501.875pt x 412.54124pt>
 File: ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf
 >
 Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-
-eps-converted-to.pdf used on input line 59.
+eps-converted-to.pdf used on input line 56.
 (pdftex.def)             Requested size: 234.8775pt x 193.06978pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 64.
+(hyperref)                removing `subscript' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 61.
 
 Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
 ReeDistribution.eps>
@@ -1221,26 +1230,26 @@ ReeDistribution-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
 irmationFigures/ReeDistribution-eps-converted-to.pdf ModelDevelopment/ModelConf
 irmationFigures/ReeDistribution.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
 <ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf
-, id=94, 737.75626pt x 649.42625pt>
+, id=431, 737.75626pt x 649.42625pt>
 File: ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted-to
 .pdf>
 Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/ReeDistribut
-ion-eps-converted-to.pdf used on input line 74.
+ion-eps-converted-to.pdf used on input line 71.
 (pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
- [7 <./ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.p
+ [9 <./ModelDevelopment/ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.p
 df>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 98.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 95.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [8 <./ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converted
--to.pdf>]
+) [10 <./ModelDevelopment/ModelConfirmationFigures/ReeDistribution-eps-converte
+d-to.pdf>]
 Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
 BindingVSAnalyticN100N150.eps>
 (epstopdf)                    date: 2017-05-23 20:44:18
@@ -1252,18 +1261,18 @@ BindingVSAnalyticN100N150-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
 irmationFigures/BindingVSAnalyticN100N150-eps-converted-to.pdf ModelDevelopment
 /ModelConfirmationFigures/BindingVSAnalyticN100N150.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
 <ModelDevelopment/ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-conver
-ted-to.pdf, id=127, 723.70375pt x 532.99126pt>
+ted-to.pdf, id=462, 723.70375pt x 532.99126pt>
 File: ModelDevelopment/ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
 <use ModelDevelopment/ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-co
 nverted-to.pdf>
 Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/BindingVSAna
-lyticN100N150-eps-converted-to.pdf used on input line 118.
+lyticN100N150-eps-converted-to.pdf used on input line 115.
 (pdftex.def)             Requested size: 234.8775pt x 172.98425pt.
 Package epstopdf Info: Source file: <ModelDevelopment/ModelConfirmationFigures/
 OcclusionVSAnalyticN100N150.eps>
@@ -1276,47 +1285,86 @@ OcclusionVSAnalyticN100N150-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/ModelConf
 irmationFigures/OcclusionVSAnalyticN100N150-eps-converted-to.pdf ModelDevelopme
 nt/ModelConfirmationFigures/OcclusionVSAnalyticN100N150.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 <ModelDevelopment/ModelConfirmationFigures/OcclusionVSAnalyticN100N150-eps-conv
-erted-to.pdf, id=128, 723.70375pt x 532.99126pt>
+erted-to.pdf, id=463, 723.70375pt x 532.99126pt>
 File: ModelDevelopment/ModelConfirmationFigures/OcclusionVSAnalyticN100N150-eps
 -converted-to.pdf Graphic file (type pdf)
 
 <use ModelDevelopment/ModelConfirmationFigures/OcclusionVSAnalyticN100N150-eps-
 converted-to.pdf>
 Package pdftex.def Info: ModelDevelopment/ModelConfirmationFigures/OcclusionVSA
-nalyticN100N150-eps-converted-to.pdf used on input line 122.
+nalyticN100N150-eps-converted-to.pdf used on input line 119.
 (pdftex.def)             Requested size: 234.8775pt x 172.98425pt.
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 117--125
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 114--122
 []$[]$ $[]$ 
  []
 
-[9 <./ModelDevelopment/ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-c
-onverted-to.pdf> <./ModelDevelopment/ModelConfirmationFigures/OcclusionVSAnalyt
-icN100N150-eps-converted-to.pdf>]
+[11 <./ModelDevelopment/ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-
+converted-to.pdf> <./ModelDevelopment/ModelConfirmationFigures/OcclusionVSAnaly
+ticN100N150-eps-converted-to.pdf>]
 
-LaTeX Warning: Marginpar on page 10 moved.
+LaTeX Warning: Marginpar on page 12 moved.
 
-) (./Results/LocalStructuring/LocalStructuring.tex
+
+LaTeX Warning: Reference `fig: LckPyMol' on page 12 undefined on input line 153
+.
+
+
+LaTeX Warning: Reference `fig: LckPyMol' on page 12 undefined on input line 153
+.
+
+Package epstopdf Info: Source file: <ModelDevelopment/LckPyMol/Diagonal.eps>
+(epstopdf)                    date: 2017-05-26 16:32:20
+(epstopdf)                    size: 216463 bytes
+(epstopdf)             Output file: <ModelDevelopment/LckPyMol/Diagonal-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2017-05-26 16:34:11
+(epstopdf)                    size: 149766 bytes
+(epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/LckPyMol/
+Diagonal-eps-converted-to.pdf ModelDevelopment/LckPyMol/Diagonal.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
+
+<ModelDevelopment/LckPyMol/Diagonal-eps-converted-to.pdf, id=492, 410.53375pt x
+ 559.08875pt>
+File: ModelDevelopment/LckPyMol/Diagonal-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use ModelDevelopment/LckPyMol/Diagonal-eps-converted-to.pdf>
+Package pdftex.def Info: ModelDevelopment/LckPyMol/Diagonal-eps-converted-to.pd
+f used on input line 159.
+(pdftex.def)             Requested size: 187.89914pt x 255.88722pt.
+Package epstopdf Info: Source file: <ModelDevelopment/LckPyMol/LWD.eps>
+(epstopdf)                    date: 2017-05-26 16:33:11
+(epstopdf)                    size: 232114 bytes
+(epstopdf)             Output file: <ModelDevelopment/LckPyMol/LWD-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-05-26 16:34:11
+(epstopdf)                    size: 158277 bytes
+(epstopdf)             Command: <repstopdf --outfile=ModelDevelopment/LckPyMol/
+LWD-eps-converted-to.pdf ModelDevelopment/LckPyMol/LWD.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
+
+<ModelDevelopment/LckPyMol/LWD-eps-converted-to.pdf, id=493, 410.53375pt x 559.
+08875pt>
+File: ModelDevelopment/LckPyMol/LWD-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ModelDevelopment/LckPyMol/LWD-eps-converted-to.pdf>
+Package pdftex.def Info: ModelDevelopment/LckPyMol/LWD-eps-converted-to.pdf use
+d on input line 163.
+(pdftex.def)             Requested size: 187.89914pt x 255.88722pt.
+ [12])
+(./Results/LocalStructuring/LocalStructuring.tex [13 <./ModelDevelopment/LckPyM
+ol/Diagonal-eps-converted-to.pdf> <./ModelDevelopment/LckPyMol/LWD-eps-converte
+d-to.pdf>]
 Overfull \hbox (1.46802pt too wide) in paragraph at lines 17--18
 []\OT1/cmr/m/n/10 There is ev-i-dence that in-di-cates some IDPs un-dergo a dis
 ordered-to-ordered tran-si-tion upon post-translational
  []
-
-[10]
-
-LaTeX Warning: Reference `sec:ModelDev' on page 11 undefined on input line 31.
-
-
-LaTeX Warning: Reference `sec:ModelDevsubsec:TCR' on page 11 undefined on input
- line 31.
-
-
-LaTeX Warning: Reference `fig: StiffeningCartoon' on page 11 undefined on input
- line 35.
 
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/St
 iffeningDiagram/StiffeningDiagram.eps>
@@ -1333,7 +1381,7 @@ LocalStructuring/ResultsFigures/StiffeningDiagram/StiffeningDiagram.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningDiagram/StiffeningDiagram-ep
-s-converted-to.pdf, id=171, 1055.945pt x 320.19624pt>
+s-converted-to.pdf, id=527, 1055.945pt x 320.19624pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningDiagram/StiffeningDiagr
 am-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1342,11 +1390,7 @@ m-eps-converted-to.pdf>
 Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/StiffeningDiag
 ram/StiffeningDiagram-eps-converted-to.pdf used on input line 39.
 (pdftex.def)             Requested size: 375.80544pt x 113.95627pt.
- [11]
-
-LaTeX Warning: Reference `fig: ReeHalfVSFree' on page 12 undefined on input lin
-e 53.
-
+ [14]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/Ge
 neral/ReeDistributionHalfVSFreeSim.eps>
 (epstopdf)                    date: 2017-05-04 21:20:13
@@ -1362,7 +1406,7 @@ esultsFigures/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf Results
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/General/ReeDistributionHalfVSFreeSim-e
-ps-converted-to.pdf, id=179, 737.75626pt x 649.42625pt>
+ps-converted-to.pdf, id=535, 737.75626pt x 649.42625pt>
 File: Results/LocalStructuring/ResultsFigures/General/ReeDistributionHalfVSFree
 Sim-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1371,18 +1415,9 @@ im-eps-converted-to.pdf>
 Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/General/ReeDis
 tributionHalfVSFreeSim-eps-converted-to.pdf used on input line 57.
 (pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
- [12 <./Results/LocalStructuring/ResultsFigures/StiffeningDiagram/StiffeningDia
-gram-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig: OcclusionVSNVSR' on page 13 undefined on input l
-ine 64.
-
-
-LaTeX Warning: Reference `fig: OcclusionVSNVSR' on page 13 undefined on input l
-ine 68.
-
-[13 <./Results/LocalStructuring/ResultsFigures/General/ReeDistributionHalfVSFre
-eSim-eps-converted-to.pdf>]
+ [15 <./Results/LocalStructuring/ResultsFigures/StiffeningDiagram/StiffeningDia
+gram-eps-converted-to.pdf>] [16 <./Results/LocalStructuring/ResultsFigures/Gene
+ral/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/Ge
 neral/OcclusionVSNVSRFree.eps>
 (epstopdf)                    date: 2017-05-04 19:33:55
@@ -1398,7 +1433,7 @@ ucturing/ResultsFigures/General/OcclusionVSNVSRFree.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFree-eps-conver
-ted-to.pdf, id=208, 514.92375pt x 410.53375pt>
+ted-to.pdf, id=562, 514.92375pt x 410.53375pt>
 File: Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFree-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -1422,7 +1457,7 @@ ucturing/ResultsFigures/General/OcclusionVSNVSRHalf.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRHalf-eps-conver
-ted-to.pdf, id=209, 523.9575pt x 410.53375pt>
+ted-to.pdf, id=563, 523.9575pt x 410.53375pt>
 File: Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRHalf-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -1446,7 +1481,7 @@ Structuring/ResultsFigures/General/OcclusionVSNVSRFreeMid.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-con
-verted-to.pdf, id=210, 514.92375pt x 410.53375pt>
+verted-to.pdf, id=564, 514.92375pt x 410.53375pt>
 File: Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFreeMid-ep
 s-converted-to.pdf Graphic file (type pdf)
 
@@ -1470,7 +1505,7 @@ Structuring/ResultsFigures/General/OcclusionVSNVSRHalfMid.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-con
-verted-to.pdf, id=211, 523.9575pt x 410.53375pt>
+verted-to.pdf, id=565, 523.9575pt x 410.53375pt>
 File: Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRHalfMid-ep
 s-converted-to.pdf Graphic file (type pdf)
 
@@ -1479,11 +1514,6 @@ s-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/General/Occlus
 ionVSNVSRHalfMid-eps-converted-to.pdf used on input line 92.
 (pdftex.def)             Requested size: 187.89914pt x 147.22198pt.
-
-
-LaTeX Warning: Reference `fig: StiffeningMemOnCoop' on page 14 undefined on inp
-ut line 105.
-
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/CD
 3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 (epstopdf)                    date: 2017-05-03 19:12:08
@@ -1501,7 +1531,7 @@ raneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVST
-otalPhosColorMapLabeled-eps-converted-to.pdf, id=212, 673.51625pt x 522.95375pt
+otalPhosColorMapLabeled-eps-converted-to.pdf, id=567, 673.51625pt x 522.95375pt
 >
 File: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBi
 ndVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pdf)
@@ -1512,11 +1542,11 @@ Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffen
 ingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on in
 put line 111.
 (pdftex.def)             Requested size: 375.80544pt x 291.79878pt.
- [14 <./Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFree-eps
+ [17 <./Results/LocalStructuring/ResultsFigures/General/OcclusionVSNVSRFree-eps
 -converted-to.pdf> <./Results/LocalStructuring/ResultsFigures/General/Occlusion
 VSNVSRHalf-eps-converted-to.pdf> <./Results/LocalStructuring/ResultsFigures/Gen
 eral/OcclusionVSNVSRFreeMid-eps-converted-to.pdf> <./Results/LocalStructuring/R
-esultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf>] [15 <./Resu
+esultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf>] [18 <./Resu
 lts/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalP
 hosColorMapLabeled-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/St
@@ -1535,7 +1565,7 @@ ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOn/Prob
-VSSequence-eps-converted-to.pdf, id=268, 1061.9675pt x 900.36375pt>
+VSSequence-eps-converted-to.pdf, id=622, 1061.9675pt x 900.36375pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOn
 /ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1561,7 +1591,7 @@ f/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOff/Pro
-bVSSequence-eps-converted-to.pdf, id=269, 1077.02374pt x 900.36375pt>
+bVSSequence-eps-converted-to.pdf, id=623, 1077.02374pt x 900.36375pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOf
 f/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1587,7 +1617,7 @@ enSites/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/
-ProbVSSequence-eps-converted-to.pdf, id=270, 1075.01625pt x 901.3675pt>
+ProbVSSequence-eps-converted-to.pdf, id=624, 1075.01625pt x 901.3675pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenS
 ites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1597,16 +1627,11 @@ Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/StiffeningSequ
 entialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf used on input line 
 150.
 (pdftex.def)             Requested size: 140.92793pt x 118.1584pt.
-
-
-LaTeX Warning: Reference `fig: DephosMemOnCoop' on page 16 undefined on input l
-ine 162.
-
-[16 <./Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemO
-n/ProbVSSequence-eps-converted-to.pdf> <./Results/LocalStructuring/ResultsFigur
-es/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <./R
-esults/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/Pr
-obVSSequence-eps-converted-to.pdf>]
+ [19 <./Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/Mem
+On/ProbVSSequence-eps-converted-to.pdf> <./Results/LocalStructuring/ResultsFigu
+res/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <./
+Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/P
+robVSSequence-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/CD
 3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
 (epstopdf)                    date: 2017-05-15 18:00:35
@@ -1620,11 +1645,11 @@ ed-to.pdf>
 esultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModif
 ied5-eps-converted-to.pdf Results/LocalStructuring/ResultsFigures/CD3ZetaStiffe
 ningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphor
-ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=294, 682.55pt x 516.93
+ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=650, 682.55pt x 516.93
 124pt>
 File: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Depho
 sphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf Graphic file (type pd
@@ -1634,22 +1659,22 @@ f)
 phorylation/AvgBindVSTotalModified5-eps-converted-to.pdf>
 Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffen
 ingMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf us
-ed on input line 167.
+ed on input line 164.
 (pdftex.def)             Requested size: 375.80544pt x 284.62068pt.
- [17 <./Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dep
+ [20 <./Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dep
 hosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf>])
 (./Results/Electrostatics/Electrostatics.tex
 
-LaTeX Warning: Citation 'Xu2008' on page 18 undefined on input line 15.
+LaTeX Warning: Citation 'Xu2008' on page 21 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Shi2013' on page 18 undefined on input line 15.
+LaTeX Warning: Citation 'Shi2013' on page 21 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Zhang2011' on page 18 undefined on input line 15.
+LaTeX Warning: Citation 'Zhang2011' on page 21 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'Dobbins2016' on page 18 undefined on input line 15.
+LaTeX Warning: Citation 'Dobbins2016' on page 21 undefined on input line 15.
 
 
 Overfull \hbox (166.01462pt too wide) in paragraph at lines 15--16
@@ -1657,32 +1682,32 @@ Overfull \hbox (166.01462pt too wide) in paragraph at lines 15--16
 h the mem-brane prior to sig-nal-ing. [[]],[[]],[[]],[[]]
  []
 
-[18]
+[21]
 
-LaTeX Warning: Citation 'Aivazian2000' on page 19 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Zhang2011' on page 19 undefined on input line 17.
+LaTeX Warning: Citation 'Aivazian2000' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Citation 'Shi2013' on page 19 undefined on input line 17.
+LaTeX Warning: Citation 'Zhang2011' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Citation 'Aivazian2000' on page 19 undefined on input line 17.
+LaTeX Warning: Citation 'Shi2013' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Citation 'Zhang2011' on page 19 undefined on input line 19.
+LaTeX Warning: Citation 'Aivazian2000' on page 22 undefined on input line 17.
 
 
-LaTeX Warning: Citation 'Zhang2011' on page 19 undefined on input line 21.
+LaTeX Warning: Citation 'Zhang2011' on page 22 undefined on input line 19.
 
 
-LaTeX Warning: Citation 'Shi2013' on page 19 undefined on input line 26.
+LaTeX Warning: Citation 'Zhang2011' on page 22 undefined on input line 21.
 
 
-LaTeX Warning: Citation 'Zhang2011' on page 19 undefined on input line 46.
+LaTeX Warning: Citation 'Shi2013' on page 22 undefined on input line 26.
 
-[19]
+
+LaTeX Warning: Citation 'Zhang2011' on page 22 undefined on input line 46.
+
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []\OT1/cmr/m/n/10 Basic
  []
@@ -1772,29 +1797,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 \OT1/cmr/m/n/10 RGQNKERPPPVPNPD[]YEPIRKGQ
  []
 
-[20]
-<Results/Electrostatics/ElectrostaticsDiagram.pdf, id=336, 560.0925pt x 209.783
+[23]
+<Results/Electrostatics/ElectrostaticsDiagram.pdf, id=683, 560.0925pt x 209.783
 75pt>
 File: Results/Electrostatics/ElectrostaticsDiagram.pdf Graphic file (type pdf)
  <use Results/Electrostatics/ElectrostaticsDiagram.pdf>
 Package pdftex.def Info: Results/Electrostatics/ElectrostaticsDiagram.pdf used 
 on input line 175.
 (pdftex.def)             Requested size: 328.82707pt x 123.16632pt.
+ [24 <./Results/Electrostatics/ElectrostaticsDiagram.pdf>]
 
-
-LaTeX Warning: Reference `table: BasicsYLocation' on page 21 undefined on input
- line 183.
-
-[21 <./Results/Electrostatics/ElectrostaticsDiagram.pdf>]
-
-LaTeX Warning: Reference `table: ElecPotentialRelationships' on page 22 undefin
-ed on input line 238.
-
-
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 22 undefined on input 
+LaTeX Warning: Reference `fig: iSiteDistInitial' on page 25 undefined on input 
 line 238.
 
-[22]
+[25]
 Package epstopdf Info: Source file: <Results/Electrostatics/ResultsFigures/CD3Z
 etaSoftwallPiecewiseBasicsY/DistributioniSite7.eps>
 (epstopdf)                    date: 2017-05-24 14:25:48
@@ -1811,7 +1827,7 @@ ributioniSite7.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Distribu
-tioniSite7-eps-converted-to.pdf, id=383, 1372.12625pt x 1083.04625pt>
+tioniSite7-eps-converted-to.pdf, id=732, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Dis
 tributioniSite7-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1823,23 +1839,15 @@ iecewiseBasicsY/DistributioniSite7-eps-converted-to.pdf used on input line 243.
 (pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
 
 
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 23 undefined on input 
+LaTeX Warning: Reference `fig: iSiteDistInitial' on page 26 undefined on input 
 line 245.
 
 
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 23 undefined on input 
+LaTeX Warning: Reference `fig: iSiteDistInitial' on page 26 undefined on input 
 line 245.
 
-[23 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Di
+[26 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Di
 stributioniSite7-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig: Dist123456' on page 24 undefined on input line 2
-68.
-
-
-LaTeX Warning: Reference `fig: Dist135624' on page 24 undefined on input line 2
-68.
-
 Package epstopdf Info: Source file: <Results/Electrostatics/ResultsFigures/CD3Z
 etaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps>
 (epstopdf)                    date: 2017-05-25 17:23:12
@@ -1853,11 +1861,11 @@ ed-to.pdf>
 ultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution12
 3456-eps-converted-to.pdf Results/Electrostatics/ResultsFigures/CD3ZetaSoftwall
 PiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphor
-ylation/iSiteDistribution123456-eps-converted-to.pdf, id=400, 1708.3825pt x 126
+ylation/iSiteDistribution123456-eps-converted-to.pdf, id=750, 1708.3825pt x 126
 9.74374pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Pho
 sphorylation/iSiteDistribution123456-eps-converted-to.pdf Graphic file (type pd
@@ -1867,7 +1875,7 @@ f)
 phorylation/iSiteDistribution123456-eps-converted-to.pdf>
 Package pdftex.def Info: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallP
 iecewiseBasicsY/Phosphorylation/iSiteDistribution123456-eps-converted-to.pdf us
-ed on input line 272.
+ed on input line 271.
 (pdftex.def)             Requested size: 469.75502pt x 349.13217pt.
 Package epstopdf Info: Source file: <Results/Electrostatics/ResultsFigures/CD3Z
 etaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps>
@@ -1882,11 +1890,11 @@ ed-to.pdf>
 ultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution13
 5624-eps-converted-to.pdf Results/Electrostatics/ResultsFigures/CD3ZetaSoftwall
 PiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphor
-ylation/iSiteDistribution135624-eps-converted-to.pdf, id=401, 1708.3825pt x 126
+ylation/iSiteDistribution135624-eps-converted-to.pdf, id=751, 1708.3825pt x 126
 9.74374pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Pho
 sphorylation/iSiteDistribution135624-eps-converted-to.pdf Graphic file (type pd
@@ -1896,18 +1904,10 @@ f)
 phorylation/iSiteDistribution135624-eps-converted-to.pdf>
 Package pdftex.def Info: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallP
 iecewiseBasicsY/Phosphorylation/iSiteDistribution135624-eps-converted-to.pdf us
-ed on input line 279.
+ed on input line 278.
 (pdftex.def)             Requested size: 469.75502pt x 349.13217pt.
- [24 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/P
+ [27 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/P
 hosphorylation/iSiteDistribution123456-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig: iSiteDist' on page 25 undefined on input line 28
-6.
-
-
-LaTeX Warning: Reference `fig: tailDist' on page 25 undefined on input line 286
-.
-
 Package epstopdf Info: Source file: <Results/Electrostatics/ResultsFigures/Elec
 tro/DistributioniSite2.eps>
 (epstopdf)                    date: 2017-05-12 14:02:04
@@ -1919,20 +1919,20 @@ tro/DistributioniSite2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Results/Electrostatics/Res
 ultsFigures/Electro/DistributioniSite2-eps-converted-to.pdf Results/Electrostat
 ics/ResultsFigures/Electro/DistributioniSite2.eps>
-(epstopdf)             \includegraphics on input line 290.
+(epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-converted
--to.pdf, id=414, 1372.12625pt x 1083.04625pt>
+-to.pdf, id=766, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: Results/Electrostatics/ResultsFigures/Electro/Distribu
-tioniSite2-eps-converted-to.pdf used on input line 290.
+tioniSite2-eps-converted-to.pdf used on input line 289.
 (pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
- [25 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/P
+ [28 <./Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/P
 hosphorylation/iSiteDistribution135624-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/Electrostatics/ResultsFigures/Elec
 tro/DistributioniSite7.eps>
@@ -1945,31 +1945,23 @@ tro/DistributioniSite7-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Results/Electrostatics/Res
 ultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf Results/Electrostat
 ics/ResultsFigures/Electro/DistributioniSite7.eps>
-(epstopdf)             \includegraphics on input line 297.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/Electro/DistributioniSite7-eps-converted
--to.pdf, id=428, 1372.12625pt x 1083.04625pt>
+-to.pdf, id=779, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/Electro/DistributioniSite7-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use Results/Electrostatics/ResultsFigures/Electro/DistributioniSite7-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: Results/Electrostatics/ResultsFigures/Electro/Distribu
-tioniSite7-eps-converted-to.pdf used on input line 297.
+tioniSite7-eps-converted-to.pdf used on input line 296.
 (pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
- [26 <./Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-co
-nverted-to.pdf>] [27 <./Results/Electrostatics/ResultsFigures/Electro/Distribut
+ [29 <./Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-co
+nverted-to.pdf>] [30 <./Results/Electrostatics/ResultsFigures/Electro/Distribut
 ioniSite7-eps-converted-to.pdf>])
-(./Results/SimultaneousBinding/SimultaneousBinding.tex
-
-LaTeX Warning: Reference `sec:ModelDev' on page 28 undefined on input line 29.
-
-
-LaTeX Warning: Reference `sec:ModelDevsubsec:TCR' on page 28 undefined on input
- line 29.
-
-[28]
+(./Results/SimultaneousBinding/SimultaneousBinding.tex [31]
 Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
 /SimultaneousBindingDiagram/SimultaneousBindingDiagram.eps>
 (epstopdf)                    date: 2017-05-15 16:45:51
@@ -1986,7 +1978,7 @@ ram/SimultaneousBindingDiagram.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Simultan
-eousBindingDiagram-eps-converted-to.pdf, id=465, 1053.9375pt x 299.1175pt>
+eousBindingDiagram-eps-converted-to.pdf, id=812, 1053.9375pt x 299.1175pt>
 File: Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Sim
 ultaneousBindingDiagram-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1996,11 +1988,6 @@ Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/Simultaneou
 sBindingDiagram/SimultaneousBindingDiagram-eps-converted-to.pdf used on input l
 ine 39.
 (pdftex.def)             Requested size: 375.80544pt x 106.65984pt.
-
-
-LaTeX Warning: Reference `fig: SimBindMemOnSH2' on page 29 undefined on input l
-ine 54.
-
 Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
 /CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 (epstopdf)                    date: 2017-05-03 19:17:59
@@ -2018,7 +2005,7 @@ tipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/Av
-gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=466, 664.4825pt x 514.
+gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=814, 664.4825pt x 514.
 92375pt>
 File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
 On/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pd
@@ -2030,12 +2017,8 @@ Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf us
 ed on input line 59.
 (pdftex.def)             Requested size: 469.75502pt x 364.027pt.
- [29 <./Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/S
+ [32 <./Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/S
 imultaneousBindingDiagram-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig: SimBindMemOnibEqual' on page 30 undefined on inp
-ut line 67.
-
 Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
 /CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
 (epstopdf)                    date: 2017-05-15 19:07:43
@@ -2053,7 +2036,7 @@ leBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ib
-Equal/AvgBindVSTotalModified-eps-converted-to.pdf, id=480, 648.4225pt x 514.923
+Equal/AvgBindVSTotalModified-eps-converted-to.pdf, id=827, 648.4225pt x 514.923
 75pt>
 File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
 On/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Graphic file (type pdf)
@@ -2064,8 +2047,8 @@ Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf used 
 on input line 71.
 (pdftex.def)             Requested size: 469.75502pt x 373.04694pt.
- [30 <./Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembra
-neOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>] [31 <./Results/Si
+ [33 <./Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembra
+neOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>] [34 <./Results/Si
 multaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBi
 ndVSTotalModified-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
@@ -2084,7 +2067,7 @@ n/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOn/Pro
-bVSSequence-eps-converted-to.pdf, id=507, 1011.78pt x 900.36375pt>
+bVSSequence-eps-converted-to.pdf, id=852, 1011.78pt x 900.36375pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
 n/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2110,7 +2093,7 @@ Off/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOff/Pr
-obVSSequence-eps-converted-to.pdf, id=508, 1011.78pt x 901.3675pt>
+obVSSequence-eps-converted-to.pdf, id=853, 1011.78pt x 901.3675pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
 ff/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2136,7 +2119,7 @@ EvenSites/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenSites
-/ProbVSSequence-eps-converted-to.pdf, id=509, 1011.78pt x 901.3675pt>
+/ProbVSSequence-eps-converted-to.pdf, id=854, 1011.78pt x 901.3675pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Even
 Sites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2146,24 +2129,15 @@ Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/MultipleSeq
 uentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf used on input line
  101.
 (pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
- [32 <./Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Me
+ [35 <./Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Me
 mOn/ProbVSSequence-eps-converted-to.pdf> <./Results/SimultaneousBinding/Results
 Figures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <
 ./Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenSite
 s/ProbVSSequence-eps-converted-to.pdf>]) (./Results/SurfaceEffects/SurfaceEffec
-ts.tex [33]
-
-LaTeX Warning: Reference `table: Tethers' on page 34 undefined on input line 36
-.
-
-
+ts.tex [36]
 Underfull \hbox (badness 6808) in paragraph at lines 46--47
 []\OT1/cmr/m/n/10 (37392 B2) Bio-SRAARGTIGARRTGQPLKEDPSAVPVFSV
  []
-
-
-LaTeX Warning: Reference `fig: SHP1Diag' on page 34 undefined on input line 72.
-
 
 Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/SHP1
 PyMol/Diagonal1.eps>
@@ -2180,7 +2154,7 @@ ultsFigures/SHP1PyMol/Diagonal1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted-to.pdf
-, id=546, 702.625pt x 546.04pt>
+, id=889, 702.625pt x 546.04pt>
 File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -2189,11 +2163,7 @@ o.pdf Graphic file (type pdf)
 Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagon
 al1-eps-converted-to.pdf used on input line 76.
 (pdftex.def)             Requested size: 234.8775pt x 182.53502pt.
- [34]
-
-LaTeX Warning: Reference `fig: SHP1Rectangle' on page 35 undefined on input lin
-e 81.
-
+ [37]
 Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/SHP1
 PyMol/LengthWidthDepth.eps>
 (epstopdf)                    date: 2017-05-22 13:43:05
@@ -2209,7 +2179,7 @@ cts/ResultsFigures/SHP1PyMol/LengthWidthDepth.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-eps-converted
--to.pdf, id=553, 441.65pt x 667.49374pt>
+-to.pdf, id=899, 441.65pt x 667.49374pt>
 File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -2218,27 +2188,17 @@ rted-to.pdf>
 Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Length
 WidthDepth-eps-converted-to.pdf used on input line 85.
 (pdftex.def)             Requested size: 187.89914pt x 283.98155pt.
-
-
-LaTeX Warning: Reference `fig: LocalConcCartoon' on page 35 undefined on input 
-line 93.
-
-[35 <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted-
-to.pdf> <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-eps
--converted-to.pdf>]
-<Results/SurfaceEffects/Diagram.png, id=574, 433.62pt x 219.219pt>
+ [38 <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted
+-to.pdf> <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-ep
+s-converted-to.pdf>]
+<Results/SurfaceEffects/Diagram.png, id=921, 433.62pt x 219.219pt>
 File: Results/SurfaceEffects/Diagram.png Graphic file (type png)
 
 <use Results/SurfaceEffects/Diagram.png>
 Package pdftex.def Info: Results/SurfaceEffects/Diagram.png used on input line 
 97.
 (pdftex.def)             Requested size: 469.75502pt x 237.4989pt.
-
-
-LaTeX Warning: Reference `fig: OcclusionVSN' on page 36 undefined on input line
- 160.
-
-[36 <./Results/SurfaceEffects/Diagram.png>]
+ [39 <./Results/SurfaceEffects/Diagram.png>]
 Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Bind
 ingSurfaceFactor/OcclusionVSN.eps>
 (epstopdf)                    date: 2017-05-02 20:13:00
@@ -2254,7 +2214,7 @@ aceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-eps-co
-nverted-to.pdf, id=583, 1558.82375pt x 528.97626pt>
+nverted-to.pdf, id=931, 1558.82375pt x 528.97626pt>
 File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-e
 ps-converted-to.pdf Graphic file (type pdf)
 
@@ -2278,7 +2238,7 @@ eEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps-conv
-erted-to.pdf, id=584, 1558.82375pt x 528.97626pt>
+erted-to.pdf, id=932, 1558.82375pt x 528.97626pt>
 File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -2287,14 +2247,9 @@ converted-to.pdf>
 Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFa
 ctor/BindingVSN-eps-converted-to.pdf used on input line 173.
 (pdftex.def)             Requested size: 469.75502pt x 159.40439pt.
-
-
-LaTeX Warning: Reference `fig: ConcVSSeparation' on page 37 undefined on input 
-line 182.
-
-[37 <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-
-eps-converted-to.pdf> <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceFa
-ctor/BindingVSN-eps-converted-to.pdf>]
+ [40 <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN
+-eps-converted-to.pdf> <./Results/SurfaceEffects/ResultsFigures/BindingSurfaceF
+actor/BindingVSN-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Effe
 ctiveConcentrationKernel/ConcentrationVSSeparation.eps>
 (epstopdf)                    date: 2017-05-10 15:38:09
@@ -2311,7 +2266,7 @@ centrationVSSeparation.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concentrati
-onVSSeparation-eps-converted-to.pdf, id=613, 944.52875pt x 768.8725pt>
+onVSSeparation-eps-converted-to.pdf, id=958, 944.52875pt x 768.8725pt>
 File: Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concen
 trationVSSeparation-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2337,7 +2292,7 @@ eHalfAxisEqual.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFreeHal
-fAxisEqual-eps-converted-to.pdf, id=614, 1606.0pt x 1017.8025pt>
+fAxisEqual-eps-converted-to.pdf, id=959, 1606.0pt x 1017.8025pt>
 File: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameterFr
 eeHalfAxisEqual-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2347,7 +2302,7 @@ Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFact
 or/ReachParameterFreeHalfAxisEqual-eps-converted-to.pdf used on input line 208.
 
 (pdftex.def)             Requested size: 469.75502pt x 297.70215pt.
- [38 <./Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Conc
+ [41 <./Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Conc
 entrationVSSeparation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/SurfaceEffects/ResultsFigures/Reac
 hSurfaceFactor/ReachSurfaceFactor.eps>
@@ -2364,7 +2319,7 @@ SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFactor.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFactor-ep
-s-converted-to.pdf, id=629, 728.7225pt x 649.42625pt>
+s-converted-to.pdf, id=973, 728.7225pt x 649.42625pt>
 File: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachSurfaceFact
 or-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2373,7 +2328,7 @@ r-eps-converted-to.pdf>
 Package pdftex.def Info: Results/SurfaceEffects/ResultsFigures/ReachSurfaceFact
 or/ReachSurfaceFactor-eps-converted-to.pdf used on input line 215.
 (pdftex.def)             Requested size: 328.82707pt x 293.04178pt.
- [39 <./Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameter
+ [42 <./Results/SurfaceEffects/ResultsFigures/ReachSurfaceFactor/ReachParameter
 FreeHalfAxisEqual-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2419,16 +2374,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 223.
 
-) (./Timeline/Timeline.tex [40 <./Results/SurfaceEffects/ResultsFigures/ReachSu
+) (./Timeline/Timeline.tex [43 <./Results/SurfaceEffects/ResultsFigures/ReachSu
 rfaceFactor/ReachSurfaceFactor-eps-converted-to.pdf>]) (./Appendix/Appendix.tex
-[41] [42]) [43]
+[44] [45]) [46]
 Overfull \hbox (5.36366pt too wide) in paragraph at lines 100--100
 \OT1/cmr/m/n/10 poly-mer-iza-tion pre-dicts homologue-dependent mechanosen-si-t
 iv-ity''. In: \OT1/cmr/m/it/10 Cy-toskele-ton \OT1/cmr/m/n/10 74.1 (2017), pp. 
 29{
  []
 
-[44]
+[47]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (./AdvancementSummary.aux)
@@ -2441,13 +2396,13 @@ Package rerunfilecheck Warning: File `AdvancementSummary.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `AdvancementSummary.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6278F643E1DBFA576F2558FB8F961B93;5698.
+(rerunfilecheck)             Before: 6278F643E1DBFA576F2558FB8F961B93;5698
+(rerunfilecheck)             After:  456BAE2E627007B16DF9F3D83B6C5218;5629.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2459,37 +2414,58 @@ Package logreq Info: Writing requests to 'AdvancementSummary.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26185 strings out of 493014
- 494751 string characters out of 6133351
- 904777 words of memory out of 5000000
- 28997 multiletter control sequences out of 15000+600000
+ 26284 strings out of 493014
+ 496773 string characters out of 6133351
+ 913115 words of memory out of 5000000
+ 29073 multiletter control sequences out of 15000+600000
  10738 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,94p,4622b,1174s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on AdvancementSummary.pdf (44 pages, 3264996 bytes).
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.31} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.2} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
+Output written on AdvancementSummary.pdf (47 pages, 3582547 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 639 compressed objects within 7 object streams
- 204 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1179 PDF objects out of 1200 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

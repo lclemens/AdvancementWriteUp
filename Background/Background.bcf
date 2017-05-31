@@ -2102,7 +2102,12 @@
     <bcf:citekey order="4">Mukhopadhyay2016</bcf:citekey>
     <bcf:citekey order="5">Wu2015</bcf:citekey>
     <bcf:citekey order="6">Wu2015</bcf:citekey>
-    <bcf:citekey order="7">Jegou2013</bcf:citekey>
-    <bcf:citekey order="8">Bryant2017</bcf:citekey>
+    <bcf:citekey order="7">VanValen2009</bcf:citekey>
+    <bcf:citekey order="8">Reeves2011</bcf:citekey>
+    <bcf:citekey order="9">Zhou2001</bcf:citekey>
+    <bcf:citekey order="10">VanValen2009</bcf:citekey>
+    <bcf:citekey order="11">VanValen2009</bcf:citekey>
+    <bcf:citekey order="12">Jegou2013</bcf:citekey>
+    <bcf:citekey order="13">Bryant2017</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
