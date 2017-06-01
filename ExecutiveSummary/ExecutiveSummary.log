@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 MAY 2017 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUN 2017 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -360,15 +360,15 @@ LaTeX Font Info:    ... okay on input line 23.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -454,23 +454,22 @@ Package caption Info: End \AtBeginDocument code.
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] (./ExecutiveSummary.aux) ) 
 Here is how much of TeX's memory you used:
- 6472 strings out of 493014
- 93406 string characters out of 6133351
- 175672 words of memory out of 5000000
- 9934 multiletter control sequences out of 15000+600000
- 9028 words of font info for 33 fonts, out of 8000000 for 9000
+ 6449 strings out of 493014
+ 93167 string characters out of 6133351
+ 176682 words of memory out of 5000000
+ 9920 multiletter control sequences out of 15000+600000
+ 5310 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,42p,1062b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,5n,42p,1062b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb>
-Output written on ExecutiveSummary.pdf (2 pages, 66358 bytes).
+c/amsfonts/cm/cmr12.pfb>
+Output written on ExecutiveSummary.pdf (2 pages, 57683 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

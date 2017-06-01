@@ -58,10 +58,6 @@ As our understanding of disordered proteins develops, so too will our understand
 
 Studies have shown that disordered proteins or disordered domains are present in at least 40\% of human proteins, including those involved with signal propagation.\cite{Tompa2012} General functions of IDPs include as tethers between two globular domains \hl{cite}, receptor subunits in signaling pathways \hl{cite}, tethers to the membrane \hl{cite}, and facilitators to actin polymerization \hl{cite Bryant2017 or someone else older?}. Given the ubiquitous nature of IDPs, many questions arise: How does their existence influence cellular functions such as biochemical reactions, signaling networks, or cytoskeletal structure?  Are there any benefits to being disordered over structured? and Can IDPs exhibit the same complicated behavior as structured proteins?
 
-\hl{Paragraph focusing on disordered proteins in signaling pathways. E.g. CD28, CD3zeta, etc}
-
-\hl{Examples: B Cells, NK cells, Fc, etc cite - Xu et al 2008, who cites Reth1989, Weiss and Littman 1994}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{T Cell Receptor Zeta Chain}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -101,11 +97,9 @@ Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extrace
 \subsection{Previous Modeling Attempts - FJC as Model for IDPs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \cite{Zhou2001} \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one. Basically we use the lower limit of what is reasonable and could see what difference it makes either by comparing to N=1/2Nmax or by resimulating.}\hl{Find $l_k$ ~ 0.5 in Mukhopadhyay2016 too} Models of disordered proteins using freely-jointed chain (FJC) and WLC converge \hl{in the thermodynamic limit}, with the persistence length for the WLC as half the Kuhn length used for the FJC. \cite{VanValen2009}
+Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \cite{Zhou2001} \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one. Basically we use the lower limit of what is reasonable and could see what difference it makes either by comparing to N=1/2Nmax or by resimulating.}\hl{Find $l_k$ ~ 0.5 in Mukhopadhyay2016 too} Models of disordered proteins using freely-jointed chain (FJC) and WLC converge, with the persistence length for the WLC as half the Kuhn length used for the FJC. \cite{VanValen2009}
 
-\hl{Could explain why those models were developed - what are they good at describing}
-
-Alternative models for multisite phosphorylation of IDPs include molecular dynamic, ordinary differential equations, or particle based models.  \hl{Cite times when each of these has been used} However, FJC or other `mesoscale' approaches reach timescales on the order of microseconds to seconds, which are computationally out of reach for traditional atomic scale MD. \hl{Cite time scales?} This approach also allows us to capture the steric effects of a disordered chain, which are missed by coarser models. \hl{Do I need to cite stuff here?}
+Alternative models for multisite phosphorylation of IDPs include molecular dynamic, ordinary differential equations, or particle based models. However, FJC or other `mesoscale' approaches reach timescales on the order of microseconds to seconds, which are computationally out of reach for traditional atomic scale MD. This approach also allows us to capture the steric effects of a disordered chain, which are missed by coarser models. 
 
 Representations of disordered proteins as freely-jointed chains have already been used to elucidate properties of IDPs. For instance, the length of tethers between domains controls the effective concentration of one domain seen by the other, such as auto-inhibition of WASP. \cite{VanValen2009} In a second example, the disordered molecule, formin, captures profilin-actin monomers and delivers them to the growing end of actin, increasing the actin polymerization rate. In experimental studies of formin, exerting force on the distal end of formin counterintuitively enhances the polymerization rate two-fold over relaxed formins. \cite{Jegou2013} Models of formin as a freely-jointed chain offer an explanation for this phenomenon. A force exerted on a freely-jointed chain extends the polymer, increasing capture of profilin-actin by increasing the availabiltiy of binding sites. This increase of capture rate balances the reduction in delivery rate to have a net positive impact on the actin polymerization rate. \cite{Bryant2017}
 
@@ -113,12 +107,19 @@ Representations of disordered proteins as freely-jointed chains have already bee
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{The Big Question}
+\subsection{The Premise}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
+%%
 %Since IDPs lack a consistent, rigid structure, they must fluctuate between multiple conformations.  If we assume IDPs have no structure at all, then the protein may be in any conformation at any time and in fact would sample all of these conformations.  This high degree of structure variability makes ligand binding to a specific binding site more challenging since it is now possible for the protein to transiently block its own binding site. That is, there will be conformations where the region around the binding site is occupied by other segments of the protein, preventing a ligand from occupying that space. In order to explore if and how disordered proteins can provide complex signaling behavior to a network, we create a model of a simple disordered protein using principles from polymer physics.
-\hl{I feel like I need more here.}
-Using a `mesoscale' modeling approach, we study the role disordered proteins play in signaling networks. We investigate how disordered proteins can convey nonlinear signals to a network and how their characteristics influence this signal. 
+%
+%
+%\hl{I feel like I need more here.}
+%Using a `mesoscale' modeling approach, we study the role disordered proteins play in signaling networks. We investigate how disordered proteins can convey nonlinear signals to a network and how their characteristics influence this signal. 
+
+%bio premise
+Given the above evidence that disordered proteins can give rise to nonlinear signaling behavior (e.g., ), the biological premise of the following projects is that disordered polymer properties alone (e.g., ) can create these effects, for example through steric interactions with rigid ligands. 
+% modeling premise
+The modeling premise is that since disordered proteins take on a wide ensemble of conformations, modeling approaches which focus on structure alone are insufficient. On the other hand, a `mesoscale' modeling approach able to describe conformational ensembles will be able capture the nonlinear signaling properties arising from disorder.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

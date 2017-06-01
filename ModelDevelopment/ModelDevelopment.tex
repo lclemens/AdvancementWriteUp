@@ -35,7 +35,7 @@ where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $
 \end{equation}
 Our problem of interest is now reduced to computing the occlusion probability. 
 
-We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. To determine if a site is occluded in a given conformation, we check if any of the segment end points are located within the sphere of interest. We also check if the sphere crosses below the half-space surface designated at $z=0$. Given that the binding sphere is large compared to the Kuhn length, we assume the probability of tangential occlusion (where a segment has end points outside the sphere but part of the segment lies within) is negligible compared to end point occlusion. \hl{Should we produce a plot for this someday to show it doesn't matter? Or create a diagram to make it more obvious what all the types of occlusion are?}
+We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. To determine if a site is occluded in a given conformation, we check if any of the segment end points are located within the sphere of interest. We also check if the sphere crosses below the half-space surface designated at $z=0$. Given that the binding sphere is large compared to the Kuhn length, we assume the probability of tangential occlusion (where a segment has end points outside the sphere but part of the segment lies within) is negligible compared to end point occlusion. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,14 +73,10 @@ P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}exp\le
 \end{center}
 \end{figure}
 
-\hl{and show derivation (?) of distribution formula?}
-
 \subsubsection{Occlusion Probability of End Site VS Analytical Result}
 
 We consider analytical solutions to the simplest case, where the ligand is attempting to bind at the end of the freely-jointed chain in free-space. The probability that a random walk over time 0 to $\delta*N$, beginning at the edge of a sphere of radius, R, will cross into the sphere at any time is analagous to the probability the ligand is occluded by the freely jointed chain. \hl{This is a confusing description} In order to solve this analytically, we must assume the random walk begins $\epsilon$ away from the sphere or it will always count as a failure. Then we may formulate as follows for the probability of survival, $p(\vec{x},t)$ when the random walk begins at a starting point, $r=R+\epsilon$:
 
-
-\hl{I got confused.}
 \begin{equation}\label{eq: diffusion}
 	\begin{cases}
 		\frac{\partial p}{\partial t} = D \nabla^2 p, \hspace{2cm} p=0 \hspace{3mm}\text{at}\hspace{3mm} r=R\\
@@ -108,17 +104,10 @@ q(r) = 1-\frac{R}{R+1} \\
  
  We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately equivalent to $N \rightarrow \infty$.
 
-\hl{pick one of these - don't need both}
-
  \begin{figure}[H]
-\begin{subfigure}{0.5\linewidth}
- \includegraphics[width=\linewidth]{ModelConfirmationFigures/BindingVSAnalyticN100N150.eps}
- \caption{}
- \end{subfigure}
- \begin{subfigure}{0.5\linewidth}
- \includegraphics[width=\linewidth]{ModelConfirmationFigures/OcclusionVSAnalyticN100N150.eps}
- \caption{}
- \end{subfigure}
+ \begin{center}
+ \includegraphics[width=0.7\linewidth]{ModelConfirmationFigures/BindingVSAnalyticN100N150.eps}
+ \end{center}
   \caption{Analytic Solution \label{fig: AnalyticBinding}}
  \end{figure}
 
@@ -147,8 +136,8 @@ V &= \frac{4}{3}\pi r^3 \\
 34 \nm^3 &= \frac{4}{3} \pi r^3 \\
 r &\approx 2 \nm \\
 \end{align*}
-
-Measurements from the crystal structure of Lck suggest a volume of 45 $\nm^3$ for the kinase domain.\hl{Where did this come from?} \todo{Cite or show PyMol for Lck} This estimate is on the same order of magnitude as our previous estimate.  Note also, if we recalculate the kinase radius using a volume of $45 \nm^3$, we estimate a radius of 2.2 \nm. 
+%
+%Measurements from the crystal structure of Lck suggest a volume of 45 $\nm^3$ for the kinase domain.\hl{Where did this come from?}This estimate is on the same order of magnitude as our previous estimate.  Note also, if we recalculate the kinase radius using a volume of $45 \nm^3$, we estimate a radius of 2.2 \nm. 
 
 We measure the maximal length of the kinase domain in PyMol from PDB 3LCK. Rounding up for error, we have a maximal distance of 58\AA. This gives a maximal spherical estimate with a radius of 2.9\nm, or about ten Kuhn lengths. (Fig. \ref{fig: LckPyMol}a) If we instead measure rough length, width, and height for the kinase domain, we have measurements of 36.6\AA, 29.4\AA, and 45.1\AA respectively. (Fig. \ref{fig: LckPyMol}b) From these we can estimate a sphere with volume corresponding to the volume of the rectangular prism with those dimensions.  This estimates a sphere with radius 2.3\nm, or about eight Kuhn lengths. Based on all of these estimates, we choose to represent Lck with a radius of seven Kuhn lengths.
 
@@ -167,16 +156,15 @@ We measure the maximal length of the kinase domain in PyMol from PDB 3LCK. Round
 \caption{PDB 3LCK - kinase domain of Lck \label{fig: LckPyMol}}
 \end{figure}
 
-\hl{Introduce estimates of ZAP-70 SH2 domain}
 
 
-\subsection{Possibly unnecessary stuff}
-
-\hl{where does this stuff go?}
-
-In this model, the FJC is allowed to pass through itself. However, this turns out to be unimportant. Although the disordered protein would have a nonzero bond width, this size would be small in comparison to the kinase volume and volume of exploration space.  \hl{If you consider two thin strings in 3-dimensional space, they will almost never intersect.}  Therefore, we model our polymer with infinitely thin width.  Since it is infinitely thin, the time when it would take on a conformation where it overlaps itself is negligible compared to the number of legal conformations it assumes.
-
-Additionally, we are only interested in the ensemble of configurations, not the dynamics. Therefore, the way the polymer achieves its conformations is unimportant to the results and any instances of self-intersection are negligible compared to the larger ensemble. Allowing the FJC to pass through itself, while unphysical, does not change the validity of our simulation.
+%\subsection{Possibly unnecessary stuff}
+%
+%\hl{where does this stuff go?}
+%
+%In this model, the FJC is allowed to pass through itself. However, this turns out to be unimportant. Although the disordered protein would have a nonzero bond width, this size would be small in comparison to the kinase volume and volume of exploration space.  \hl{If you consider two thin strings in 3-dimensional space, they will almost never intersect.}  Therefore, we model our polymer with infinitely thin width.  Since it is infinitely thin, the time when it would take on a conformation where it overlaps itself is negligible compared to the number of legal conformations it assumes.
+%
+%Additionally, we are only interested in the ensemble of configurations, not the dynamics. Therefore, the way the polymer achieves its conformations is unimportant to the results and any instances of self-intersection are negligible compared to the larger ensemble. Allowing the FJC to pass through itself, while unphysical, does not change the validity of our simulation.
 
 
 %
