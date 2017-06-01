@@ -19,6 +19,35 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{Aivazian2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=57b2701af4d18a7b9ceeb0f81b76620f}{%
+           family={Aivazian},
+           family_i={A\bibinitperiod},
+           given={Dikran},
+           given_i={D\bibinitperiod}}}%
+        {{hash=6dc5b82be0e57ed11c9e0c7c4e300b1e}{%
+           family={Stern},
+           family_i={S\bibinitperiod},
+           given={Lawrence\bibnamedelima J},
+           given_i={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2cf25da8c92641d53bba766bf49ec1e4}
+      \strng{fullhash}{2cf25da8c92641d53bba766bf49ec1e4}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{11}
+      \field{title}{{Phosphorylation of T cell receptor $\zeta$ is regulated by a lipid dependent folding}}
+      \field{volume}{7}
+      \field{year}{2000}
+      \field{pages}{1023\bibrangedash 1026}
+      \range{pages}{4}
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/AivazianSternTCRZetaLipidDependentFolding.pdf:pdf
+      \endverb
+    \endentry
     \entry{Bah2015}{article}{}
       \name{author}{9}{}{%
         {{hash=609d87c51f5636a9deaeb2d79a507579}{%
@@ -173,7 +202,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Many actin structures are nucleated and assembled by the barbed-end tracking polymerase formin family, including filopodia, focal adhesions, the cytokinetic ring and cell cortex. These structures respond to forces in distinct ways. Formins typically have profilin-actin binding sites embedded in highly flexible disordered FH1 domains, hypothesized to diffusively explore space to rapidly capture actin monomers for delivery to the barbed end. Recent experiments demonstrate that formin-mediated polymerization accelerates when under tension. The acceleration has been attributed to modifying the state of the FH2 domain of formin. Intriguingly, the same acceleration is reported when tension is applied to the FH1 domains, ostensibly pulling monomers away from the barbed end. Here we develop a mesoscale coarse-grain model of formin-mediated actin polymerization, including monomer capture and delivery by FH1, which sterically interacts with actin along its entire length. The binding of actin monomers to their specific sites on FH1 is entropically disfavored by the high disorder. We find that this penalty is attenuated when force is applied to the FH1 domain by revealing the binding site, increasing monomer capture efficiency. Overall polymerization rates can decrease or increase with increasing force, depending on the length of FH1 domain and location of binding site. Our results suggest that the widely varying FH1 lengths and binding site locations found in known formins could be used to differentially respond to force, depending on the actin structure being assembled. (c) 2016 Wiley Periodicals, Inc.}
-      \field{isbn}{1949-3592 (Electronic) 1949-3592 (Linking)}
+      \field{isbn}{1949-3592 (Electronic)1949-3592 (Linking)}
       \field{issn}{19493592}
       \field{journaltitle}{Cytoskeleton}
       \field{number}{1}
@@ -189,6 +218,69 @@
       \verb :Users/laraclemens/Google Drive/Articles/Bryant2016Cytoskeleton.pdf:pdf
       \endverb
       \keyw{actin,formin,freely-jointed chain,mechanosensitivity,simulation}
+    \endentry
+    \entry{Dobbins2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9bdcc37452f0bd4d913654134d5f340c}{%
+           family={Dobbins},
+           family_i={D\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=12589db537c1f67604386e5ce6b131ad}{%
+           family={Gagnon},
+           family_i={G\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{hash=c36dc28417027f888877df490de93d3c}{%
+           family={Godec},
+           family_i={G\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=a8812605092a2ca56effeb089dd8df8c}{%
+           family={Pyrdol},
+           family_i={P\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=cf2741916c2e9af79ac7ec68fb1e0bd4}{%
+           family={Vignali},
+           family_i={V\bibinitperiod},
+           given={D.\bibnamedelimi A.\bibnamedelimi A.},
+           given_i={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8046546844ec50fe0622117eb7820849}{%
+           family={Sharpe},
+           family_i={S\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           given_i={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1d62d4f9a96d1f6ca9c5279fcbbf0dfd}{%
+           family={Wucherpfennig},
+           family_i={W\bibinitperiod},
+           given={K.\bibnamedelimi W.},
+           given_i={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{374a05bd4426bcf8240ece20104a65af}
+      \strng{fullhash}{191ff6a7d08cf26baecad7184e1ea9ce}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The T cell costimulatory receptor CD28 is required for the full activation of na\"{\i}ve T cells and for the development and maintenance of Foxp3(+) regulatory T (Treg) cells. We showed that the cytoplasmic domain of CD28 was bound to the plasma membrane in resting cells and that ligand binding to CD28 resulted in its release. Membrane binding by the CD28 cytoplasmic domain required two clusters of basic amino acid residues, which interacted with the negatively charged inner leaflet of the plasma membrane. These same clusters of basic residues also served as interaction sites for Lck, a Src family kinase critical for CD28 function. This signaling complex was further stabilized by the Lck-mediated phosphorylation of CD28 Tyr(207) and the subsequent binding of the Src homology 2 (SH2) domain of Lck to this phosphorylated tyrosine. Mutation of the basic clusters in the CD28 cytoplasmic domain reduced the recruitment to the CD28-Lck complex of protein kinase C$\theta$ (PKC$\theta$), which serves as a key effector kinase in the CD28 signaling pathway. Consequently, mutation of either a basic cluster or Tyr(207) impaired CD28 function in mice as shown by the reduced thymic differentiation of FoxP3(+) Treg cells. On the basis of these results, we propose a previously undescribed model for the initiation of CD28 signaling.}
+      \field{issn}{1945-0877}
+      \field{journaltitle}{Science Signaling}
+      \field{number}{438}
+      \field{title}{{Binding of the cytoplasmic domain of CD28 to the plasma membrane inhibits Lck recruitment and signaling}}
+      \field{volume}{9}
+      \field{year}{2016}
+      \field{pages}{ra75\bibrangedash ra75}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/scisignal.aaf0626
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/DobbinsCD28.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/27460989%7B%5C%%7D0Ahttp://stke.sciencemag.org/cgi/doi/10.1126/scisignal.aaf0626
+      \endverb
     \endentry
     \entry{Dunker2008}{article}{}
       \name{author}{9}{}{%
@@ -386,6 +478,50 @@
       \verb :Users/laraclemens/Google Drive/Articles/DisorderedJBC.pdf:pdf
       \endverb
     \endentry
+    \entry{Jegou2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ec92534d637231db707324a1f7efe35a}{%
+           family={J\'{e}gou},
+           family_i={J\bibinitperiod},
+           given={Antoine},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6b04ab0b28dd1f8dd77af7652ba616ee}{%
+           family={Carlier},
+           family_i={C\bibinitperiod},
+           given={Marie-France},
+           given_i={M\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=087fd15f7f0a09e5605a6236b2258a35}{%
+           family={Romet-Lemonne},
+           family_i={R\bibinithyphendelim L\bibinitperiod},
+           given={Guillaume},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1236c67659adee30e21fa9549276c631}
+      \strng{fullhash}{1236c67659adee30e21fa9549276c631}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cytoskeleton assembly is instrumental in the regulation of biological functions by physical forces. In a number of key cellular processes, actin filaments elongated by formins such as mDia are subject to mechanical tension, yet how mechanical forces modulate the assembly of actin filaments is an open question. Here, using the viscous drag of a microfluidic flow, we apply calibrated piconewton pulling forces to individual actin filaments that are being elongated at their barbed end by surface-anchored mDia1 proteins. We show that mDia1 is mechanosensitive and that the elongation rate of filaments is increased up to two-fold by the application of a pulling force. We also show that mDia1 is able to track a depolymerizing barbed end in spite of an opposing pulling force, which means that mDia1 can efficiently put actin filaments under mechanical tension. Our findings suggest that formin function in cells is tightly coupled to the mechanical activity of other machineries.}
+      \field{isbn}{2041-1723 (Electronic)$\backslash$r2041-1723 (Linking)}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{May}
+      \field{title}{{Formin mDia1 senses and generates mechanical forces on actin filaments}}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{pages}{1883}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms2888
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Jegou2013Formin.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/doifinder/10.1038/ncomms2888
+      \endverb
+    \endentry
     \entry{Lopez2015}{article}{}
       \name{author}{6}{}{%
         {{hash=f7dcc6830cd41b3a4f64a0df1bd0ffdf}{%
@@ -548,6 +684,116 @@
       \verb :Users/laraclemens/Library/Application Support/Mendeley Desktop/Downloaded/Reeves, Cheveralls, Kondev - 2011 - Regulation of biochemical reaction rates by flexible tethers.pdf:pdf
       \endverb
     \endentry
+    \entry{Shi2013}{article}{}
+      \name{author}{16}{}{%
+        {{hash=05f7e0c820360d2ead95928afd606a67}{%
+           family={Shi},
+           family_i={S\bibinitperiod},
+           given={X},
+           given_i={X\bibinitperiod}}}%
+        {{hash=7e683383a8e35ee537648ecacdb493a2}{%
+           family={Bi},
+           family_i={B\bibinitperiod},
+           given={Y},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=a92eb4fd877c8f4d491b4056f8346127}{%
+           family={Yang},
+           family_i={Y\bibinitperiod},
+           given={W},
+           given_i={W\bibinitperiod}}}%
+        {{hash=d1cf3b5875e193af09fb48f09d5f8c55}{%
+           family={Guo},
+           family_i={G\bibinitperiod},
+           given={X},
+           given_i={X\bibinitperiod}}}%
+        {{hash=0f60fb19d048e40c3e2510ca11e6fed2}{%
+           family={Jiang},
+           family_i={J\bibinitperiod},
+           given={Y},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=d8934d63a1883546250a27c4c64c32e6}{%
+           family={Wan},
+           family_i={W\bibinitperiod},
+           given={C},
+           given_i={C\bibinitperiod}}}%
+        {{hash=4c305f909afd2192eedb6f46f0883d14}{%
+           family={Li},
+           family_i={L\bibinitperiod},
+           given={L},
+           given_i={L\bibinitperiod}}}%
+        {{hash=08bb98eb39a06d370925f97c54be6938}{%
+           family={Bai},
+           family_i={B\bibinitperiod},
+           given={Y},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=28f6068ba57e60c5e27fc2490a8e1ffd}{%
+           family={Guo},
+           family_i={G\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Y},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=60aeb23a507616b6ae2488ddaab41f0e}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={X},
+           given_i={X\bibinitperiod}}}%
+        {{hash=4e31f6e2351bdd7652825d00350a02fd}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={B},
+           given_i={B\bibinitperiod}}}%
+        {{hash=4986615fe9031edfa590ac244b5c4dec}{%
+           family={Sun},
+           family_i={S\bibinitperiod},
+           given={H},
+           given_i={H\bibinitperiod}}}%
+        {{hash=d8525af2f6ab588f2e4d6e5abd42ca8b}{%
+           family={Liu},
+           family_i={L\bibinitperiod},
+           given={W},
+           given_i={W\bibinitperiod}}}%
+        {{hash=3702f1c146e64a6c91fc47b81ea59fc7}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9e3f5382bd82f58980e0e9c0368f63fc}{%
+           family={Xu},
+           family_i={X\bibinitperiod},
+           given={C},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdd076180b2797740ded45f644f0d2e4}
+      \strng{fullhash}{6926312bbec2c030a55ae9b09f5645db}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ionic protein-lipid interactions are critical for the structure and function of membrane receptors, ion channels, integrins and many other proteins. However, the regulatory mechanism of these interactions is largely unknown. Here we show that Ca(2+) can bind directly to anionic phospholipids and thus modulate membrane protein function. The activation of T-cell antigen receptor-CD3 complex (TCR), a key membrane receptor for adaptive immunity, is regulated by ionic interactions between positively charged CD3epsilon/zeta cytoplasmic domains (CD3(CD)) and negatively charged phospholipids in the plasma membrane. Crucial tyrosines are buried in the membrane and are largely protected from phosphorylation in resting T cells. It is not clear how CD3(CD) dissociates from the membrane in antigen-stimulated T cells. The antigen engagement of even a single TCR triggers a Ca(2+) influx and TCR-proximal Ca(2+) concentration is higher than the average cytosolic Ca(2+) concentration. Our biochemical, live-cell fluorescence resonance energy transfer and NMR experiments showed that an increase in Ca(2+) concentration induced the dissociation of CD3(CD) from the membrane and the solvent exposure of tyrosine residues. As a consequence, CD3 tyrosine phosphorylation was significantly enhanced by Ca(2+) influx. Moreover, when compared with wild-type cells, Ca(2+) channel-deficient T cells had substantially lower levels of CD3 phosphorylation after stimulation. The effect of Ca(2+) on facilitating CD3 phosphorylation is primarily due to the charge of this ion, as demonstrated by the fact that replacing Ca(2+) with the non-physiological ion Sr(2+) resulted in the same feedback effect. Finally, (31)P NMR spectroscopy showed that Ca(2+) bound to the phosphate group in anionic phospholipids at physiological concentrations, thus neutralizing the negative charge of phospholipids. Rather than initiating CD3 phosphorylation, this regulatory pathway of Ca(2+) has a positive feedback effect on amplifying and sustaining CD3 phosphorylation and should enhance T-cell sensitivity to foreign antigens. Our study thus provides a new regulatory mechanism of Ca(2+) to T-cell activation involving direct lipid manipulation.}
+      \field{isbn}{1476-4687 (Electronic)$\backslash$r0028-0836 (Linking)}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{7430}
+      \field{title}{{Ca2+ regulates T-cell receptor activation by modulating the charge property of lipids}}
+      \field{volume}{493}
+      \field{year}{2013}
+      \field{pages}{111\bibrangedash 115}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature11699
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/ChenqiNatureLetters.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/23201688
+      \endverb
+      \keyw{*Lymphocyte Activation/drug effects,*Signal Transduction/drug effects,Animals,Calcium/*metabolism/pharmacology,Cell Membrane/metabolism,Cytoplasm/metabolism,Feedback,Physiological/drug effects,Humans,Jurkat Cells,Lipid Bilayers/chemistry/metabolism,Mice,Phospholipids/*chemistry/*metabolism,Phosphorylation/drug effects,Receptor-CD3 Complex,Antigen,T-Cell/drug effects,Solvents/chemistry/metabolism,Static Electricity,T-Lymphocytes/drug effects/immunology/*metabolism,Tyrosine/metabolism}
+    \endentry
     \entry{Tompa2012}{article}{}
       \name{author}{2}{}{%
         {{hash=eb3bff0d33fe324fe63f012ef20080a9}{%
@@ -690,8 +936,150 @@
       \verb http://dx.doi.org/10.1016/j.pbiomolbio.2015.04.004
       \endverb
     \endentry
+    \entry{Xu2008}{article}{}
+      \name{author}{8}{}{%
+        {{hash=4cfe6d004f6237f4f30b33cf14af2430}{%
+           family={Xu},
+           family_i={X\bibinitperiod},
+           given={Chenqi},
+           given_i={C\bibinitperiod}}}%
+        {{hash=81f2d786bee7b3c77d39bc841fdd0d2f}{%
+           family={Gagnon},
+           family_i={G\bibinitperiod},
+           given={Etienne},
+           given_i={E\bibinitperiod}}}%
+        {{hash=2c31cc41879719ad0233258e235e772b}{%
+           family={Call},
+           family_i={C\bibinitperiod},
+           given={Matthew\bibnamedelima E},
+           given_i={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3e38d47ada8ecd1a2396cd3c0750abb8}{%
+           family={Schnell},
+           family_i={S\bibinitperiod},
+           given={Jason\bibnamedelima R},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=48a7844d5e166850942f08cbbea2455d}{%
+           family={Charles},
+           family_i={C\bibinitperiod},
+           given={D},
+           given_i={D\bibinitperiod}}}%
+        {{hash=28ce3dcff5da56fec76e0a64db40069d}{%
+           family={Carman},
+           family_i={C\bibinitperiod},
+           given={Christopher\bibnamedelima V},
+           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=5915660064434bf4a62e693aaeb4d6d2}{%
+           family={Chou},
+           family_i={C\bibinitperiod},
+           given={James\bibnamedelima J},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=30c39e68c0d264898d81cde24c571629}{%
+           family={Wucherpfennig},
+           family_i={W\bibinitperiod},
+           given={Kai\bibnamedelima W},
+           given_i={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3110791bd561538746f3f22e4d3a259}
+      \strng{fullhash}{b215c7609e847460412c7ca9d0a81c53}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{4}
+      \field{title}{{Regulation of T cell Receptor Activation by Dynamic Membrane Binding of the CD3$\epsilon$ Cytoplasmic Tyrosine-Based Motif}}
+      \field{volume}{135}
+      \field{year}{2008}
+      \field{pages}{702\bibrangedash 713}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.cell.2008.09.044.Regulation
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/XuRegulationTCR.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Zhang2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8c6d18e2d167e1a3dc88c0166bbc3471}{%
+           family={Zhang},
+           family_i={Z\bibinitperiod},
+           given={Hao},
+           given_i={H\bibinitperiod}}}%
+        {{hash=46916a06e826e53c869c2b7ea33d439a}{%
+           family={Cordoba},
+           family_i={C\bibinitperiod},
+           given={Shaun-Paul},
+           given_i={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=042bc7d3a2659ccc5351a4c78dd7471d}{%
+           family={Dushek},
+           family_i={D\bibinitperiod},
+           given={Omer},
+           given_i={O\bibinitperiod}}}%
+        {{hash=a714be4978c3db852f7367b3713ed139}{%
+           family={{Anton van der Merwe}},
+           family_i={A\bibinitperiod},
+           given={P},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{418b9bd7f6a54090dbe475f9d74fb480}
+      \strng{fullhash}{c7776a31554565c555fb5fd4cf16ace7}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The T-cell receptor (TCR) consists of a TCR$\alpha$$\beta$ heterodimer, a TCR$\zeta$ homodimer, and CD3$\gamma$$\epsilon$ and CD3$\delta$$\epsilon$ heterodimers. The precise mechanism of T-cell triggering following TCR ligand engagement remains elusive. Previous studies reported that the cytoplasmic tail of CD3$\epsilon$ binds to the plasma membrane through a basic residue-rich stretch (BRS) and proposed that dissociation from the membrane is required for phosphorylation thereof. In this report we show that BRS motifs within the cytoplasmic tail of TCR$\zeta$ mediate association with the plasma membrane and that TCR engagement results in TCR$\zeta$ dissociation from the membrane. This dissociation requires phosphorylation of the TCR$\zeta$ immunoreceptor tyrosine-based activation motifs by lymphocyte cell-specificprotein tyrosine kinase (Lck) but not $\zeta$-chain-associated protein kinase 70 binding. Mutations of the TCR$\zeta$ BRS motifs that disrupt this membrane association attenuate proximal and distal responses induced by TCR engagement. These mutations appear to alter the localization of TCR$\zeta$ with respect to Lck as well as the mobility of the TCR complex. This study reveals that tyrosine phosphorylation of the TCR$\zeta$ cytoplasmic domain regulates its association with the plasma membrane and highlights the functional importance of TCR$\zeta$ BRS motifs.}
+      \field{isbn}{1091-6490 (Electronic)$\backslash$r0027-8424 (Linking)}
+      \field{issn}{1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{48}
+      \field{title}{{Basic residues in the T-cell receptor $\zeta$ cytoplasmic domain mediate membrane association and modulate signaling.}}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{19323\bibrangedash 8}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1108052108
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Allard J Club/Continuum modelers (T cell surfaces {\&} tissue morphogenesis)/Zhang2011PNAS{\_}JCJan282016.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3228420%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract
+      \endverb
+      \keyw{Amino Acid Motifs,Amino Acid Motifs: genetics,Animals,Blotting,Western,Cell Line,Cell Membrane,Cell Membrane: metabolism,Cytoplasm,Cytoplasm: metabolism,Flow Cytometry,Fluorescence Resonance Energy Transfer,Immunoprecipitation,Lymphocyte Specific Protein Tyrosine Kinase p56(lc,Mice,Microscopy,Confocal,Mutation,Mutation: genetics,Phosphorylation,Receptors,Antigen,T-Cell,Receptors,Antigen,T-Cell: metabolism,Signal Transduction,Signal Transduction: physiology,Tyrosine,Tyrosine: metabolism}
+    \endentry
+    \entry{Zhou2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9484b95d2f15676c9ae00246289ad46c}{%
+           family={Zhou},
+           family_i={Z\bibinitperiod},
+           given={Huan\bibnamedelima Xiang},
+           given_i={H\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+      }
+      \strng{namehash}{9484b95d2f15676c9ae00246289ad46c}
+      \strng{fullhash}{9484b95d2f15676c9ae00246289ad46c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.$\backslash$nThe end?end distances of loops in proteins are found to be distributed according to the worm-like chain model with a persistence length lp = 3.04 \r{A}. For a protein with a loop at a certain short end?end distance, increasing the loop length is expected to decrease the protein stability since the entropic cost increases for constraining the loop ends at the given distance. The predicted decrease in stability is tested against experimental results on the four-helix-bundle protein Rop, in which the native two-residue loop is replaced by two to ten glycinces. Without adjustable parameters, the prediction agrees with experiment with a correlation coefficient of 0.99.}
+      \field{isbn}{105-29-6763}
+      \field{issn}{10895647}
+      \field{journaltitle}{Journal of Physical Chemistry B}
+      \field{number}{29}
+      \field{title}{{Loops in proteins can be modeled as worm-like chains}}
+      \field{volume}{105}
+      \field{year}{2001}
+      \field{pages}{6763\bibrangedash 6766}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1021/jp011355n
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/ZhouLoopsProteinsWLC.pdf:pdf
+      \endverb
+    \endentry
   \endsortlist
-  \missing{Jegou2013}
 \endrefsection
 \endinput
 

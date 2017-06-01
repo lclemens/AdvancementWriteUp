@@ -37,39 +37,39 @@ To include this model assumption, we modify the simulation in the following way:
 \item Rejection keeps polymer in previous conformation, but goes on to next time step. (Metropolis step.)
 \end{enumerate}
 
-\subsubsection{LJ Parameter Optimization}
+% \subsubsection{LJ Parameter Optimization}
 
-First potential:
+% First potential:
 
-Lennard-Jones potential, ($V_{LJ}$):
-\begin{equation*}
-V_{LJ} = 4\epsilon\left(\left(\frac{l_{D}}{r-r_W}\right)^{12} - \left(\frac{l_{D}}{r-r_W}\right)^6\right)
-\end{equation*}
+% Lennard-Jones potential, ($V_{LJ}$):
+% \begin{equation*}
+% V_{LJ} = 4\epsilon\left(\left(\frac{l_{D}}{r-r_W}\right)^{12} - \left(\frac{l_{D}}{r-r_W}\right)^6\right)
+% \end{equation*}
 
-where $\epsilon$ is the well depth, $l_D$ is the Debye length, $r_W$ is the potential wall location (vertical asymptote), and $r$ is the location of the joint in question.  For our purposes, $r$ is the z-coordinate of the joint in question.
+% where $\epsilon$ is the well depth, $l_D$ is the Debye length, $r_W$ is the potential wall location (vertical asymptote), and $r$ is the location of the joint in question.  For our purposes, $r$ is the z-coordinate of the joint in question.
 
-We want to look at what Debye length causes the electrostatic potential minima to shift from before $r=0$ to after $r=0$ (before, after membrane).  We therefore solve the derivative of $V_{LJ}$ (given below) for $l_D$ when $r=0$ and $dV_{LJ}/dr = 0$.
+% We want to look at what Debye length causes the electrostatic potential minima to shift from before $r=0$ to after $r=0$ (before, after membrane).  We therefore solve the derivative of $V_{LJ}$ (given below) for $l_D$ when $r=0$ and $dV_{LJ}/dr = 0$.
 
-The derivative of $V_{LJ}$:
-\begin{align*}
-\frac{dV_{LJ}}{dr} &= 4\epsilon\left( l_D^{12}\frac{-12}{(r-r_W)^{13}}+l_D^6\frac{6}{(r-r_W)^7}\right) \\
-\end{align*}
+% The derivative of $V_{LJ}$:
+% \begin{align*}
+% \frac{dV_{LJ}}{dr} &= 4\epsilon\left( l_D^{12}\frac{-12}{(r-r_W)^{13}}+l_D^6\frac{6}{(r-r_W)^7}\right) \\
+% \end{align*}
 
-Input $dV_{LJ}/dr = 0$, $r=0$:
+% Input $dV_{LJ}/dr = 0$, $r=0$:
 
-\begin{align*}
-0 &= 4\epsilon\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
-0 &=\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
- l_D^{12}\frac{12}{(-r_W)^{13}} &= l_D^6\frac{6}{(-r_W)^7}  \\
-l_D^{6}\frac{12}{(-r_W)^{13}} &= \frac{6}{(-r_W)^7}   \\
-12*l_D^6 &= 6 * (-r_W)^6  \\
-l_D^6 &= \frac{(-r_W)^6}{2} \\
-l_D &= \sqrt[6]{\frac{1}{2}}*|r_W| \\
-\end{align*}
+% \begin{align*}
+% 0 &= 4\epsilon\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
+% 0 &=\left( l_D^{12}\frac{-12}{(-r_W)^{13}}+l_D^6\frac{6}{(-r_W)^7}\right) \\
+%  l_D^{12}\frac{12}{(-r_W)^{13}} &= l_D^6\frac{6}{(-r_W)^7}  \\
+% l_D^{6}\frac{12}{(-r_W)^{13}} &= \frac{6}{(-r_W)^7}   \\
+% 12*l_D^6 &= 6 * (-r_W)^6  \\
+% l_D^6 &= \frac{(-r_W)^6}{2} \\
+% l_D &= \sqrt[6]{\frac{1}{2}}*|r_W| \\
+% \end{align*}
 
-Note that if the potential wall location is negative, then the Debye length may be either positive or negative. If the wall location is positive, then for our simulation, there is no Debye length that would cause the potential minimum to fall at $r=0$.  
+% Note that if the potential wall location is negative, then the Debye length may be either positive or negative. If the wall location is positive, then for our simulation, there is no Debye length that would cause the potential minimum to fall at $r=0$.  
 
-Therefore, we can say that when $l_D < \sqrt[6]{\frac{1}{2}}*|r_W|$ then the polymer will be preferentially located `under the membrane', or with $r<0$ for \hl{most} of its rod locations. Similarly, for $l_D > \sqrt[6]{\frac{1}{2}}*|r_W|$, the polymer will primarily be `above' the membrane.
+% Therefore, we can say that when $l_D < \sqrt[6]{\frac{1}{2}}*|r_W|$ then the polymer will be preferentially located `under the membrane', or with $r<0$ for \hl{most} of its rod locations. Similarly, for $l_D > \sqrt[6]{\frac{1}{2}}*|r_W|$, the polymer will primarily be `above' the membrane.
 
 
 
