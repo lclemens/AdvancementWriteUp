@@ -50,7 +50,7 @@ With respect to TCR CD3$\zeta$, phosphorylation events are modeled as creating l
 
 \subsubsection{Surface presence influences polymer configuration}
 %\hl{ don't really like 'due to entropic forces....?}
-We first explore how a freely-jointed chain is affected by the presence of a surface or membrane. Generally, FJCs are most likely to be in a `hairball' conformation due to entropic forces. \hl{include image of simulation in hairball?}. When we compare the end-to-end distances of a FJC in free space to a FJC in half space, we find a shift in the distribution. The half-space polymer tends to have a larger end-to-end distance than the free-space polymer. (Fig. \ref{fig: ReeHalfVSFree}) In half space, the polymer has fewer conformations it can take on since it can only occupy half of the region. This prevents many more `hairball' conformations than it prevents straightened conformations.  Overall, the presence of a membrane straightens the polymer. \hl{I don't really like these last couple sentences}
+We first explore how a freely-jointed chain is affected by the presence of a surface or membrane. Generally, FJCs are most likely to be in a `hairball' conformation due to entropic forces. When we compare the end-to-end distances of a FJC in free space to a FJC in half space, we find a shift in the distribution. The half-space polymer tends to have a larger end-to-end distance than the free-space polymer. (Fig. \ref{fig: ReeHalfVSFree}) In half space, the polymer has fewer conformations it can take on since it can only occupy half of the region. This prevents many more `hairball' conformations than it prevents straightened conformations.  Overall, the presence of a membrane straightens the polymer. \hl{I don't really like these last couple sentences}
 
 \begin{figure}[H]
 	\begin{center}
@@ -66,13 +66,6 @@ We calculate how often a ligand may bind to a FJC, under varying characteristics
 A binding site in the middle of the polymer will also be less available to ligand binding since it is more likely sheltered by the rest of the `hairball' polymer. 
 
 We compare how FJC parameters influence binding in free-space to binding in half-space. The membrane increases the likelihood of straighter conformations, which would be likely to increase the binding probability. However, the membrane itself may also occlude the ligand since we include an orientation of the binding site in our simulation. Therefore if the binding site is oriented down towards the membrane, then even if the polymer is not occluding the ligand, the membrane still might. When we include a hard plane membrane in our simulation, we see that the presence of a membrane generally decreases the probability of ligand binding.  When the ligand is small enough, the difference in binding probabilities between free space and half space binding is minimal. (Fig. \ref{fig: OcclusionVSNVSR})
-
-\hl{Re-bin histograms} \hl{Include image of simulation?  Usually look bad....but might be a worthwhile visual.}
-\hl{This is really ugly.}
-\hl{Accidentally omitted last column?}
-\hl{Color bars need to be fixed to be consistent somehow}
-\hl{Color scales the same?}
-
 
 \begin{figure}[H]
 \begin{center}
@@ -116,15 +109,11 @@ We see from these simulations that the average binding rate of a ligand to the u
 
 \subsubsection{Sequential binding naturally arises from polymer characteristics}
 
-\hl{Review this section}
-
 We hypothesized that without any modifications due to binding, then with only the presence of a membrane, we would see preferential binding in an outwards to inwards (6-5-4-3-2-1) manner.  In regards to our model system, that is to say we expected the tyrosine furthest from the membrane to be phosphorylated first and the tyrosine closest to the membrane to be phosphorylated last.  We surmised this from the idea that tyrosine's too close to the membrane would see extra kinase inhibition from membrane occlusion, whereas the tail of the disordered protein would not experience this same effect. 
 
 When considering the partial stiffening model, we predict that this effect would be enhanced.  In an unphosphorylated state, if the tyrosine furthest from the membrane is most likely to be bound, then partial stiffening would give increased preference to the next furthest from the membrane (here called the fifth tyrosine) as the second to be phosphorylated.  This comes from the reduction of total configurations available to the protein.  Since the stiffening would occur around the sixth tyrosine, the nearest unphosphorylated tyrosine would be the most affected.  The segment of polymer near the fifth tyrosine would have fewer available conformations and therefore proportionately fewer would be occluding the fifth tyrosine.
 
 \hl{Explain the above better.  Not totally convinced that's the best argument.  What's the correct term for 'unoccluded'?  Available?  Open?}
-
-\hl{Do we introduce this as a purposeful topic or as a neat thing that falls out?  Include Dushek paper as benefit or as intro?}
 
 We obtained relative probabilities of binding for each tyrosine along the chain at each phosphorylation state.  With this information, we are able to explore whether or not there is a dominant sequence of phosphorylation events. We ran a Gillespie algorithm with six events, one for each phosphorylation.  From each run, we record which sequence or 'path' of phosphorylation.  When we compile the path frequency data, it becomes clear that the first phosphorylation event is dominant.  That is to say, any path beginning by phosphorylating the membrane distal tyrosine (6th tyrosine), will occur more often than any path beginning with the membrane proximal tyrosine. 
 
@@ -133,8 +122,6 @@ For simplicity, we consider only the paths membrane proximal to membrane distal 
 One would expect then, that a cytoplasmic disordered protein would not experience a path preference between N-terminal to C-terminal or vice versa. When we simulate CD3$\zeta$ without a membrane, there is still a marked preference for C-terminal to N-terminal phosphorylation.  This effect arises from the spacing of the tyrosines along the polymer's length.  As noted above, the location of a tyrosine impacts how likely a ligand is to bind there. \ref{fig: OcclusionVSNVSR} Since the tyrosines in CD3$\zeta$ are not equally spaced along the length of the protein, there is a bias for the tyrosine closest to one end, in this case the tyrosine closest to the C-terminal. When we simulate a polymer with the same length as CD3$\zeta$ but equally spaced tyrosines, we see that there is no longer a preference between the two paths. 
 
 We are soon going to introduce a ranking system for the paths in order to do a full analysis of all possible paths. This will help analyze the likelihood of any of the non-sequential paths.
-
-\hl{Better to make one figure and label a,b,c in Inkscape?}
 
 \begin{figure}[H]
 	\begin{center}
@@ -174,8 +161,6 @@ We will create Hill curves of phosphorylation, dephosphorylation, and reversible
 \subsubsection{Future Work: Exploring sequence of binding from dephosphorylation and reversible phosphorylation}
 
 We will continue to investigate if phosphorylation, dephosphorylation or reversible phosphorylation naturally impose a sequence of binding. This will elucidate whether sequential binding occurs when both phosphorylation and dephosphorylation are impacting the polymer simultaneously. 
-
-\hl{Does `why' we're doing this go here or in discussion?}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

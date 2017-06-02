@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2017 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUN 2017 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1198,22 +1198,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--114
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--120
-[][]\OT1/cmr/m/n/10 RA[]KFS[]RSAETAANLQDPNQLYNE
+[][]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 A[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 
+FS[]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 SAETAANLQDPNQLYNE
+ []
+
+
+Overfull \hbox (4.4501pt too wide) in paragraph at lines 116--120
+\OT1/cmr/m/n/10 LNLG[]\OT1/cmr/bx/n/10 RR[]\OT1/cmr/m/n/10 EEYDVLE[]\OT1/cmr/bx
+/n/10 KKR[]\OT1/cmr/m/n/10 A[]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 DPEMG
+ []
+
+
+Overfull \hbox (3.17235pt too wide) in paragraph at lines 116--120
+\OT1/cmr/m/n/10 G[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 QQ[]\OT1/cmr/bx/n/10 RRR
+[]\OT1/cmr/m/n/10 NPQEGVYNALQ[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 D[]\OT1/cmr/
+bx/n/10 K[]\OT1/cmr/m/n/10 M
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--120
-\OT1/cmr/m/n/10 LNLG[]RREEYDVLE[]KKRA[]RDPEMG
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-\OT1/cmr/m/n/10 G[]KQQ[]RRRNPQEGVYNALQ[]KD[]KM
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-\OT1/cmr/m/n/10 AEAYSEIGT[]KGE[]RRRG[]KGHDGLY
+\OT1/cmr/m/n/10 AEAY-SEIGT[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 GE[]\OT1/cmr/bx
+/n/10 RRR[]\OT1/cmr/m/n/10 G[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 GHDGLY
  []
 
 
@@ -1233,22 +1238,23 @@ Overfull \hbox (2.6379pt too wide) in paragraph at lines 122--125
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--138
-[]\OT1/cmr/m/n/10 RAKFSRSAETAANLQDPNQL[]YNE
+[]\OT1/cmr/m/n/10 RAKFSRSAETAANLQDPNQL[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 NE
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--138
-\OT1/cmr/m/n/10 LNLGRREE[]YDVLEKKRARDPEMG
+\OT1/cmr/m/n/10 LNL-GR-REE[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 DVLEKKRARDPEMG
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--138
-\OT1/cmr/m/n/10 GKQQRRRNPQEGV[]YNALQKDKM
+\OT1/cmr/m/n/10 GKQQR-RRN-PQEGV[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 NALQKDKM
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--138
-\OT1/cmr/m/n/10 AEA[]YSEIGTKGERRRGKGHDGL[]Y
+\OT1/cmr/m/n/10 AEA[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 SEIGTKGERRRGKGHDGL[]\O
+T1/cmr/bx/n/10 Y[]
  []
 
 
@@ -1257,13 +1263,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
-[]\OT1/cmr/m/n/10 WS[]KN[]RKA[]KA[]KPVT[]RGAGAGG[]RQ
+Overfull \hbox (4.68611pt too wide) in paragraph at lines 148--150
+[]\OT1/cmr/m/n/10 WS[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 N[]\OT1/cmr/bx/n/10 R
+K[]\OT1/cmr/m/n/10 A[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 A[]\OT1/cmr/bx/n/10 K
+[]\OT1/cmr/m/n/10 PVT[]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 GAGAGG[]\OT1/cmr/bx/
+n/10 R[]\OT1/cmr/m/n/10 Q
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--150
-[]\OT1/cmr/m/n/10 RGQN[]KE[]RPPPVPNPDYEPI[]RKGQ
+[]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 GQN[]\OT1/cmr/bx/n/10 K[]\OT1/cmr/m/n/10 
+E[]\OT1/cmr/bx/n/10 R[]\OT1/cmr/m/n/10 PPPVPNPDYEPI[]\OT1/cmr/bx/n/10 RK[]\OT1/
+cmr/m/n/10 GQ
  []
 
 
@@ -1278,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--163
-\OT1/cmr/m/n/10 RGQNKERPPPVPNPD[]YEPIRKGQ
+\OT1/cmr/m/n/10 RGQNKERPP-PVP-NPD[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 EPIRKGQ
  []
 
 [2] <ElectrostaticsDiagram.pdf, id=63, 560.0925pt x 209.78375pt>
@@ -1461,11 +1472,11 @@ Package logreq Info: Writing requests to 'Electrostatics.run.xml'.
 Here is how much of TeX's memory you used:
  25583 strings out of 493014
  471236 string characters out of 6133351
- 887168 words of memory out of 5000000
+ 886118 words of memory out of 5000000
  28675 multiletter control sequences out of 15000+600000
  5925 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,96p,1126b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,96p,1126b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1475,7 +1486,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Electrostatics.pdf (10 pages, 1310004 bytes).
+Output written on Electrostatics.pdf (10 pages, 1310509 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  180 compressed objects within 2 object streams
