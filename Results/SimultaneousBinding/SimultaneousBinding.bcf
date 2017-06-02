@@ -2096,5 +2096,17 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Wang2010</bcf:citekey>
+    <bcf:citekey order="2">Chan1992</bcf:citekey>
+    <bcf:citekey order="3">Zhang1998</bcf:citekey>
+    <bcf:citekey order="4">Chan1992</bcf:citekey>
+    <bcf:citekey order="5">Wang2010</bcf:citekey>
+    <bcf:citekey order="6">ODonoghue2013</bcf:citekey>
+    <bcf:citekey order="7">Mukhopadhyay2016</bcf:citekey>
+    <bcf:citekey order="8">Dobbins2016</bcf:citekey>
+    <bcf:citekey order="9">Barber1989</bcf:citekey>
+    <bcf:citekey order="10">Veillette1988</bcf:citekey>
+    <bcf:citekey order="11">Rudd1988</bcf:citekey>
+    <bcf:citekey order="12">Davis2006</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 MAY 2017 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 JUN 2017 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -856,6 +856,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks38
@@ -1132,24 +1135,39 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 
 
-LaTeX Warning: Reference `sec:ModelDev' on page 1 undefined on input line 29.
+LaTeX Warning: Citation 'Wang2010' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Chan1992' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Zhang1998' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Chan1992' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Wang2010' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `sec:ModelDev' on page 1 undefined on input line 25.
 
 
 LaTeX Warning: Reference `sec:ModelDevsubsec:TCR' on page 1 undefined on input 
-line 29.
+line 25.
 
 Package epstopdf Info: Source file: <ResultsFigures/SimultaneousBindingDiagram/
 SimultaneousBindingDiagram.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 16:45:51
 (epstopdf)                    size: 26636 bytes
 (epstopdf)             Output file: <ResultsFigures/SimultaneousBindingDiagram/
 SimultaneousBindingDiagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 16:50:13
 (epstopdf)                    size: 11489 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/Simultaneou
 sBindingDiagram/SimultaneousBindingDiagram-eps-converted-to.pdf ResultsFigures/
 SimultaneousBindingDiagram/SimultaneousBindingDiagram.eps>
-(epstopdf)             \includegraphics on input line 39.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-conve
@@ -1160,24 +1178,24 @@ converted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-c
 onverted-to.pdf>
 Package pdftex.def Info: ResultsFigures/SimultaneousBindingDiagram/Simultaneous
-BindingDiagram-eps-converted-to.pdf used on input line 39.
+BindingDiagram-eps-converted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 375.80544pt x 106.65984pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-03 19:17:59
 (epstopdf)                    size: 96510 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-03 19:20:09
 (epstopdf)                    size: 30962 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Re
 sultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled
 .eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabe
@@ -1188,22 +1206,22 @@ pLabeled-eps-converted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMap
 Labeled-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBin
-dVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on input line 59.
+dVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 469.75502pt x 364.027pt.
  [2 <./ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps
 -converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 19:07:43
 (epstopdf)                    size: 90332 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 19:08:04
 (epstopdf)                    size: 28992 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Resul
 tsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified
@@ -1214,23 +1232,23 @@ ified-eps-converted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModi
 fied-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqua
-l/AvgBindVSTotalModified-eps-converted-to.pdf used on input line 71.
+l/AvgBindVSTotalModified-eps-converted-to.pdf used on input line 63.
 (pdftex.def)             Requested size: 469.75502pt x 373.04694pt.
  [3 <./ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorM
 apLabeled-eps-converted-to.pdf>] [4 <./ResultsFigures/CD3ZetaMultipleBindingMem
 braneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/M
 emOn/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:27:18
 (epstopdf)                    size: 59089 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/M
 emOn/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:42:57
 (epstopdf)                    size: 22808 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Multipl
 eSequentialBinding/MemOn/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-converted-to
@@ -1241,20 +1259,20 @@ ed-to.pdf Graphic file (type pdf)
 <use ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-converte
 d-to.pdf>
 Package pdftex.def Info: ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSS
-equence-eps-converted-to.pdf used on input line 93.
+equence-eps-converted-to.pdf used on input line 82.
 (pdftex.def)             Requested size: 140.92793pt x 125.40436pt.
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/M
 emOff/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:34:05
 (epstopdf)                    size: 58747 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/M
 emOff/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:42:57
 (epstopdf)                    size: 22757 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Multip
 leSequentialBinding/MemOff/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-t
@@ -1265,20 +1283,20 @@ ted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-convert
 ed-to.pdf>
 Package pdftex.def Info: ResultsFigures/MultipleSequentialBinding/MemOff/ProbVS
-Sequence-eps-converted-to.pdf used on input line 97.
+Sequence-eps-converted-to.pdf used on input line 86.
 (pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
 Package epstopdf Info: Source file: <ResultsFigures/MultipleSequentialBinding/E
 venSites/ProbVSSequence.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:41:57
 (epstopdf)                    size: 61171 bytes
 (epstopdf)             Output file: <ResultsFigures/MultipleSequentialBinding/E
 venSites/ProbVSSequence-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-15 18:42:58
 (epstopdf)                    size: 23576 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/MultipleSeq
 uentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Mul
 tipleSequentialBinding/EvenSites/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-converte
@@ -1289,42 +1307,70 @@ verted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: ResultsFigures/MultipleSequentialBinding/EvenSites/Pro
-bVSSequence-eps-converted-to.pdf used on input line 101.
+bVSSequence-eps-converted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
- [5 <./ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-conver
-ted-to.pdf> <./ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-e
-ps-converted-to.pdf> <./ResultsFigures/MultipleSequentialBinding/EvenSites/Prob
-VSSequence-eps-converted-to.pdf>] [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+
+
+LaTeX Warning: Citation 'ODonoghue2013' on page 5 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'Mukhopadhyay2016' on page 5 undefined on input line 99
+.
+
+
+LaTeX Warning: Citation 'Dobbins2016' on page 5 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'Barber1989' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'Veillette1988' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'Rudd1988' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'Davis2006' on page 5 undefined on input line 101.
+
+[5 <./ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-convert
+ed-to.pdf> <./ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-ep
+s-converted-to.pdf> <./ResultsFigures/MultipleSequentialBinding/EvenSites/ProbV
+SSequence-eps-converted-to.pdf>] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./SimultaneousBinding.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `SimultaneousBinding.out' has not changed.
 (rerunfilecheck)             Checksum: 2CF4616E4657BC02FD4C3571BB6C87E7;690.
 
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SimultaneousBinding
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'SimultaneousBinding.run.xml'.
 \openout1 = `SimultaneousBinding.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25356 strings out of 493014
- 467311 string characters out of 6133351
- 884820 words of memory out of 5000000
- 28469 multiletter control sequences out of 15000+600000
+ 25486 strings out of 493014
+ 469759 string characters out of 6133351
+ 877160 words of memory out of 5000000
+ 28595 multiletter control sequences out of 15000+600000
  6224 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,96p,1293b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,96p,1294b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SimultaneousBinding.pdf (6 pages, 217774 bytes).
+Output written on SimultaneousBinding.pdf (6 pages, 215554 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
