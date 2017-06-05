@@ -219,6 +219,93 @@
       \endverb
       \keyw{actin,formin,freely-jointed chain,mechanosensitivity,simulation}
     \endentry
+    \entry{Chan1992}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dd4c88f54fe4a3391e0854671c63078d}{%
+           family={Chan},
+           family_i={C\bibinitperiod},
+           given={a\bibnamedelima C},
+           given_i={a\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=89c6547f1ed5b4412af1ff0784f082e0}{%
+           family={Iwashima},
+           family_i={I\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+        {{hash=e9252327f562c1bb376f8777670fba77}{%
+           family={Turck},
+           family_i={T\bibinitperiod},
+           given={C\bibnamedelima W},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=85a90135ef71d10febfb35ed88904333}{%
+           family={Weiss},
+           family_i={W\bibinitperiod},
+           given={a},
+           given_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{aca528476b67159c7d5565ff92e30ce7}
+      \strng{fullhash}{42b73859c9998e668bf45bcc742e8c4e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Protein-tyrosine kinases (PTKs) play an integral role in T cell activation. Stimulation of the T cell antigen receptor (TCR) results in tyrosine phosphorylation of a number of cellular substrates. One of these is the TCR zeta chain, which can mediate the transduction of extracellular stimuli into cellular effector functions. We have recently identified a 70 kd tyrosine phosphoprotein (ZAP-70) that associates with zeta and undergoes tyrosine phosphorylation following TCR stimulation. Here we report the isolation of a cDNA clone encoding ZAP-70. ZAP-70 represents a novel PTK and is expressed in T and natural killer cells. Moreover, tyrosine phosphorylation and association of ZAP-70 with zeta require the presence of src family PTKs and provide a potential mechanism by which the src family PTKs and ZAP-70 may interact to mediate TCR signal transduction.}
+      \field{isbn}{00928674}
+      \field{issn}{00928674}
+      \field{journaltitle}{Cell}
+      \field{number}{4}
+      \field{title}{{ZAP-70: a 70 kd protein-tyrosine kinase that associates with the TCR zeta chain.}}
+      \field{volume}{71}
+      \field{year}{1992}
+      \field{pages}{649\bibrangedash 662}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/0092-8674(92)90598-7
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Chan1992.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Davis2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=94f44143e8bb4624660f5c9514485fc2}{%
+           family={Davis},
+           family_i={D\bibinitperiod},
+           given={Simon\bibnamedelima J},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=795cc9887c49cd5719e27d5448f2f951}{%
+           prefix={van\bibnamedelima der},
+           prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           family={Merwe},
+           family_i={M\bibinitperiod},
+           given={P\bibnamedelima Anton},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a2189539378c20c57b9f6d15ab4fb81}
+      \strng{fullhash}{0a2189539378c20c57b9f6d15ab4fb81}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How the T cell receptor engages antigen is known, but not how that 'triggers' intracellular signaling. The first direct support for a mechanism based on the spatial reorganization of signaling proteins, proposed 10 years ago and referred to as the 'kinetic-segregation' model, is now beginning to emerge, along with indications that it may also apply to the triggering of nonclonotypic receptors. We describe here the development of the model, review new data and suggest how the model fits a broader conceptual framework for receptor triggering. We also consider the capacity of the model, versus that of other proposals, to account for the established features of TCR triggering.}
+      \field{isbn}{1529-2908}
+      \field{issn}{1529-2908}
+      \field{journaltitle}{Nature Immunology}
+      \field{number}{8}
+      \field{title}{{The kinetic-segregation model: TCR triggering and beyond}}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{803\bibrangedash 809}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/ni1369
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/KineticSegDavis2006.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/doifinder/10.1038/ni1369
+      \endverb
+    \endentry
     \entry{Dobbins2016}{article}{}
       \name{author}{7}{}{%
         {{hash=9bdcc37452f0bd4d913654134d5f340c}{%
@@ -644,6 +731,59 @@
       \verb http://dx.doi.org/10.1016/j.bpj.2016.03.024
       \endverb
     \endentry
+    \entry{ODonoghue2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=df7952e64ea61be3a07726836b9ae1f8}{%
+           family={O'Donoghue},
+           family_i={O\bibinitperiod},
+           given={Geoff\bibnamedelima P},
+           given_i={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=810f6b554b5d15c4c3271f305d9c55d4}{%
+           family={Pielak},
+           family_i={P\bibinitperiod},
+           given={Rafal\bibnamedelima M},
+           given_i={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=548a740b8d72d9288239175afd04a8b5}{%
+           family={Smoligovets},
+           family_i={S\bibinitperiod},
+           given={Alexander\bibnamedelima A},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cc74f1252175c73b566cbdb1e8a2e24f}{%
+           family={Lin},
+           family_i={L\bibinitperiod},
+           given={Jenny\bibnamedelima J},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ef5c663bbe22c0d815e63db6beac4551}{%
+           family={Groves},
+           family_i={G\bibinitperiod},
+           given={Jay\bibnamedelima T},
+           given_i={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbd6725b53aee63dfb5defc16cfcc871}
+      \strng{fullhash}{fe08a49dd5ec8596dcc5417d798ca407}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{T cells discriminate between self and foreign antigenic peptides, displayed on antigen presenting cell surfaces, via the TCR. While the molecular interactions between TCR and its ligands are well characterized in vitro, quantitative measurements of these interactions in living cells are required to accurately resolve the physical mechanisms of TCR signaling. We report direct single molecule measurements of TCR triggering by agonist pMHC in hybrid junctions between live primary T cells and supported lipid membranes. Every pMHC:TCR complex over the entire cell is tracked while simultaneously monitoring the local membrane recruitment of ZAP70, as a readout of TCR triggering. Mean dwell times for pMHC:TCR molecular binding of 5 and 54 s were measured for two different pMHC:TCR systems. Single molecule measurements of the pMHC:TCR:ZAP70 complex indicate that TCR triggering is stoichiometric with agonist pMHC in a 1:1 ratio. Thus any signal amplification must occur downstream of TCR triggering. DOI:http://dx.doi.org/10.7554/eLife.00778.001.}
+      \field{journaltitle}{eLife}
+      \field{month}{07}
+      \field{title}{{Direct single molecule measurement of TCR triggering by agonist pMHC in living primary T cells.}}
+      \field{volume}{2}
+      \field{year}{2013}
+      \field{pages}{e00778}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7554/eLife.00778
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Library/Application Support/Mendeley Desktop/Downloaded/O'Donoghue et al. - 2013 - Direct single molecule measurement of TCR triggering by agonist pMHC in living primary T cells.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3701909%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract
+      \endverb
+      \keyw{Humans,Kinetics,Major Histocompatibility Complex,Major Histocompatibility Complex: immunology,Protein Binding,Receptors,Antigen,T-Cell,Receptors,Antigen,T-Cell: immunology,Stochastic Processes,T-Lymphocytes,T-Lymphocytes: immunology,ZAP-70 Protein-Tyrosine Kinase,ZAP-70 Protein-Tyrosine Kinase: metabolism}
+    \endentry
     \entry{Reeves2011}{article}{}
       \name{author}{3}{}{%
         {{hash=49755a39acf7576af5d70165a3fe939c}{%
@@ -682,6 +822,56 @@
       \endverb
       \verb{file}
       \verb :Users/laraclemens/Library/Application Support/Mendeley Desktop/Downloaded/Reeves, Cheveralls, Kondev - 2011 - Regulation of biochemical reaction rates by flexible tethers.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Rudd1988}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c5f3e26e6a12b84250b7bf0a2b82b4b5}{%
+           family={Rudd},
+           family_i={R\bibinitperiod},
+           given={C\bibnamedelima E},
+           given_i={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9b81ded77bb33f9492e8984511c503bc}{%
+           family={Trevillyan},
+           family_i={T\bibinitperiod},
+           given={J\bibnamedelima M},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1a1b817b345307c2833275a26f9fea8e}{%
+           family={Dasgupta},
+           family_i={D\bibinitperiod},
+           given={J\bibnamedelima D},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=61c35cfed1c3a774535370e075b46196}{%
+           family={Wong},
+           family_i={W\bibinitperiod},
+           given={L\bibnamedelima L},
+           given_i={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c97962ab448ce6ec1890921fda618e7d}{%
+           family={Schlossman},
+           family_i={S\bibinitperiod},
+           given={S\bibnamedelima F},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0612aa47df44fc241a75faef4bfb6df}
+      \strng{fullhash}{4c96a1f8e7d8008fca4c0f3052402e55}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The CD4 (T4) antigen is a cell-surface glycoprotein that is expressed predominantly on the surface of helper T cells and has been implicated in the regulation of T-cell activation and in the associative recognition of class II antigens of the major histocompatibility complex. In addition, the CD4 antigen appears to serve as a receptor for the human immunodeficiency virus (HIV). An important question has been whether the CD4 receptor is linked to an intracellular mediator that could regulate the activation of the CD4+ subset. In this paper, we provide preliminary evidence that the CD4 receptor is complexed in detergent lysates to a protein-tyrosine kinase (PTK) of 55-60 kDa, which is expressed specifically in T cells. The PTK is the human analogue of the murine pp56LSTRA (pp56lck) and has significant homology with c-src, c-yes, and other members of the src family. The identification of the PTK associated with CD4 receptor was made by use of an antiserum to a synthetic peptide that was deduced from the DNA sequence of PTK. Two-dimensional nonequilibrium pH gradient gel electrophoresis/NaDodSO4/PAGE revealed the kinase to focus as a heterogeneous collection of spots in the pH range of 4.0-5.0. Furthermore, in vitro phosphorylation revealed the phosphorylation of two additional polypeptides at 40 and 80 kDa, in addition to the autophosphorylation of the PTK at 55-60 kDa. The potential importance of the association between the CD4 receptor and the PTK of T cells is discussed in relation to T-cell activation and HIV infectivity.}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{14}
+      \field{title}{{The CD4 receptor is complexed in detergent lysates to a protein-tyrosine kinase (pp58) from human T lymphocytes.}}
+      \field{volume}{85}
+      \field{year}{1988}
+      \field{pages}{5190\bibrangedash 5194}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.85.14.5190
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Rudd1988.pdf:pdf
       \endverb
     \endentry
     \entry{Shi2013}{article}{}
@@ -875,6 +1065,113 @@
       \verb http://dx.doi.org/10.1016/j.bpj.2008.10.052
       \endverb
     \endentry
+    \entry{Veillette1988}{article}{}
+      \name{author}{4}{}{%
+        {{hash=42b159f5ef41b1fcf2b5e7f8b9f6bb1b}{%
+           family={Veillette},
+           family_i={V\bibinitperiod},
+           given={Andr\'{e}},
+           given_i={A\bibinitperiod}}}%
+        {{hash=4f0296baa58ba0e49847425b412c0411}{%
+           family={Bookman},
+           family_i={B\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ec91bf123b32b546348664fa274d2da5}{%
+           family={Horak},
+           family_i={H\bibinitperiod},
+           given={Eva\bibnamedelima M.},
+           given_i={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7a7464bde12cbdce4a36305028a21a9d}{%
+           family={Bolen},
+           family_i={B\bibinitperiod},
+           given={Joseph\bibnamedelima B.},
+           given_i={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a05f1a8683919ffb20b5b5e72b5cfe8}
+      \strng{fullhash}{0c09fe68b5bf517d146a374dbbd35e27}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The CD4 and CD8 T cell antigens are thought to transduce an independent signal during the process of T cell activation. We report our evaluation of the possible involvement of the lymphocyte-specific tyrosine kinase p56lck in these transduction pathways. Our data demonstrate that p56lck is specifically modulated with either CD4 or CD8 following antibody-mediated cross-linking of these molecules and that a large fraction of the total cellular lck protein can be coimmunoprecipitated with these surface glycoproteins. These results suggest that p56lck is functionally and physically associated with CD4 CD8 in normal murine T lymphocytes and support the concept that an independent signal is transduced by the interaction of these surface molecules with major histocompatibility complex determinants. ?? 1988.}
+      \field{isbn}{00928674}
+      \field{issn}{00928674}
+      \field{journaltitle}{Cell}
+      \field{number}{2}
+      \field{title}{{The CD4 and CD8 T cell surface antigens are associated with the internal membrane tyrosine-protein kinase p56lck}}
+      \field{volume}{55}
+      \field{year}{1988}
+      \field{pages}{301\bibrangedash 308}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0092-8674(88)90053-0
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Veillette1988.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Wang2010}{article}{}
+      \name{author}{7}{}{%
+        {{hash=73226fbd9a4affdbe825c13940d5f106}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Haopeng},
+           given_i={H\bibinitperiod}}}%
+        {{hash=cd4d72013918ad4d77c7811fbb208c53}{%
+           family={Kadlecek},
+           family_i={K\bibinitperiod},
+           given={Theresa\bibnamedelima A.},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a8f6625b7e9e44da3349af3356319d64}{%
+           family={Au-Yeung},
+           family_i={A\bibinithyphendelim Y\bibinitperiod},
+           given={Byron\bibnamedelima B.},
+           given_i={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=20a43da224cf238c5125c9402ba48796}{%
+           family={Goodfellow},
+           family_i={G\bibinitperiod},
+           given={Hanna\bibnamedelima E.Sj\"{o}lin},
+           given_i={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8b4543e69e69675766a130657870dfde}{%
+           family={Hsu},
+           family_i={H\bibinitperiod},
+           given={Lih\bibnamedelima Yun},
+           given_i={L\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=9ed5fb364d5ba977dd97927104296f4a}{%
+           family={Freedman},
+           family_i={F\bibinitperiod},
+           given={Tanya\bibnamedelima S.},
+           given_i={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=747601b8d439e1e870e248de1a4fd642}{%
+           family={Weiss},
+           family_i={W\bibinitperiod},
+           given={Arthur},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf3c40030d2ea885acf46df347b70c88}
+      \strng{fullhash}{2a6ea59de81c8ba48283a9b1214fddd5}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ZAP-70 is a cytoplasmic protein tyrosine kinase that plays a critical role in the events involved in initiating T-cell responses by the antigen receptor. Here we review the structure of ZAP-70, its regulation, its role in development and in disease. We also describe a model experimental system in which ZAP-70 function can be interrupted by a small chemical inhibitor.}
+      \field{isbn}{1943-0264 (Electronic)}
+      \field{issn}{19430264}
+      \field{journaltitle}{Cold Spring Harbor perspectives in biology}
+      \field{number}{5}
+      \field{title}{{ZAP-70: an essential kinase in T-cell signaling.}}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1101/cshperspect.a002279
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/Wang2010Zap70Review.pdf:pdf
+      \endverb
+    \endentry
     \entry{Wu2015}{article}{}
       \name{author}{6}{}{%
         {{hash=7bb2d83991df51fab82e334ba89d1132}{%
@@ -1047,6 +1344,57 @@
       \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3228420%7B%5C&%7Dtool=pmcentrez%7B%5C&%7Drendertype=abstract
       \endverb
       \keyw{Amino Acid Motifs,Amino Acid Motifs: genetics,Animals,Blotting,Western,Cell Line,Cell Membrane,Cell Membrane: metabolism,Cytoplasm,Cytoplasm: metabolism,Flow Cytometry,Fluorescence Resonance Energy Transfer,Immunoprecipitation,Lymphocyte Specific Protein Tyrosine Kinase p56(lc,Mice,Microscopy,Confocal,Mutation,Mutation: genetics,Phosphorylation,Receptors,Antigen,T-Cell,Receptors,Antigen,T-Cell: metabolism,Signal Transduction,Signal Transduction: physiology,Tyrosine,Tyrosine: metabolism}
+    \endentry
+    \entry{Zhang1998}{article}{}
+      \name{author}{5}{}{%
+        {{hash=523770920ffd82a2492037f509d505db}{%
+           family={Zhang},
+           family_i={Z\bibinitperiod},
+           given={Weiguo},
+           given_i={W\bibinitperiod}}}%
+        {{hash=1254c3132f1756348530919f1b3b1f76}{%
+           family={Sloan-Lancaster},
+           family_i={S\bibinithyphendelim L\bibinitperiod},
+           given={Joanne},
+           given_i={J\bibinitperiod}}}%
+        {{hash=078f0a389c8930496ead71288a9c68ce}{%
+           family={Kitchen},
+           family_i={K\bibinitperiod},
+           given={Jason},
+           given_i={J\bibinitperiod}}}%
+        {{hash=207a470f6413ded043153c47e581eecc}{%
+           family={Trible},
+           family_i={T\bibinitperiod},
+           given={Ronald\bibnamedelima P.},
+           given_i={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7240bc44c06e1ece9f26bab3da0b088f}{%
+           family={Samelson},
+           family_i={S\bibinitperiod},
+           given={Lawrence\bibnamedelima E.},
+           given_i={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff858bae23ec40ce90653724323d5962}
+      \strng{fullhash}{e49b2f98beb41ec1ad899dbae7630738}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite extensive study, several of the major components involved in T cell receptor-mediated signaling remain unidentified. Here we report the cloning of the cDNA for a highly tyrosine-phosphorylated 36-38 kDa protein, previously characterized by its association with Grb2, phospholipase C-??1, and the p85 subunit of phospholnositide 3-kinase. Deduced amino acid sequence identities a novel integral membrane protein containing multiple potential tyrosine phosphorylation sites. We show that this protein is phosphorylated by ZAP-70/Syk protein tyrosine kinases leading to recruitment of multiple signaling molecules. Its function is demonstrated by inhibition of T cell activation following overexpression of a mutant form lacking critical tyrosine residues. Therefore, we propose to name the molecule LAT - linker for activation of T cells.}
+      \field{isbn}{0092-8674 (Print)$\backslash$r0092-8674 (Linking)}
+      \field{issn}{00928674}
+      \field{journaltitle}{Cell}
+      \field{number}{1}
+      \field{title}{{LAT: The ZAP-70 tyrosine kinase substrate that links T cell receptor to cellular activation}}
+      \field{volume}{92}
+      \field{year}{1998}
+      \field{pages}{83\bibrangedash 92}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/S0092-8674(00)80901-0
+      \endverb
+      \verb{file}
+      \verb :Users/laraclemens/Google Drive/Articles/LATDiscovery.pdf:pdf
+      \endverb
     \endentry
     \entry{Zhou2001}{article}{}
       \name{author}{1}{}{%

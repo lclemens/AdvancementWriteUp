@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUN 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2017 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,89 +1137,94 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation 'Reeves2011' on page 2 undefined on input line 49.
+LaTeX Warning: Citation 'Mukhopadhyay2016' on page 2 undefined on input line 44
+.
 
+
+LaTeX Warning: Citation 'Reeves2011' on page 2 undefined on input line 59.
+
+[2]
 Package epstopdf Info: Source file: <ModelConfirmationFigures/RMSEndtoEnd.eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-01 18:15:23
 (epstopdf)                    size: 47308 bytes
 (epstopdf)             Output file: <ModelConfirmationFigures/RMSEndtoEnd-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-01 18:16:31
 (epstopdf)                    size: 19250 bytes
 (epstopdf)             Command: <repstopdf --outfile=ModelConfirmationFigures/R
 MSEndtoEnd-eps-converted-to.pdf ModelConfirmationFigures/RMSEndtoEnd.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf, id=66, 501.875pt x 
+<ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf, id=68, 501.875pt x 
 412.54124pt>
 File: ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf>
 Package pdftex.def Info: ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.
-pdf used on input line 56.
+pdf used on input line 66.
 (pdftex.def)             Requested size: 234.8775pt x 193.06978pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 61.
+(hyperref)                removing `subscript' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+(hyperref)                removing `math shift' on input line 71.
 
 
-LaTeX Warning: Citation 'VanValen2009' on page 2 undefined on input line 63.
+LaTeX Warning: Citation 'VanValen2009' on page 3 undefined on input line 73.
 
 
-LaTeX Warning: Citation 'Reeves2011' on page 2 undefined on input line 63.
+LaTeX Warning: Citation 'Reeves2011' on page 3 undefined on input line 73.
 
-[2 <./ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ModelConfirmationFigures/ReeDistribution.e
 ps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-01 19:47:45
 (epstopdf)                    size: 398312 bytes
 (epstopdf)             Output file: <ModelConfirmationFigures/ReeDistribution-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-01 19:49:26
 (epstopdf)                    size: 76513 bytes
 (epstopdf)             Command: <repstopdf --outfile=ModelConfirmationFigures/R
 eeDistribution-eps-converted-to.pdf ModelConfirmationFigures/ReeDistribution.ep
 s>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf, id=82, 737.7562
+<ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf, id=69, 737.7562
 6pt x 649.42625pt>
 File: ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf>
 Package pdftex.def Info: ModelConfirmationFigures/ReeDistribution-eps-converted
--to.pdf used on input line 71.
+-to.pdf used on input line 81.
 (pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
- [3 <./ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 91.
+ [3 <./ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 101.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
+) [4 <./ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ModelConfirmationFigures/BindingVSAnalytic
 N100N150.eps>
-(epstopdf)                    date: 2017-05-25 14:07:11
+(epstopdf)                    date: 2017-05-23 20:44:18
 (epstopdf)                    size: 29484 bytes
 (epstopdf)             Output file: <ModelConfirmationFigures/BindingVSAnalytic
 N100N150-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-25 14:07:11
+(epstopdf)                    date: 2017-05-23 20:50:21
 (epstopdf)                    size: 14722 bytes
 (epstopdf)             Command: <repstopdf --outfile=ModelConfirmationFigures/B
 indingVSAnalyticN100N150-eps-converted-to.pdf ModelConfirmationFigures/BindingV
 SAnalyticN100N150.eps>
-(epstopdf)             \includegraphics on input line 109.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 <ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-converted-to.pdf, id=97
@@ -1229,44 +1234,39 @@ raphic file (type pdf)
 
 <use ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-converted-to.pdf>
 Package pdftex.def Info: ModelConfirmationFigures/BindingVSAnalyticN100N150-eps
--converted-to.pdf used on input line 109.
+-converted-to.pdf used on input line 119.
 (pdftex.def)             Requested size: 328.82707pt x 242.17796pt.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 124.
 
-[4 <./ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-converted-to.pdf>]
+[5 <./ModelConfirmationFigures/BindingVSAnalyticN100N150-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation 'Fischer2004' on page 5 undefined on input line 126.
-
-
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Citation 'Fischer2004' on page 6 undefined on input line 137.
 
 Package epstopdf Info: Source file: <LckPyMol/Diagonal.eps>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-26 16:32:20
 (epstopdf)                    size: 216463 bytes
 (epstopdf)             Output file: <LckPyMol/Diagonal-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-01 15:06:44
+(epstopdf)                    date: 2017-06-01 16:36:00
 (epstopdf)                    size: 149766 bytes
 (epstopdf)             Command: <repstopdf --outfile=LckPyMol/Diagonal-eps-conv
 erted-to.pdf LckPyMol/Diagonal.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 <LckPyMol/Diagonal-eps-converted-to.pdf, id=116, 410.53375pt x 559.08875pt>
 File: LckPyMol/Diagonal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use LckPyMol/Diagonal-eps-converted-to.pdf>
 Package pdftex.def Info: LckPyMol/Diagonal-eps-converted-to.pdf used on input l
-ine 148.
+ine 159.
 (pdftex.def)             Requested size: 187.89914pt x 255.88722pt.
 Package epstopdf Info: Source file: <LckPyMol/LWD.eps>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-26 16:33:11
 (epstopdf)                    size: 232114 bytes
 (epstopdf)             Output file: <LckPyMol/LWD-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-26 16:34:11
 (epstopdf)                    size: 158277 bytes
 (epstopdf)             Command: <repstopdf --outfile=LckPyMol/LWD-eps-converted
 -to.pdf LckPyMol/LWD.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
 <LckPyMol/LWD-eps-converted-to.pdf, id=117, 410.53375pt x 559.08875pt>
@@ -1274,24 +1274,18 @@ File: LckPyMol/LWD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use LckPyMol/LWD-eps-converted-to.pdf>
 Package pdftex.def Info: LckPyMol/LWD-eps-converted-to.pdf used on input line 1
-52.
+63.
 (pdftex.def)             Requested size: 187.89914pt x 255.88722pt.
- [5] [6 <./LckPyMol/Diagonal-eps-converted-to.pdf> <./LckPyMol/LWD-eps-converte
+ [6] [7 <./LckPyMol/Diagonal-eps-converted-to.pdf> <./LckPyMol/LWD-eps-converte
 d-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./ModelDevelopment.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package rerunfilecheck Info: File `ModelDevelopment.out' has not changed.
+(rerunfilecheck)             Checksum: E6769FF49073F26429F3BC0897BDD682;486.
 
-
-Package rerunfilecheck Warning: File `ModelDevelopment.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ModelDevelopment.out':
-(rerunfilecheck)             Before: B2C116822E33E0F6549BF8F4EE2F173F;630
-(rerunfilecheck)             After:  F34B9CFAD228C07EF04C3CDF86EBD7B7;555.
 
 LaTeX Warning: There were undefined references.
 
@@ -1305,35 +1299,32 @@ Package logreq Info: Writing requests to 'ModelDevelopment.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25605 strings out of 493014
- 470914 string characters out of 6133351
- 886327 words of memory out of 5000000
- 28694 multiletter control sequences out of 15000+600000
+ 25509 strings out of 493014
+ 468699 string characters out of 6133351
+ 880922 words of memory out of 5000000
+ 28598 multiletter control sequences out of 15000+600000
  6512 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,96p,907b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.1.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on ModelDevelopment.pdf (6 pages, 571375 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
+Output written on ModelDevelopment.pdf (7 pages, 571764 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUN 2017 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2017 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,11 +1151,11 @@ LaTeX Warning: Citation 'Mukhopadhyay2016' on page 1 undefined on input line 19
 .
 
 
-LaTeX Warning: Reference `sec:ModelDev' on page 1 undefined on input line 31.
+LaTeX Warning: Reference `sec:ModelDev' on page 1 undefined on input line 29.
 
 
 LaTeX Warning: Reference `sec:ModelDevsubsec:TCR' on page 1 undefined on input 
-line 31.
+line 29.
 
 Package epstopdf Info: Source file: <ResultsFigures/StiffeningDiagram/Stiffenin
 gDiagram.eps>
@@ -1168,7 +1168,7 @@ gDiagram-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/StiffeningD
 iagram/StiffeningDiagram-eps-converted-to.pdf ResultsFigures/StiffeningDiagram/
 StiffeningDiagram.eps>
-(epstopdf)             \includegraphics on input line 39.
+(epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/StiffeningDiagram/StiffeningDiagram-eps-converted-to.pdf, id=56
@@ -1178,7 +1178,7 @@ raphic file (type pdf)
 
 <use ResultsFigures/StiffeningDiagram/StiffeningDiagram-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/StiffeningDiagram/StiffeningDiagram-eps
--converted-to.pdf used on input line 39.
+-converted-to.pdf used on input line 37.
 (pdftex.def)             Requested size: 375.80544pt x 113.95627pt.
 
 [1
@@ -1195,7 +1195,7 @@ VSFreeSim-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/General/Ree
 DistributionHalfVSFreeSim-eps-converted-to.pdf ResultsFigures/General/ReeDistri
 butionHalfVSFreeSim.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf, id=6
@@ -1205,7 +1205,7 @@ Graphic file (type pdf)
 
 <use ResultsFigures/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/General/ReeDistributionHalfVSFreeSim-ep
-s-converted-to.pdf used on input line 57.
+s-converted-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
 
 [2 <./ResultsFigures/StiffeningDiagram/StiffeningDiagram-eps-converted-to.pdf>]
@@ -1220,7 +1220,7 @@ Package epstopdf Info: Source file: <ResultsFigures/General/OcclusionVSNVSRFree
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/General/Occ
 lusionVSNVSRFree-eps-converted-to.pdf ResultsFigures/General/OcclusionVSNVSRFre
 e.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/General/OcclusionVSNVSRFree-eps-converted-to.pdf, id=82, 514.92
@@ -1230,7 +1230,7 @@ ile (type pdf)
 
 <use ResultsFigures/General/OcclusionVSNVSRFree-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/General/OcclusionVSNVSRFree-eps-convert
-ed-to.pdf used on input line 73.
+ed-to.pdf used on input line 70.
 (pdftex.def)             Requested size: 187.89914pt x 149.80286pt.
 Package epstopdf Info: Source file: <ResultsFigures/General/OcclusionVSNVSRHalf
 .eps>
@@ -1243,7 +1243,7 @@ Package epstopdf Info: Source file: <ResultsFigures/General/OcclusionVSNVSRHalf
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/General/Occ
 lusionVSNVSRHalf-eps-converted-to.pdf ResultsFigures/General/OcclusionVSNVSRHal
 f.eps>
-(epstopdf)             \includegraphics on input line 77.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/General/OcclusionVSNVSRHalf-eps-converted-to.pdf, id=83, 523.95
@@ -1253,7 +1253,7 @@ ile (type pdf)
 
 <use ResultsFigures/General/OcclusionVSNVSRHalf-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/General/OcclusionVSNVSRHalf-eps-convert
-ed-to.pdf used on input line 77.
+ed-to.pdf used on input line 74.
 (pdftex.def)             Requested size: 187.89914pt x 147.22198pt.
 Package epstopdf Info: Source file: <ResultsFigures/General/OcclusionVSNVSRFree
 Mid.eps>
@@ -1266,7 +1266,7 @@ Mid-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/General/Occ
 lusionVSNVSRFreeMid-eps-converted-to.pdf ResultsFigures/General/OcclusionVSNVSR
 FreeMid.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-converted-to.pdf, id=84, 514
@@ -1276,7 +1276,7 @@ c file (type pdf)
 
 <use ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/General/OcclusionVSNVSRFreeMid-eps-conv
-erted-to.pdf used on input line 81.
+erted-to.pdf used on input line 78.
 (pdftex.def)             Requested size: 187.89914pt x 149.80286pt.
 Package epstopdf Info: Source file: <ResultsFigures/General/OcclusionVSNVSRHalf
 Mid.eps>
@@ -1289,7 +1289,7 @@ Mid-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/General/Occ
 lusionVSNVSRHalfMid-eps-converted-to.pdf ResultsFigures/General/OcclusionVSNVSR
 HalfMid.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf, id=85, 523
@@ -1299,7 +1299,7 @@ c file (type pdf)
 
 <use ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/General/OcclusionVSNVSRHalfMid-eps-conv
-erted-to.pdf used on input line 85.
+erted-to.pdf used on input line 82.
 (pdftex.def)             Requested size: 187.89914pt x 147.22198pt.
 
 [3 <./ResultsFigures/General/ReeDistributionHalfVSFreeSim-eps-converted-to.pdf>
@@ -1315,7 +1315,7 @@ Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaStiffeningMembraneOn
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaStif
 feningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Results
 Figures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-e
@@ -1326,7 +1326,7 @@ led-eps-converted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabel
 ed-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTo
-talPhosColorMapLabeled-eps-converted-to.pdf used on input line 104.
+talPhosColorMapLabeled-eps-converted-to.pdf used on input line 101.
 (pdftex.def)             Requested size: 375.80544pt x 291.79878pt.
  [4 <./ResultsFigures/General/OcclusionVSNVSRFree-eps-converted-to.pdf> <./Resu
 ltsFigures/General/OcclusionVSNVSRHalf-eps-converted-to.pdf> <./ResultsFigures/
@@ -1344,7 +1344,7 @@ Package epstopdf Info: Source file: <ResultsFigures/StiffeningSequentialBinding
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/StiffeningS
 equentialBinding/MemOn/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Stiff
 eningSequentialBinding/MemOn/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/StiffeningSequentialBinding/MemOn/ProbVSSequence-eps-converted-
@@ -1355,7 +1355,7 @@ rted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/StiffeningSequentialBinding/MemOn/ProbVSSequence-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: ResultsFigures/StiffeningSequentialBinding/MemOn/ProbV
-SSequence-eps-converted-to.pdf used on input line 129.
+SSequence-eps-converted-to.pdf used on input line 124.
 (pdftex.def)             Requested size: 140.92793pt x 119.4831pt.
 Package epstopdf Info: Source file: <ResultsFigures/StiffeningSequentialBinding
 /MemOff/ProbVSSequence.eps>
@@ -1368,7 +1368,7 @@ Package epstopdf Info: Source file: <ResultsFigures/StiffeningSequentialBinding
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/StiffeningS
 equentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf ResultsFigures/Stif
 feningSequentialBinding/MemOff/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted
@@ -1379,7 +1379,7 @@ erted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: ResultsFigures/StiffeningSequentialBinding/MemOff/Prob
-VSSequence-eps-converted-to.pdf used on input line 133.
+VSSequence-eps-converted-to.pdf used on input line 128.
 (pdftex.def)             Requested size: 140.92793pt x 117.807pt.
 Package epstopdf Info: Source file: <ResultsFigures/StiffeningSequentialBinding
 /EvenSites/ProbVSSequence.eps>
@@ -1392,7 +1392,7 @@ Package epstopdf Info: Source file: <ResultsFigures/StiffeningSequentialBinding
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/StiffeningS
 equentialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf ResultsFigures/S
 tiffeningSequentialBinding/EvenSites/ProbVSSequence.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/StiffeningSequentialBinding/EvenSites/ProbVSSequence-eps-conver
@@ -1403,7 +1403,7 @@ onverted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/StiffeningSequentialBinding/EvenSites/ProbVSSequence-eps-co
 nverted-to.pdf>
 Package pdftex.def Info: ResultsFigures/StiffeningSequentialBinding/EvenSites/P
-robVSSequence-eps-converted-to.pdf used on input line 137.
+robVSSequence-eps-converted-to.pdf used on input line 132.
 (pdftex.def)             Requested size: 140.92793pt x 118.1584pt.
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaStiffeningMembraneOn
 /Dephosphorylation/AvgBindVSTotalModified5.eps>
@@ -1417,7 +1417,7 @@ Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaStiffeningMembraneOn
 feningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf
  ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalMod
 ified5.eps>
-(epstopdf)             \includegraphics on input line 151.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalMod
@@ -1428,7 +1428,7 @@ alModified5-eps-converted-to.pdf Graphic file (type pdf)
 <use ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTota
 lModified5-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphory
-lation/AvgBindVSTotalModified5-eps-converted-to.pdf used on input line 151.
+lation/AvgBindVSTotalModified5-eps-converted-to.pdf used on input line 146.
 (pdftex.def)             Requested size: 375.80544pt x 284.62068pt.
  [6 <./ResultsFigures/StiffeningSequentialBinding/MemOn/ProbVSSequence-eps-conv
 erted-to.pdf> <./ResultsFigures/StiffeningSequentialBinding/MemOff/ProbVSSequen
@@ -1436,11 +1436,11 @@ ce-eps-converted-to.pdf> <./ResultsFigures/StiffeningSequentialBinding/EvenSite
 s/ProbVSSequence-eps-converted-to.pdf>]
 [7 <./ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTot
 alModified5-eps-converted-to.pdf>] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./LocalStructuring.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `LocalStructuring.out' has not changed.
 (rerunfilecheck)             Checksum: E9BA335CC9A1C6B0752B664FEB6E659C;1278.
 
@@ -1470,7 +1470,7 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on LocalStructuring.pdf (8 pages, 489388 bytes).
+Output written on LocalStructuring.pdf (8 pages, 486195 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  174 compressed objects within 2 object streams

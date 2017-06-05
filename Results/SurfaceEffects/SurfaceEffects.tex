@@ -94,7 +94,7 @@ We compute the local concentration as the probability that the bound ligand is n
 
 % description of curve fitting
 % could cite Lagarias et al for Nelder-Mead algorithm?
-We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
+We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = \sigma_{max}*e^{-\rho^2/l^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
 
 
 %
@@ -138,7 +138,7 @@ We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\r
 %\end{center}
 %
 %
-%We must therefore find appropriate $a$ and $c$ values for our half-gaussian fit in order to calculate the error.
+%We must therefore find appropriate $\sigma_{max}$ and $l$ values for our half-gaussian fit in order to calculate the error.
 
 
 
@@ -183,9 +183,27 @@ We explore how effective concentration is impacted by ligand size and polymer le
 %\end{figure}
 
 
+
+\begin{figure}[H]
+    \begin{center}
+        		\includegraphics[width=\linewidth]{ResultsFigures/MaxEffConc/MaximumEffConcFreeHalf.eps}
+        \caption{Maximum effective concentration of half-gaussian fit to local concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue). \label{fig: MaxEffConc}}
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        		\includegraphics[width=0.7\linewidth]{ResultsFigures/MaxEffConc/MaximumEffConcRatio.eps}
+        \caption{Ratio of half-space fitted maximum effective concentration to free-space fitted maximum effective concentration as a function of tether length, $N$ (Kuhn lengths), for various ligand radii. \label{fig: MaxEffConcRatio}}
+    \end{center}
+\end{figure}
+
+
+
+
 \subsubsection{Reach parameter is unaffected by presence of surface}
 
-We fit a half-gaussian curve to the simulated local concentration data and compare the `reach parameter', $c$, in free-space to half-space. Our data shown earlier indicates that the presence of a surface will extend a single polymer compared to in free space. We would expect this straightening to also increase the reach parameter for the effective concentration. However, we find that the reach parameter, $c$, is unaffected by the presence of a surface. This parameter changes based on polymer length and ligand size, but not presence of a surface. 
+We fit a half-gaussian curve to the simulated local concentration data and compare the `reach parameter', $l$, in free-space to half-space. Our data shown earlier indicates that the presence of a surface will extend a single polymer compared to in free space. We would expect this straightening to also increase the reach parameter for the effective concentration. However, we find that the reach parameter, $l$, is unaffected by the presence of a surface. This parameter changes based on polymer length and ligand size, but not presence of a surface. 
 
 \begin{figure}[H]
     \begin{center}
