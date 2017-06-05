@@ -19,21 +19,13 @@ This type of interaction arises frequently with clustered reactions.  For instan
 
 \subsubsection{SHP-1}
 
-\hl{Paragraph about SHP1/PD-1/ITIM?}
-
-\hl{reread SPR paper} 
-
-\hl{read SHP-1/PD-1 review paper}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Model and Methods}
 
-\hl{local vs effective concentration?}
+We first investigate the effects of a surface on a single tether without a bound ligand in free-space and half-space. We model the tether as a freely-jointed chain and the unbound ligand as an idealized ghost sphere located tangential to a single segment.  To explore the effects of a surface on a single tether, we vary the number of segments and the size of the incoming ligand. We calculate quasi-equilibrium statistics for the FJC and unbound ligand in both free-space and half-space. We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and the surface. 
 
-We first investigate the effects of a surface on a single tether without a bound ligand in free-space and half-space. We model the tether as a freely-jointed chain and the unbound ligand as an idealized ghost sphere tangentially located at a single segment. \hl{Is it clear what this means?} To explore the effects of a surface on a single tether, we vary the number of segments and the size of the incoming ligand. We calculate quasi-equilibrium statistics for the FJC and unbound ligand in both free-space and half-space. We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and half-space barriers \hl{weird wording?}. 
-
-We next explore the effects of a surface on three specific tethers: PD-1, PEG-3, and PEG-28.  PEG-3 and PEG-28 are tethers created by attaching a single immunoreceptor tyrosine inhibitory motif (ITIM) to a series of PEG linkers. Each tether is modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths.  For each tether, we assume a Kuhn length, $\delta$, of 0.3nm, as supported by \hl{CITATION HERE}. Given that these tethers are made up of PEG linkers and amino acids, each of which is approximately the size of a Kuhn length, the lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids. Note that we consider the size of biotin to be negligible for our simulation. (Table \ref{table: Tethers})
+We next explore the effects of a surface on three specific tethers: PD-1, PEG-3, and PEG-28.  PEG-3 and PEG-28 are tethers created by attaching a single immunoreceptor tyrosine inhibitory motif (ITIM) to a series of PEG linkers. Each tether is modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths. The tethers are made up of PEG linkers and amino acids, each of which contributes approximately 0.3nm to the length. We assume maximal flexibility in our model by assigning a Kuhn length,$\delta$, of 0.3nm. The contour lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids. Note that we consider the size of biotin to be negligible for our simulation. (Table \ref{table: Tethers})
 
 %% Table of Tethers
 \begin{table}
@@ -52,7 +44,7 @@ We next explore the effects of a surface on three specific tethers: PD-1, PEG-3,
 \end{center}
 \end{table}
 
-We investigate SHP-1 as a ligand bound to a tether. In order to simulate SHP-1 as a simple sphere, we estimate its size using three different methods. \hl{better word than methods?} We first estimate the volume of SHP-1 based on its molecular weight, 67561$Da$,  as listed in UniProt entry P29350, assuming an average protein density of 1.41$g/cm^3$. \cite{Fischer2004}
+We investigate SHP-1 as a ligand bound to a tether. In order to simulate SHP-1 as a simple sphere, we estimate its size using three different assumptions. We first estimate the volume of SHP-1 based on its molecular weight, 67561Da,  as listed in UniProt entry P29350, assuming an average protein density of 1.41$g/cm^3$. \cite{Fischer2004}
 
 %\cite{UniProtSHP1} 
 %\cite{FischerProteinSci2004}
@@ -88,8 +80,6 @@ Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and th
 \end{figure}
 
 % description of simulation - polymer-c code
-\hl{Should I specify at any point C vs matlab?}
-
 Using the parameters estimated above, we simulate two equivalent tethers.  The idealized SHP1 sphere, or ligand, is bound to the end of one of the tethers. The bound ligand is simulated as an idealized sphere which rotates with the tether.  The bound ligand may not occupy the same space as the tether nor may it penetrate the surface if present. The second tether has a ghost ligand attached in the same location.  (Fig. \ref{fig: LocalConcCartoon}) We allow each tether to explore conformation space, at each conformation determining if the ghost ligand is occluded by the rest of the tether, or in half-space, by the surface. For the tether with the ghost ligand, we record both the location of the center of the ligand and whether or not it was occluded at each conformation.  For the tether with the bound ligand, we only record the location. For these simulations, we assume the two tethers are independent and do not sterically influence each other.
 
 %% Diagram of simulation
@@ -103,7 +93,8 @@ We compute the local concentration as the probability that the bound ligand is n
 
 
 % description of curve fitting
-We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. \todo{Reference Lagarias et al. ?} The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
+% could cite Lagarias et al for Nelder-Mead algorithm?
+We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
 
 
 %
@@ -159,10 +150,6 @@ We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\r
 
 We first investigate how the presence of a surface impacts binding of a ligand to a single tether compared to in free-space. We find that a surface consistently net decreases the probability a ligand can bind to a tether, irrespective of tether length or ligand size. For long tethers, the surface reduction is minimal, in some parameters almost eliminating the difference. A larger ligand creates a larger fold decrease in the ability of the kinase to bind in half-space. (Fig. \ref{fig: OcclusionVSN})
 
-
-\hl{Pick one of these?}
-\hl{make one figure in inkscape to control spacing}
-\hl{make figure labels match description or vice versa}
 \begin{figure}[H]
     \begin{center}
         \begin{subfigure}{\linewidth}
@@ -179,9 +166,8 @@ We first investigate how the presence of a surface impacts binding of a ligand t
 
 \subsubsection{Reactions between tethered reactants are net enhanced by a surface}
 
-We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is a description of how often a ligand bound to the end of one polymer encounters a binding site on the end of a second polymer, with the two polymers separated by some distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the cutoff distance for the binding encounter. \hl{weird wording} Naturally, when we introduce a surface or ligand of nonzero size, the worm-like chain model no longer describes the effective concentration.  We see that the surface enhances the effective concentration over the free space values but that a larger ligand size reduces the effective concentration. (Fig. \ref{fig: ConcVSSeparation})
+We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is defined as how often a ligand bound to the tail of one polymer encounters a binding site on the tail of a second polymer, with the origins of the two polymers separated by a fixed distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. Naturally, when we introduce a surface or ligand of nonzero size, the worm-like chain model no longer describes the effective concentration.  We see that the surface enhances the effective concentration over the free space values but that a larger ligand size reduces the effective concentration. (Fig. \ref{fig: ConcVSSeparation})
 
-\hl{Should really use SHP1 parameters for this figure.}
 \begin{figure}[H]
     \begin{center}
         		\includegraphics[width=0.8\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationVSSeparation.eps}
@@ -200,8 +186,6 @@ We explore how effective concentration is impacted by ligand size and polymer le
 \subsubsection{Reach parameter is unaffected by presence of surface}
 
 We fit a half-gaussian curve to the simulated local concentration data and compare the `reach parameter', $c$, in free-space to half-space. Our data shown earlier indicates that the presence of a surface will extend a single polymer compared to in free space. We would expect this straightening to also increase the reach parameter for the effective concentration. However, we find that the reach parameter, $c$, is unaffected by the presence of a surface. This parameter changes based on polymer length and ligand size, but not presence of a surface. 
-
-\hl{include curve fitting figure?}
 
 \begin{figure}[H]
     \begin{center}
@@ -227,7 +211,6 @@ We fit a half-gaussian curve to the simulated local concentration data and compa
 
 Experimental measurements of effective concentration do not distinguish between the effective concentration and the catalytic rate. Since these values are lumped into a single number, it is important to know how the surface impacts the apparent catalytic rate.  \hl{This might be flat out incorrect.} \hl{ include calculation of how to find catalytic ratio?} We will plot the ratio of apparent catalytic rates for various polymer lengths and ligand sizes. This will indicate if there is a relationship between the catalysis factor and the reaction parameters or if there is a single value describing the impact of the surface. The catalysis surface factor may then be used to determine how experiments on a surface differ from on a matrix and possibly give a conversion factor between the two.
 
-\subsection{Discussion?}
 
 
 
