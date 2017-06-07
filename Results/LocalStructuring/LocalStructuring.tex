@@ -165,18 +165,81 @@ We will continue to investigate if phosphorylation, dephosphorylation or reversi
 %\hl{What is the definition of cooperativity?  How does this compare to the 'not modifying the switch-like response? vs potency? vs ultrasensitivity?}
 %\hl{Question: is this 'cooperativity', how does that influence the network? (refering to local structuring enhancing rate)} 
 
-We find that phosphorylation-induced local disordered-to-ordered transitions of a disordered protein with multiple phosphorylation sites will enhance the rate of future phosphorylation events. Local disordered-to-ordered transitions are sufficient to create positive cooperativity of PTMs. Positive cooperativity can increase the sensitivity of a response to changes in ligand concentration and increase the potency of signaling responses. We find that for a simulated TCR CD3$\zeta$ chain, disordered-to-ordered transitions can give a 3 to 8 fold enhancement of phosphorylation rate from the first to the last event for certain ranges of local structuring. This provides one method of achieving nonlinear signaling behavior from a protein with no native structure, assuming high kinase to phosphatase concentration ratio. 
+%%%%
+%
+%%%%
 
-Conversely, if we assume a low kinase to phosphatase ratio, we find that dephosphorylation-induced local unstructuring can create a mild reduction of rates of future dephosphorylations. \hl{is this rest of the stuff relevant? : This can confer negative cooperativity to the system, endowing signaling systems with two features: high turnover of ligands even in high ligand concentration (which might be advantageous if ligands are involved in other reactions), and constant signaling activity in low ligand concentration. Similarly, this might reduce the impact of inhibitors, requiring much higher concentrations of inhibitor to completely turn off signaling.} A negative cooperative dephosphorylation step could bias the system towards phosphorylation, since dephosphorylation events hinder future dephosphorylations, but phosphorylation is positively cooperative. However, it could decrease the maximum \hl{average?} phosphorylation state, since as more tyrosines are phosphorylated, it is easier for both the kinase and phosphatase to bind. 
+% matches data, many systems, design principle
 
-\hl{Not sure if any of this matters}
-Disordered-to-ordered transitions create these signaling characteristics when kinase and phosphatase concentrations are unbalanced. Future work will examine how the ratio of their concentrations impacts the cooperative effects of the system. However, evidence for positive cooperativity suggests a regime of high kinase to phosphatase post-TCR triggering. This is further supported by evidence of spatial segregation of phosphatase CD148 after TCR triggering. \hl{cite} 
 
-We also find preferential sequential phosphorylation of a membrane-anchored disordered protein occurs naturally. Local structuring is not required for preferential sequential binding, but does enhance the magnitude of the preference. \hl{Does it? Or all the ratios the same?  This seems like an important question.} Sequential binding can create or enhance ultrasensitivity, allowing large changes in response with small changes in signal. \hl{cite Omer?}
+% summary of results
 
-Both disordered-to-ordered transitions and membrane-anchoring of disordered proteins can create nonlinear cooperative effects in the signaling network. 
+% steric occlusion
+When binding to disordered proteins, ligands experience significant steric occlusion from their binding sites. We show that this depends on disordered protein length, ligand size, binding site location, and presence of a surface.
+% multiple phosphorylation
+For disordered proteins with multiple binding sites, disorder leads to global interactions between these sites giving rise to nonlinear effects: positive cooperativity due to disorder-to-order transitions, negative cooperativity from order-to-disorder transitions, and emergent sequential binding. 
+This provides a method of achieving nonlinear signaling behavior from a protein with no native structure.	
 
-\hl{Tie back to other systems, greater community.....} 
+
+% rate enhancement of phosphorylation
+If we assume the disordered protein undergoes disordered-to-order transitions upon PTM, we find a significant enhancement of the binding rate. 
+	% - matches data
+	We find that for a simulated TCR CD3$\zeta$ chain, there is an enhancement of phosphorylation rate that can help explain our previously published experimental data \cite{Mukhopadhyay2016}.
+	% - many systems
+	There are several examples of disordered-to-order transitions upon PTM (cite cite cite). It is possible these systems could exhibit this same rate enhancement.
+	% - design principle
+	Positive cooperativity has been extensively studied both theoretically and experimentally (cite cite cite cite). It gives rise to many signaling behaviors, including sensitivity to ligand concentration.
+
+
+
+
+% why positive cooperativity is important
+%	% 
+%We find that phosphorylation-induced local disordered-to-ordered transitions of a disordered protein with multiple phosphorylation sites will enhance the rate of future phosphorylation events. Local disordered-to-ordered transitions are sufficient to create positive cooperativity of PTMs. Positive cooperativity can increase the sensitivity of a response to changes in ligand concentration and increase the potency of signaling responses. This provides one method of achieving nonlinear signaling behavior from a protein with no native structure, assuming high kinase to phosphatase concentration ratio. 
+%
+
+
+
+
+% negative cooperativity
+Conversely, if we assume a protein undergoes an order-to-disorder transition upon PTM (e.g. dephosphorylation), we find a reduction of the binding rate.
+	% - concern of null effects
+	If the rate reduction upon disorder (e.g. upon dephosphorylation) were to match the rate enhancement from local structuring (e.g. upon phosphorylation), it is in principle possible to negate the nonlinear behavior displayed above.
+	% - results from TCR
+	When we simulate dephosphorylation of the TCR CD3$\zeta$ chain, we find only a low reduction of the binding rate compared to the enhancement from phosphorylation.
+	% - not strong enough to counter phosphorylation effect
+	Therefore, we expect to maintain the nonlinear signaling behavior induced by disordered-to-ordered transitions.
+	
+
+%
+%% why negative cooperative effects of dephosphorylation matter to the system
+%Conversely, if we assume a low kinase to phosphatase ratio, we find that dephosphorylation-induced local unstructuring can create a mild reduction of rates of future dephosphorylations. A negative cooperative dephosphorylation step could bias the system towards phosphorylation, since dephosphorylation events hinder future dephosphorylations, but phosphorylation is positively cooperative. However, it could decrease the average phosphorylation state, since as more tyrosines are phosphorylated, it is easier for both the kinase and phosphatase to bind. 
+
+%\hl{is this rest of the stuff relevant? : This can confer negative cooperativity to the system, endowing signaling systems with two features: high turnover of ligands even in high ligand concentration (which might be advantageous if ligands are involved in other reactions), and constant signaling activity in low ligand concentration. Similarly, this might reduce the impact of inhibitors, requiring much higher concentrations of inhibitor to completely turn off signaling.}
+%
+%% discussion of hypotheses for reversible phosphorylation based on current results/experimental evidence
+%Disordered-to-ordered transitions create these signaling characteristics when kinase and phosphatase concentrations are unbalanced. Future work will examine how the ratio of their concentrations impacts the cooperative effects of the system. However, evidence for positive cooperativity suggests a regime of high kinase to phosphatase post-TCR triggering. This is further supported by evidence of spatial segregation of phosphatase CD148 after TCR triggering. \hl{cite} 
+
+% benefit of sequential phosphorylation
+Sequential binding arises even when we assume all binding sites are identical. This phenomenon occurs without disordered-to-ordered transitions. 
+	% - location location location
+	Part of this sequential preference is due to the locations of the binding sites along the polymer. Even small differences in binding probabilities can lead to large differences in the probability of a particular sequence.
+	% - membrane matters
+	For membrane bound disordered proteins, part of the emergence of sequential binding is due to high preference to bind (membrane-) distal-to-proximal compared to proximal-to-distal.
+	% - design principle
+	Sequential binding is another phenomenon which has been extensively theoretically studied (cite cite cite) and has been shown to create nonlinear signaling behavior, such as ultrasensitivity.	
+	% - obligate vs preferential
+	Note that theoretical studies (cite) focus on `obligate' sequential binding, where each event is required for the next to occur. Our work reveals emergent `preferential' sequential binding, where the sequence is likely to form but not required. How these differ is an interesting question for future study. 
+		
+%We also find preferential sequential phosphorylation of a membrane-anchored disordered protein occurs naturally. Local structuring is not required for preferential sequential binding, but does enhance the magnitude of the preference. \hl{Does it? Or all the ratios the same?  This seems like an important question.} Sequential binding can create or enhance ultrasensitivity, allowing large changes in response with small changes in signal. \hl{cite Omer?}
+
+% how these results generalize to other systems?
+%
+%
+%
+%% conclusion
+%Both disordered-to-ordered transitions and membrane-anchoring of disordered proteins can create nonlinear cooperative effects in the signaling network. 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
