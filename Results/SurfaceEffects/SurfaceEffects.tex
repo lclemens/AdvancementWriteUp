@@ -163,10 +163,21 @@ We first investigate how the presence of a surface impacts binding of a ligand t
         \caption{Probability of ligand being occluded, $p_{occ}$, (top row) and probability of ligand binding, $1-p_{occ}$, (bottom row) as a function of tether length for various ligand radii. Free-space (left column) half-space (middle), and the ratio of probabilities half-space to free-space (right). \label{fig: OcclusionVSN} }
        \end{center}
 \end{figure}
+       
+       
+       \begin{figure}[H]
+       \begin{center}
+       \includegraphics[width=0.8\linewidth]{ResultsFigures/MembraneCausedOcclusion/MembraneCausedOcclusionVSNVSirLigand.eps}
+       \end{center}
+       \caption{}
+       \end{figure}
+       
+       
 
-\subsubsection{Reactions between tethered reactants are net enhanced by a surface}
 
-We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is defined as how often a ligand bound to the tail of one polymer encounters a binding site on the tail of a second polymer, with the origins of the two polymers separated by a fixed distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. Naturally, when we introduce a surface or ligand of nonzero size, the worm-like chain model no longer describes the effective concentration.  We see that the surface enhances the effective concentration over the free space values but that a larger ligand size reduces the effective concentration. (Fig. \ref{fig: ConcVSSeparation})
+\subsubsection{Impact of membrane on tethered reactions is dependent on size of reactants}
+
+We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is defined as how often a ligand bound to the tail of one polymer encounters a binding site on the tail of a second polymer, with the origins of the two polymers separated by a fixed distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. We see that the surface enhances the effective concentration over the free space values when no ligand is present. When a large ligand is bound to one of the tethers, the presence of a membrane reduces the maximum effective concentration compared to in free-space. (Fig. \ref{fig: ConcVSSeparation}, Fig. \ref{fig: MaxEffConc}, Fig. \ref{MaxEffConcRatio})
 
 \begin{figure}[H]
     \begin{center}
@@ -221,6 +232,28 @@ We fit a half-gaussian curve to the simulated local concentration data and compa
 
 
 \subsubsection{Matrix-bound versus surface-bound experiments confirm model predictions}
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD1_ITSM_CM5_vs_C1.pdf}
+	\end{center}
+	\caption{Preliminary comparison of tethered reaction of human SHP-1 dephosphorylating ITSM on PD1 performed on matrix (CM5) and surface (C1) assuming tether reach unchanged. Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution).}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG3_CM5_vs_C1.pdf}
+	\end{center}
+	\caption{Preliminary comparison of tethered reaction of mouse SHP-1 dephosphorylating ITIM on PEG3 performed on matrix (CM5) and surface (C1) assuming tether reach unchanged. Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution).}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG28_CM5_vs_C1.pdf}
+	\end{center}
+	\caption{Preliminary comparison of tethered reaction of mouse SHP-1 dephosphorylating ITIM on PEG28 performed on matrix (CM5) and surface (C1) assuming tether reach unchanged. Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution).}
+\end{figure}
 
 
 \subsubsection{Future Work: Catalysis surface factor $\kappa^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}
