@@ -2098,5 +2098,8 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Bryant2017</bcf:citekey>
     <bcf:citekey order="2">Fischer2004</bcf:citekey>
+    <bcf:citekey order="3">VanValen2009</bcf:citekey>
+    <bcf:citekey order="3">Bryant2017</bcf:citekey>
+    <bcf:citekey order="4">Goyette2017</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

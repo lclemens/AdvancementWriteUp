@@ -175,14 +175,33 @@ We first investigate how the presence of a surface impacts binding of a ligand t
        
 
 
-\subsubsection{Impact of membrane on tethered reactions is dependent on size of reactants}
+\subsubsection{Future Work: Impact of membrane on reactions between tethered reactants}
 
-We explore how effective concentration is impacted by ligand size and polymer length, where effective concentration is defined as how often a ligand bound to the tail of one polymer encounters a binding site on the tail of a second polymer, with the origins of the two polymers separated by a fixed distance. When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. We see that the surface enhances the effective concentration over the free space values when no ligand is present. When a large ligand is bound to one of the tethers, the presence of a membrane reduces the maximum effective concentration compared to in free-space. (Fig. \ref{fig: ConcVSSeparation}, Fig. \ref{fig: MaxEffConc}, Fig. \ref{MaxEffConcRatio})
+% introduce effective concentration compared to standard concentration
+For a reactant in solution, the reaction rate will be proportional to the concentration of the reactant. On the other hand, for a reaction between two tethered molecules, the reaction rate is proportional to the effective concentration \cite{VanValen2009,Bryant2017} (Cite - Vavylonis paper).
+Effective concentration is defined as how often a ligand bound to the tail of one anchored polymer encounters a binding site on the tail of a second anchored polymer, taking into account the accessibility of the binding site. 
+% future work
+We will explore how effective concentration is impacted by ligand size and polymer length. We will generate plots of the effective concentration as function of separation distance in both free-space and half-space for multiple sizes of polymer and bound ligand. We expect these to look similar to the schematic shown in Fig. \ref{fig: ConcVSSeparation}. Under simplified circumstances, e.g. no bound ligand, it has been shown that the effective concentration will be a half-gaussian \cite{Goyette2017}. Therefore, we expect our plots to also resemble a half-gaussian. We will fit a half-gaussian to these curves and consider the change in maximum effective concentration and width of the curve (reach parameter) between free-space and half-space. 
+
+% expectations of reach parameter
+We have shown that a polymer in half-space will have a mildly extended end-to-end distribution compared to a polymer in free-space (Fig. \ref{HALFSPACE REE}). For this reason, we expect only a mild change in the reach parameter between free-space and half-space. 
+
+% expectations for maximum concentration
+It is less clear what effect a surface will have on maximum concentration. 
+	% - membrane should enhance by reducing space
+	On the one hand, a membrane will force both polymers to occupy the same half space, which should enhance the effective concentration.
+	% - membrane reducing ability to bind to site
+	On the other hand, we have seen that presence of a membrane reduces the accessibility of a binding site, decreasing effective concentration. 
+	% - prediction
+	We expect that for a small enough ligand, the membrane will lead to a net enhancement. We will answer whether, for a ligand of typical size, the membrane creates a net enhancement or reduction of the effective concentration.
+
+
+%When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. We see that the surface enhances the effective concentration over the free space values when no ligand is present. When a large ligand is bound to one of the tethers, the presence of a membrane reduces the maximum effective concentration compared to in free-space. (Fig. \ref{fig: ConcVSSeparation}, Fig. \ref{fig: MaxEffConc}, Fig. \ref{MaxEffConcRatio})
 
 \begin{figure}[H]
     \begin{center}
         		\includegraphics[width=0.8\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationVSSeparation.eps}
-        \caption{Local concentration as a function of tether separation distance. \label{fig: ConcVSSeparation}}
+        \caption{Effective concentration as a function of tether separation distance. \label{fig: ConcVSSeparation}}
     \end{center}
 \end{figure}
 
@@ -231,7 +250,7 @@ We fit a half-gaussian curve to the simulated local concentration data and compa
 \end{figure}
 
 
-\subsubsection{Matrix-bound versus surface-bound experiments confirm model predictions}
+\subsubsection{Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}
 
 
 \begin{figure}[H]

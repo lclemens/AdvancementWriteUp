@@ -194,9 +194,10 @@ Parabolic-constant piecewise potential:
 
 Piecewise potential (aka, parabola-constant), ($PC$):
 \begin{equation}\label{eq: parabolaconstant}
+E_{PC}(z_i) = 
 \begin{cases}
-width*z^2-depth 	& z<\sqrt{\frac{depth}{width}}\\
-0 & z \geq \sqrt{\frac{depth}{width}} \\
+k_{PC}z_i^2-E_0 	& z_i<\sqrt{\frac{E_0}{k_{PC}}}\\
+0 & z_i \geq \sqrt{\frac{E_0}{k_{PC}}} \\
 \end{cases}
 \end{equation}
 
@@ -205,9 +206,10 @@ We have two possible potentials for the remaining amino acids.  In general, the 
 Hardwall:
 
 \begin{equation}\label{eq: hardwall}
+E_H(z_j) = 
 \begin{cases}
-\infty 	& z < 0\\
-0 & z \geq 0 \\
+\infty 	& z_j < 0\\
+0 & z_j \geq 0 \\
 \end{cases}
 \end{equation}
 
@@ -215,9 +217,10 @@ Hardwall:
 Softwall:
 
 \begin{equation}\label{eq: softwall}
+E_S(z_j) = 
 \begin{cases}
-k*z^2 	& z < 0\\
-0 & z \geq 0 \\
+k_Sz_j^2 	& z_j < 0\\
+0 & z_j \geq 0 \\
 \end{cases}
 \end{equation}
 
@@ -228,9 +231,10 @@ In this new model, we introduce a repulsive potential that acts only on the phos
 Exponential decay:
 
 \begin{equation}\label{eq: exponential}
+E_{\text{Repulse}}(z_i) = 
 \begin{cases}
-\infty	& z \leq 0\\
-e^{-z} & z > 0 \\
+\infty	& z_i \leq 0\\
+E_{R0}e^{-z_i/\bar{z}} & z_i > 0 \\
 \end{cases}
 \end{equation}
 
@@ -240,7 +244,7 @@ e^{-z} & z > 0 \\
 \subsection{Results}
 \subsubsection{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}
 
-We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues. (Table \ref{table: ElecPotentialRelationships}, Group 1) We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction, as seen in Lopez et al. 2015. (Condition 1) From this sweep, we see there are multiple parameter sets which achieve this distribution.  Fig. \ref{fig: iSiteDistInitial} For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. We establish the following potentials:
+We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues. (Table \ref{table: ElecPotentialRelationships}, Group 1) We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction, as seen in Lopez et al. 2015. (Condition 1) From this sweep, we see there are multiple parameter sets which achieve this distribution.  Fig. \ref{fig: iSiteDistInitial} For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. Parameters which give reasonable distributions are: $k_{\rm{PC}}$ = 1 $k_BT/\delta^2$, $E_0$ = 10 $k_BT$, $k_S$ = 0.01 $k_BT/\delta^2$, where $\delta$ is the Kuhn length.
 
 
 \begin{figure}[H]
@@ -249,25 +253,6 @@ We first explore the simplest model, where basic residues and tyrosines feel the
 \end{center}
 \caption{Polymer tip distribution resulting from parameter exploration of electric potentials. For this set, softwall potential width is set at 0.01. Both parabolic-constant potential depth and potential width range from $10^0$ to $10^{2}$.\ref{fig: iSiteDistInitial}}
 \end{figure}
-
-Parabolic-constant piecewise potential:
-
-\begin{equation}\label{eq: parabolaconstant}
-\begin{cases}
-1*z^2-10 	& z<\sqrt{\frac{10}{1}}\\
-0 & z \geq \sqrt{\frac{10}{1}} \\
-\end{cases}
-\end{equation}
-
-
-Softwall:
-
-\begin{equation}\label{eq: softwall}
-\begin{cases}
-0.01*z^2 	& z < 0\\
-0 & z \geq 0 \\
-\end{cases}
-\end{equation}
 
 We explore how phosphorylation, or removing tyrosines from the parabolic-constant potential and adding them to the softwall potential, impacts the distribution of the tyrosines and full chain. We find that under this regime, phosphorylating individual tyrosines does not impact the distribution of neighboring tyrosines. Fig. \ref{fig: Dist123456} Additionally, phosphorylating two tyrosines does not influence the distribution of a tyrosines located between the two. Fig. \ref{fig: Dist135624} We also find that even when all tyrosines are phosphorylated, the polymer does not fully dissociate from the membrane. This is represented by the distribution of the (basic) polymer tip residue distribution, which remains closely associated with the membrane. A non-basic, non-tyrosine residue located centrally is only minorly affected by the change in phosphorylation state. This result indicates these electric potentials may be insufficient to exhibit the characteristics displayed experimentally.
 
