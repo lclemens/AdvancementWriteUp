@@ -2096,6 +2096,7 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Fischer2004</bcf:citekey>
+    <bcf:citekey order="1">Bryant2017</bcf:citekey>
+    <bcf:citekey order="2">Fischer2004</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

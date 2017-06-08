@@ -45,35 +45,29 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Traditionally, studies of protein function have gone hand-in-hand with studies of protein structure. Proteins such as hemoglobin exhibit complicated behavior, such as cooperativity, by modifying their structure. The cooperative transition of hemoglobin from a closed to open state is well studied with the aid of crystallography and other structure elucidation tools. \hl{CITE} 
+Traditionally, studies of protein function have gone hand-in-hand with studies of protein structure. Proteins such as hemoglobin exhibit complicated behavior, such as cooperativity, by modifying their structure. The cooperative transition of hemoglobin from a closed to open state is well studied with the aid of crystallography and other structure elucidation tools. (CITE)
 
 Of more recent interest is the behavior of molecules that cannot be crystallized. These proteins lack a defined structure and instead are capable of assuming many different conformations. Although examples of intrinsically disordered proteins (IDPs) have been reported since the 1970s, it was only in the past two decades that they became a focus of major research. \cite{Dunker2008} 
 
-As our understanding of disordered proteins develops, so too will our understanding of a variety of cellular behaviors. These studies will elucidate aspects of signaling, cytoskeleton formation, clustered reactions, and \hl{really.  I need a fourth function.}. Investigations into how disordered proteins mediate each of these processes may lead to new drug targets or introduce new directions for synthetic biology.
+As our understanding of disordered proteins develops, so too will our understanding of a variety of cellular behaviors. These studies will elucidate aspects of signaling, cytoskeleton formation, and clustered reactions. Investigations into how disordered proteins mediate each of these processes may lead to new drug targets or introduce new directions for synthetic biology.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Intrinsically Disordered Proteins}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Studies have shown that disordered proteins or disordered domains are present in at least 40\% of human proteins, including those involved with signal propagation.\cite{Tompa2012} General functions of IDPs include as tethers between two globular domains \hl{cite}, receptor subunits in signaling pathways \hl{cite}, tethers to the membrane \hl{cite}, and facilitators to actin polymerization \hl{cite Bryant2017 or someone else older?}. Given the ubiquitous nature of IDPs, many questions arise: How does their existence influence cellular functions such as biochemical reactions, signaling networks, or cytoskeletal structure?  Are there any benefits to being disordered over structured? and Can IDPs exhibit the same complicated behavior as structured proteins?
+Studies have shown that disordered proteins or disordered domains are present in at least 40\% of human proteins, including those involved with signal propagation.\cite{Tompa2012} General functions of IDPs include as tethers between two globular domains (CITE), receptor subunits in signaling pathways (CITE), tethers to the membrane (CITE), and facilitators to actin polymerization (CITE). Given the ubiquitous nature of IDPs, many questions arise: How does their existence influence cellular functions such as biochemical reactions, signaling networks, or cytoskeletal structure?  Are there any benefits to being disordered over structured? and Can IDPs exhibit the same complicated behavior as structured proteins?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{T Cell Receptor Zeta Chain}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-One example of an intrinsically disordered protein is the CD3 $\zeta$ chain, one of six disordered chains composing the T Cell Receptor (TCR) intracellular region. This molecule facilitates signal propagation in the TCR network in the immune system.  An antigen binding to the extracellular regions of the TCR creates a signal transmitted via a chain of events into the cell to the intracellular components of the TCR including the CD3$\zeta$ chain.  CD3$\zeta$ undergoes multiple phosphorylation by kinase Lck before another molecule, ZAP-70 can attach and propagate the signal downstream. This pathway ultimately regulates T-cell cell fate decisions through cytokines production, (i.e. interleukin-2). \hl{Cite - Cell Signal.com??} \hl{Presumably I need to cite all of this somewhere?}
+One example of an intrinsically disordered protein is the CD3 $\zeta$ chain, one of six disordered chains composing the T Cell Receptor (TCR) intracellular region. This molecule facilitates signal propagation in the TCR network in the immune system.  An antigen binding to the extracellular regions of the TCR creates a signal transmitted via a chain of events into the cell to the intracellular components of the TCR including the CD3$\zeta$ chain.  CD3$\zeta$ undergoes multiple phosphorylation by kinase Lck before another molecule, ZAP-70 can attach and propagate the signal downstream. This pathway ultimately regulates T-cell cell fate decisions through cytokines production, (i.e. interleukin-2). (CITE)
+
+%CELLSignal.com for citation?
 
 
-Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extracellular receptor, kinase, and phosphatase have shown that the number of tyrosines impacts the potency and maximum phosphorylation but not the switch-like response \hl{reword} \cite{Mukhopadhyay2016}. Initial differential equation models indicate to achieve these characteristics, there would need to be a phosphorylation-dependent enhancement of more than 100-fold. That is, the sixth phosphorylation event would be at least 100-fold faster than the first phosphorylation event. \cite{Mukhopadhyay2016} 
-
-\hl{Questions:}
-
-\hl{Their ODE model is single chain, right?}
-
-\hl{Is a single zeta chain sufficient for signalling?} 
-
-\hl{Mukhop. et al says a single ITAM phos is technically sufficient, but has it been shown that it will?}
+Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extracellular receptor, kinase, and phosphatase have shown that the number of tyrosines impacts the potency and maximum phosphorylation but not the switch-like response \cite{Mukhopadhyay2016}. Initial differential equation models indicate to achieve these characteristics, there would need to be a phosphorylation-dependent enhancement of more than 100-fold. That is, the sixth phosphorylation event would be at least 100-fold faster than the first phosphorylation event \cite{Mukhopadhyay2016} . 
 
 \begin{figure}
 	\begin{center}
@@ -97,7 +91,9 @@ Experiments with only a reconstituted mouse CD3$\zeta$ dimer, simplified extrace
 \subsection{Previous Modeling Attempts - FJC as Model for IDPs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \cite{Zhou2001} \hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one. Basically we use the lower limit of what is reasonable and could see what difference it makes either by comparing to N=1/2Nmax or by resimulating.}\hl{Find $l_k$ ~ 0.5 in Mukhopadhyay2016 too} Models of disordered proteins using freely-jointed chain (FJC) and WLC converge, with the persistence length for the WLC as half the Kuhn length used for the FJC. \cite{VanValen2009}
+Disordered proteins are commonly represented with models from polymer physics.\cite{VanValen2009},\cite{Reeves2011} The distribution of end-to-end distances for disordered domains matches a worm-like chain (WLC) model with persistence length 3.04\AA . \cite{Zhou2001} Models of disordered proteins using freely-jointed chain (FJC) and WLC converge, with the persistence length for the WLC as half the Kuhn length used for the FJC. \cite{VanValen2009}
+
+%\hl{This suggests $l_k$ = 0.6nm....which is not what we use...not sure how to explain that one. Basically we use the lower limit of what is reasonable and could see what difference it makes either by comparing to N=1/2Nmax or by resimulating.}\hl{Find $l_k$ ~ 0.5 in Mukhopadhyay2016 too}
 
 Alternative models for multisite phosphorylation of IDPs include molecular dynamic, ordinary differential equations, or particle based models. However, FJC or other `mesoscale' approaches reach timescales on the order of microseconds to seconds, which are computationally out of reach for traditional atomic scale MD. This approach also allows us to capture the steric effects of a disordered chain, which are missed by coarser models. 
 

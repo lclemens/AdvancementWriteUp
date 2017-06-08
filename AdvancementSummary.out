@@ -29,32 +29,33 @@
 \BOOKMARK [2][-]{subsection.5.3}{Results}{section.5}% 29
 \BOOKMARK [3][-]{subsubsection.5.3.1}{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{subsection.5.3}% 30
 \BOOKMARK [3][-]{subsubsection.5.3.2}{Initial parameter exploration of more general energetic model yields fit to polymer distribution}{subsection.5.3}% 31
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Future Work}{subsection.5.3}% 32
-\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 33
-\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 34
-\BOOKMARK [2][-]{subsection.6.2}{Model and Methods}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 36
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{subsection.6.3}% 37
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Future Work: Sequence of binding multiple ligands}{subsection.6.3}% 38
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{subsection.6.3}% 39
-\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 40
-\BOOKMARK [1][-]{section.7}{Role of the surface on tether-tether reactions within a signaling cluster}{}% 41
-\BOOKMARK [2][-]{subsection.7.1}{Introduction}{section.7}% 42
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Tethering}{subsection.7.1}% 43
-\BOOKMARK [3][-]{subsubsection.7.1.2}{SHP-1}{subsection.7.1}% 44
-\BOOKMARK [2][-]{subsection.7.2}{Model and Methods}{section.7}% 45
-\BOOKMARK [2][-]{subsection.7.3}{Results}{section.7}% 46
-\BOOKMARK [3][-]{subsubsection.7.3.1}{Accessibility of a reaction site is reduced by the presence of a surface}{subsection.7.3}% 47
-\BOOKMARK [3][-]{subsubsection.7.3.2}{Reactions between tethered reactants are net enhanced by a surface}{subsection.7.3}% 48
-\BOOKMARK [3][-]{subsubsection.7.3.3}{Reach parameter is unaffected by presence of surface}{subsection.7.3}% 49
-\BOOKMARK [3][-]{subsubsection.7.3.4}{Matrix-bound versus surface-bound experiments confirm model predictions}{subsection.7.3}% 50
-\BOOKMARK [3][-]{subsubsection.7.3.5}{Future Work: Catalysis surface factor \(teth2teth\)cat versus lC and/or versus rligand}{subsection.7.3}% 51
-\BOOKMARK [1][-]{section.8}{Timeline}{}% 52
-\BOOKMARK [1][-]{section.9}{Appendix}{}% 53
-\BOOKMARK [2][-]{subsection.9.1}{Model Modifications}{section.9}% 54
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Stiffening}{subsection.9.1}% 55
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Electrostatics}{subsection.9.1}% 56
-\BOOKMARK [3][-]{subsubsection.9.1.3}{Simultaneous Binding}{subsection.9.1}% 57
-\BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 58
-\BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 59
-\BOOKMARK [1][-]{subsection.9.3}{References}{}% 60
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Future Work: Parameter exploration}{subsection.5.3}% 32
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work: TCR clustering as cause of initial signal}{subsection.5.3}% 33
+\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 34
+\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.2}{Model and Methods}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 37
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{subsection.6.3}% 38
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Future Work: Sequence of binding multiple ligands}{subsection.6.3}% 39
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{subsection.6.3}% 40
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 41
+\BOOKMARK [1][-]{section.7}{Role of the surface on tether-tether reactions within a signaling cluster}{}% 42
+\BOOKMARK [2][-]{subsection.7.1}{Introduction}{section.7}% 43
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Tethering}{subsection.7.1}% 44
+\BOOKMARK [3][-]{subsubsection.7.1.2}{SHP-1}{subsection.7.1}% 45
+\BOOKMARK [2][-]{subsection.7.2}{Model and Methods}{section.7}% 46
+\BOOKMARK [2][-]{subsection.7.3}{Results}{section.7}% 47
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Accessibility of a reaction site is reduced by the presence of a surface}{subsection.7.3}% 48
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Reactions between tethered reactants are net enhanced by a surface}{subsection.7.3}% 49
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Reach parameter is unaffected by presence of surface}{subsection.7.3}% 50
+\BOOKMARK [3][-]{subsubsection.7.3.4}{Matrix-bound versus surface-bound experiments confirm model predictions}{subsection.7.3}% 51
+\BOOKMARK [3][-]{subsubsection.7.3.5}{Future Work: Catalysis surface factor \(teth2teth\)cat versus lC and/or versus rligand}{subsection.7.3}% 52
+\BOOKMARK [1][-]{section.8}{Timeline}{}% 53
+\BOOKMARK [1][-]{section.9}{Appendix}{}% 54
+\BOOKMARK [2][-]{subsection.9.1}{Model Modifications}{section.9}% 55
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Stiffening}{subsection.9.1}% 56
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Electrostatics}{subsection.9.1}% 57
+\BOOKMARK [3][-]{subsubsection.9.1.3}{Simultaneous Binding}{subsection.9.1}% 58
+\BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 59
+\BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 60
+\BOOKMARK [1][-]{subsection.9.3}{References}{}% 61
