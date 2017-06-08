@@ -2100,21 +2100,25 @@
     <bcf:citekey order="2">Shi2013</bcf:citekey>
     <bcf:citekey order="3">Zhang2011</bcf:citekey>
     <bcf:citekey order="4">Dobbins2016</bcf:citekey>
-    <bcf:citekey order="5">Aivazian2000</bcf:citekey>
-    <bcf:citekey order="6">Zhang2011</bcf:citekey>
-    <bcf:citekey order="7">Shi2013</bcf:citekey>
+    <bcf:citekey order="5">Zhang2011</bcf:citekey>
+    <bcf:citekey order="6">Dobbins2016</bcf:citekey>
+    <bcf:citekey order="7">Aivazian2000</bcf:citekey>
     <bcf:citekey order="8">Zhang2011</bcf:citekey>
-    <bcf:citekey order="9">Aivazian2000</bcf:citekey>
+    <bcf:citekey order="9">Shi2013</bcf:citekey>
     <bcf:citekey order="10">Zhang2011</bcf:citekey>
-    <bcf:citekey order="11">Zhang2011</bcf:citekey>
+    <bcf:citekey order="11">Aivazian2000</bcf:citekey>
     <bcf:citekey order="12">Zhang2011</bcf:citekey>
-    <bcf:citekey order="13">Shi2013</bcf:citekey>
-    <bcf:citekey order="14">Aivazian200</bcf:citekey>
+    <bcf:citekey order="13">Zhang2011</bcf:citekey>
+    <bcf:citekey order="14">Zhang2011</bcf:citekey>
     <bcf:citekey order="15">Shi2013</bcf:citekey>
-    <bcf:citekey order="16">Lopez2015</bcf:citekey>
-    <bcf:citekey order="17">Lopez2015</bcf:citekey>
-    <bcf:citekey order="18">Zhang2011</bcf:citekey>
+    <bcf:citekey order="16">Aivazian200</bcf:citekey>
+    <bcf:citekey order="17">Shi2013</bcf:citekey>
+    <bcf:citekey order="18">Lopez2015</bcf:citekey>
     <bcf:citekey order="19">Lopez2015</bcf:citekey>
-    <bcf:citekey order="20">Shi2013</bcf:citekey>
+    <bcf:citekey order="20">Zhang2011</bcf:citekey>
+    <bcf:citekey order="21">Lopez2015</bcf:citekey>
+    <bcf:citekey order="22">Shi2013</bcf:citekey>
+    <bcf:citekey order="23">Kupfer1998</bcf:citekey>
+    <bcf:citekey order="24">Samelson2002</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
