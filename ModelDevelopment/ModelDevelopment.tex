@@ -25,7 +25,7 @@ We model the polymer in the canonical ensemble, i.e. equilibrium. Steric occlusi
 \frac{K_{D_1}}{K_{D_2}} &= \frac{P_2}{P_1}\\
 \end{align}  
 
-where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_1 * P_1$ being the microstates available when the ligand is bound and $\Omega_2*P_2$ is the number of microstates available when the polymer is rigid.  We also note $E_2 = E_1$ since we are working at equilibrium. 
+where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_1 P_1$ being the microstates available when the ligand is bound and $\Omega_2 P_2$ is the number of microstates available when the polymer is rigid.  We also note $E_2 = E_1$ since we are working at equilibrium. 
 
 For example, we can consider the change in $K_D$ between a fully rigid polymer, where all binding sites are available and $K_D = K_{D_R}$, compared to a floppy, unstructured polymer, where binding site availability depends on the conformation of the polymer and $K_D = K_{D_F}$. Then we calculate the change in $K_D$ as above, but since the rigid state always allows binding, we may write $P_R =1$.  
 
@@ -41,7 +41,7 @@ We define $P_{occ}$ as the probability that the region of space needed by the ki
 \frac{K_{D_F}}{K_{D_R}} = \frac{1}{(1-P_{occ})}. \\
 \end{equation}
 
-This comparison has already been used in Mukhopadhyay et al. as a possibility to account for the change in phosphorylation rates of the TCR $\zeta$ chain. \cite{Mukhopadhyay2016} We consider the generalized version for the rest of our work. 
+We have already used this comparison as a possibility to account for the change in phosphorylation rates of the TCR $\zeta$ chain \cite{Mukhopadhyay2016}.  We consider the generalized version for the rest of our work. 
 
 Steric occlusion by the polymer will impact the ability of a ligand to localize to the binding site. Although entropic forces could also impact unbinding of the polymer, we assume this influence to be negligible compared to the change in $k_{on}$. Therefore, for the body of this work, we assume that the change in $K_D$ stems from a change in $k_{on}$.
 
@@ -56,7 +56,7 @@ There are theoretical solutions for many aspects of the freely-jointed chain.  T
 \subsubsection{Root-mean-square end-to-end distance}
 First, we look at the average end-to-end distance of the polymer (RMS). In our simulations, we normalize by the Kuhn length, so all simulations assume $\delta = 1$ and record all other parameters in units of Kuhn lengths.  We know from polymer physics that the RMS should increase as $\delta \sqrt{N}$, which given $\delta = 1$, is just $\sqrt{N}$.
 
-Average end-to-end distance (Root-mean-square end-to-end distance):  \cite{Reeves2011}
+Average end-to-end distance (Root-mean-square end-to-end distance) \cite{Reeves2011}:
 \begin{equation*}
 \sqrt{\langle r_{ee}^2 \rangle} = \sqrt{N\delta^2} = \delta \sqrt{N}
 \end{equation*}
@@ -68,11 +68,9 @@ Average end-to-end distance (Root-mean-square end-to-end distance):  \cite{Reeve
 \end{center}
 \end{figure}
 
-\subsubsection{$R_{ee}$ Distribution}
-
-End-to-end distribution: \cite{VanValen2009}, \cite{Reeves2011}
+End-to-end distribution \cite{VanValen2009, Reeves2011}:
 \begin{equation*}
-P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}exp\left(\frac{-3r^2}{2N \delta^2}\right)
+P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}\text{exp}\left(\frac{-3r^2}{2N \delta^2}\right)
 \end{equation*}
 
 
