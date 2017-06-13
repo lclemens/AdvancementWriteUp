@@ -11,21 +11,21 @@
 \subsection{Introduction}
 \subsubsection{Tethering}
 
-Disordered proteins aid many reactions by acting as biological tethers. They may be permanent tethers tying two globular domains together or a domain to a surface (EXAMPLE, EXAMPLE, CITE, CITE). They may also be transient tethers, catching diffusing particles and tethering them to another molecule, i.e. formin \cite{Bryant2017}. By tethering molecules or surfaces together, disordered domains effectively increase the local concentration of a particle. This increases reaction rates by improving the probability of two molecules bumping into each other through restriction of their diffusive domain.
+Disordered proteins aid many reactions by acting as biological tethers. They may be permanent tethers tying two globular domains together or a domain to a surface (EXAMPLE, EXAMPLE, CITE, CITE). They may also be transient tethers, catching diffusing particles and tethering them to another molecule, i.e. formin \cite{Bryant2017}. By tethering molecules or surfaces together, disordered domains effectively increase the local concentration for a reaction. This increases reaction rates by improving the probability of two molecules bumping into each other through restriction of their diffusive domain.
 
 Given that a surface reduces the exploration space of a molecule, it will naturally increase the local concentration without a tether. However, it will also reduce the accessibility of a molecule by sometimes occluding, for example, an enzymatic domain from reaching its substrate in the correct orientation. Given that the surface has both positive and negative effects on reaction rates, how does being tethered to a surface impact a reaction compared to being tethered to a smaller domain? 
 
-This type of interaction arises frequently with clustered reactions. For instance, the phosphorylation of a membrane tethered disordered domain by a membrane bound kinase (CITE). Experimental studies of such reactions are more easily performed on a sparse matrix such as dextran than on a hard surface. Therefore, it is important to understand the effect tethering to a surface has over tethering to a matrix. We explore how the presence of a surface influences the reach of a tethered domain and the overall local concentration.
+This type of interaction arises frequently with clustered reactions. For instance, the phosphorylation of a membrane tethered disordered domain by a membrane bound kinase (CITE). Experimental studies of such reactions are more easily performed on a sparse matrix such as dextran than on a hard surface \cite{Goyette2017}. Therefore, it is important to understand the effect tethering to a surface has over tethering to a matrix. We explore how the presence of a surface influences the reach of a tethered domain and the overall local concentration.
 
 \subsubsection{SHP-1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Model and Methods}
-
+. 
 We first investigate the effects of a surface on a single tether without a bound ligand in free-space and half-space. We model the tether as a freely-jointed chain and the unbound ligand as an idealized ghost sphere located tangential to a single segment. To explore the effects of a surface on a single tether, we vary the number of segments and the size of the incoming ligand. We calculate quasi-equilibrium statistics for the FJC and unbound ligand in both free-space and half-space. We calculate how often a ligand is able to bind to an oriented sphere tangentially attached to the polymer, where `able to bind' refers to the specified sphere being empty of both other polymer segments and the surface. 
 
-We next explore the effects of a surface on three specific tethers: PD-1, PEG-3, and PEG-28. PEG-3 and PEG-28 are tethers created by attaching a single immunoreceptor tyrosine inhibitory motif (ITIM) to a series of PEG linkers. Each tether is modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths. The tethers are made up of PEG linkers and amino acids, each of which contributes approximately 0.3nm to the length. We assume maximal flexibility in our model by assigning a Kuhn length,$\delta$, of 0.3nm. The contour lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids. Note that we consider the size of biotin to be negligible for our simulation. (Table \ref{table: Tethers})
+We next explore the effects of a surface on three specific tethers: PD-1, PEG-3, and PEG-28. PEG-3 and PEG-28 are tethers created by attaching a single immunoreceptor tyrosine inhibitory motif (ITIM) to a series of PEG linkers. Each tether is modeled as a freely-jointed chain characterized by their lengths as measured in Kuhn lengths. The tethers are made up of PEG linkers and amino acids, each of which contributes approximately 0.3nm to the length. We assume maximal flexibility in our model by assigning a Kuhn length,$\delta$, of 0.3nm. The contour lengths of each tether may be approximated as $N$ Kuhn lengths, where $N$ is the total number of PEG linkers and amino acids (Table \ref{table: Tethers}). Note that we consider the size of biotin to be negligible for our simulation. 
 
 %% Table of Tethers
 \begin{table}
@@ -44,7 +44,7 @@ We next explore the effects of a surface on three specific tethers: PD-1, PEG-3,
 \end{center}
 \end{table}
 
-We investigate SHP-1 as a ligand bound to a tether. In order to simulate SHP-1 as a simple sphere, we estimate its size using three different assumptions. We first estimate the volume of SHP-1 based on its molecular weight, 67561Da,  as listed in UniProt entry P29350, assuming an average protein density of 1.41$g/cm^3$. \cite{Fischer2004}
+We investigate SHP-1 as a ligand bound to a tether. In order to simulate SHP-1 as a simple sphere, we estimate its size using three different assumptions. We first estimate the volume of SHP-1 based on its molecular weight, 67561Da,  as listed in UniProt entry P29350, assuming an average protein density of 1.41$g/cm^3$ \cite{Fischer2004}.
 
 %\cite{UniProtSHP1} 
 %\cite{FischerProteinSci2004}
@@ -61,7 +61,7 @@ V &= \frac{4}{3}\pi r^3 \\
 r &\approx 2.7 \nm \\
 \end{align*}
 
-For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMol measurements of the SHP-1 structure (PDB 3PS5). Rounding up for measurement error, the longest part of the structure is 86 \AA. (Fig. \ref{fig: SHP1Diag}) From this we calculate a maximum radius of 4.3$nm$.
+For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMol measurements of the SHP-1 structure (PDB 3PS5). Rounding up for measurement error, the longest part of the structure is 86 \AA (Fig. \ref{fig: SHP1Diag}). From this we calculate a maximum radius of 4.3$nm$.
 
 \begin{figure}[H]
 \begin{center}
@@ -70,7 +70,7 @@ For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMo
 \caption{Measurement of maximum length of SHP-1 (PDB 3PS5). \label{fig: SHP1Diag}}
 \end{figure}
 
-Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and then create a spherical approximation of equal volume. We estimate the length, width and depth of SHP-1 to be 76\AA, 36\AA, and 58\text{\AA} respectively, giving a volume of 158688\AA$^3$. (Fig. \ref{fig: SHP1Rectangle}) From this, we calculate the radius for a spherical approximation to be 3.4nm.
+Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and then create a spherical approximation of equal volume. We estimate the length, width and depth of SHP-1 to be 76\AA, 36\AA, and 58\text{\AA} respectively, giving a volume of 158688\AA$^3$ (Fig. \ref{fig: SHP1Rectangle}). From this, we calculate the radius for a spherical approximation to be 3.4nm.
 
 \begin{figure}[H]
 \begin{center}
@@ -80,7 +80,7 @@ Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and th
 \end{figure}
 
 % description of simulation - polymer-c code
-Using the parameters estimated above, we simulate two equivalent tethers. The idealized SHP1 sphere, or ligand, is bound to the end of one of the tethers. The bound ligand is simulated as an idealized sphere which rotates with the tether. The bound ligand may not occupy the same space as the tether nor may it penetrate the surface if present. The second tether has a ghost ligand attached in the same location. (Fig. \ref{fig: LocalConcCartoon}) We allow each tether to explore conformation space, at each conformation determining if the ghost ligand is occluded by the rest of the tether, or in half-space, by the surface. For the tether with the ghost ligand, we record both the location of the center of the ligand and whether or not it was occluded at each conformation. For the tether with the bound ligand, we only record the location. For these simulations, we assume the two tethers are independent and do not sterically influence each other.
+Using the parameters estimated above, we simulate two equivalent tethers. The idealized SHP1 sphere, or ligand, is bound to the end of one of the tethers. The bound ligand is simulated as an idealized sphere which rotates with the tether. The bound ligand may not occupy the same space as the tether nor may it penetrate the surface if present. The second tether has a ghost ligand attached in the same location (Fig. \ref{fig: LocalConcCartoon}). We allow each tether to explore conformation space, at each conformation determining if the ghost ligand is occluded by the rest of the tether, or in half-space, by the surface. For the tether with the ghost ligand, we record both the location of the center of the ligand and whether or not it was occluded at each conformation. For the tether with the bound ligand, we only record the location. For these simulations, we assume the two tethers are independent and do not sterically influence each other.
 
 %% Diagram of simulation
 \begin{figure}
@@ -150,7 +150,7 @@ We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\r
 
 We first investigate the accessibility of a binding site at the end of the polymer when a surface is present. We record how often the membrane causes the binding site to be inaccessible to its ligand, as opposed to occlusion by the rest of the polymer. We find that occlusion caused only by the membrane increases with the size of the ligand, but decreases with longer polymers (Fig. \ref{fig: MembraneOcclusionVSNVSR}). 
 
-We next investigate how the presence of a surface impacts binding of a ligand to a single tether compared to in free-space. We find that a surface consistently net decreases the probability a ligand can bind to a tether, irrespective of tether length or ligand size. For long tethers, the surface reduction is minimal, in some parameters almost eliminating the difference. A larger ligand creates a larger fold decrease in the ability of the kinase to bind in half-space. (Fig. \ref{fig: OcclusionVSN})
+We next investigate how the presence of a surface impacts binding of a ligand to a single tether compared to in free-space. We find that a surface consistently net decreases the probability a ligand can bind to a tether, irrespective of tether length or ligand size. For long tethers, the surface reduction is minimal, in some parameters almost eliminating the difference. A larger ligand creates a larger fold decrease in the ability of the kinase to bind in half-space (Fig. \ref{fig: OcclusionVSN}).
 
 \begin{figure}[H]
        \begin{center}
@@ -177,7 +177,7 @@ We next investigate how the presence of a surface impacts binding of a ligand to
 \subsubsection{Future Work: Impact of membrane on reactions between tethered reactants}
 
 % introduce effective concentration compared to standard concentration
-For a reactant in solution, the reaction rate will be proportional to the concentration of the reactant. On the other hand, for a reaction between two tethered molecules, the reaction rate is proportional to the effective concentration \cite{VanValen2009,Bryant2017} (Cite - Vavylonis paper).
+For a reactant in solution, the reaction rate will be proportional to the concentration of the reactant. On the other hand, for a reaction between two tethered molecules, the reaction rate is proportional to the effective concentration \cite{VanValen2009, Bryant2017} (Cite - Vavylonis paper).
 Effective concentration is defined as how often a ligand bound to the tail of one anchored polymer encounters a binding site on the tail of a second anchored polymer, taking into account the accessibility of the binding site. 
 % future work
 We will explore how effective concentration is impacted by ligand size and polymer length. We will generate plots of the effective concentration as function of separation distance in both free-space and half-space for multiple sizes of polymer and bound ligand. We expect these to look similar to the schematic shown in Fig. \ref{fig: ConcVSSeparation}. Under simplified circumstances, e.g. no bound ligand, it has been shown that the effective concentration will be a half-gaussian \cite{Goyette2017}. Therefore, we expect our plots to also resemble a half-gaussian. We will fit a half-gaussian to these curves and consider the change in maximum effective concentration and width of the curve (reach parameter) between free-space and half-space. 
