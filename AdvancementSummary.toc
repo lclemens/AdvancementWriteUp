@@ -96,28 +96,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {7.3.1}Accessibility of a reaction site is reduced by the presence of a surface}{40}{subsubsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.2}Reactions between tethered reactants are net enhanced by a surface}{40}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2}Future Work: Impact of membrane on reactions between tethered reactants}{41}{subsubsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.3}Reach parameter is unaffected by presence of surface}{43}{subsubsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3}Reach parameter is unaffected by presence of surface}{44}{subsubsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.4}Matrix-bound versus surface-bound experiments confirm model predictions}{45}{subsubsection.7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4}Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{47}{subsubsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.5}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{45}{subsubsection.7.3.5}
+\contentsline {subsubsection}{\numberline {7.3.5}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{49}{subsubsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Timeline}{46}{section.8}
+\contentsline {section}{\numberline {8}Timeline}{50}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Appendix}{46}{section.9}
+\contentsline {section}{\numberline {9}Appendix}{50}{section.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Model Modifications}{46}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.1}Model Modifications}{50}{subsection.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.1}Stiffening}{46}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1}Stiffening}{50}{subsubsection.9.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.2}Electrostatics}{46}{subsubsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.2}Electrostatics}{50}{subsubsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.3}Simultaneous Binding}{47}{subsubsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.3}Simultaneous Binding}{51}{subsubsection.9.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Assumptions}{47}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.2}Assumptions}{51}{subsection.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Gillespie Algorithm}{47}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.3}Gillespie Algorithm}{51}{subsection.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{47}{subsection.9.3}
+\contentsline {section}{References}{51}{subsection.9.3}
