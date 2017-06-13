@@ -1,4 +1,5 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.2}{Introduction/Background/Motivation}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Intrinsically Disordered Proteins}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{T Cell Receptor Zeta Chain}{section.2}% 4
@@ -59,3 +60,52 @@
 \BOOKMARK [2][-]{subsection.9.2}{Assumptions}{section.9}% 59
 \BOOKMARK [2][-]{subsection.9.3}{Gillespie Algorithm}{section.9}% 60
 \BOOKMARK [1][-]{subsection.9.3}{References}{}% 61
+=======
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Model Development}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Code Validation}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Root-mean-square end-to-end distance}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Occlusion Probability of End Site VS Analytical Result}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Case Study: T Cell Receptor Zeta Chain}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Local structuring of disordered signaling proteins gives rise to cooperativity and sequential binding}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Introduction}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Model and Methods}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Results}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Surface presence influences polymer configuration}{subsection.4.3}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Disorder inhibits ligand binding}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Cooperativity may arise from local structuring in intrinsically disordered proteins}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Sequential binding naturally arises from polymer characteristics}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Negative cooperativity may arise from local disordering of proteins}{subsection.4.3}% 16
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Future Work: Quantifying cooperativity from reversible phosphorylation with Hill coefficients}{subsection.4.3}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Future Work: Exploring sequence of binding from dephosphorylation and reversible phosphorylation}{subsection.4.3}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Discussion}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Electrostatics}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Introduction}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Model and Methods}{section.5}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Electrostatic Potentials}{subsection.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.3}{Results}{section.5}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{subsection.5.3}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Initial parameter exploration of more general energetic model yields fit to polymer distribution}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Future Work: Parameter exploration}{subsection.5.3}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work: TCR clustering as cause of initial signal}{subsection.5.3}% 28
+\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Model and Methods}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Negative cooperativity arises from simultaneous binding of ligands to an IDP}{subsection.6.3}% 33
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Future Work: Sequence of binding multiple ligands}{subsection.6.3}% 34
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Future Work: Multiple chains towards a full model of a T cell receptor signalosome}{subsection.6.3}% 35
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 36
+\BOOKMARK [1][-]{section.7}{Role of the surface on tether-tether reactions within a signaling cluster}{}% 37
+\BOOKMARK [2][-]{subsection.7.1}{Introduction}{section.7}% 38
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Tethering}{subsection.7.1}% 39
+\BOOKMARK [3][-]{subsubsection.7.1.2}{SHP-1}{subsection.7.1}% 40
+\BOOKMARK [2][-]{subsection.7.2}{Model and Methods}{section.7}% 41
+\BOOKMARK [2][-]{subsection.7.3}{Results}{section.7}% 42
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Accessibility of a reaction site is reduced by the presence of a surface}{subsection.7.3}% 43
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Future Work: Impact of membrane on reactions between tethered reactants}{subsection.7.3}% 44
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{subsection.7.3}% 45
+\BOOKMARK [3][-]{subsubsection.7.3.4}{Future Work: Catalysis surface factor \(teth2teth\)cat versus lC and/or versus rligand}{subsection.7.3}% 46
+\BOOKMARK [1][-]{section.8}{Timeline}{}% 47
+\BOOKMARK [1][-]{table.caption.37}{References}{}% 48
+>>>>>>> a1240c22bbb0dccb2bd45baf8d232b92b0c7f129

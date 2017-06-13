@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JUN 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUN 2017 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,14 +1009,7 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 \@quotelevel=\count339
 \@quotereset=\count340
 ))
-(./Electrostatics.aux
-
-LaTeX Warning: Label `eq: parabolaconstant' multiply defined.
-
-
-LaTeX Warning: Label `eq: softwall' multiply defined.
-
-)
+(./Electrostatics.aux)
 \openout1 = `Electrostatics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1033,7 +1026,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -1180,25 +1174,6 @@ LaTeX Warning: Citation 'Zhang2011' on page 1 undefined on input line 24.
 LaTeX Warning: Citation 'Zhang2011' on page 1 undefined on input line 26.
 
 
-Overfull \hbox (150.0516pt too wide) in paragraph at lines 16--27
-\OT1/cmr/m/n/10 Intracellular sub-units of many re-cep-tors as-so-ciate with th
-e cell mem-brane prior to sig-nal-ing [[]],[[]],[[]],[[]].
- []
-
-
-Overfull \hbox (84.25174pt too wide) in paragraph at lines 16--27
-\OT1/cmr/m/n/10 brane, se-ques-ter-ing the ty-rosines in the bi-layer and pre-v
-ent-ing phos-pho-ry-la-tion by Lck [[]],[[]],[[]].
- []
-
-
-Overfull \hbox (8.0585pt too wide) in paragraph at lines 16--27
-\OT1/cmr/m/n/10 Stim-u-lat-ing the TCR with an anti-gen will cause the CD3$\OML
-/cmm/m/it/10 ^^P$ \OT1/cmr/m/n/10 chain to dis-so-ci-ate from the mem-brane [[]
-].
- []
-
-
 LaTeX Warning: Citation 'Zhang2011' on page 1 undefined on input line 31.
 
 
@@ -1322,7 +1297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--171
 \OT1/cmr/m/n/10 RGQNKERPP-PVP-NPD[]\OT1/cmr/bx/n/10 Y[]\OT1/cmr/m/n/10 EPIRKGQ
  []
 
-[2] <ElectrostaticsDiagram.pdf, id=63, 560.0925pt x 209.78375pt>
+[2] <ElectrostaticsDiagram.pdf, id=65, 560.0925pt x 209.78375pt>
 File: ElectrostaticsDiagram.pdf Graphic file (type pdf)
 
 <use ElectrostaticsDiagram.pdf>
@@ -1332,18 +1307,14 @@ Package pdftex.def Info: ElectrostaticsDiagram.pdf used on input line 183.
 
 LaTeX Warning: Citation 'Lopez2015' on page 4 undefined on input line 227.
 
-
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 4 undefined on input l
-ine 247.
-
 [4]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/DistributioniSite7.eps>
-(epstopdf)                    date: 2017-05-25 14:07:11
+(epstopdf)                    date: 2017-05-24 14:25:48
 (epstopdf)                    size: 85142 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/DistributioniSite7-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-25 14:07:11
+(epstopdf)                    date: 2017-05-24 15:16:34
 (epstopdf)                    size: 15575 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaSoft
 wallPiecewiseBasicsY/DistributioniSite7-eps-converted-to.pdf ResultsFigures/CD3
@@ -1352,7 +1323,7 @@ ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7-eps-converte
-d-to.pdf, id=115, 1372.12625pt x 1083.04625pt>
+d-to.pdf, id=117, 1372.12625pt x 1083.04625pt>
 File: ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -1361,24 +1332,13 @@ erted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Distrib
 utioniSite7-eps-converted-to.pdf used on input line 252.
 (pdftex.def)             Requested size: 375.80544pt x 296.62398pt.
-
-
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 5 undefined on input l
-ine 254.
-
-
-LaTeX Warning: Reference `fig: iSiteDistInitial' on page 5 undefined on input l
-ine 254.
-
-[5 <./ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7-eps-con
-verted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/Phosphorylation/iSiteDistribution123456.eps>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-25 17:23:12
 (epstopdf)                    size: 541127 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/Phosphorylation/iSiteDistribution123456-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-25 17:24:41
 (epstopdf)                    size: 563012 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaSoft
 wallPiecewiseBasicsY/Phosphorylation/iSiteDistribution123456-eps-converted-to.p
@@ -1388,7 +1348,7 @@ tion123456.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistributi
-on123456-eps-converted-to.pdf, id=133, 1708.3825pt x 1269.74374pt>
+on123456-eps-converted-to.pdf, id=120, 1708.3825pt x 1269.74374pt>
 File: ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistr
 ibution123456-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1397,13 +1357,15 @@ bution123456-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phospho
 rylation/iSiteDistribution123456-eps-converted-to.pdf used on input line 261.
 (pdftex.def)             Requested size: 469.75502pt x 349.13217pt.
+ [5 <./ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7-eps-co
+nverted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/Phosphorylation/iSiteDistribution135624.eps>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-25 17:23:17
 (epstopdf)                    size: 538916 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaSoftwallPiecewiseBas
 icsY/Phosphorylation/iSiteDistribution135624-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-06-01 11:03:38
+(epstopdf)                    date: 2017-05-25 17:24:42
 (epstopdf)                    size: 556734 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaSoft
 wallPiecewiseBasicsY/Phosphorylation/iSiteDistribution135624-eps-converted-to.p
@@ -1413,7 +1375,7 @@ tion135624.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistributi
-on135624-eps-converted-to.pdf, id=134, 1708.3825pt x 1269.74374pt>
+on135624-eps-converted-to.pdf, id=136, 1708.3825pt x 1269.74374pt>
 File: ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistr
 ibution135624-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1426,11 +1388,11 @@ rylation/iSiteDistribution135624-eps-converted-to.pdf used on input line 268.
 ribution123456-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/Electro/DistributioniSite2.
 eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-12 14:02:04
 (epstopdf)                    size: 139186 bytes
 (epstopdf)             Output file: <ResultsFigures/Electro/DistributioniSite2-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-12 14:08:41
 (epstopdf)                    size: 24155 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/Electro/Dis
 tributioniSite2-eps-converted-to.pdf ResultsFigures/Electro/DistributioniSite2.
@@ -1438,7 +1400,7 @@ eps>
 (epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 
-<ResultsFigures/Electro/DistributioniSite2-eps-converted-to.pdf, id=147, 1372.1
+<ResultsFigures/Electro/DistributioniSite2-eps-converted-to.pdf, id=149, 1372.1
 2625pt x 1083.04625pt>
 File: ResultsFigures/Electro/DistributioniSite2-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1451,11 +1413,11 @@ d-to.pdf used on input line 279.
 ribution135624-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <ResultsFigures/Electro/DistributioniSite7.
 eps>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-12 14:02:14
 (epstopdf)                    size: 135895 bytes
 (epstopdf)             Output file: <ResultsFigures/Electro/DistributioniSite7-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 11:41:26
+(epstopdf)                    date: 2017-05-12 14:08:42
 (epstopdf)                    size: 20911 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/Electro/Dis
 tributioniSite7-eps-converted-to.pdf ResultsFigures/Electro/DistributioniSite7.
@@ -1463,7 +1425,7 @@ eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<ResultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf, id=161, 1372.1
+<ResultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf, id=163, 1372.1
 2625pt x 1083.04625pt>
 File: ResultsFigures/Electro/DistributioniSite7-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1496,9 +1458,6 @@ Package rerunfilecheck Info: File `Electrostatics.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Electrostatics
 (biblatex)                and rerun LaTeX afterwards.
@@ -1510,7 +1469,7 @@ Package logreq Info: Writing requests to 'Electrostatics.run.xml'.
 Here is how much of TeX's memory you used:
  25503 strings out of 493014
  469410 string characters out of 6133351
- 884091 words of memory out of 5000000
+ 885164 words of memory out of 5000000
  28598 multiletter control sequences out of 15000+600000
  5925 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1526,10 +1485,10 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Electrostatics.pdf (10 pages, 1321091 bytes).
+Output written on Electrostatics.pdf (10 pages, 1320877 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
