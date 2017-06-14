@@ -1,16 +1,144 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Aivazian and Stern(2000)]{Aivazian2000}
-Dikran Aivazian and Lawrence~J Stern.
-\newblock {Phosphorylation of T cell receptor $\zeta$ is regulated by a lipid
-  dependent folding}.
-\newblock \emph{Nature Structural Biology}, 7\penalty0 (11):\penalty0
-  1023--1026, 2000.
+\bibitem[Dunker et~al.(2008)Dunker, Oldfield, Meng, Romero, Yang, Chen, Vacic,
+  Obradovic, and Uversky]{Dunker2008}
+A~Keith Dunker, Christopher~J Oldfield, Jingwei Meng, Pedro Romero, Jack~Y
+  Yang, Jessica~Walton Chen, Vladimir Vacic, Zoran Obradovic, and Vladimir~N
+  Uversky.
+\newblock {The unfoldomics decade: an update on intrinsically disordered
+  proteins.}
+\newblock \emph{BMC genomics}, 9 Suppl 2\penalty0 (Suppl 2):\penalty0 S1, 2008.
+\newblock ISSN 1471-2164.
+\newblock \doi{10.1186/1471-2164-9-S2-S1}.
+\newblock URL \url{http://www.biomedcentral.com/1471-2164/9/S2/S1}.
+
+\bibitem[Tompa and Han(2012)]{Tompa2012}
+P~Tompa and K-H Han.
+\newblock {Intrinsically disordered proteins}.
+\newblock \emph{Physics Today}, 65:\penalty0 64--65, 2012.
+\newblock ISSN 0968-0004.
+\newblock \doi{10.1016/j.tibs.2012.08.004}.
+
+\bibitem[Duchardt et~al.(2007)Duchardt, Sigalov, Aivazian, Stern, and
+  Schwalbe]{Duchardt2007}
+Elke Duchardt, Alexander~B. Sigalov, Dikran Aivazian, Lawrence~J. Stern, and
+  Harald Schwalbe.
+\newblock {Structure induction of the T-cell receptor $\zeta$-chain upon lipid
+  binding investigated by NMR spectroscopy}.
+\newblock \emph{ChemBioChem}, 8\penalty0 (7):\penalty0 820--827, 2007.
+\newblock ISSN 14394227.
+\newblock \doi{10.1002/cbic.200600413}.
+
+\bibitem[Kovar and Pollard(2004)]{Kovar2004}
+David~R Kovar and Thomas~D Pollard.
+\newblock {Insertional assembly of actin filament barbed ends in association
+  with formins produces piconewton forces}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 101\penalty0
+  (41):\penalty0 14725--14730, 2004.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.0405902101}.
+\newblock URL \url{http://www.pnas.org/cgi/doi/10.1073/pnas.0405902101}.
+
+\bibitem[Romero et~al.(2004)Romero, {Le Clainche}, Didry, Egile, Pantaloni, and
+  Carlier]{Romero2004}
+St{\'{e}}phane Romero, Christophe {Le Clainche}, Dominique Didry, Coumaran
+  Egile, Dominique Pantaloni, and Marie~France Carlier.
+\newblock {Formin is a processive motor that requires profilin to accelerate
+  actin assembly and associated ATP hydrolysis}.
+\newblock \emph{Cell}, 119\penalty0 (3):\penalty0 419--429, 2004.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/j.cell.2004.09.039}.
+
+\bibitem[Mukhopadhyay et~al.(2016)Mukhopadhyay, {De Wet}, Clemens, Maini,
+  Allard, {Van Der Merwe}, and Dushek]{Mukhopadhyay2016}
+Himadri Mukhopadhyay, Ben {De Wet}, Lara Clemens, Philip~K. Maini, Jun Allard,
+  P.~Anton {Van Der Merwe}, and Omer Dushek.
+\newblock {Multisite Phosphorylation Modulates the T Cell Receptor ??-Chain
+  Potency but not the Switchlike Response}.
+\newblock \emph{Biophysical Journal}, 110\penalty0 (8):\penalty0 1896--1906,
+  2016.
+\newblock ISSN 15420086.
+\newblock \doi{10.1016/j.bpj.2016.03.024}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2016.03.024}.
+
+\bibitem[Wu et~al.(2015)Wu, Yan, Shi, Li, Liu, and Xu]{Wu2015}
+Wei Wu, Chengsong Yan, Xiaoshan Shi, Lunyi Li, Wanli Liu, and Chenqi Xu.
+\newblock {Lipid in T-cell receptor transmembrane signaling}.
+\newblock \emph{Progress in Biophysics and Molecular Biology}, 118\penalty0
+  (3):\penalty0 130--138, 2015.
+\newblock ISSN 0079-6107.
+\newblock \doi{10.1016/j.pbiomolbio.2015.04.004}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.pbiomolbio.2015.04.004}.
+
+\bibitem[{Van Valen} et~al.(2009){Van Valen}, Haataja, and
+  Phillips]{VanValen2009}
+David {Van Valen}, Mikko Haataja, and Rob Phillips.
+\newblock {Biochemistry on a leash: The roles of tether length and geometry in
+  signal integration proteins}.
+\newblock \emph{Biophysical Journal}, 96\penalty0 (4):\penalty0 1275--1292,
+  2009.
+\newblock ISSN 00063495.
+\newblock \doi{10.1016/j.bpj.2008.10.052}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2008.10.052}.
+
+\bibitem[Reeves et~al.(2011)Reeves, Cheveralls, and Kondev]{Reeves2011}
+Daniel Reeves, Keith Cheveralls, and Jane Kondev.
+\newblock {Regulation of biochemical reaction rates by flexible tethers}.
+\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics}, 84\penalty0 (2):\penalty0 1--12, 2011.
+\newblock ISSN 15393755.
+\newblock \doi{10.1103/PhysRevE.84.021914}.
+
+\bibitem[Zhou(2001)]{Zhou2001}
+Huan~Xiang Zhou.
+\newblock {Loops in proteins can be modeled as worm-like chains}.
+\newblock \emph{Journal of Physical Chemistry B}, 105\penalty0 (29):\penalty0
+  6763--6766, 2001.
+\newblock ISSN 10895647.
+\newblock \doi{10.1021/jp011355n}.
+
+\bibitem[J{\'{e}}gou et~al.(2013)J{\'{e}}gou, Carlier, and
+  Romet-Lemonne]{Jegou2013}
+Antoine J{\'{e}}gou, Marie-France Carlier, and Guillaume Romet-Lemonne.
+\newblock {Formin mDia1 senses and generates mechanical forces on actin
+  filaments}.
+\newblock \emph{Nature Communications}, 4\penalty0 (May):\penalty0 1883, 2013.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms2888}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms2888}.
+
+\bibitem[Bryant et~al.(2017)Bryant, Clemens, and Allard]{Bryant2017}
+Derek Bryant, Lara Clemens, and Jun Allard.
+\newblock {Computational simulation of formin-mediated actin polymerization
+  predicts homologue-dependent mechanosensitivity}.
+\newblock \emph{Cytoskeleton}, 74\penalty0 (1):\penalty0 29--39, 2017.
+\newblock ISSN 19493592.
+\newblock \doi{10.1002/cm.21344}.
+
+\bibitem[Fischer et~al.(2004)Fischer, Polikarpov, and Craievich]{Fischer2004}
+Hannes Fischer, Igor Polikarpov, and Aldo~F. Craievich.
+\newblock {Average protein density is a molecular-weight-dependent function}.
+\newblock \emph{Protein Science}, 13\penalty0 (10):\penalty0 2825--2828, 2004.
+\newblock ISSN 09618368.
+\newblock \doi{10.1110/ps.04688204}.
+\newblock URL \url{http://doi.wiley.com/10.1110/ps.04688204}.
+
+\bibitem[He et~al.(2015)He, Chen, Mooney, Rajagopalan, Bhargava, Sacho,
+  Weninger, Bryan, Kulkarni, and Orban]{He2015}
+Yanan He, Yihong Chen, Steven~M. Mooney, Krithika Rajagopalan, Ajay Bhargava,
+  Elizabeth Sacho, Keith Weninger, Philip~N. Bryan, Prakash Kulkarni, and John
+  Orban.
+\newblock {Phosphorylation-induced conformational ensemble switching in an
+  intrinsically disordered cancer/testis antigen}.
+\newblock \emph{Journal of Biological Chemistry}, 290\penalty0 (41):\penalty0
+  25090--25102, 2015.
+\newblock ISSN 1083351X.
+\newblock \doi{10.1074/jbc.M115.658583}.
 
 \bibitem[Bah et~al.(2015)Bah, Vernon, Siddiqui, Krzeminski, Muhandiram, Zhao,
   Sonenberg, Kay, and Forman-Kay]{Bah2015}
@@ -25,51 +153,37 @@ Alaji Bah, Robert~M Vernon, Zeba Siddiqui, Micka{\"{e}}l Krzeminski, Ranjith
 \newblock URL
   \url{http://dx.doi.org/10.1038/nature13999{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842604{\&}tool=pmcentrez{\&}rendertype=abstract{\%}5Cnhttp://www.nature.com/doifinder/10.1038/nature13999{\%}5Cnhttp://www.ncbi.nlm.nih.gov/pubmed/20298971{\%}5Cnhttp://w}.
 
-\bibitem[Barber et~al.(1989)Barber, Dasgupta, Schlossman, Trevillyan, and
-  Rudd]{Barber1989}
-E~K Barber, J~D Dasgupta, S~F Schlossman, J~M Trevillyan, and C~E Rudd.
-\newblock {The CD4 and CD8 antigens are coupled to a protein-tyrosine kinase
-  (p56lck) that phosphorylates the CD3 complex.}
-\newblock \emph{Proceedings of the National Academy of Sciences}, 86\penalty0
-  (9):\penalty0 3277--3281, 1989.
-\newblock ISSN 0027-8424.
-\newblock \doi{10.1073/pnas.86.9.3277}.
-\newblock URL \url{http://www.pnas.org/cgi/doi/10.1073/pnas.86.9.3277}.
+\bibitem[Xu et~al.(2008)Xu, Gagnon, Call, Schnell, Charles, Carman, Chou, and
+  Wucherpfennig]{Xu2008}
+Chenqi Xu, Etienne Gagnon, Matthew~E Call, Jason~R Schnell, D~Charles,
+  Christopher~V Carman, James~J Chou, and Kai~W Wucherpfennig.
+\newblock {Regulation of T cell Receptor Activation by Dynamic Membrane Binding
+  of the CD3$\epsilon$ Cytoplasmic Tyrosine-Based Motif}.
+\newblock \emph{Cell}, 135\penalty0 (4):\penalty0 702--713, 2008.
+\newblock \doi{10.1016/j.cell.2008.09.044.Regulation}.
 
-\bibitem[Bryant et~al.(2017)Bryant, Clemens, and Allard]{Bryant2017}
-Derek Bryant, Lara Clemens, and Jun Allard.
-\newblock {Computational simulation of formin-mediated actin polymerization
-  predicts homologue-dependent mechanosensitivity}.
-\newblock \emph{Cytoskeleton}, 74\penalty0 (1):\penalty0 29--39, 2017.
-\newblock ISSN 19493592.
-\newblock \doi{10.1002/cm.21344}.
+\bibitem[Shi et~al.(2013)Shi, Bi, Yang, Guo, Jiang, Wan, Li, Bai, Guo, Wang,
+  Chen, Wu, Sun, Liu, Wang, and Xu]{Shi2013}
+X~Shi, Y~Bi, W~Yang, X~Guo, Y~Jiang, C~Wan, L~Li, Y~Bai, J~Guo, Y~Wang, X~Chen,
+  B~Wu, H~Sun, W~Liu, J~Wang, and C~Xu.
+\newblock {Ca2+ regulates T-cell receptor activation by modulating the charge
+  property of lipids}.
+\newblock \emph{Nature}, 493\penalty0 (7430):\penalty0 111--115, 2013.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature11699}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/23201688}.
 
-\bibitem[Bunnell et~al.(2002)Bunnell, Hong, Kardon, Yamazaki, McGlade, Barr,
-  and Samelson]{Bunnell2002}
-Stephen~C. Bunnell, David~I. Hong, Julia~R. Kardon, Tetsuo Yamazaki, C.~Jane
-  McGlade, Valarie~A. Barr, and Lawrence~E. Samelson.
-\newblock {T cell receptor ligation induces the formation of dynamically
-  regulated signaling assemblies}.
-\newblock \emph{Journal of Cell Biology}, 158\penalty0 (7):\penalty0
-  1263--1275, 2002.
-\newblock ISSN 00219525.
-\newblock \doi{10.1083/jcb.200203043}.
-
-\bibitem[Chan et~al.(1992)Chan, Iwashima, Turck, and Weiss]{Chan1992}
-a~C Chan, M~Iwashima, C~W Turck, and a~Weiss.
-\newblock {ZAP-70: a 70 kd protein-tyrosine kinase that associates with the TCR
-  zeta chain.}
-\newblock \emph{Cell}, 71\penalty0 (4):\penalty0 649--662, 1992.
-\newblock ISSN 00928674.
-\newblock \doi{10.1016/0092-8674(92)90598-7}.
-
-\bibitem[Davis and van~der Merwe(2006)]{Davis2006}
-Simon~J Davis and P~Anton van~der Merwe.
-\newblock {The kinetic-segregation model: TCR triggering and beyond}.
-\newblock \emph{Nature Immunology}, 7\penalty0 (8):\penalty0 803--809, 2006.
-\newblock ISSN 1529-2908.
-\newblock \doi{10.1038/ni1369}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/ni1369}.
+\bibitem[Zhang et~al.(2011)Zhang, Cordoba, Dushek, and {Anton van der
+  Merwe}]{Zhang2011}
+Hao Zhang, Shaun-Paul Cordoba, Omer Dushek, and P~{Anton van der Merwe}.
+\newblock {Basic residues in the T-cell receptor $\zeta$ cytoplasmic domain
+  mediate membrane association and modulate signaling.}
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 108\penalty0 (48):\penalty0 19323--8, 2011.
+\newblock ISSN 1091-6490.
+\newblock \doi{10.1073/pnas.1108052108}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3228420{\&}tool=pmcentrez{\&}rendertype=abstract}.
 
 \bibitem[Dobbins et~al.(2016)Dobbins, Gagnon, Godec, Pyrdol, Vignali, Sharpe,
   and Wucherpfennig]{Dobbins2016}
@@ -84,55 +198,12 @@ J.~Dobbins, E.~Gagnon, J.~Godec, J.~Pyrdol, D.~A.~A. Vignali, A.~H. Sharpe, and
 \newblock URL
   \url{http://www.ncbi.nlm.nih.gov/pubmed/27460989{\%}0Ahttp://stke.sciencemag.org/cgi/doi/10.1126/scisignal.aaf0626}.
 
-\bibitem[Dunker et~al.(2008)Dunker, Oldfield, Meng, Romero, Yang, Chen, Vacic,
-  Obradovic, and Uversky]{Dunker2008}
-A~Keith Dunker, Christopher~J Oldfield, Jingwei Meng, Pedro Romero, Jack~Y
-  Yang, Jessica~Walton Chen, Vladimir Vacic, Zoran Obradovic, and Vladimir~N
-  Uversky.
-\newblock {The unfoldomics decade: an update on intrinsically disordered
-  proteins.}
-\newblock \emph{BMC genomics}, 9 Suppl 2\penalty0 (Suppl 2):\penalty0 S1, 2008.
-\newblock ISSN 1471-2164.
-\newblock \doi{10.1186/1471-2164-9-S2-S1}.
-\newblock URL \url{http://www.biomedcentral.com/1471-2164/9/S2/S1}.
-
-\bibitem[Fischer et~al.(2004)Fischer, Polikarpov, and Craievich]{Fischer2004}
-Hannes Fischer, Igor Polikarpov, and Aldo~F. Craievich.
-\newblock {Average protein density is a molecular-weight-dependent function}.
-\newblock \emph{Protein Science}, 13\penalty0 (10):\penalty0 2825--2828, 2004.
-\newblock ISSN 09618368.
-\newblock \doi{10.1110/ps.04688204}.
-\newblock URL \url{http://doi.wiley.com/10.1110/ps.04688204}.
-
-\bibitem[Goyette et~al.(2017)Goyette, Salas, Coker-gordon, Bridge, Isaacson,
-  Allard, and Dushek]{Goyette2017}
-Jesse Goyette, Citlali~Solis Salas, Nicola Coker-gordon, Marcus Bridge,
-  Samuel~A Isaacson, Jun Allard, and Omer Dushek.
-\newblock {Biophysical assay for tethered signaling reactions reveals
-  tether-controlled activity for the phosphatase SHP-1}.
-\newblock \emph{Submitted (Attached)}, pages 1--23, 2017.
-
-\bibitem[He et~al.(2015)He, Chen, Mooney, Rajagopalan, Bhargava, Sacho,
-  Weninger, Bryan, Kulkarni, and Orban]{He2015}
-Yanan He, Yihong Chen, Steven~M. Mooney, Krithika Rajagopalan, Ajay Bhargava,
-  Elizabeth Sacho, Keith Weninger, Philip~N. Bryan, Prakash Kulkarni, and John
-  Orban.
-\newblock {Phosphorylation-induced conformational ensemble switching in an
-  intrinsically disordered cancer/testis antigen}.
-\newblock \emph{Journal of Biological Chemistry}, 290\penalty0 (41):\penalty0
-  25090--25102, 2015.
-\newblock ISSN 1083351X.
-\newblock \doi{10.1074/jbc.M115.658583}.
-
-\bibitem[J{\'{e}}gou et~al.(2013)J{\'{e}}gou, Carlier, and
-  Romet-Lemonne]{Jegou2013}
-Antoine J{\'{e}}gou, Marie-France Carlier, and Guillaume Romet-Lemonne.
-\newblock {Formin mDia1 senses and generates mechanical forces on actin
-  filaments}.
-\newblock \emph{Nature Communications}, 4\penalty0 (May):\penalty0 1883, 2013.
-\newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms2888}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/ncomms2888}.
+\bibitem[Aivazian and Stern(2000)]{Aivazian2000}
+Dikran Aivazian and Lawrence~J Stern.
+\newblock {Phosphorylation of T cell receptor $\zeta$ is regulated by a lipid
+  dependent folding}.
+\newblock \emph{Nature Structural Biology}, 7\penalty0 (11):\penalty0
+  1023--1026, 2000.
 
 \bibitem[Lopez et~al.(2015)Lopez, Sethi, Goldstein, Wilson, Gnanakaran, and
   Lo]{Lopez2015}
@@ -156,17 +227,44 @@ Colin R.~F. Monks, Benjamin~a Freiberg, Hannah Kupfer, Noah Sciaky, and Abraham
 \newblock \doi{10.1038/25764}.
 \newblock URL \url{http://www.nature.com/doifinder/10.1038/25764}.
 
-\bibitem[Mukhopadhyay et~al.(2016)Mukhopadhyay, {De Wet}, Clemens, Maini,
-  Allard, {Van Der Merwe}, and Dushek]{Mukhopadhyay2016}
-Himadri Mukhopadhyay, Ben {De Wet}, Lara Clemens, Philip~K. Maini, Jun Allard,
-  P.~Anton {Van Der Merwe}, and Omer Dushek.
-\newblock {Multisite Phosphorylation Modulates the T Cell Receptor ??-Chain
-  Potency but not the Switchlike Response}.
-\newblock \emph{Biophysical Journal}, 110\penalty0 (8):\penalty0 1896--1906,
-  2016.
-\newblock ISSN 15420086.
-\newblock \doi{10.1016/j.bpj.2016.03.024}.
-\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2016.03.024}.
+\bibitem[Bunnell et~al.(2002)Bunnell, Hong, Kardon, Yamazaki, McGlade, Barr,
+  and Samelson]{Bunnell2002}
+Stephen~C. Bunnell, David~I. Hong, Julia~R. Kardon, Tetsuo Yamazaki, C.~Jane
+  McGlade, Valarie~A. Barr, and Lawrence~E. Samelson.
+\newblock {T cell receptor ligation induces the formation of dynamically
+  regulated signaling assemblies}.
+\newblock \emph{Journal of Cell Biology}, 158\penalty0 (7):\penalty0
+  1263--1275, 2002.
+\newblock ISSN 00219525.
+\newblock \doi{10.1083/jcb.200203043}.
+
+\bibitem[Wang et~al.(2010)Wang, Kadlecek, Au-Yeung, Goodfellow, Hsu, Freedman,
+  and Weiss]{Wang2010}
+Haopeng Wang, Theresa~A. Kadlecek, Byron~B. Au-Yeung, Hanna~E.Sj{\"{o}}lin
+  Goodfellow, Lih~Yun Hsu, Tanya~S. Freedman, and Arthur Weiss.
+\newblock {ZAP-70: an essential kinase in T-cell signaling.}
+\newblock \emph{Cold Spring Harbor perspectives in biology}, 2\penalty0
+  (5):\penalty0 1--17, 2010.
+\newblock ISSN 19430264.
+\newblock \doi{10.1101/cshperspect.a002279}.
+
+\bibitem[Chan et~al.(1992)Chan, Iwashima, Turck, and Weiss]{Chan1992}
+a~C Chan, M~Iwashima, C~W Turck, and a~Weiss.
+\newblock {ZAP-70: a 70 kd protein-tyrosine kinase that associates with the TCR
+  zeta chain.}
+\newblock \emph{Cell}, 71\penalty0 (4):\penalty0 649--662, 1992.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/0092-8674(92)90598-7}.
+
+\bibitem[Zhang et~al.(1998)Zhang, Sloan-Lancaster, Kitchen, Trible, and
+  Samelson]{Zhang1998}
+Weiguo Zhang, Joanne Sloan-Lancaster, Jason Kitchen, Ronald~P. Trible, and
+  Lawrence~E. Samelson.
+\newblock {LAT: The ZAP-70 tyrosine kinase substrate that links T cell receptor
+  to cellular activation}.
+\newblock \emph{Cell}, 92\penalty0 (1):\penalty0 83--92, 1998.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/S0092-8674(00)80901-0}.
 
 \bibitem[O'Donoghue et~al.(2013)O'Donoghue, Pielak, Smoligovets, Lin, and
   Groves]{ODonoghue2013}
@@ -179,13 +277,25 @@ Geoff~P O'Donoghue, Rafal~M Pielak, Alexander~A Smoligovets, Jenny~J Lin, and
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3701909{\&}tool=pmcentrez{\&}rendertype=abstract}.
 
-\bibitem[Reeves et~al.(2011)Reeves, Cheveralls, and Kondev]{Reeves2011}
-Daniel Reeves, Keith Cheveralls, and Jane Kondev.
-\newblock {Regulation of biochemical reaction rates by flexible tethers}.
-\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
-  Physics}, 84\penalty0 (2):\penalty0 1--12, 2011.
-\newblock ISSN 15393755.
-\newblock \doi{10.1103/PhysRevE.84.021914}.
+\bibitem[Barber et~al.(1989)Barber, Dasgupta, Schlossman, Trevillyan, and
+  Rudd]{Barber1989}
+E~K Barber, J~D Dasgupta, S~F Schlossman, J~M Trevillyan, and C~E Rudd.
+\newblock {The CD4 and CD8 antigens are coupled to a protein-tyrosine kinase
+  (p56lck) that phosphorylates the CD3 complex.}
+\newblock \emph{Proceedings of the National Academy of Sciences}, 86\penalty0
+  (9):\penalty0 3277--3281, 1989.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.86.9.3277}.
+\newblock URL \url{http://www.pnas.org/cgi/doi/10.1073/pnas.86.9.3277}.
+
+\bibitem[Veillette et~al.(1988)Veillette, Bookman, Horak, and
+  Bolen]{Veillette1988}
+Andr{\'{e}} Veillette, Michael~A. Bookman, Eva~M. Horak, and Joseph~B. Bolen.
+\newblock {The CD4 and CD8 T cell surface antigens are associated with the
+  internal membrane tyrosine-protein kinase p56lck}.
+\newblock \emph{Cell}, 55\penalty0 (2):\penalty0 301--308, 1988.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/0092-8674(88)90053-0}.
 
 \bibitem[Rudd et~al.(1988)Rudd, Trevillyan, Dasgupta, Wong, and
   Schlossman]{Rudd1988}
@@ -197,100 +307,28 @@ C~E Rudd, J~M Trevillyan, J~D Dasgupta, L~L Wong, and S~F Schlossman.
 \newblock ISSN 0027-8424.
 \newblock \doi{10.1073/pnas.85.14.5190}.
 
-\bibitem[Shi et~al.(2013)Shi, Bi, Yang, Guo, Jiang, Wan, Li, Bai, Guo, Wang,
-  Chen, Wu, Sun, Liu, Wang, and Xu]{Shi2013}
-X~Shi, Y~Bi, W~Yang, X~Guo, Y~Jiang, C~Wan, L~Li, Y~Bai, J~Guo, Y~Wang, X~Chen,
-  B~Wu, H~Sun, W~Liu, J~Wang, and C~Xu.
-\newblock {Ca2+ regulates T-cell receptor activation by modulating the charge
-  property of lipids}.
-\newblock \emph{Nature}, 493\penalty0 (7430):\penalty0 111--115, 2013.
-\newblock ISSN 1476-4687.
-\newblock \doi{10.1038/nature11699}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/23201688}.
+\bibitem[Davis and van~der Merwe(2006)]{Davis2006}
+Simon~J Davis and P~Anton van~der Merwe.
+\newblock {The kinetic-segregation model: TCR triggering and beyond}.
+\newblock \emph{Nature Immunology}, 7\penalty0 (8):\penalty0 803--809, 2006.
+\newblock ISSN 1529-2908.
+\newblock \doi{10.1038/ni1369}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/ni1369}.
 
-\bibitem[Tompa and Han(2012)]{Tompa2012}
-P~Tompa and K-H Han.
-\newblock {Intrinsically disordered proteins}.
-\newblock \emph{Physics Today}, 65:\penalty0 64--65, 2012.
-\newblock ISSN 0968-0004.
-\newblock \doi{10.1016/j.tibs.2012.08.004}.
+\bibitem[{Dimitrios Vavylonis, David R. Kovar, Ben
+  O'Shaughnessy}(2006)]{Vavylonis2006}
+Thomas D.~Pollard {Dimitrios Vavylonis, David R. Kovar, Ben O'Shaughnessy}.
+\newblock {Model of Formin-Associated Actin Filament Elongation}.
+\newblock \emph{Molecular Cell}, 23\penalty0 (1):\penalty0 1--7, 2006.
+\newblock ISSN 15378276.
+\newblock \doi{10.1038/jid.2014.371}.
 
-\bibitem[{Van Valen} et~al.(2009){Van Valen}, Haataja, and
-  Phillips]{VanValen2009}
-David {Van Valen}, Mikko Haataja, and Rob Phillips.
-\newblock {Biochemistry on a leash: The roles of tether length and geometry in
-  signal integration proteins}.
-\newblock \emph{Biophysical Journal}, 96\penalty0 (4):\penalty0 1275--1292,
-  2009.
-\newblock ISSN 00063495.
-\newblock \doi{10.1016/j.bpj.2008.10.052}.
-\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2008.10.052}.
-
-\bibitem[Veillette et~al.(1988)Veillette, Bookman, Horak, and
-  Bolen]{Veillette1988}
-Andr{\'{e}} Veillette, Michael~A. Bookman, Eva~M. Horak, and Joseph~B. Bolen.
-\newblock {The CD4 and CD8 T cell surface antigens are associated with the
-  internal membrane tyrosine-protein kinase p56lck}.
-\newblock \emph{Cell}, 55\penalty0 (2):\penalty0 301--308, 1988.
-\newblock ISSN 00928674.
-\newblock \doi{10.1016/0092-8674(88)90053-0}.
-
-\bibitem[Wang et~al.(2010)Wang, Kadlecek, Au-Yeung, Goodfellow, Hsu, Freedman,
-  and Weiss]{Wang2010}
-Haopeng Wang, Theresa~A. Kadlecek, Byron~B. Au-Yeung, Hanna~E.Sj{\"{o}}lin
-  Goodfellow, Lih~Yun Hsu, Tanya~S. Freedman, and Arthur Weiss.
-\newblock {ZAP-70: an essential kinase in T-cell signaling.}
-\newblock \emph{Cold Spring Harbor perspectives in biology}, 2\penalty0
-  (5):\penalty0 1--17, 2010.
-\newblock ISSN 19430264.
-\newblock \doi{10.1101/cshperspect.a002279}.
-
-\bibitem[Wu et~al.(2015)Wu, Yan, Shi, Li, Liu, and Xu]{Wu2015}
-Wei Wu, Chengsong Yan, Xiaoshan Shi, Lunyi Li, Wanli Liu, and Chenqi Xu.
-\newblock {Lipid in T-cell receptor transmembrane signaling}.
-\newblock \emph{Progress in Biophysics and Molecular Biology}, 118\penalty0
-  (3):\penalty0 130--138, 2015.
-\newblock ISSN 0079-6107.
-\newblock \doi{10.1016/j.pbiomolbio.2015.04.004}.
-\newblock URL \url{http://dx.doi.org/10.1016/j.pbiomolbio.2015.04.004}.
-
-\bibitem[Xu et~al.(2008)Xu, Gagnon, Call, Schnell, Charles, Carman, Chou, and
-  Wucherpfennig]{Xu2008}
-Chenqi Xu, Etienne Gagnon, Matthew~E Call, Jason~R Schnell, D~Charles,
-  Christopher~V Carman, James~J Chou, and Kai~W Wucherpfennig.
-\newblock {Regulation of T cell Receptor Activation by Dynamic Membrane Binding
-  of the CD3$\epsilon$ Cytoplasmic Tyrosine-Based Motif}.
-\newblock \emph{Cell}, 135\penalty0 (4):\penalty0 702--713, 2008.
-\newblock \doi{10.1016/j.cell.2008.09.044.Regulation}.
-
-\bibitem[Zhang et~al.(2011)Zhang, Cordoba, Dushek, and {Anton van der
-  Merwe}]{Zhang2011}
-Hao Zhang, Shaun-Paul Cordoba, Omer Dushek, and P~{Anton van der Merwe}.
-\newblock {Basic residues in the T-cell receptor $\zeta$ cytoplasmic domain
-  mediate membrane association and modulate signaling.}
-\newblock \emph{Proceedings of the National Academy of Sciences of the United
-  States of America}, 108\penalty0 (48):\penalty0 19323--8, 2011.
-\newblock ISSN 1091-6490.
-\newblock \doi{10.1073/pnas.1108052108}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3228420{\&}tool=pmcentrez{\&}rendertype=abstract}.
-
-\bibitem[Zhang et~al.(1998)Zhang, Sloan-Lancaster, Kitchen, Trible, and
-  Samelson]{Zhang1998}
-Weiguo Zhang, Joanne Sloan-Lancaster, Jason Kitchen, Ronald~P. Trible, and
-  Lawrence~E. Samelson.
-\newblock {LAT: The ZAP-70 tyrosine kinase substrate that links T cell receptor
-  to cellular activation}.
-\newblock \emph{Cell}, 92\penalty0 (1):\penalty0 83--92, 1998.
-\newblock ISSN 00928674.
-\newblock \doi{10.1016/S0092-8674(00)80901-0}.
-
-\bibitem[Zhou(2001)]{Zhou2001}
-Huan~Xiang Zhou.
-\newblock {Loops in proteins can be modeled as worm-like chains}.
-\newblock \emph{Journal of Physical Chemistry B}, 105\penalty0 (29):\penalty0
-  6763--6766, 2001.
-\newblock ISSN 10895647.
-\newblock \doi{10.1021/jp011355n}.
+\bibitem[Goyette et~al.(2017)Goyette, Salas, Coker-gordon, Bridge, Isaacson,
+  Allard, and Dushek]{Goyette2017}
+Jesse Goyette, Citlali~Solis Salas, Nicola Coker-gordon, Marcus Bridge,
+  Samuel~A Isaacson, Jun Allard, and Omer Dushek.
+\newblock {Biophysical assay for tethered signaling reactions reveals
+  tether-controlled activity for the phosphatase SHP-1}.
+\newblock \emph{Submitted (Attached)}, pages 1--23, 2017.
 
 \end{thebibliography}
