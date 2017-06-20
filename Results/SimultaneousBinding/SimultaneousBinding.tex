@@ -14,7 +14,7 @@ Here we consider the case where ligands are able to bind to a polymer and remain
 
 Once TCR CD3$\zeta$ is phosphorylated, the kinase ZAP-70 binds and phosphorylates the transmembrane protein LAT \cite{Chan1992, Zhang1998}. ZAP-70 is composed of two SH2 domains and a kinase domain \cite{Chan1992, Wang2010} These tandem SH2 domains each bind a phosphotyrosine on CD3$\zeta$. Since minimally two SH2 domains must be able to bind to CD3$\zeta$, it is natural to wonder how many domains could fit on a disordered chain and how each successive domain impacts the binding of another. 
 
-In our simulation, we are able to explore different sizes of bound ligand and different sizes of unbound (incoming) ligand. We explore two scenarios. First, we explore the case where one species binds and remains bound to the disordered protein while a second species tries to transiently bind. For instance, as ZAP-70 binds to the disordered protein, how does this influence further phosphorylation by Lck. Second, we explore the case where a single species binds and remains bound (i.e. bound and unbound species are identical). This will answer how each bound ZAP-70 impacts binding by the next ZAP-70. This is also generalizable to any system where simultaneous binding occurs. For both of these scenarios, we will determine if simultaneous binding of ligands helps or hinders future binding events. 
+In our simulation, we are able to explore different sizes of bound ligand and different sizes of unbound (incoming) ligand. We explore two scenarios. First, we consider the case where one species binds and remains bound to the disordered protein while a second species tries to transiently bind. For instance, as ZAP-70 binds to the disordered protein, how does this influence further phosphorylation by Lck. Second, we explore the case where a single species binds and remains bound (i.e. bound and unbound species are identical). This will answer how each bound ZAP-70 impacts binding by the next ZAP-70. This is also generalizable to any system where simultaneous binding occurs. For both of these scenarios, we will determine if simultaneous binding of ligands helps or hinders future binding events. 
 
 
 
@@ -106,6 +106,8 @@ Eventually, we would like to include co-receptors of TCR in our model. This will
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Discussion}
+
+When multiple ligands are able to simultaneously bind to the same disordered protein, the bound ligands sterically prevent other ligands from binding. We find that this occlusion depends on the size of the ligands. For ligands such as an SH2 domain, simultaneous binding can reduce subsequent binding rates by as much as 30 fold. This provides a method by which disordered proteins can exhibit nonlinear signaling behavior. 
 
 An Lck molecule, only slightly larger than an SH2 domain, would experience an approximately eight fold decrease in its ability to bind once five SH2 domains are already bound to the disordered chain. This suggests the CD3$\zeta$ chain is mostly phosphorylated before ZAP-70 begins to attach or that phosphorylation by Lck slows down when ZAP-70 attaches. In the second case, this could lead to phosphorylation needing to occur via another mechanism, for instance via the kinase domain of ZAP-70 itself. 
 
