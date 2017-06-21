@@ -87,6 +87,45 @@ We compare how FJC parameters influence binding in free-space to binding in half
 \end{figure}
 
 
+\subsubsection{Occlusion Probability of End Site VS Analytical Result}
+
+We consider analytical solutions to the simplest case, where the ligand is attempting to bind at the end of the freely-jointed chain in free-space. The probability that a random walk over time 0 to $\delta N$, beginning at the edge of a sphere of radius, $R$, will cross into the sphere at any time is analogous to the probability the ligand is occluded by the freely jointed chain with $N$ segments and Kuhn length $\delta$. In order to solve this analytically, we must assume the random walk begins $\epsilon$ away from the sphere or it will always count as occluded. Then we may formulate as follows for the probability of survival, $p(\vec{x},t)$ when the random walk begins at a starting point, $r=R+\epsilon$:
+
+\begin{equation}\label{eq: diffusion}
+	\begin{cases}
+		\frac{\partial p}{\partial t} = D \nabla^2 p, \hspace{2cm} p=0 \hspace{3mm}\text{at}\hspace{3mm} r=R\\
+		p(\vec{x},0) = \delta(\vec{x}-(R+\epsilon))\\
+	\end{cases}
+\end{equation}
+
+For an approximation, we consider the solution when $N\rightarrow \infty$.
+
+ \begin{equation}\label{eq: analytic}
+  	\begin{cases}
+ 	q(r)=\mathds{P}(\text{not hit sphere}|x(0)=r) \\
+ 	0=\frac{2}{r}q'(r)+q''(r) \\
+ 	q(R) = 0 \\
+ 	q(r) \rightarrow 1 \hspace{3mm}\text{as}\hspace{3mm} r \rightarrow \infty \\
+ 	\end{cases}
+ \end{equation}
+
+ We assume $\epsilon = 1$ Kuhn length and R measured in Kuhn lengths:
+
+ \begin{equation}\label{eq: analyticSolution}
+q(r) = 1-\frac{R}{r}\\
+q(r) = 1-\frac{R}{R+1} \\
+ \end{equation}
+ 
+ We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
+
+ \begin{figure}[H]
+ \begin{center}
+ \includegraphics[width=0.7\linewidth]{ResultsFigures/General/Analytic/BindingVSAnalyticN100N150.eps}
+ \end{center}
+  \caption{Analytic Solution \label{fig: AnalyticBinding}}
+ \end{figure}
+
+
 
 \subsubsection{Cooperativity may arise from local structuring in intrinsically disordered proteins}
 
