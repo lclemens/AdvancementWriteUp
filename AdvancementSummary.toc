@@ -30,7 +30,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.4}Sequential binding naturally arises from polymer characteristics}{16}{subsubsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.5}Negative cooperativity may arise from local disordering of proteins}{18}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5}Negative cooperativity may arise from local disordering of proteins}{17}{subsubsection.4.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.6}Future Work: Quantifying cooperativity from reversible phosphorylation with Hill coefficients}{18}{subsubsection.4.3.6}
 \defcounter {refsection}{0}\relax 
@@ -94,34 +94,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8}Timeline}{44}{section.8}
 \defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {subsubsection}{\numberline {7.3.1}Accessibility of a reaction site is reduced by the presence of a surface}{40}{subsubsection.7.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.2}Future Work: Impact of membrane on reactions between tethered reactants}{41}{subsubsection.7.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.3}Reach parameter is unaffected by presence of surface}{44}{subsubsection.7.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.4}Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{47}{subsubsection.7.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.3.5}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{49}{subsubsection.7.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Timeline}{50}{section.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Appendix}{50}{section.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Model Modifications}{50}{subsection.9.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.1}Stiffening}{50}{subsubsection.9.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.2}Electrostatics}{50}{subsubsection.9.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {9.1.3}Simultaneous Binding}{51}{subsubsection.9.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Assumptions}{51}{subsection.9.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Gillespie Algorithm}{51}{subsection.9.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{51}{subsection.9.3}
-=======
 \contentsline {section}{References}{45}{table.caption.37}
->>>>>>> a1240c22bbb0dccb2bd45baf8d232b92b0c7f129
