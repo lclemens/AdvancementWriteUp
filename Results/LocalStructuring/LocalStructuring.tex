@@ -14,7 +14,7 @@
 
 %\hl{Intrinsically disordered proteins sterically occlude ligands by transiently sequestering the binding site.} 
 
-There is evidence that indicates some IDPs undergo a disordered-to-ordered transition upon post-translational modification, i.e. phosphorylation. For example, phosphorylation of PAGE4 restricts the number of conformations it may explore, increasing rigidity of the backbone \cite{He2015}. Post-translational modifications may also cause a conformational change, altering the availability of the binding site. The neural protein 4E-BP2 undergoes multisite phosphorylation which leads to a disorder-to-order transition, forming $\beta$ sheets which hide the eIF4E binding site \cite{Bah2015}. 
+There is evidence that indicates some IDPs undergo a disordered-to-ordered transition upon post-translational modification, i.e. phosphorylation. For example, phosphorylation of PAGE4 restricts the number of conformations it may explore, increasing rigidity of the backbone \cite{He2015}. Similarly, a segment of the protein Tau, has been shown to have increased persistence length upon multiple phosphorylation \cite{Chin2016}. Post-translational modifications may also cause a conformational change, altering the availability of the binding site. The neural protein 4E-BP2 undergoes multisite phosphorylation which leads to a disorder-to-order transition, forming $\beta$ sheets which hide the eIF4E binding site \cite{Bah2015}. 
 
 Initial models of the TCR $\zeta$ chain indicate large enhancements of the phosphorylation rate can occur assuming a complete switch from disorder to order upon initial phosphorylation. Binding to a fully structured protein compared to a disordered protein can be ~100 fold easier, depending on the persistence length and ligand size \cite{Mukhopadhyay2016}.
 
@@ -39,7 +39,7 @@ We include local structuring as a limitation on which joints of the freely joint
     \end{center}
 \end{figure}
 
-For TCR CD3$\zeta$, phosphorylation events are modeled as creating local structure as described above. We model dephosphorylation of CD3$\zeta$, using the same parameters for the FJC. We also assume the phosphatase is the same size as the ligand Lck. We model dephosphorylation as `unfreezing' nearby segments. Since we will eventually modeling reversible phosphorylation, we consider the case where the initial polymer state is only as stiff as it would be from the local stiffening by full phosphorylation. For example, if phosphorylation would locally structure the nearest eleven segments, then the fully phosphorylated form of CD3$\zeta$ would have 66 residues frozen. We use this as the initial state for dephosphorylation. Each dephosphorylation would unstructure 11 of the initial 66 frozen residues. 
+For TCR CD3$\zeta$, phosphorylation events are modeled as creating local structure as described above. Similarly, we model dephosphorylation as `unfreezing' nearby segments. Since we will eventually model reversible phosphorylation, we consider the case where the initial polymer state is only as stiff as it would be from the local stiffening by full phosphorylation. For example, if phosphorylation would locally structure the nearest eleven segments, then the fully phosphorylated form of CD3$\zeta$ would have 66 residues frozen. We use this as the initial state for dephosphorylation. Each dephosphorylation would unstructure 11 of the initial 66 frozen residues. For simplicity, we assume the phosphatase is the same size as the ligand Lck.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,6 +87,45 @@ We compare how FJC parameters influence binding in free-space to binding in half
 \end{figure}
 
 
+\subsubsection{Occlusion Probability of End Site VS Analytical Result}
+
+We consider analytical solutions to the simplest case, where the ligand is attempting to bind at the end of the freely-jointed chain in free-space. The probability that a random walk over time 0 to $\delta N$, beginning at the edge of a sphere of radius, $R$, will cross into the sphere at any time is analogous to the probability the ligand is occluded by the freely jointed chain with $N$ segments and Kuhn length $\delta$. In order to solve this analytically, we must assume the random walk begins $\epsilon$ away from the sphere or it will always count as occluded. Then we may formulate as follows for the probability of survival, $p(\vec{x},t)$ when the random walk begins at a starting point, $r=R+\epsilon$:
+
+\begin{equation}\label{eq: diffusion}
+	\begin{cases}
+		\frac{\partial p}{\partial t} = D \nabla^2 p, \hspace{2cm} p=0 \hspace{3mm}\text{at}\hspace{3mm} r=R\\
+		p(\vec{x},0) = \delta(\vec{x}-(R+\epsilon))\\
+	\end{cases}
+\end{equation}
+
+For an approximation, we consider the solution when $N\rightarrow \infty$.
+
+ \begin{equation}\label{eq: analytic}
+  	\begin{cases}
+ 	q(r)=\mathds{P}(\text{not hit sphere}|x(0)=r) \\
+ 	0=\frac{2}{r}q'(r)+q''(r) \\
+ 	q(R) = 0 \\
+ 	q(r) \rightarrow 1 \hspace{3mm}\text{as}\hspace{3mm} r \rightarrow \infty \\
+ 	\end{cases}
+ \end{equation}
+
+ We assume $\epsilon = 1$ Kuhn length and R measured in Kuhn lengths:
+
+ \begin{equation}\label{eq: analyticSolution}
+q(r) = 1-\frac{R}{r}\\
+q(r) = 1-\frac{R}{R+1} \\
+ \end{equation}
+ 
+ We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
+
+ \begin{figure}[H]
+ \begin{center}
+ \includegraphics[width=0.7\linewidth]{ResultsFigures/General/Analytic/BindingVSAnalyticN100N150.eps}
+ \end{center}
+  \caption{Analytic Solution \label{fig: AnalyticBinding}}
+ \end{figure}
+
+
 
 \subsubsection{Cooperativity may arise from local structuring in intrinsically disordered proteins}
 
@@ -112,7 +151,7 @@ When considering the partial stiffening model, we predict that this effect would
 
 We obtained relative probabilities of binding for each tyrosine along the chain at each phosphorylation state. With this information, we are able to explore whether or not there is a dominant sequence of phosphorylation events. We ran a Gillespie algorithm with six events, one for each phosphorylation. From each run, we record which sequence or `path' of phosphorylation. When we compile the path frequency data, we find that the first phosphorylation event is dominant. That is to say, any path beginning by phosphorylating the membrane distal tyrosine (6th tyrosine), will occur more often than any path beginning with the membrane proximal tyrosine. 
 
-For simplicity, we show only the paths membrane proximal to membrane distal (123456) and distal to proximal (654321). We see that when a membrane is present, the probability of phosphorylating distal to proximal is much higher than that of phosphorylating proximal to distal (Fig. \ref{fig: StiffeningSeqBind}). It is also more probable than if all paths were equally likely. This phenomenon is easily explained by the presence of a membrane. The membrane proximal tyrosine has a smaller range of space it may occupy than the distal tyrosine. Therefore, it is more likely to be close to the membrane in a configuration. Since the ligand cannot penetrate the membrane, tyrosines closer to the membrane have a higher probability of being effectively sheltered from ligand binding. This makes the distal to proximal path much more likely, regardless of local stiffening effects. This path preference is enhanced with local structuring since the distal tyrosine is more accessible and local structuring makes neighboring tyrosines even more available.
+For simplicity, we show only the paths membrane proximal to membrane distal (123456) and distal to proximal (654321) (Fig. \ref{fig: StiffeningSeqBind}). We see that when a membrane is present, the probability of phosphorylating distal to proximal is much higher than that of phosphorylating proximal to distal (Fig. \ref{fig: StiffeningSeqBind}). It is also more probable than if all paths were equally likely. This phenomenon is easily explained by the presence of a membrane. The membrane proximal tyrosine has a smaller range of space it may occupy than the distal tyrosine. Therefore, it is more likely to be close to the membrane in a configuration. Since the ligand cannot penetrate the membrane, tyrosines closer to the membrane have a higher probability of being effectively sheltered from ligand binding. This makes the distal to proximal path much more likely, regardless of local stiffening effects. This path preference is enhanced with local structuring since the distal tyrosine is more accessible and local structuring makes neighboring tyrosines even more available.
 
 One would expect then, that a cytoplasmic disordered protein would not experience a path preference between N-terminal to C-terminal or vice versa. When we simulate CD3$\zeta$ without a membrane, there is still a marked preference for C-terminal to N-terminal phosphorylation. This effect arises from the spacing of the tyrosines along the polymer's length. As noted above, the location of a tyrosine impacts how likely a ligand is to bind there (Fig. \ref{fig: OcclusionVSNVSR}). Since the tyrosines in CD3$\zeta$ are not equally spaced along the length of the protein, there is a bias for the tyrosine closest to one end, in this case the tyrosine closest to the C-terminal. When we simulate a polymer with the same length as CD3$\zeta$ but equally spaced tyrosines, we see that there is no longer a preference between the two paths.
 
@@ -187,9 +226,9 @@ If we assume the disordered protein undergoes disordered-to-order transitions up
 	% - matches data
 	We find that for a simulated TCR CD3$\zeta$ chain, there is an enhancement of phosphorylation rate that can help explain our previously published experimental data \cite{Mukhopadhyay2016}.
 	% - many systems
-	There are several examples of disordered-to-order transitions upon PTM (cite cite cite). It is possible these systems could exhibit this same rate enhancement.
+	There are several examples of disordered-to-order transitions upon PTM \cite{He2015, Bah2015, Chin2016}. It is possible these systems could exhibit this same rate enhancement.
 	% - design principle
-	Positive cooperativity has been extensively studied both theoretically and experimentally (cite cite cite cite). It gives rise to many signaling behaviors, including sensitivity to ligand concentration.
+	Positive cooperativity has been extensively studied both theoretically and experimentally \cite{Levantino2012, Monod1965, Jakubik1997, Koshland1966} . It gives rise to many signaling behaviors, including sensitivity to ligand concentration.
 
 
 

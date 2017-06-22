@@ -25,7 +25,7 @@ We model the polymer in the canonical ensemble, i.e. equilibrium. Steric occlusi
 \frac{K_{D_1}}{K_{D_2}} &= \frac{P_2}{P_1}\\
 \end{align}  
 
-where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_1 P_1$ being the microstates available when the ligand is bound and $\Omega_2 P_2$ is the number of microstates available when the polymer is rigid. We also note $E_2 = E_1$ since we are working at equilibrium. 
+where $G_j=E_j-TS_j$ is the free energy of binding in the free or rigid state, $S_j = k_B \mbox{ln} W$ is the entropy of binding, where W is the number of microstates and $P_j$ is the probability in the canonical ensemble that the configuration allows for binding. We let $\Omega$ be the total number of microstates, with $\Omega_1 P_1$ being the microstates available when the ligand is bound and $\Omega_2 P_2$ is the number of microstates available when the polymer is rigid. We also note $\Delta E_1 = \Delta E_2$ since the change in energy due to ligand binding will be the same, regardless of conformation.
 
 For example, we can consider the change in $K_D$ between a fully rigid polymer, where all binding sites are available and $K_D = K_{D_R}$, compared to a floppy, unstructured polymer, where binding site availability depends on the conformation of the polymer and $K_D = K_{D_F}$. Then we calculate the change in $K_D$ as above, but since the rigid state always allows binding, we may write $P_R =1$. 
 
@@ -53,8 +53,7 @@ We calculate the occlusion probability by computing how often a ligand is able t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 There are theoretical solutions for many aspects of the freely-jointed chain. This provides a basis with which to verify our code. 
 
-\subsubsection{Root-mean-square end-to-end distance}
-First, we look at the average end-to-end distance of the polymer (RMS). In our simulations, we normalize by the Kuhn length, so all simulations assume $\delta = 1$ and record all other parameters in units of Kuhn lengths. We know from polymer physics that the RMS should increase as $\delta \sqrt{N}$, which given $\delta = 1$, is just $\sqrt{N}$.
+We look at the average end-to-end distance of the polymer (RMS). In our simulations, we normalize by the Kuhn length, so all simulations assume $\delta = 1$ and record all other parameters in units of Kuhn lengths. We know from polymer physics that the RMS should increase as $\delta \sqrt{N}$, which given $\delta = 1$, is just $\sqrt{N}$. We also consider the distribution of end-to-end distances, which is known from previous work \cite{VanValen2009, Reeves2011}.
 
 Average end-to-end distance (Root-mean-square end-to-end distance) \cite{Reeves2011}:
 \begin{equation*}
@@ -70,9 +69,8 @@ Average end-to-end distance (Root-mean-square end-to-end distance) \cite{Reeves2
 
 End-to-end distribution \cite{VanValen2009, Reeves2011}:
 \begin{equation*}
-P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}\text{exp}\left(\frac{-3r^2}{2N \delta^2}\right)
+P(r_{ee}) = 4\pi r_{ee}^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}\text{exp}\left(\frac{-3r_{ee}^2}{2N \delta^2}\right)
 \end{equation*}
-
 
 \begin{figure}[H]
 \begin{center}
@@ -80,47 +78,6 @@ P(r_{ee}) = 4\pi r^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}\text{
 \caption{Simulated end-to-end distance distribution (blue) against theoretical distribution (red) for multiple polymer lengths (N). \label{fig: ReeDist}}
 \end{center}
 \end{figure}
-
-\subsubsection{Occlusion Probability of End Site VS Analytical Result}
-
-We consider analytical solutions to the simplest case, where the ligand is attempting to bind at the end of the freely-jointed chain in free-space. The probability that a random walk over time 0 to $\delta N$, beginning at the edge of a sphere of radius, $R$, will cross into the sphere at any time is analogous to the probability the ligand is occluded by the freely jointed chain with $N$ segments and Kuhn length $\delta$. In order to solve this analytically, we must assume the random walk begins $\epsilon$ away from the sphere or it will always count as occluded. Then we may formulate as follows for the probability of survival, $p(\vec{x},t)$ when the random walk begins at a starting point, $r=R+\epsilon$:
-
-\begin{equation}\label{eq: diffusion}
-	\begin{cases}
-		\frac{\partial p}{\partial t} = D \nabla^2 p, \hspace{2cm} p=0 \hspace{3mm}\text{at}\hspace{3mm} r=R\\
-		p(\vec{x},0) = \delta(\vec{x}-(R+\epsilon))\\
-	\end{cases}
-\end{equation}
-
-In order to get a finite estimate to compare, we consider the solution when $N\rightarrow \infty$.
-
- \begin{equation}\label{eq: analytic}
-  	\begin{cases}
- 	q(r)=\mathds{P}(\text{not hit sphere}|x(0)=r) \\
- 	0=\frac{2}{r}q'(r)+q''(r) \\
- 	q(R) = 0 \\
- 	q(r) \rightarrow 1 \hspace{3mm}\text{as}\hspace{3mm} r \rightarrow \infty \\
- 	\end{cases}
- \end{equation}
-
- We assume $\epsilon = 1$ Kuhn length and R measured in Kuhn lengths:
-
- \begin{equation}\label{eq: analyticSolution}
-q(r) = 1-\frac{R}{r}\\
-q(r) = 1-\frac{R}{R+1} \\
- \end{equation}
- 
- We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
-
- \begin{figure}[H]
- \begin{center}
- \includegraphics[width=0.7\linewidth]{ModelConfirmationFigures/BindingVSAnalyticN100N150.eps}
- \end{center}
-  \caption{Analytic Solution \label{fig: AnalyticBinding}}
- \end{figure}
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

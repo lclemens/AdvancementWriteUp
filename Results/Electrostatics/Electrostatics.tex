@@ -33,11 +33,11 @@ Studies show that mutation of the basic residue regions is sufficient to cause t
 %Fully phosphorylated tyrosines are also sufficient to pull the protein away from the membrane, even when basic residue regions are present \cite{Zhang2011}.
 
 % calcium influx also pulls chains away
-TCR triggering creates a calcium influx. Calcium then interferes with the interactions of the basic residues with the membrane, causing the CD3$\zeta$ chain to dissociate from the membrane \cite{Shi2013}. However, in order to create the calcium influx, there needs to be signal from the TCR. 
-Since prior to the calcium influx, the $\zeta$-chain tyrosines remain sequestered in the membrane, preventing signaling . Where the initial signal comes from to instigate the feedback loop remains mysterious.
+TCR triggering creates a calcium influx. Calcium then interferes with the interactions of the basic residues with the membrane, causing the CD3$\zeta$ chain to dissociate from the membrane \cite{Shi2013}. Prior to the calcium influx, the $\zeta$-chain tyrosines remain sequestered in the membrane, preventing signaling. However, since TCR triggering is the causal event of T cell signaling, it is unclear how the first $\zeta$ chains dissociate from the membrane to propagate the signal. 
 
-% need statement about sequestered tyrosines being unaccessible somewhere
 Close association with the membrane inhibits ligands from binding to their target site. CD3$\zeta$ tyrosines are sequestered in the membrane, preventing phosphorylation by Lck \cite{Aivazian2000, Shi2013}. Although the tyrosines will spend much of their time sequestered in the membrane, they will still transiently enter the cytoplasm. When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine could repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane. We hypothesize that entropic fluctuations of the tyrosines in and out of the membrane are sufficient to lead to an initial phosphorylation event. We also hypothesis that following this initial event, there would be a cooperative enhancement of the accessibility of neighboring tyrosines.
+
+Here we simulate electrostatic potentials acting on the disordered chain. We first fit parameters of the potentials to match the characteristics seen experimentally, e.g. phosphorylation removes association with the membrane. We will next investigate the accessibility of each tyrosine and how this is impacted by phosphorylation of neighboring tyrosines. From this, we will determine if cooperativity or sequential binding can arise from phosphorylation under these circumstances.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -78,7 +78,7 @@ Remaining Residies & $E_R$ \\
 \begin{center}
 \begin{tabular}{| c | c |}
 \hline
-Group Number & Electrostatic Potential Relationship \\
+Case & Electrostatic Potential Relationship \\
 \hline
 \multicolumn{1}{|c|}{\multirow{2}[0]{*}{1}}  &  $E_Y = E_B < 0$\\
 							&	   $E_P = E_R = 0 $\\
@@ -188,7 +188,7 @@ Group Number & Electrostatic Potential Relationship \\
 
 \subsubsection{Electrostatic Potentials}
 
-The model where basic residues and tyrosines have similar energetics (Table \ref{table: BasicsYLocation}, Group 1) is the simplest case to explore. There are many types of electric potential we could explore for the correct behavior. Given that one of the phenomenons we wish to match is an approximately Gaussian distribution of both the tyrosines and polymer along the membrane edge, we use a parabolic-constant piecewise potential for our basic residues and tyrosines, instead of a Lennard-Jones potential. 
+The model where basic residues and tyrosines have similar energetics (Table \ref{table: BasicsYLocation}, Case 1) is the simplest case to explore. There are many types of electric potential we could explore for the correct behavior. Given that one of the phenomenons we wish to match is an approximately Gaussian distribution of both the tyrosines and polymer along the membrane edge, we use a parabolic-constant piecewise potential for our basic residues and tyrosines, instead of a Lennard-Jones potential. 
 
 Parabolic-constant piecewise potential:
 
@@ -224,7 +224,7 @@ k_Sz_j^2 	& z_j < 0\\
 \end{cases}
 \end{equation}
 
-We later develop a more complicated but possibly more motivated model with a repulsive force on the phosphotyrosines. There are many more basic residues compared to tyrosines in both the CD3$\zeta$ and $\epsilon$ chains. Therefore, in order to account for tyrosine phosphorylation being sufficient to dissociate the polymer from the membrane, we would expect a repulsive force from the phosphorylated tyrosines. We therefore shift future focus to models of Groups 3,4, and 5. We first consider the simple case where tyrosines do not experience their own potential but experience the potential of either the basic residues or experience the same potential as the rest of the amino acids. Since tyrosines are not positively charged, it seems less likely that they would experience the same force as the basic residues. Although their aromatic ring structure may help to anchor the polymer to the membrane once associated with the membrane, it would not drive the polymer to the membrane to begin with \cite{Lopez2015}. Therefore we focus future efforts on Group 5.
+We later develop a more complicated but possibly more motivated model with a repulsive force on the phosphotyrosines. There are many more basic residues compared to tyrosines in both the CD3$\zeta$ and $\epsilon$ chains. Therefore, in order to account for tyrosine phosphorylation being sufficient to dissociate the polymer from the membrane, we would expect a repulsive force from the phosphorylated tyrosines. We therefore shift future focus to models of Cases 3,4, and 5. We first consider the simple case where tyrosines do not experience their own potential but experience the potential of either the basic residues or experience the same potential as the rest of the amino acids. Since tyrosines are not positively charged, it seems less likely that they would experience the same force as the basic residues. Although their aromatic ring structure may help to anchor the polymer to the membrane once associated with the membrane, it would not drive the polymer to the membrane to begin with \cite{Lopez2015}. Therefore we focus future efforts on Case 5.
 
 In this new model, we introduce a repulsive potential that acts only on the phosphotyrosines. We maintain the same potentials as above for the basic residues and the general amino acids, but now the tyrosines behave as generic amino acids. As our repulsive potential, we will include an exponential distribution where the repulsive effect of the membrane drops off quickly as the phosphotyrosines move further away from the membrane.
 
@@ -244,7 +244,7 @@ E_{R0}e^{-z_i/\bar{z}} & z_i > 0 \\
 \subsection{Results}
 \subsubsection{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}
 
-We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues (Table \ref{table: ElecPotentialRelationships}, Group 1). We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction (Condition 1). From this sweep, we see there are multiple parameter sets which achieve this distribution (Fig. \ref{fig: iSiteDistInitial}) For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. Parameters which give reasonable distributions are: $k_{\rm{PC}}$ = 1 $k_BT/\delta^2$, $E_0$ = 10 $k_BT$, $k_S$ = 0.01 $k_BT/\delta^2$, where $\delta$ is the Kuhn length.
+We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues (Table \ref{table: ElecPotentialRelationships}, Case 1). We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction (Condition 1). From this sweep, we see there are multiple parameter sets which achieve this distribution (Fig. \ref{fig: iSiteDistInitial}) For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. Parameters which give reasonable distributions are: $k_{\rm{PC}}$ = 1 $k_BT/\delta^2$, $E_0$ = 10 $k_BT$, $k_S$ = 0.01 $k_BT/\delta^2$, where $\delta$ is the Kuhn length.
 
 
 \begin{figure}[H]
@@ -300,7 +300,7 @@ Second, with our parameter sets, we will now explore the effect of phosphorylati
 Additionally, we will use this data to explore if there is a natural preferred binding sequence that arises. One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target. However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region. 
 
 \subsubsection{Future Work: TCR clustering as cause of initial signal}
-Independently or in conjunction with the above hypothesis, we formulate a second hypothesis to account for the initial dissociation from the membrane. When TCR triggering occurs, TCRs cluster \cite{Kupfer1998, Samelson2002}. We hypothesize that a first chain will fall out of the membrane due to steric occlusion created by TCR clustering. With all six disordered subunits associated with the membrane, when the TCRs cluster, the subunits may become too crowded on the membrane and induce one or more to dissociate and become accessible to phosphorylation. We will explore how clustering of TCRs influences the association of the disordered subunits to the membrane. By modeling multiple disordered chains, we will estimate how many TCRs are needed and how tightly clustered they must be for a first chain to dissociate from the membrane and create the initial triggering event.
+Independently or in conjunction with the above hypothesis, we formulate a second hypothesis to account for the initial dissociation from the membrane. When TCR triggering occurs, TCRs cluster \cite{Monks1998, Bunnell2002}. We hypothesize that a first chain will fall out of the membrane due to steric occlusion created by TCR clustering. With all six disordered subunits associated with the membrane, when the TCRs cluster, the subunits may become too crowded on the membrane and induce one or more to dissociate and become accessible to phosphorylation. We will explore how clustering of TCRs influences the association of the disordered subunits to the membrane. By modeling multiple disordered chains, we will estimate how many TCRs are needed and how tightly clustered they must be for a first chain to dissociate from the membrane and create the initial triggering event.
 
 % potentially add image of mathematica plot to illustrate point
 

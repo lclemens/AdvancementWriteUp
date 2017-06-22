@@ -1,9 +1,9 @@
 %\documentclass[aps,pre,twocolumn]{revtex4}
 %\documentclass[aps,pre,onecolumn]{revtex4}
 \documentclass[onecolumn]{article}
-%\usepackage[numbers]{natbib}
-\usepackage{biblatex}
-\addbibresource{bibliography.bib}
+\usepackage[numbers, sort&compress]{natbib}
+%\usepackage{biblatex}
+%\addbibresource{bibliography.bib}
 %\bibliographystyle{plainnat}
 \usepackage[margin=1in]{geometry}
 \usepackage[framed]{mcode}
@@ -97,7 +97,8 @@
 
 \addcontentsline{toc}{section}{References}
 
-\printbibliography
+\bibliographystyle{unsrtnat}
+\bibliography{bibliography}
 
 
 

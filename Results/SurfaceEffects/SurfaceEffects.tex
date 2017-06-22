@@ -11,11 +11,11 @@
 \subsection{Introduction}
 \subsubsection{Tethering}
 
-Disordered proteins aid many reactions by acting as biological tethers. They may be permanent tethers tying two globular domains together or a domain to a surface (EXAMPLE, EXAMPLE, CITE, CITE). They may also be transient tethers, catching diffusing particles and tethering them to another molecule, i.e. formin \cite{Bryant2017}. By tethering molecules or surfaces together, disordered domains effectively increase the local concentration for a reaction. This increases reaction rates by improving the probability of two molecules bumping into each other through restriction of their diffusive domain.
+Disordered proteins aid many reactions by acting as biological tethers. They may be permanent tethers tying two globular domains together or a domain to a surface (EXAMPLE, EXAMPLE, CITE, CITE). They may also be transient tethers, catching diffusing particles and tethering them to another molecule, i.e. formin \cite{Vavylonis2006, Bryant2017}. By tethering molecules or surfaces together, disordered domains increase the effective concentration for a reaction. This increases reaction rates by improving the probability of two molecules bumping into each other through restriction of their diffusive domain.
 
-Given that a surface reduces the exploration space of a molecule, it will naturally increase the local concentration without a tether. However, it will also reduce the accessibility of a molecule by sometimes occluding, for example, an enzymatic domain from reaching its substrate in the correct orientation. Given that the surface has both positive and negative effects on reaction rates, how does being tethered to a surface impact a reaction compared to being tethered to a smaller domain? 
+Given that a surface reduces the exploration space of a molecule, it will naturally increase the effective concentration without a tether. However, it will also reduce the accessibility of a molecule by sometimes occluding, for example, an enzymatic domain from reaching its substrate in the correct orientation. Given that the surface has both positive and negative effects on reaction rates, how does being tethered to a surface impact a reaction compared to being tethered to a smaller domain? 
 
-This type of interaction arises frequently with clustered reactions. For instance, the phosphorylation of a membrane tethered disordered domain by a membrane bound kinase (CITE). Experimental studies of such reactions are more easily performed on a sparse matrix such as dextran than on a hard surface \cite{Goyette2017}. Therefore, it is important to understand the effect tethering to a surface has over tethering to a matrix. We explore how the presence of a surface influences the reach of a tethered domain and the overall local concentration.
+This type of interaction arises frequently with clustered reactions. For instance, the phosphorylation of a membrane tethered disordered domain by a membrane bound kinase (CITE). Experimental studies of such reactions are more easily performed on a sparse matrix such as dextran than on a hard surface \cite{Goyette2017}. Therefore, it is important to understand the effect tethering to a surface has over tethering to a matrix. We explore how the presence of a surface influences the reach of a tethered domain and the overall effective concentration.
 
 \subsubsection{SHP-1}
 
@@ -85,26 +85,26 @@ Using the parameters estimated above, we simulate two equivalent tethers. The id
 %% Diagram of simulation
 \begin{figure}
 \includegraphics[width=\linewidth]{Diagram.png}
-\caption{Cartoon of local concentration simulation in half space. \label{fig: LocalConcCartoon}}
+\caption{Cartoon of effective concentration simulation in half space. \label{fig: LocalConcCartoon}}
 \end{figure}
 
 % description of simulation - matlab code
-We compute the local concentration as the probability that the bound ligand is near the binding site (where near is defined by within some small radius) and the binding site is not occluded by the rest of the polymer. To calculate this, we separate the the tethers from each other by a distance, $\rho$, measured in Kuhn lengths by adding $\rho$ to the $x$-coordinate of the ghost ligand. We then measure the distance between the centers of the bound and ghost ligands. If the centers are within a cutoff distance from each other AND the ghost sphere is not occluded, then the bound ligand is able to bind. The local concentration is calculated by dividing the probability the ligand can bind by the volume of the sphere defined by the cutoff radius.
+We compute the effective concentration as the probability that the bound ligand is near the binding site (where near is defined by within some small radius) and the binding site is not occluded by the rest of the polymer. To calculate this, we separate the the tethers from each other by a distance, $\rho$, measured in Kuhn lengths by adding $\rho$ to the $x$-coordinate of the ghost ligand. We then measure the distance between the centers of the bound and ghost ligands. If the centers are within a cutoff distance from each other AND the ghost sphere is not occluded, then the bound ligand is able to bind. The effective concentration is calculated by dividing the probability the ligand can bind by the volume of the sphere defined by the cutoff radius.
 
 
 % description of curve fitting
 % could cite Lagarias et al for Nelder-Mead algorithm?
-We fit the local concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = \sigma_{max}*e^{-\rho^2/l^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
+We fit the effective concentration curves to a half-gaussian curve, $\sigma_{fit}(\rho) = \sigma_{max}*e^{-\rho^2/l^2}$, as a function of the separation distance between the two tethers. To fit the simulated data, we use Matlab's fminsearch function which uses the Nelder-Mead simplex algorithm. The parameters found by the Nelder-Mead algorithm consistently give a smaller sum of least squares than parameters found using Trust-Region-Reflective Least Squares Algorithm or those found by heuristically sweeping parameter space to minimize the sum of least squares.
 
 
 %
-%The theoretical local concentration for two tethers a distance $\rho$ apart can be given by the following equation if both tethers are perfect worm-like chains:
+%The theoretical effective concentration for two tethers a distance $\rho$ apart can be given by the following equation if both tethers are perfect worm-like chains:
 %
 %\begin{equation}
 %    \sigma_{WLC}(\rho) = \left(\frac{3}{2\pi}\right)^{3/2} \frac{1}{L^3}e^{-\frac{3\rho^2}{2L^2}}
 %\end{equation}
 %
-%Experimentally, we measure the reaction rate $R(\rho)$. This equation is the product of a $k_{cat}$ and $\sigma(\rho)$. If the two tethers were perfect worm-like chains and the attached ligand did not impact the local concentration then when we fit the experimental $R(\rho)$ to $\sigma_{WLC}(\rho)$, we would have $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$. However, since this is unlikely to be the case, if we fit to the WLC theory curve anyway, then we actually have $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$. Instead, if we consider our simulated data to be the true local concentration and we fit a half-gaussian curve, $\sigma_{fit}(\rho)$, to the data, then we would have $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$, where $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$.
+%Experimentally, we measure the reaction rate $R(\rho)$. This equation is the product of a $k_{cat}$ and $\sigma(\rho)$. If the two tethers were perfect worm-like chains and the attached ligand did not impact the effective concentration then when we fit the experimental $R(\rho)$ to $\sigma_{WLC}(\rho)$, we would have $R(\rho) = k^{true}_{cat}*\sigma_{WLC}(\rho)$. However, since this is unlikely to be the case, if we fit to the WLC theory curve anyway, then we actually have $R(\rho) = k^{false}_{cat}*\sigma_{WLC}(\rho)$. Instead, if we consider our simulated data to be the true effective concentration and we fit a half-gaussian curve, $\sigma_{fit}(\rho)$, to the data, then we would have $R(\rho) = k^{true}_{cat}*\sigma_{fit}(\rho)$, where $\sigma_{fit}(\rho) = a*e^{-\rho^2/c^2}$.
 %
 %We can use the simulated data to give an estimate of how incorrect $k^{false}_{cat}$ is compared to $k^{true}_{cat}$. We'll call this ratio $\kappa_{cat}$. Since we measured $R(\rho)$ experimentally, we must have:
 %
@@ -224,7 +224,7 @@ It is less clear what effect a surface will have on maximum concentration.
 %\begin{figure}[H]
 %    \begin{center}
 %        		\includegraphics[width=\linewidth]{ResultsFigures/MaxEffConc/MaximumEffConcFreeHalf.eps}
-%        \caption{Maximum effective concentration of half-gaussian fit to local concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue). \label{fig: MaxEffConc}}
+%        \caption{Maximum effective concentration of half-gaussian fit to effective concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue). \label{fig: MaxEffConc}}
 %    \end{center}
 %\end{figure}
 %
@@ -239,7 +239,7 @@ It is less clear what effect a surface will have on maximum concentration.
 %\begin{figure}[H]
 %    \begin{center}
 %        		\includegraphics[width=\linewidth]{ResultsFigures/ReachSurfaceFactor/ReachParameterFreeHalfAxisEqual.eps}
-%        \caption{Reach parameter of half-gaussian fit to local concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue) with 95\% confidence intervals for the fit. \label{fig: ReachParameter}}
+%        \caption{Reach parameter of half-gaussian fit to effective concentration data plotted as a function of tether length, $N$ for various ligand radii in free-space (red) and half-space (blue) with 95\% confidence intervals for the fit. \label{fig: ReachParameter}}
 %    \end{center}
 %\end{figure}
 %
