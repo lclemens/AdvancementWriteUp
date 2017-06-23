@@ -35,24 +35,63 @@
 \newcommand{\citel}[1]{\citep{#1}}
 \newcommand{\citelt}[1]{\citet{#1}}
 
+\newcommand{\thesistitle}[1]{\newcommand\Thesistitle{#1}}
+\newcommand{\degreename}[1]{\newcommand\Degreename{#1}}
+\newcommand{\degreefield}[1]{\newcommand\Degreefield{#1}}
+\newcommand{\authorname}[1]{\newcommand\Authorname{#1}}
+\newcommand{\degreeyear}[1]{\newcommand\Degreeyear{#1}}
+\newcommand{\committeechair}[1]{\newcommand\Committeechair{#1}}
+\newcommand{\othercommitteemembers}[1]{\newcommand\Othercommitteemembers{#1}}
+\newcommand{\thesistitlepage}
+{
+	\vspace*{0.5in}
+	\thispagestyle{empty}
+	%\singlespacing
+	\begin{center}
+		UNIVERSITY OF CALIFORNIA, \\
+		IRVINE \\
+		\vspace{0.4in}
+		\Thesistitle \\
+		\vspace{0.4in}
+		\MakeUppercase\Degreename \\
+		\vspace{0.15in}
+		in \Degreefield \\
+		\vspace{0.4in}
+		by \\
+		\vspace{0.4in}
+		\Authorname \\
+	\end{center}
+	\vspace{3in}
+	\begin{flushright}
+		Dissertation Committee: \\
+		\Committeechair, Chair \\
+		\Othercommitteemembers \\
+	\end{flushright}
+	\vfill
+	\clearpage
+}
+
+
+
 \def\Tevac{T_{1/2}^{\mbox{\,\scriptsize evac}}}
 \def\Treturn{T_{1/2}^{\mbox{\,\scriptsize return}}}
 \def\toffbar{\bar{t}_{\mbox{\scriptsize off}}}
 \def\toff{{t}_{\mbox{\scriptsize off}}}
 \def\Peclet{P\'{e}clet}
-
+\input{preliminaries}
 
 \usepackage{hyperref}
 
 
 \begin{document}
 
-\title{Signaling Behaviors of Intrinsically Disordered Proteins}
-\author{Lara Clemens}
-\date{}
+% \title{Signaling Behaviors of Intrinsically Disordered Proteins}
+% \author{Lara Clemens}
+% \date{}
 
-\maketitle
+% \maketitle
 
+\thesistitlepage
 \newpage
 
 \tableofcontents
