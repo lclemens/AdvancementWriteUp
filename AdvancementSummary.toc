@@ -35,13 +35,11 @@
 \contentsline {subsection}{\numberline {6.4}Discussion}{34}{subsection.6.4}
 \contentsline {section}{\numberline {7}Role of the surface on tether-tether reactions within a signaling cluster}{34}{section.7}
 \contentsline {subsection}{\numberline {7.1}Introduction}{34}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Tethering}{34}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}SHP-1}{35}{subsubsection.7.1.2}
 \contentsline {subsection}{\numberline {7.2}Model and Methods}{35}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Results}{38}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Accessibility of a reaction site is reduced by the presence of a surface}{38}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Future Work: Impact of membrane on reactions between tethered reactants}{38}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{40}{subsubsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.2}Future Work: Impact of membrane on reactions between tethered reactants}{39}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3}Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{41}{subsubsection.7.3.3}
 \contentsline {subsubsection}{\numberline {7.3.4}Future Work: Catalysis surface factor $\kappa ^{(teth2teth)}_{cat}$ versus $l_C$ and/or versus $r_{ligand}$}{43}{subsubsection.7.3.4}
 \contentsline {section}{\numberline {8}Timeline}{44}{section.8}
 \contentsline {section}{References}{45}{table.caption.37}
