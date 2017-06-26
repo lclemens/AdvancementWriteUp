@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2017 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2017 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1212,6 +1212,8 @@ N100N150-eps-converted-to.pdf>
 Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/General/Analyt
 ic/BindingVSAnalyticN100N150-eps-converted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 328.82707pt x 242.17796pt.
+ [15 <./Results/LocalStructuring/ResultsFigures/General/Analytic/BindingVSAnaly
+ticN100N150-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/CD
 3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 (epstopdf)                    date: 2017-05-23 11:41:26
@@ -1229,7 +1231,7 @@ raneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVST
-otalPhosColorMapLabeled-eps-converted-to.pdf, id=495, 673.51625pt x 522.95375pt
+otalPhosColorMapLabeled-eps-converted-to.pdf, id=510, 673.51625pt x 522.95375pt
 >
 File: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBi
 ndVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pdf)
@@ -1240,10 +1242,8 @@ Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffen
 ingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on in
 put line 140.
 (pdftex.def)             Requested size: 375.80544pt x 291.79878pt.
- [15 <./Results/LocalStructuring/ResultsFigures/General/Analytic/BindingVSAnaly
-ticN100N150-eps-converted-to.pdf>] [16 <./Results/LocalStructuring/ResultsFigur
-es/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-
-to.pdf>]
+ [16 <./Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Avg
+BindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/St
 iffeningSequentialBinding/MemOn/ProbVSSequence.eps>
 (epstopdf)                    date: 2017-06-21 22:31:48
@@ -1260,7 +1260,7 @@ ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOn/Prob
-VSSequence-eps-converted-to.pdf, id=527, 1061.9675pt x 900.36375pt>
+VSSequence-eps-converted-to.pdf, id=526, 1061.9675pt x 900.36375pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOn
 /ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1286,7 +1286,7 @@ f/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOff/Pro
-bVSSequence-eps-converted-to.pdf, id=528, 1077.02374pt x 900.36375pt>
+bVSSequence-eps-converted-to.pdf, id=527, 1077.02374pt x 900.36375pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/MemOf
 f/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1312,7 +1312,7 @@ enSites/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/
-ProbVSSequence-eps-converted-to.pdf, id=529, 1061.9675pt x 901.3675pt>
+ProbVSSequence-eps-converted-to.pdf, id=528, 1061.9675pt x 901.3675pt>
 File: Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenS
 ites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1339,7 +1339,7 @@ ningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphor
-ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=531, 682.55pt x 516.93
+ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=530, 682.55pt x 516.93
 124pt>
 File: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Depho
 sphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf Graphic file (type pd
@@ -1460,7 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--171
  []
 
 
-<Results/Electrostatics/ElectrostaticsDiagram.pdf, id=615, 560.0925pt x 209.783
+<Results/Electrostatics/ElectrostaticsDiagram.pdf, id=614, 560.0925pt x 209.783
 75pt>
 File: Results/Electrostatics/ElectrostaticsDiagram.pdf Graphic file (type pdf)
  <use Results/Electrostatics/ElectrostaticsDiagram.pdf>
@@ -1484,7 +1484,7 @@ ributioniSite7.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Distribu
-tioniSite7-eps-converted-to.pdf, id=662, 1372.12625pt x 1083.04625pt>
+tioniSite7-eps-converted-to.pdf, id=661, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Dis
 tributioniSite7-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1512,7 +1512,7 @@ PiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphor
-ylation/iSiteDistribution123456-eps-converted-to.pdf, id=671, 1708.3825pt x 126
+ylation/iSiteDistribution123456-eps-converted-to.pdf, id=670, 1708.3825pt x 126
 9.74374pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Pho
 sphorylation/iSiteDistribution123456-eps-converted-to.pdf Graphic file (type pd
@@ -1543,7 +1543,7 @@ PiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphor
-ylation/iSiteDistribution135624-eps-converted-to.pdf, id=686, 1708.3825pt x 126
+ylation/iSiteDistribution135624-eps-converted-to.pdf, id=685, 1708.3825pt x 126
 9.74374pt>
 File: Results/Electrostatics/ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Pho
 sphorylation/iSiteDistribution135624-eps-converted-to.pdf Graphic file (type pd
@@ -1572,7 +1572,7 @@ ics/ResultsFigures/Electro/DistributioniSite2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-converted
--to.pdf, id=700, 1372.12625pt x 1083.04625pt>
+-to.pdf, id=699, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/Electro/DistributioniSite2-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -1598,7 +1598,7 @@ ics/ResultsFigures/Electro/DistributioniSite7.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/Electrostatics/ResultsFigures/Electro/DistributioniSite7-eps-converted
--to.pdf, id=713, 1372.12625pt x 1083.04625pt>
+-to.pdf, id=712, 1372.12625pt x 1083.04625pt>
 File: Results/Electrostatics/ResultsFigures/Electro/DistributioniSite7-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -1627,7 +1627,7 @@ ram/SimultaneousBindingDiagram.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Simultan
-eousBindingDiagram-eps-converted-to.pdf, id=758, 1053.9375pt x 299.1175pt>
+eousBindingDiagram-eps-converted-to.pdf, id=757, 1053.9375pt x 299.1175pt>
 File: Results/SimultaneousBinding/ResultsFigures/SimultaneousBindingDiagram/Sim
 ultaneousBindingDiagram-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1654,7 +1654,7 @@ tipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/Av
-gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=760, 664.4825pt x 515.
+gBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf, id=759, 664.4825pt x 515.
 9275pt>
 File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
 On/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Graphic file (type pd
@@ -1685,7 +1685,7 @@ leBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ib
-Equal/AvgBindVSTotalModified-eps-converted-to.pdf, id=774, 648.4225pt x 515.927
+Equal/AvgBindVSTotalModified-eps-converted-to.pdf, id=773, 648.4225pt x 515.927
 5pt>
 File: Results/SimultaneousBinding/ResultsFigures/CD3ZetaMultipleBindingMembrane
 On/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Graphic file (type pdf)
@@ -1724,7 +1724,7 @@ n/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOn/Pro
-bVSSequence-eps-converted-to.pdf, id=799, 1011.78pt x 900.36375pt>
+bVSSequence-eps-converted-to.pdf, id=798, 1011.78pt x 900.36375pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
 n/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1750,7 +1750,7 @@ Off/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemOff/Pr
-obVSSequence-eps-converted-to.pdf, id=800, 1011.78pt x 901.3675pt>
+obVSSequence-eps-converted-to.pdf, id=799, 1011.78pt x 901.3675pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/MemO
 ff/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1781,7 +1781,7 @@ EvenSites/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/EvenSites
-/ProbVSSequence-eps-converted-to.pdf, id=801, 1011.78pt x 901.3675pt>
+/ProbVSSequence-eps-converted-to.pdf, id=800, 1011.78pt x 901.3675pt>
 File: Results/SimultaneousBinding/ResultsFigures/MultipleSequentialBinding/Even
 Sites/ProbVSSequence-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1816,7 +1816,7 @@ ultsFigures/SHP1PyMol/Diagonal1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted-to.pdf
-, id=856, 702.625pt x 546.04pt>
+, id=855, 702.625pt x 546.04pt>
 File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1841,7 +1841,7 @@ cts/ResultsFigures/SHP1PyMol/LengthWidthDepth.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-eps-converted
--to.pdf, id=863, 441.65pt x 667.49374pt>
+-to.pdf, id=862, 441.65pt x 667.49374pt>
 File: Results/SurfaceEffects/ResultsFigures/SHP1PyMol/LengthWidthDepth-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -1852,7 +1852,7 @@ WidthDepth-eps-converted-to.pdf used on input line 76.
 (pdftex.def)             Requested size: 187.89914pt x 283.98155pt.
  [36 <./Results/SurfaceEffects/ResultsFigures/SHP1PyMol/Diagonal1-eps-converted
 -to.pdf>]
-<Results/SurfaceEffects/Diagram.png, id=879, 433.62pt x 219.219pt>
+<Results/SurfaceEffects/Diagram.png, id=877, 433.62pt x 219.219pt>
 File: Results/SurfaceEffects/Diagram.png Graphic file (type png)
 
 <use Results/SurfaceEffects/Diagram.png>
@@ -1877,7 +1877,7 @@ mbraneCausedOcclusionVSNVSirLigand.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/MembraneCausedOcclusion/MembraneCausedOc
-clusionVSNVSirLigand-eps-converted-to.pdf, id=896, 514.92375pt x 407.5225pt>
+clusionVSNVSirLigand-eps-converted-to.pdf, id=895, 514.92375pt x 407.5225pt>
 File: Results/SurfaceEffects/ResultsFigures/MembraneCausedOcclusion/MembraneCau
 sedOcclusionVSNVSirLigand-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1903,7 +1903,7 @@ aceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-eps-co
-nverted-to.pdf, id=904, 1558.82375pt x 528.97626pt>
+nverted-to.pdf, id=903, 1558.82375pt x 528.97626pt>
 File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/OcclusionVSN-e
 ps-converted-to.pdf Graphic file (type pdf)
 
@@ -1927,7 +1927,7 @@ eEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps-conv
-erted-to.pdf, id=905, 1558.82375pt x 528.97626pt>
+erted-to.pdf, id=904, 1558.82375pt x 528.97626pt>
 File: Results/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -1957,7 +1957,7 @@ nel/ConcentrationVSSeparationCartoon.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concentrati
-onVSSeparationCartoon-eps-converted-to.pdf, id=911, 905.3825pt x 375.4025pt>
+onVSSeparationCartoon-eps-converted-to.pdf, id=910, 905.3825pt x 375.4025pt>
 File: Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel/Concen
 trationVSSeparationCartoon-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1974,7 +1974,7 @@ ults/SurfaceEffects/ResultsFigures/BindingSurfaceFactor/BindingVSN-eps-converte
 d-to.pdf> <./Results/SurfaceEffects/ResultsFigures/EffectiveConcentrationKernel
 /ConcentrationVSSeparationCartoon-eps-converted-to.pdf>]
 <Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD1_ITSM_
-CM5_vs_C1.pdf, id=968, 409.53pt x 733.74126pt>
+CM5_vs_C1.pdf, id=967, 409.53pt x 733.74126pt>
 File: Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD1_
 ITSM_CM5_vs_C1.pdf Graphic file (type pdf)
 
@@ -1985,7 +1985,7 @@ Plots/hSHP1_on_PD1_ITSM_CM5_vs_C1.pdf used on input line 276.
 (pdftex.def)             Requested size: 204.7645pt x 366.86974pt.
 
 <Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG3_CM5_
-vs_C1.pdf, id=969, 408.52625pt x 749.80125pt>
+vs_C1.pdf, id=968, 408.52625pt x 749.80125pt>
 File: Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG3
 _CM5_vs_C1.pdf Graphic file (type pdf)
 
@@ -1997,7 +1997,7 @@ Plots/mSHP1_on_PEG3_CM5_vs_C1.pdf used on input line 283.
  [41 <./Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD
 1_ITSM_CM5_vs_C1.pdf>]
 <Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG28_CM5
-_vs_C1.pdf, id=995, 407.5225pt x 755.82375pt>
+_vs_C1.pdf, id=994, 407.5225pt x 755.82375pt>
 File: Results/SurfaceEffects/ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG2
 8_CM5_vs_C1.pdf Graphic file (type pdf)
 
@@ -2097,10 +2097,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 20655 strings out of 493014
- 391219 string characters out of 6133351
- 461046 words of memory out of 5000000
- 23531 multiletter control sequences out of 15000+600000
+ 20653 strings out of 493014
+ 391184 string characters out of 6133351
+ 461118 words of memory out of 5000000
+ 23530 multiletter control sequences out of 15000+600000
  7026 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,94p,1354b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2121,10 +2121,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on AdvancementSummary.pdf (48 pages, 3800985 bytes).
+Output written on AdvancementSummary.pdf (48 pages, 3801025 bytes).
 PDF statistics:
- 1205 PDF objects out of 1440 (max. 8388607)
- 975 compressed objects within 10 object streams
- 201 named destinations out of 1000 (max. 500000)
+ 1204 PDF objects out of 1440 (max. 8388607)
+ 974 compressed objects within 10 object streams
+ 200 named destinations out of 1000 (max. 500000)
  568 words of extra memory for PDF output out of 10000 (max. 10000000)
 

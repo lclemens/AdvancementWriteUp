@@ -111,10 +111,10 @@ For an approximation, we consider the solution when $N\rightarrow \infty$.
 
  We assume $\epsilon = 1$ Kuhn length and R measured in Kuhn lengths:
 
- \begin{equation}\label{eq: analyticSolution}
-q(r) = 1-\frac{R}{r}\\
-q(r) = 1-\frac{R}{R+1} \\
- \end{equation}
+ \begin{align*}\label{eq: analyticSolution}
+q(r) &= 1-\frac{R}{r}\\
+q(r) &= 1-\frac{R}{R+1} \\
+ \end{align*}
  
  We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
 
@@ -122,7 +122,7 @@ q(r) = 1-\frac{R}{R+1} \\
  \begin{center}
  \includegraphics[width=0.7\linewidth]{ResultsFigures/General/Analytic/BindingVSAnalyticN100N150.eps}
  \end{center}
-  \caption{Analytic Solution \label{fig: AnalyticBinding}}
+  \caption{Analytic solution (black, solid) compared to occlusion for free-space polymer of 100 Kuhn lengths (blue) and 150 Kuhn lengths (red) for ligands of radius, $R$ Kuhn lengths. \label{fig: AnalyticBinding}}
  \end{figure}
 
 
