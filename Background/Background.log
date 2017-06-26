@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUN 2017 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2017 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,6 +900,10 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 
 
+Package natbib Warning: Citation `Jensen1998' on page 1 undefined on input line
+ 48.
+
+
 Package natbib Warning: Citation `Dunker2008' on page 1 undefined on input line
  50.
 
@@ -914,6 +918,10 @@ ne 54.
 
 Package natbib Warning: Citation `Duchardt2007' on page 1 undefined on input li
 ne 54.
+
+
+Package natbib Warning: Citation `Keir2008' on page 1 undefined on input line 5
+4.
 
 
 Package natbib Warning: Citation `Kovar2004' on page 1 undefined on input line 
@@ -940,10 +948,10 @@ Package natbib Warning: Citation `Mukhopadhyay2016' on page 1 undefined on inpu
 t line 60.
 
 Package epstopdf Info: Source file: <Figures/TCRDiagram.eps>
-(epstopdf)                    date: 2017-05-23 12:51:27
+(epstopdf)                    date: 2017-05-23 14:07:51
 (epstopdf)                    size: 1219120 bytes
 (epstopdf)             Output file: <Figures/TCRDiagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-23 12:51:42
+(epstopdf)                    date: 2017-05-23 14:07:51
 (epstopdf)                    size: 359540 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/TCRDiagram-eps-con
 verted-to.pdf Figures/TCRDiagram.eps>
@@ -1009,10 +1017,10 @@ Package rerunfilecheck Info: File `Background.out' has not changed.
 (rerunfilecheck)             Checksum: A02D95553E30B97FF125B1AA17CF9044;47.
  ) 
 Here is how much of TeX's memory you used:
- 19942 strings out of 493014
- 364596 string characters out of 6133351
- 439645 words of memory out of 5000000
- 23136 multiletter control sequences out of 15000+600000
+ 19959 strings out of 493014
+ 364807 string characters out of 6133351
+ 441173 words of memory out of 5000000
+ 23153 multiletter control sequences out of 15000+600000
  5320 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,6n,96p,1116b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1020,7 +1028,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Background.pdf (2 pages, 412082 bytes).
+Output written on Background.pdf (2 pages, 412013 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

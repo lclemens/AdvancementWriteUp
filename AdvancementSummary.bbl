@@ -1,9 +1,14 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Jensen et~al.(1998)Jensen, Fago, and Weber]{Jensen1998}
+Frank~B Jensen, Angela Fago, and Roy~E Weber.
+\newblock {Hemoglobin Structure and Function}.
+\newblock In \emph{Fish Physiology}, volume~17. Acad . Press, 1998.
 
 \bibitem[Dunker et~al.(2008)Dunker, Oldfield, Meng, Romero, Yang, Chen, Vacic,
   Obradovic, and Uversky]{Dunker2008}
@@ -24,6 +29,16 @@ P~Tompa and K-H Han.
 \newblock ISSN 0968-0004.
 \newblock \doi{10.1016/j.tibs.2012.08.004}.
 
+\bibitem[Gonfloni et~al.(1997)Gonfloni, Williams, Hattula, Weijland, Wierenga,
+  and Superti-Furga]{Gonfloni1997}
+Stefania Gonfloni, John~C. Williams, Katarina Hattula, Albert Weijland, Rik~K.
+  Wierenga, and Giulio Superti-Furga.
+\newblock {The role of the linker between the SH2 domain and catalytic domain
+  in the regulation and function of Src}.
+\newblock \emph{EMBO Journal}, 16\penalty0 (24):\penalty0 7261--7271, 1997.
+\newblock ISSN 02614189.
+\newblock \doi{10.1093/emboj/16.24.7261}.
+
 \bibitem[Duchardt et~al.(2007)Duchardt, Sigalov, Aivazian, Stern, and
   Schwalbe]{Duchardt2007}
 Elke Duchardt, Alexander~B. Sigalov, Dikran Aivazian, Lawrence~J. Stern, and
@@ -33,6 +48,16 @@ Elke Duchardt, Alexander~B. Sigalov, Dikran Aivazian, Lawrence~J. Stern, and
 \newblock \emph{ChemBioChem}, 8\penalty0 (7):\penalty0 820--827, 2007.
 \newblock ISSN 14394227.
 \newblock \doi{10.1002/cbic.200600413}.
+
+\bibitem[Keir et~al.(2008)Keir, Butte, Freeman, and Sharpe]{Keir2008}
+Mary~E. Keir, Manish~J. Butte, Gordon~J. Freeman, and Arlene~H. Sharpe.
+\newblock {PD-1 and Its Ligands in Tolerance and Immunity}.
+\newblock \emph{Annual Review of Immunology}, 26\penalty0 (1):\penalty0
+  677--704, 2008.
+\newblock ISSN 0732-0582.
+\newblock \doi{10.1146/annurev.immunol.26.021607.090331}.
+\newblock URL
+  \url{http://www.annualreviews.org/doi/10.1146/annurev.immunol.26.021607.090331}.
 
 \bibitem[Kovar and Pollard(2004)]{Kovar2004}
 David~R Kovar and Thomas~D Pollard.
@@ -53,6 +78,32 @@ St{\'{e}}phane Romero, Christophe {Le Clainche}, Dominique Didry, Coumaran
 \newblock \emph{Cell}, 119\penalty0 (3):\penalty0 419--429, 2004.
 \newblock ISSN 00928674.
 \newblock \doi{10.1016/j.cell.2004.09.039}.
+
+\bibitem[Smith-Garvin et~al.(2009)Smith-Garvin, Koretzky, and
+  Jordan]{Smith-Garvin2009}
+Jennifer~E. Smith-Garvin, Gary~A. Koretzky, and Martha~S. Jordan.
+\newblock {T Cell Activation}.
+\newblock \emph{Annual Review of Immunology}, 27\penalty0 (1):\penalty0
+  591--619, 2009.
+\newblock ISSN 0732-0582.
+\newblock \doi{10.1146/annurev.immunol.021908.132706}.
+\newblock URL
+  \url{http://www.annualreviews.org/doi/10.1146/annurev.immunol.021908.132706}.
+
+\bibitem[Lever et~al.(2017)Lever, Lim, Kruger, Nguyen, Trendel, Abu-shah,
+  Maini, Merwe, Lever, Lim, Kruger, Nguyen, Trendel, and Abu-shah]{Lever2016}
+Melissa Lever, Hong-sheng Lim, Philipp Kruger, John Nguyen, Nicola Trendel,
+  Enas Abu-shah, Philip~Kumar Maini, Philip Anton Van~Der Merwe, Melissa Lever,
+  Hong-sheng Lim, Philipp Kruger, John Nguyen, Nicola Trendel, and Enas
+  Abu-shah.
+\newblock {Correction for Lever et al., Architecture of a minimal signaling
+  pathway explains the T-cell response to a 1 million-fold variation in antigen
+  affinity and dose}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
+  (2):\penalty0 E267--E267, 2017.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.1620047114}.
+\newblock URL \url{http://www.pnas.org/lookup/doi/10.1073/pnas.1620047114}.
 
 \bibitem[Mukhopadhyay et~al.(2016)Mukhopadhyay, {De Wet}, Clemens, Maini,
   Allard, {Van Der Merwe}, and Dushek]{Mukhopadhyay2016}
@@ -140,6 +191,17 @@ Yanan He, Yihong Chen, Steven~M. Mooney, Krithika Rajagopalan, Ajay Bhargava,
 \newblock ISSN 1083351X.
 \newblock \doi{10.1074/jbc.M115.658583}.
 
+\bibitem[Chin et~al.(2016)Chin, Toptygin, Elam, Schrank, and Hilser]{Chin2016}
+Alexander~F. Chin, Dmitri Toptygin, W.~Austin Elam, Travis~P. Schrank, and
+  Vincent~J. Hilser.
+\newblock {Phosphorylation Increases Persistence Length and End-to-End Distance
+  of a Segment of Tau Protein}.
+\newblock \emph{Biophysical Journal}, 110\penalty0 (2):\penalty0 362--371,
+  2016.
+\newblock ISSN 15420086.
+\newblock \doi{10.1016/j.bpj.2015.12.013}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2015.12.013}.
+
 \bibitem[Bah et~al.(2015)Bah, Vernon, Siddiqui, Krzeminski, Muhandiram, Zhao,
   Sonenberg, Kay, and Forman-Kay]{Bah2015}
 Alaji Bah, Robert~M Vernon, Zeba Siddiqui, Micka{\"{e}}l Krzeminski, Ranjith
@@ -152,6 +214,45 @@ Alaji Bah, Robert~M Vernon, Zeba Siddiqui, Micka{\"{e}}l Krzeminski, Ranjith
 \newblock \doi{10.1038/nature13999}.
 \newblock URL
   \url{http://dx.doi.org/10.1038/nature13999{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842604{\&}tool=pmcentrez{\&}rendertype=abstract{\%}5Cnhttp://www.nature.com/doifinder/10.1038/nature13999{\%}5Cnhttp://www.ncbi.nlm.nih.gov/pubmed/20298971{\%}5Cnhttp://w}.
+
+\bibitem[Levantino et~al.(2012)Levantino, Spilotros, Cammarata, Schir{\`{o}},
+  Ardiccioni, Vallone, Brunori, and Cupane]{Levantino2012}
+Matteo Levantino, Alessandro Spilotros, Marco Cammarata, Giorgio Schir{\`{o}},
+  Chiara Ardiccioni, Beatrice Vallone, Maurizio Brunori, and Antonio Cupane.
+\newblock {The Monod-Wyman-Changeux allosteric model accounts for the
+  quaternary transition dynamics in wild type and a recombinant mutant human
+  hemoglobin.}
+\newblock \emph{Proceedings of the National Academy of Sciences}, 109\penalty0
+  (37):\penalty0 14894--14899, 2012.
+\newblock ISSN 1091-6490.
+\newblock \doi{10.1073/pnas.1205809109}.
+\newblock URL
+  \url{http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed{\&}id=22927385{\&}retmode=ref{\&}cmd=prlinks{\%}5Cnpapers3://publication/doi/10.1073/pnas.1205809109}.
+
+\bibitem[Monod et~al.(1965)Monod, Wyman, and Changeux]{Monod1965}
+Jacque Monod, Jeffries Wyman, and Jean~Pierre Changeux.
+\newblock {On the nature of allosteric transitions: A plausible model}.
+\newblock \emph{Journal of Molecular Biology}, 12\penalty0 (1):\penalty0
+  88--118, 1965.
+\newblock ISSN 00222836.
+\newblock \doi{10.1016/S0022-2836(65)80285-6}.
+\newblock URL \url{http://dx.doi.org/10.1016/S0022-2836(65)80285-6}.
+
+\bibitem[Jakub{\'{i}}k et~al.(1997)Jakub{\'{i}}k, Bac{\'{a}}kov{\'{a}},
+  El-Fakahany, and Tucek]{Jakubik1997}
+J~Jakub{\'{i}}k, L~Bac{\'{a}}kov{\'{a}}, E~E El-Fakahany, and S~Tucek.
+\newblock {Positive cooperativity of acetylcholine and other agonists with
+  allosteric ligands on muscarinic acetylcholine receptors.}
+\newblock \emph{Molecular pharmacology}, 52\penalty0 (1):\penalty0 172--179,
+  1997.
+\newblock ISSN 0026-895X.
+\newblock \doi{10.1124/mol.52.1.172}.
+
+\bibitem[{Koshland, D.E. Nemethy, G., Filmer}(1966)]{Koshland1966}
+D~{Koshland, D.E. Nemethy, G., Filmer}.
+\newblock {Comparison of Experimental Binding Data and Theoretical Models in
+  Proteins Containing Subunits}.
+\newblock \emph{Biochemistry}, 5\penalty0 (1), 1966.
 
 \bibitem[Xu et~al.(2008)Xu, Gagnon, Call, Schnell, Charles, Carman, Chou, and
   Wucherpfennig]{Xu2008}
@@ -323,6 +424,19 @@ Thomas D.~Pollard {Dimitrios Vavylonis, David R. Kovar, Ben O'Shaughnessy}.
 \newblock ISSN 15378276.
 \newblock \doi{10.1038/jid.2014.371}.
 
+\bibitem[Yokosuka et~al.(2012)Yokosuka, Takamatsu, Kobayashi-Imanishi,
+  Hashimoto-Tane, Azuma, and Saito]{Yokosuka2012}
+Tadashi Yokosuka, Masako Takamatsu, Wakana Kobayashi-Imanishi, Akiko
+  Hashimoto-Tane, Miyuki Azuma, and Takashi Saito.
+\newblock {Programmed cell death 1 forms negative costimulatory microclusters
+  that directly inhibit T cell receptor signaling by recruiting phosphatase
+  SHP2}.
+\newblock \emph{The Journal of Experimental Medicine}, 209\penalty0
+  (6):\penalty0 1201--1217, 2012.
+\newblock ISSN 0022-1007.
+\newblock \doi{10.1084/jem.20112741}.
+\newblock URL \url{http://www.jem.org/lookup/doi/10.1084/jem.20112741}.
+
 \bibitem[Goyette et~al.(2017)Goyette, Salas, Coker-gordon, Bridge, Isaacson,
   Allard, and Dushek]{Goyette2017}
 Jesse Goyette, Citlali~Solis Salas, Nicola Coker-gordon, Marcus Bridge,
@@ -330,5 +444,14 @@ Jesse Goyette, Citlali~Solis Salas, Nicola Coker-gordon, Marcus Bridge,
 \newblock {Biophysical assay for tethered signaling reactions reveals
   tether-controlled activity for the phosphatase SHP-1}.
 \newblock \emph{Submitted (Attached)}, pages 1--23, 2017.
+
+\bibitem[Blank and Mackensen(2007)]{Blank2007}
+Christian Blank and Andreas Mackensen.
+\newblock {Contribution of the PD-L1/PD-1 pathway to T-cell exhaustion: An
+  update on implications for chronic infections and tumor evasion}.
+\newblock \emph{Cancer Immunology, Immunotherapy}, 56\penalty0 (5):\penalty0
+  739--745, 2007.
+\newblock ISSN 03407004.
+\newblock \doi{10.1007/s00262-006-0272-1}.
 
 \end{thebibliography}
