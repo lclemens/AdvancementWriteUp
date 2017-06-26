@@ -7,7 +7,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Electrostatics}
+\section{Impact of electrostatic membrane association of disordered signaling proteins on accessibility of binding sites}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Introduction}
@@ -37,7 +37,7 @@ TCR triggering creates a calcium influx. Calcium then interferes with the intera
 
 Close association with the membrane inhibits ligands from binding to their target site. CD3$\zeta$ tyrosines are sequestered in the membrane, preventing phosphorylation by Lck \cite{Aivazian2000, Shi2013}. Although the tyrosines will spend much of their time sequestered in the membrane, they will still transiently enter the cytoplasm. When this occurs, Lck would be able to phosphorylate the tyrosine, creating a large negative charge on the chain. This phosphotyrosine could repel the negative polar heads of the membrane, making it more favorable for that section of the polymer to pull out of the membrane. We hypothesize that entropic fluctuations of the tyrosines in and out of the membrane are sufficient to lead to an initial phosphorylation event. We also hypothesis that following this initial event, there would be a cooperative enhancement of the accessibility of neighboring tyrosines.
 
-Here we simulate electrostatic potentials acting on the disordered chain. We first fit parameters of the potentials to match the characteristics seen experimentally, e.g. phosphorylation removes association with the membrane. We will next investigate the accessibility of each tyrosine and how this is impacted by phosphorylation of neighboring tyrosines. From this, we will determine if cooperativity or sequential binding can arise from phosphorylation under these circumstances.
+Here we simulate electrostatic potentials acting on the disordered chain. We first fit parameters of the potentials to match the characteristics seen experimentally, such as phosphorylation removing association with the membrane. We will next investigate the accessibility of each tyrosine and how this is impacted by phosphorylation of neighboring tyrosines. From this, we will determine if cooperativity or sequential binding can arise from phosphorylation under these circumstances.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -299,7 +299,7 @@ Second, with our parameter sets, we will now explore the effect of phosphorylati
 
 Additionally, we will use this data to explore if there is a natural preferred binding sequence that arises. One would imagine that once a single tyrosine is phosphorylated then its nearest neighbor would be the most likely next target. However it is unclear if there is a first tyrosine that will be most likely to be phosphorylated and whether this will depend dominantly on basic residue distribution or on proximity to the transmembrane region. 
 
-\subsubsection{Future Work: TCR clustering as cause of initial signal}
+\subsubsection{Future Work: TCR clustering as potential cause of initial signal}
 Independently or in conjunction with the above hypothesis, we formulate a second hypothesis to account for the initial dissociation from the membrane. When TCR triggering occurs, TCRs cluster \cite{Monks1998, Bunnell2002}. We hypothesize that a first chain will fall out of the membrane due to steric occlusion created by TCR clustering. With all six disordered subunits associated with the membrane, when the TCRs cluster, the subunits may become too crowded on the membrane and induce one or more to dissociate and become accessible to phosphorylation. We will explore how clustering of TCRs influences the association of the disordered subunits to the membrane. By modeling multiple disordered chains, we will estimate how many TCRs are needed and how tightly clustered they must be for a first chain to dissociate from the membrane and create the initial triggering event.
 
 % potentially add image of mathematica plot to illustrate point

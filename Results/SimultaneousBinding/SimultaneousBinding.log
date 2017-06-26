@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 JUN 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -786,7 +786,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )))
-No file SimultaneousBinding.aux.
+(./SimultaneousBinding.aux)
 \openout1 = `SimultaneousBinding.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -803,6 +803,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -893,6 +894,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
+
+(./SimultaneousBinding.out) (./SimultaneousBinding.out)
 \@outlinefile=\write4
 \openout4 = `SimultaneousBinding.out'.
 
@@ -938,7 +941,7 @@ SimultaneousBindingDiagram/SimultaneousBindingDiagram.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-conve
-rted-to.pdf, id=7, 1053.9375pt x 299.1175pt>
+rted-to.pdf, id=39, 1053.9375pt x 299.1175pt>
 File: ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps-
 converted-to.pdf Graphic file (type pdf)
 
@@ -950,18 +953,14 @@ BindingDiagram-eps-converted-to.pdf used on input line 33.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `fig: SimBindMemOnSH2' on page 2 undefined on input li
-ne 47.
-
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled.eps>
-(epstopdf)                    date: 2017-05-03 19:17:59
-(epstopdf)                    size: 96510 bytes
+(epstopdf)                    date: 2017-06-23 16:34:25
+(epstopdf)                    size: 104267 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-03 19:20:09
-(epstopdf)                    size: 30962 bytes
+(epstopdf)                    date: 2017-06-23 16:50:02
+(epstopdf)                    size: 31791 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled-eps-converted-to.pdf Re
 sultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled
@@ -970,7 +969,7 @@ sultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabeled
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMapLabe
-led-eps-converted-to.pdf, id=20, 664.4825pt x 514.92375pt>
+led-eps-converted-to.pdf, id=50, 664.4825pt x 515.9275pt>
 File: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorMa
 pLabeled-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -978,21 +977,17 @@ pLabeled-eps-converted-to.pdf Graphic file (type pdf)
 Labeled-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBin
 dVSTotalPhosColorMapLabeled-eps-converted-to.pdf used on input line 52.
-(pdftex.def)             Requested size: 469.75502pt x 364.027pt.
+(pdftex.def)             Requested size: 469.75502pt x 364.7366pt.
  [2 <./ResultsFigures/SimultaneousBindingDiagram/SimultaneousBindingDiagram-eps
 -converted-to.pdf>]
-
-LaTeX Warning: Reference `fig: SimBindMemOnibEqual' on page 3 undefined on inpu
-t line 59.
-
 Package epstopdf Info: Source file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified.eps>
-(epstopdf)                    date: 2017-05-15 19:07:43
-(epstopdf)                    size: 90332 bytes
+(epstopdf)                    date: 2017-06-23 16:49:27
+(epstopdf)                    size: 91240 bytes
 (epstopdf)             Output file: <ResultsFigures/CD3ZetaMultipleBindingMembr
 aneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-15 19:08:04
-(epstopdf)                    size: 28992 bytes
+(epstopdf)                    date: 2017-06-23 16:50:02
+(epstopdf)                    size: 28969 bytes
 (epstopdf)             Command: <repstopdf --outfile=ResultsFigures/CD3ZetaMult
 ipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified-eps-converted-to.pdf Resul
 tsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
@@ -1000,7 +995,7 @@ tsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalModified
--eps-converted-to.pdf, id=34, 648.4225pt x 514.92375pt>
+-eps-converted-to.pdf, id=64, 648.4225pt x 515.9275pt>
 File: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqual/AvgBindVSTotalMod
 ified-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1008,7 +1003,7 @@ ified-eps-converted-to.pdf Graphic file (type pdf)
 fied-eps-converted-to.pdf>
 Package pdftex.def Info: ResultsFigures/CD3ZetaMultipleBindingMembraneOn/ibEqua
 l/AvgBindVSTotalModified-eps-converted-to.pdf used on input line 63.
-(pdftex.def)             Requested size: 469.75502pt x 373.04694pt.
+(pdftex.def)             Requested size: 469.75502pt x 373.77412pt.
  [3 <./ResultsFigures/CD3ZetaMultipleBindingMembraneOn/AvgBindVSTotalPhosColorM
 apLabeled-eps-converted-to.pdf>]
 
@@ -1036,7 +1031,7 @@ eSequentialBinding/MemOn/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-converted-to
-.pdf, id=61, 1011.78pt x 900.36375pt>
+.pdf, id=89, 1011.78pt x 900.36375pt>
 File: ResultsFigures/MultipleSequentialBinding/MemOn/ProbVSSequence-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -1060,7 +1055,7 @@ leSequentialBinding/MemOff/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-converted-t
-o.pdf, id=62, 1011.78pt x 901.3675pt>
+o.pdf, id=90, 1011.78pt x 901.3675pt>
 File: ResultsFigures/MultipleSequentialBinding/MemOff/ProbVSSequence-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -1089,7 +1084,7 @@ tipleSequentialBinding/EvenSites/ProbVSSequence.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <ResultsFigures/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-converte
-d-to.pdf, id=63, 1011.78pt x 901.3675pt>
+d-to.pdf, id=91, 1011.78pt x 901.3675pt>
 File: ResultsFigures/MultipleSequentialBinding/EvenSites/ProbVSSequence-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -1147,8 +1142,8 @@ Package rerunfilecheck Warning: File `SimultaneousBinding.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `SimultaneousBinding.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2CF4616E4657BC02FD4C3571BB6C87E7;690.
+(rerunfilecheck)             Before: 2CF4616E4657BC02FD4C3571BB6C87E7;690
+(rerunfilecheck)             After:  C47997223B62F9114143712CE970A588;773.
 
 LaTeX Warning: There were undefined references.
 
@@ -1157,10 +1152,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 19987 strings out of 493014
- 367482 string characters out of 6133351
- 439419 words of memory out of 5000000
- 23164 multiletter control sequences out of 15000+600000
+ 20017 strings out of 493014
+ 367955 string characters out of 6133351
+ 440901 words of memory out of 5000000
+ 23188 multiletter control sequences out of 15000+600000
  6224 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,96p,1293b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1170,10 +1165,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SimultaneousBinding.pdf (6 pages, 213009 bytes).
+Output written on SimultaneousBinding.pdf (6 pages, 215485 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,14 +9,14 @@
 \BOOKMARK [2][-]{subsection.4.3}{Results}{section.4}% 9
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Surface presence influences polymer configuration}{subsection.4.3}% 10
 \BOOKMARK [3][-]{subsubsection.4.3.2}{Disorder inhibits ligand binding}{subsection.4.3}% 11
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Occlusion Probability of End Site VS Analytical Result}{subsection.4.3}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Analytical solution of occlusion probability matches simulated result for binding site at polymer tip}{subsection.4.3}% 12
 \BOOKMARK [3][-]{subsubsection.4.3.4}{Cooperativity may arise from local structuring in intrinsically disordered proteins}{subsection.4.3}% 13
 \BOOKMARK [3][-]{subsubsection.4.3.5}{Sequential binding naturally arises from polymer characteristics}{subsection.4.3}% 14
 \BOOKMARK [3][-]{subsubsection.4.3.6}{Negative cooperativity may arise from local disordering of proteins}{subsection.4.3}% 15
 \BOOKMARK [3][-]{subsubsection.4.3.7}{Future Work: Quantifying cooperativity from reversible phosphorylation with Hill coefficients}{subsection.4.3}% 16
 \BOOKMARK [3][-]{subsubsection.4.3.8}{Future Work: Exploring sequence of binding from dephosphorylation and reversible phosphorylation}{subsection.4.3}% 17
 \BOOKMARK [2][-]{subsection.4.4}{Discussion}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{Electrostatics}{}% 19
+\BOOKMARK [1][-]{section.5}{Impact of electrostatic membrane association of disordered signaling proteins on accessibility of binding sites}{}% 19
 \BOOKMARK [2][-]{subsection.5.1}{Introduction}{section.5}% 20
 \BOOKMARK [2][-]{subsection.5.2}{Model and Methods}{section.5}% 21
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Electrostatic Potentials}{subsection.5.2}% 22
@@ -24,8 +24,8 @@
 \BOOKMARK [3][-]{subsubsection.5.3.1}{Model in which basic residues and tyrosines have similar energetics reveals puzzle in existing data}{subsection.5.3}% 24
 \BOOKMARK [3][-]{subsubsection.5.3.2}{Initial parameter exploration of more general energetic model yields fit to polymer distribution}{subsection.5.3}% 25
 \BOOKMARK [3][-]{subsubsection.5.3.3}{Future Work: Parameter exploration}{subsection.5.3}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work: TCR clustering as cause of initial signal}{subsection.5.3}% 27
-\BOOKMARK [1][-]{section.6}{Results: Simultaneous Binding}{}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Future Work: TCR clustering as potential cause of initial signal}{subsection.5.3}% 27
+\BOOKMARK [1][-]{section.6}{Simultaneous binding of ligands to disordered signaling proteins gives rise to negative cooperativity of binding}{}% 28
 \BOOKMARK [2][-]{subsection.6.1}{Introduction}{section.6}% 29
 \BOOKMARK [2][-]{subsection.6.2}{Model and Methods}{section.6}% 30
 \BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 31
@@ -40,6 +40,6 @@
 \BOOKMARK [3][-]{subsubsection.7.3.1}{Accessibility of a reaction site is reduced by the presence of a surface}{subsection.7.3}% 40
 \BOOKMARK [3][-]{subsubsection.7.3.2}{Future Work: Impact of membrane on reactions between tethered reactants}{subsection.7.3}% 41
 \BOOKMARK [3][-]{subsubsection.7.3.3}{Future Work: Experimental comparison of matrix-bound versus surface-bound tethered reactions}{subsection.7.3}% 42
-\BOOKMARK [3][-]{subsubsection.7.3.4}{Future Work: Catalysis surface factor \(teth2teth\)cat versus lC and/or versus rligand}{subsection.7.3}% 43
-\BOOKMARK [1][-]{section.8}{Timeline}{}% 44
-\BOOKMARK [1][-]{table.caption.37}{References}{}% 45
+\BOOKMARK [3][-]{subsubsection.7.3.4}{Future Work: Catalysis surface factor versus contour length and versus ligand radius}{subsection.7.3}% 43
+\BOOKMARK [1][-]{section.8}{Timeline of Completion}{}% 44
+\BOOKMARK [1][-]{table.caption.36}{References}{}% 45

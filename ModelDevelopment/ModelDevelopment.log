@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JUN 2017 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1028,10 +1028,10 @@ Package rerunfilecheck Info: File `ModelDevelopment.out' has not changed.
 (rerunfilecheck)             Checksum: DF6803C96673F587467918E8FE098120;203.
  ) 
 Here is how much of TeX's memory you used:
- 19986 strings out of 493014
- 365799 string characters out of 6133351
- 443962 words of memory out of 5000000
- 23153 multiletter control sequences out of 15000+600000
+ 20001 strings out of 493014
+ 365988 string characters out of 6133351
+ 444490 words of memory out of 5000000
+ 23168 multiletter control sequences out of 15000+600000
  6224 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,96p,903b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1049,7 +1049,7 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ModelDevelopment.pdf (5 pages, 544348 bytes).
+Output written on ModelDevelopment.pdf (5 pages, 544310 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams

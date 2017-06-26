@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JUN 2017 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -456,18 +456,18 @@ Package caption Info: End \AtBeginDocument code.
 Here is how much of TeX's memory you used:
  6451 strings out of 493014
  93188 string characters out of 6133351
- 174672 words of memory out of 5000000
+ 175672 words of memory out of 5000000
  9921 multiletter control sequences out of 15000+600000
  5618 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,5n,42p,1255b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,5n,42p,1248b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb>
-Output written on ExecutiveSummary.pdf (2 pages, 77582 bytes).
+Output written on ExecutiveSummary.pdf (2 pages, 78009 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,9 +6,14 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[Jensen et~al.(1998)Jensen, Fago, and Weber]{Jensen1998}
-Frank~B Jensen, Angela Fago, and Roy~E Weber.
+Frank~B. Jensen, Angela Fago, and Roy~E. Weber.
 \newblock {Hemoglobin Structure and Function}.
-\newblock In \emph{Fish Physiology}, volume~17. Acad . Press, 1998.
+\newblock \emph{Fish Physiology}, 17\penalty0 (March 2016):\penalty0 1--40,
+  1998.
+\newblock ISSN 0080585418.
+\newblock \doi{10.1016/S1546-5098(08)60257-5}.
+\newblock URL
+  \url{http://www.koofers.com/files/notes-3jevmaakgi/{\%}5Cnhttp://linkinghub.elsevier.com/retrieve/pii/S1546509808602575}.
 
 \bibitem[Dunker et~al.(2008)Dunker, Oldfield, Meng, Romero, Yang, Chen, Vacic,
   Obradovic, and Uversky]{Dunker2008}
@@ -90,17 +95,16 @@ Jennifer~E. Smith-Garvin, Gary~A. Koretzky, and Martha~S. Jordan.
 \newblock URL
   \url{http://www.annualreviews.org/doi/10.1146/annurev.immunol.021908.132706}.
 
-\bibitem[Lever et~al.(2017)Lever, Lim, Kruger, Nguyen, Trendel, Abu-shah,
+\bibitem[Lever et~al.(2016)Lever, Lim, Kruger, Nguyen, Trendel, Abu-shah,
   Maini, Merwe, Lever, Lim, Kruger, Nguyen, Trendel, and Abu-shah]{Lever2016}
 Melissa Lever, Hong-sheng Lim, Philipp Kruger, John Nguyen, Nicola Trendel,
   Enas Abu-shah, Philip~Kumar Maini, Philip Anton Van~Der Merwe, Melissa Lever,
   Hong-sheng Lim, Philipp Kruger, John Nguyen, Nicola Trendel, and Enas
   Abu-shah.
-\newblock {Correction for Lever et al., Architecture of a minimal signaling
-  pathway explains the T-cell response to a 1 million-fold variation in antigen
-  affinity and dose}.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
-  (2):\penalty0 E267--E267, 2017.
+\newblock {Architecture of a minimal signaling pathway explains the T-cell
+  response to a 1 million-fold variation in antigen affinity and dose}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 113\penalty0
+  (43):\penalty0 E6630--E6638, 2016.
 \newblock ISSN 0027-8424.
 \newblock \doi{10.1073/pnas.1620047114}.
 \newblock URL \url{http://www.pnas.org/lookup/doi/10.1073/pnas.1620047114}.
@@ -215,6 +219,12 @@ Alaji Bah, Robert~M Vernon, Zeba Siddiqui, Micka{\"{e}}l Krzeminski, Ranjith
 \newblock URL
   \url{http://dx.doi.org/10.1038/nature13999{\%}5Cnhttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2842604{\&}tool=pmcentrez{\&}rendertype=abstract{\%}5Cnhttp://www.nature.com/doifinder/10.1038/nature13999{\%}5Cnhttp://www.ncbi.nlm.nih.gov/pubmed/20298971{\%}5Cnhttp://w}.
 
+\bibitem[Gillespie(1977)]{Gillespie1977}
+Daniel~T Gillespie.
+\newblock {Exact stochastic simulation of coupled chemical reactions}.
+\newblock \emph{Journal of Physical Chemistry}, 81\penalty0 (25):\penalty0
+  2340--2361, 1977.
+
 \bibitem[Levantino et~al.(2012)Levantino, Spilotros, Cammarata, Schir{\`{o}},
   Ardiccioni, Vallone, Brunori, and Cupane]{Levantino2012}
 Matteo Levantino, Alessandro Spilotros, Marco Cammarata, Giorgio Schir{\`{o}},
@@ -253,6 +263,34 @@ D~{Koshland, D.E. Nemethy, G., Filmer}.
 \newblock {Comparison of Experimental Binding Data and Theoretical Models in
   Proteins Containing Subunits}.
 \newblock \emph{Biochemistry}, 5\penalty0 (1), 1966.
+
+\bibitem[Gunawardena(2005)]{Gunawardena2005}
+J~Gunawardena.
+\newblock {Multisite protein phosphorylation makes a good threshold but can be
+  a poor switch}.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 102\penalty0 (41):\penalty0 14617--14622, 2005.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.0507322102}.
+\newblock URL
+  \url{http://www.ncbi.nlm.nih.gov/pubmed/16195377{\%}5Cnpapers2://publication/doi/10.1073/pnas.0507322102{\%}5Cnpapers2://publication/uuid/6BE92664-EF13-4940-9654-A5DAEB113C4A}.
+
+\bibitem[Salazar and H{\"{o}}fer(2007)]{Salazar2007}
+Carlos Salazar and Thomas H{\"{o}}fer.
+\newblock {Versatile regulation of multisite protein phosphorylation by the
+  order of phosphate processing and protein-protein interactions}.
+\newblock \emph{FEBS Journal}, 274\penalty0 (4):\penalty0 1046--1061, 2007.
+\newblock ISSN 1742464X.
+\newblock \doi{10.1111/j.1742-4658.2007.05653.x}.
+
+\bibitem[Wang et~al.(2010{\natexlab{a}})Wang, Nie, and Enciso]{WangNie2010}
+Liming Wang, Qing Nie, and German Enciso.
+\newblock {Nonessential sites improve phosphorylation switch}.
+\newblock \emph{Biophysical Journal}, 99\penalty0 (6):\penalty0 L41--L43,
+  2010{\natexlab{a}}.
+\newblock ISSN 00063495.
+\newblock \doi{10.1016/j.bpj.2010.07.030}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.bpj.2010.07.030}.
 
 \bibitem[Xu et~al.(2008)Xu, Gagnon, Call, Schnell, Charles, Carman, Chou, and
   Wucherpfennig]{Xu2008}
@@ -339,13 +377,13 @@ Stephen~C. Bunnell, David~I. Hong, Julia~R. Kardon, Tetsuo Yamazaki, C.~Jane
 \newblock ISSN 00219525.
 \newblock \doi{10.1083/jcb.200203043}.
 
-\bibitem[Wang et~al.(2010)Wang, Kadlecek, Au-Yeung, Goodfellow, Hsu, Freedman,
-  and Weiss]{Wang2010}
+\bibitem[Wang et~al.(2010{\natexlab{b}})Wang, Kadlecek, Au-Yeung, Goodfellow,
+  Hsu, Freedman, and Weiss]{Wang2010}
 Haopeng Wang, Theresa~A. Kadlecek, Byron~B. Au-Yeung, Hanna~E.Sj{\"{o}}lin
   Goodfellow, Lih~Yun Hsu, Tanya~S. Freedman, and Arthur Weiss.
 \newblock {ZAP-70: an essential kinase in T-cell signaling.}
 \newblock \emph{Cold Spring Harbor perspectives in biology}, 2\penalty0
-  (5):\penalty0 1--17, 2010.
+  (5):\penalty0 1--17, 2010{\natexlab{b}}.
 \newblock ISSN 19430264.
 \newblock \doi{10.1101/cshperspect.a002279}.
 
