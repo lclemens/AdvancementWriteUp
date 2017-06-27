@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,6 +1322,11 @@ Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/StiffeningSequ
 entialBinding/EvenSites/ProbVSSequence-eps-converted-to.pdf used on input line 
 169.
 (pdftex.def)             Requested size: 140.92793pt x 119.61629pt.
+ [17 <./Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/Mem
+On/ProbVSSequence-eps-converted-to.pdf> <./Results/LocalStructuring/ResultsFigu
+res/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <./
+Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/P
+robVSSequence-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Results/LocalStructuring/ResultsFigures/CD
 3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
 (epstopdf)                    date: 2017-05-15 18:00:35
@@ -1339,7 +1344,7 @@ ningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphor
-ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=534, 682.55pt x 516.93
+ylation/AvgBindVSTotalModified5-eps-converted-to.pdf, id=558, 682.55pt x 516.93
 124pt>
 File: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Depho
 sphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf Graphic file (type pd
@@ -1351,13 +1356,8 @@ Package pdftex.def Info: Results/LocalStructuring/ResultsFigures/CD3ZetaStiffen
 ingMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf us
 ed on input line 183.
 (pdftex.def)             Requested size: 375.80544pt x 284.62068pt.
- [17 <./Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/Mem
-On/ProbVSSequence-eps-converted-to.pdf> <./Results/LocalStructuring/ResultsFigu
-res/StiffeningSequentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf> <./
-Results/LocalStructuring/ResultsFigures/StiffeningSequentialBinding/EvenSites/P
-robVSSequence-eps-converted-to.pdf>] [18 <./Results/LocalStructuring/ResultsFig
-ures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5-eps-
-converted-to.pdf>])
+ [18 <./Results/LocalStructuring/ResultsFigures/CD3ZetaStiffeningMembraneOn/Dep
+hosphorylation/AvgBindVSTotalModified5-eps-converted-to.pdf>])
 (./Results/Electrostatics/Electrostatics.tex [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []\OT1/cmr/m/n/10 Basic
@@ -1760,11 +1760,6 @@ Package pdftex.def Info: Results/SimultaneousBinding/ResultsFigures/MultipleSeq
 uentialBinding/MemOff/ProbVSSequence-eps-converted-to.pdf used on input line 86
 .
 (pdftex.def)             Requested size: 140.92793pt x 125.54416pt.
-
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 86--87
-[][]\OT1/cmr/m/n/10 . 
- []
-
 Package epstopdf Info: Source file: <Results/SimultaneousBinding/ResultsFigures
 /MultipleSequentialBinding/EvenSites/ProbVSSequence.eps>
 (epstopdf)                    date: 2017-05-15 18:41:57
@@ -2084,7 +2079,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
 Here is how much of TeX's memory you used:
  20668 strings out of 493014
  391484 string characters out of 6133351
- 459465 words of memory out of 5000000
+ 459659 words of memory out of 5000000
  23542 multiletter control sequences out of 15000+600000
  7026 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2106,7 +2101,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on AdvancementSummary.pdf (48 pages, 3799650 bytes).
+Output written on AdvancementSummary.pdf (48 pages, 3799863 bytes).
 PDF statistics:
  1220 PDF objects out of 1440 (max. 8388607)
  990 compressed objects within 10 object streams

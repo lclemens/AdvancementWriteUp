@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUN 2017 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,15 +939,15 @@ Package pdftex.def Info: ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.
 pdf used on input line 65.
 (pdftex.def)             Requested size: 234.8775pt x 193.06978pt.
 
-[2]
 
-Package natbib Warning: Citation `VanValen2009' on page 3 undefined on input li
+Package natbib Warning: Citation `VanValen2009' on page 2 undefined on input li
 ne 70.
 
 
-Package natbib Warning: Citation `Reeves2011' on page 3 undefined on input line
+Package natbib Warning: Citation `Reeves2011' on page 2 undefined on input line
  70.
 
+[2]
 Package epstopdf Info: Source file: <ModelConfirmationFigures/ReeDistribution.e
 ps>
 (epstopdf)                    date: 2017-05-01 19:47:45
@@ -971,12 +971,13 @@ e (type pdf)
 Package pdftex.def Info: ModelConfirmationFigures/ReeDistribution-eps-converted
 -to.pdf used on input line 77.
 (pdftex.def)             Requested size: 375.80544pt x 330.80663pt.
- [3 <./ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `Fischer2004' on page 4 undefined on input lin
+
+Package natbib Warning: Citation `Fischer2004' on page 3 undefined on input lin
 e 92.
 
-[4 <./ModelConfirmationFigures/ReeDistribution-eps-converted-to.pdf>]
+[3 <./ModelConfirmationFigures/RMSEndtoEnd-eps-converted-to.pdf>] [4 <./ModelCo
+nfirmationFigures/ReeDistribution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <LckPyMol/Diagonal.eps>
 (epstopdf)                    date: 2017-05-26 16:32:20
 (epstopdf)                    size: 216463 bytes
@@ -1026,15 +1027,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `ModelDevelopment.out' has not changed.
 (rerunfilecheck)             Checksum: DF6803C96673F587467918E8FE098120;203.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 20001 strings out of 493014
- 365988 string characters out of 6133351
- 444490 words of memory out of 5000000
- 23168 multiletter control sequences out of 15000+600000
+ 20000 strings out of 493014
+ 365978 string characters out of 6133351
+ 444502 words of memory out of 5000000
+ 23167 multiletter control sequences out of 15000+600000
  6224 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,96p,903b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,96p,903b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1049,7 +1054,7 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ModelDevelopment.pdf (5 pages, 544310 bytes).
+Output written on ModelDevelopment.pdf (5 pages, 544353 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
