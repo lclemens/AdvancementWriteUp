@@ -32,7 +32,7 @@ We calculate how often a ligand is able to bind to an oriented sphere tangential
 
 We include local structuring as a limitation on which joints of the freely jointed chain are allowed to rotate. For each modified residue, some number of joints are `frozen' in a straight conformation (Fig. \ref{fig: StiffeningCartoon}). The section of frozen segments acts as a single long segment, still rotating when other neighboring segments rotate. This method of local structuring leaves the original binding site in a primarily available configuration. However, we are interested in how it impacts the neighboring modification targets (e.g., tyrosines to be phosphorylated). We explore how the total number of structured residues per modification impacts the result. 
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
     \includegraphics[width=0.8\linewidth]{ResultsFigures/StiffeningDiagram/StiffeningDiagram.eps}
     \caption{Cartoon of partial stiffening model. (a) Entirely floppy FJC prior to modification, (b) partially rigid chain after modification. \label{fig: StiffeningCartoon}}
@@ -50,7 +50,7 @@ For TCR CD3$\zeta$, phosphorylation events are modeled as creating local structu
 %\hl{ don't really like 'due to entropic forces....?}
 We first explore how a freely-jointed chain is affected by the presence of a surface or membrane. Generally, FJCs are most likely to be in a `hairball' conformation due to entropic forces. When we compare the end-to-end distances of a FJC in free space to a FJC in half space, we find a shift in the distribution. The half-space polymer tends to have a larger end-to-end distance than the free-space polymer (Fig. \ref{fig: ReeHalfVSFree}). In half space, the polymer has fewer conformations it can take on since it can only occupy half of the region. This prevents many more `hairball' conformations than it prevents straightened conformations. Overall, the presence of a membrane straightens the polymer. 
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/General/ReeDistributionHalfVSFreeSim.eps}
 		\caption{Distributions of polymer end-to-end distance in free space (red) and half space (blue) for various polymer lengths (N) measured in Kuhn lengths. \label{fig: ReeHalfVSFree}}
@@ -64,7 +64,7 @@ We also find that the binding site location impacts the occlusion probability. A
 
 We compare how FJC parameters influence binding in free-space to binding in half-space. The membrane increases the likelihood of straighter conformations, which would be likely to increase the binding probability. However, the membrane itself may also occlude the ligand since we include an orientation of the binding site in our simulation. Therefore if the binding site is oriented down towards the membrane, then even if the polymer is not occluding the ligand, the membrane still might. When we include a hard plane membrane in our simulation, we see that the presence of a membrane generally decreases the probability of ligand binding. When the ligand is small enough, the difference in binding probabilities between free space and half space binding is minimal (Fig. \ref{fig: OcclusionVSNVSR}).
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \begin{subfigure}{0.4\linewidth}
 \includegraphics[width=\linewidth]{ResultsFigures/General/OcclusionVSNVSRFree.eps}
@@ -116,9 +116,9 @@ q(r) &= 1-\frac{R}{r}\\
 q(r) &= 1-\frac{R}{R+1} \\
  \end{align*}
  
- We see that when we compare our simulated binding probability to the analytic solution, we get good agreement. This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
+ We see that when we compare our simulated binding probability to the analytic solution, we get good agreement (Fig. \ref{fig: AnalyticBinding}). This tells us both our code is working as desired and that N=100 is approximately $N \rightarrow \infty$.
 
- \begin{figure}[H]
+ \begin{figure}
  \begin{center}
  \includegraphics[width=0.7\linewidth]{ResultsFigures/General/Analytic/BindingVSAnalyticN100N150.eps}
  \end{center}
@@ -135,7 +135,7 @@ We see from these simulations that the average binding rate of a ligand to the u
 
 %\hl{We have 10 fold change. Where does Omer's 100 fold change come in?}
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaStiffeningMembraneOn/AvgBindVSTotalPhosColorMapLabeled.eps}
 		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for different levels of phosphorylation given a specified degree of local structuring (none $\rightarrow$ black, low $\rightarrow$ red, high $\rightarrow$ orange). (Below) Cartoon representing a possible phosphorylation state series of CD3$\zeta$. \label{fig: StiffeningMemOnCoop}}
@@ -155,7 +155,7 @@ For simplicity, we show only the paths membrane proximal to membrane distal (123
 
 One would expect then, that a cytoplasmic disordered protein would not experience a path preference between N-terminal to C-terminal or vice versa. When we simulate CD3$\zeta$ without a membrane, there is still a marked preference for C-terminal to N-terminal phosphorylation. This effect arises from the spacing of the tyrosines along the polymer's length. As noted above, the location of a tyrosine impacts how likely a ligand is to bind there (Fig. \ref{fig: OcclusionVSNVSR}). Since the tyrosines in CD3$\zeta$ are not equally spaced along the length of the protein, there is a bias for binding the tyrosine closest to one end, in this case the tyrosine closest to the C-terminal. When we simulate a polymer with the same length as CD3$\zeta$ but equally spaced tyrosines, we see that there is no longer a preference between the two paths.
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\begin{subfigure}{0.3\linewidth}
 			\includegraphics[width=\linewidth]{ResultsFigures/StiffeningSequentialBinding/MemOn/ProbVSSequence.eps}
@@ -178,7 +178,7 @@ One would expect then, that a cytoplasmic disordered protein would not experienc
 We investigate how dephosphorylation of a locally structured protein would impact future dephosphorylation events. Beginning with a model of CD3$\zeta$ where each tyrosine has been locally structured, we investigate how dephosphorylation and consequently, local unstructuring, influence the rate of subsequent dephosphorylations. We find that as the degree of local de/structuring increases, future dephosphorylations become less likely. For moderate de/structuring, this can create up to a 2-fold negative cooperative effect on the dephosphorylation rates from the first to the sixth event (Fig. \ref{fig: DephosMemOnCoop}).
 
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaStiffeningMembraneOn/Dephosphorylation/AvgBindVSTotalModified5.eps}
 		\caption{(Above) Simulated average binding rates of Lck to CD3$\zeta$ for different levels of dephosphorylation given a specified degree of local unstructuring (none $\rightarrow$ black, low $\rightarrow$ red, high $\rightarrow$ orange). (Below) Cartoon representing a possible phosphorylation state series of CD3$\zeta$.\label{fig: DephosMemOnCoop}}

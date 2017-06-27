@@ -57,7 +57,7 @@ We model the polymer-membrane association as a potential acting on each rod in a
 
 Based on these goals, we group residues into four distinct categories: tyrosines, phosphotyrosines, basic residues, and remaining residues (Table \ref{table: ElecPotentialNotation}). From these groups, we develop a set of possible relationships to explore (Table \ref{table: ElecPotentialRelationships}). 
 
-\begin{table}[H]
+\begin{table}
 \caption{Notation for electrostatic potentials applied to different groups of residues. \label{table: ElecPotentialNotation}}
 \begin{center}
 \begin{tabular}{ c | c}
@@ -73,7 +73,7 @@ Remaining Residies & $E_R$ \\
 \end{center}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
 \caption{Electrostatic potential relationships to explore for behavior matching experimental results. \label{table: ElecPotentialRelationships}}
 \begin{center}
 \begin{tabular}{| c | c |}
@@ -110,7 +110,7 @@ Case & Electrostatic Potential Relationship \\
 
 %%%% Table of sequences and basic residues %%%%
 
-\begin{table}[H]
+\begin{table}
     \caption{Cytoplasmic amino acid sequence of CD3$\zeta$ and $\epsilon$ chains. Basic residues (arginine, lysine, histidine) and tyrosines labeled in sequence (red). Relative numeric location in cytoplasmic sequence and fraction of residues from that group are noted. \label{table: BasicsYLocation}}
     \begin{center}
     \begin{tabular}{|c|p{2cm}|p{6cm}|p{3.5cm}|p{1.6cm}|}
@@ -178,7 +178,7 @@ Case & Electrostatic Potential Relationship \\
     \end{center}
 \end{table}
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
     \includegraphics[width=0.7\linewidth]{ElectrostaticsDiagram.pdf}
     \caption{Cartoon of electrostatics model. FJC associates with membrane, burying modification sites within membrane rendering them inaccessible to ligands.\label{fig: ElectrostaticsCartoon}}
@@ -247,7 +247,7 @@ E_{R0}e^{-z_i/\bar{z}} & z_i > 0 \\
 We first explore the simplest model, where basic residues and tyrosines feel the same piecewise parabolic-constant potential and the phosphotyrosines feel the same softwall (or hardwall) potential as the rest of the residues (Table \ref{table: ElecPotentialRelationships}, Case 1). We first explore parameter space to find a set of parameters where the distribution of tyrosines is roughly gaussian centered at the membrane and extending about two Kuhn lengths in each direction (Condition 1). From this sweep, we see there are multiple parameter sets which achieve this distribution (Fig. \ref{fig: iSiteDistInitial}) For the following exploration of how phosphorylation impacts the distribution, we show the minimal parameters of those tested which give the desired distribution. Parameters which give reasonable distributions are: $k_{\rm{PC}}$ = 1 $k_BT/\delta^2$, $E_0$ = 10 $k_BT$, $k_S$ = 0.01 $k_BT/\delta^2$, where $\delta$ is the Kuhn length.
 
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.8\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/DistributioniSite7.eps}
 \end{center}
@@ -256,14 +256,14 @@ We first explore the simplest model, where basic residues and tyrosines feel the
 
 We explore how phosphorylation, or removing tyrosines from the parabolic-constant potential and adding them to the softwall potential, impacts the distribution of the tyrosines and full chain. We find that under this regime, phosphorylating individual tyrosines does not impact the distribution of neighboring tyrosines (Fig. \ref{fig: Dist123456}). Additionally, phosphorylating two tyrosines does not influence the distribution of a tyrosines located between the two (Fig. \ref{fig: Dist135624}). We also find that even when all tyrosines are phosphorylated, the polymer does not fully dissociate from the membrane. This is represented by the distribution of the (basic) polymer tip residue distribution, which remains closely associated with the membrane. A non-basic, non-tyrosine residue located centrally is only slightly affected by the change in phosphorylation state. This result indicates these electric potentials may be insufficient to exhibit the characteristics displayed experimentally.
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution123456.eps}
 \end{center}
 \caption{Distribution of tyrosines, tail residue, and single non-basic residue for different phosphorylation states. Each curve has the phosphorylation state denoted as a series of 0's and 1's, with the tyrosines in order membrane-proximal to distal. Tyrosines are phosphorylated sequentially from proximal to distal. Tyrosines are indicated by 0, phosphotyrosines indicated by 1. Each distribution is plotted against the distribution created when all residues feel only the softwall potential. \label{fig: Dist123456}}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=\linewidth]{ResultsFigures/CD3ZetaSoftwallPiecewiseBasicsY/Phosphorylation/iSiteDistribution135624.eps}
 \end{center}
@@ -274,14 +274,14 @@ We explore how phosphorylation, or removing tyrosines from the parabolic-constan
 
 We first want to match the distribution of the polymer to the molecular dynamics simulations from Lopez et al. We sweep through parameters for the basic residue potential and the softwall potential. The softwall potential permits a Gaussian curve for the tyrosine distributions. The hardwall condition (not shown) prevents the distributions from spreading below the zero axis where we have defined the membrane to be. When we explore these parameters, multiple possibilities for parameter sets emerge which meet the distribution conditions. Below are examples of distributions arising from our parameter exploration for both a tyrosine and a basic residue (Fig. \ref{fig: iSiteDist}, Fig. \ref{fig: tailDist}) We note that the tyrosines have a wider distribution than the basic residues since they do not directly feel the attractive potential. From these parameter sets, we may refine our parameter search and begin exploring how the distributions are affected when all tyrosines are phosphorylated. 
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite2.eps}
 	\end{center}
 	\caption{Tyrosine distribution resulting from parameter exploration of electric potentials. For this set, softwall potential is set at 0.1. Parabolic-constant potential depth ranges from $10^0$ to $10^{1.5}$, width ranges from $10^0$ to $10^3$.\label{fig: iSiteDist}}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\linewidth]{ResultsFigures/Electro/DistributioniSite7.eps}. 
 	\end{center}

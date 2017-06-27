@@ -62,7 +62,7 @@ r &\approx 2.7 \nm \\
 
 For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMol measurements of the SHP-1 structure (PDB 3PS5). Rounding up for measurement error, the longest part of the structure is 86 \AA (Fig. \ref{fig: SHP1Diag}). From this we calculate a maximum radius of 4.3$nm$.
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.5\linewidth]{ResultsFigures/SHP1PyMol/Diagonal1.eps}
 \end{center}
@@ -71,7 +71,7 @@ For comparison, we also estimate an upper bound on the radius of SHP-1 from PyMo
 
 Alternatively, we can estimate the volume of SHP-1 as a rectangular prism and then create a spherical approximation of equal volume. We estimate the length, width and depth of SHP-1 to be 76\AA, 36\AA, and 58\text{\AA} respectively, giving a volume of 158688\AA$^3$ (Fig. \ref{fig: SHP1Rectangle}). From this, we calculate the radius for a spherical approximation to be 3.4nm.
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.4\linewidth]{ResultsFigures/SHP1PyMol/LengthWidthDepth.eps}
 \end{center}
@@ -83,7 +83,9 @@ Using the parameters estimated above, we simulate two equivalent tethers. The id
 
 %% Diagram of simulation
 \begin{figure}
-\includegraphics[width=\linewidth]{Diagram.png}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{Diagram.png}
+\end{center}
 \caption{Cartoon of effective concentration simulation in half space. \label{fig: LocalConcCartoon}}
 \end{figure}
 
@@ -151,14 +153,14 @@ We first investigate the accessibility of a binding site at the end of the polym
 
 We next investigate how the presence of a surface impacts binding of a ligand to a single tether compared to in free-space. We find that a surface consistently net decreases the probability a ligand can bind to a tether, irrespective of tether length or ligand size. For long tethers, the surface reduction is minimal, in some parameters almost eliminating the difference. A larger ligand creates a larger fold decrease in the ability of the kinase to bind in half-space (Fig. \ref{fig: OcclusionVSN}).
 
-\begin{figure}[H]
+\begin{figure}
        \begin{center}
        		\includegraphics[width=0.7\linewidth]{ResultsFigures/MembraneCausedOcclusion/MembraneCausedOcclusionVSNVSirLigand.eps}
        \end{center}
        \caption{Probability of binding site occlusion due to presence of a surface as a function of polymer length and ligand radius, each measured in Kuhn lengths. \label{fig: MembraneOcclusionVSNVSR}}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
     \begin{center}
         \begin{subfigure}{\linewidth}
         		\includegraphics[width=\linewidth]{ResultsFigures/BindingSurfaceFactor/OcclusionVSN.eps}
@@ -197,7 +199,7 @@ It is less clear what effect a surface will have on maximum concentration.
 %When ligand size is zero, or equivalent to no ligand attached to the polymer, then we see the free space polymers experience an effective concentration predicted by the worm-like chain model. Note that variability from the theoretical WLC curve is mitigated by decreasing the volume considered a binding encounter. We see that the surface enhances the effective concentration over the free space values when no ligand is present. When a large ligand is bound to one of the tethers, the presence of a membrane reduces the maximum effective concentration compared to in free-space. (Fig. \ref{fig: ConcVSSeparation}, Fig. \ref{fig: MaxEffConc}, Fig. \ref{MaxEffConcRatio})
 
 
-\begin{figure}[H]
+\begin{figure}
     \begin{center}
         		\includegraphics[width=0.85\linewidth]{ResultsFigures/EffectiveConcentrationKernel/ConcentrationVSSeparationCartoon.eps}
     \end{center}
@@ -271,23 +273,23 @@ If we establish a relation between the observed catalytic rate on a surface comp
 
 
 % consider spacing these differently and then creating subfigures
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
-		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD1_ITSM_CM5_vs_C1.pdf}
+		\includegraphics[scale=0.45]{ResultsFigures/ExperimentalDataPlots/hSHP1_on_PD1_ITSM_CM5_vs_C1.pdf}
 	\end{center}
 	\caption{Preliminary comparison of tethered reaction of human SHP-1 dephosphorylating ITSM on PD1 performed on matrix (CM5) and surface (C1). Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution). Change in reach parameter is also calculated under assumption that $k_{cat}$(surface) on a surface is 1.2 fold increased over a matrix (red). \label{fig: PD1Data}}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
-		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG3_CM5_vs_C1.pdf}. 
+		\includegraphics[scale=0.45]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG3_CM5_vs_C1.pdf}. 
 	\end{center}
 	\caption{Preliminary comparison of tethered reaction of mouse SHP-1 dephosphorylating ITIM on PEG3 performed on matrix (CM5) and surface (C1) assuming tether reach unchanged. Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution). \label{fig: PEG3Data}}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{center}
-		\includegraphics[scale=0.5]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG28_CM5_vs_C1.pdf}
+		\includegraphics[scale=0.45]{ResultsFigures/ExperimentalDataPlots/mSHP1_on_PEG28_CM5_vs_C1.pdf}
 	\end{center}
 	\caption{Preliminary comparison of tethered reaction of mouse SHP-1 dephosphorylating ITIM on PEG28 performed on matrix (CM5) and surface (C1) assuming tether reach unchanged. Comparisons between (a) binding rate, $k_{on}$ (b) unbinding rate, $k_{off}$ (c) dissociation constant, $K_D$ (d) catalytic rate tethered, $k_{cat}$(surface) (e) reach parameter, L, (f) catalytic rate in solution, $k_{cat}$(solution).\label{fig: PEG28Data}}
 \end{figure}

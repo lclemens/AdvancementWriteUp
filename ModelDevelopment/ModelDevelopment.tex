@@ -55,24 +55,24 @@ There are theoretical solutions for many aspects of the freely-jointed chain. Th
 
 We look at the average end-to-end distance of the polymer (RMS). In our simulations, we normalize by the Kuhn length, so all simulations assume $\delta = 1$ and record all other parameters in units of Kuhn lengths. We know from polymer physics that the RMS should increase as $\delta \sqrt{N}$, which given $\delta = 1$, is just $\sqrt{N}$. We also consider the distribution of end-to-end distances, which is known from previous work \cite{VanValen2009, Reeves2011}.
 
-Average end-to-end distance (Root-mean-square end-to-end distance) \cite{Reeves2011}:
+Average end-to-end distance (Root-mean-square end-to-end distance) \cite{Reeves2011} (Fig. \ref{fig: RMS}):
 \begin{equation*}
 \sqrt{\langle r_{ee}^2 \rangle} = \sqrt{N\delta^2} = \delta \sqrt{N}
 \end{equation*}
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.5\linewidth]{ModelConfirmationFigures/RMSEndtoEnd.eps}
 \caption{Theoretical root mean square end-to-end distance (red line) against simulated values (blue circles). \label{fig: RMS}}
 \end{center}
 \end{figure}
 
-End-to-end distribution \cite{VanValen2009, Reeves2011}:
+End-to-end distribution \cite{VanValen2009, Reeves2011} (Fig. \ref{fig: ReeDist}):
 \begin{equation*}
 P(r_{ee}) = 4\pi r_{ee}^2 \left( \frac{3}{2\pi N \delta^2}\right)^{\frac{3}{2}}\text{exp}\left(\frac{-3r_{ee}^2}{2N \delta^2}\right)
 \end{equation*}
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \includegraphics[width=0.8\linewidth]{ModelConfirmationFigures/ReeDistribution.eps}
 \caption{Simulated end-to-end distance distribution (blue) against theoretical distribution (red) for multiple polymer lengths (N) measured in Kuhn lengths. \label{fig: ReeDist}}
@@ -108,7 +108,7 @@ r &\approx 2 \nm \\
 We measure the maximal length of the kinase domain in PyMol from PDB 3LCK. Rounding up for error, we have a maximal distance of 58\AA. This gives a maximal spherical estimate with a radius of 2.9\nm, or about ten Kuhn lengths (Fig. \ref{fig: LckPyMol}a). If we instead measure rough length, width, and height for the kinase domain, we have measurements of 36.6\AA, 29.4\AA, and 45.1\AA respectively (Fig. \ref{fig: LckPyMol}b). From these we can estimate a sphere with volume corresponding to the volume of the rectangular prism with those dimensions. This estimates a sphere with radius 2.3\nm, or about eight Kuhn lengths. Based on all of these estimates, we choose to represent Lck with a radius of seven Kuhn lengths.
 
 
-\begin{figure}[H]
+\begin{figure}
 \begin{center}
 \begin{subfigure}{0.4\linewidth}
 \includegraphics[width=\linewidth]{LckPyMol/Diagonal.eps}
